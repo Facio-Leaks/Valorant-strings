@@ -1,0 +1,2079 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_IBC_Image",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUIMaterialInterfaceChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUILinearColorChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUITexture2DChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUILinearColorChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUILinearColorChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUILinearColorChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUILinearColorChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_NewValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetEnabledState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresIconButtonState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bNewValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bNewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasValidImage_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectedForEditChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidgetComponent:OnSelectedForEditChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bNewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCrossedOutChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresIconButtonComponent:OnCrossedOutChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bNewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnButtonStateChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresIconButtonComponent:OnButtonStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresIconButtonState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnabledStateChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidgetComponent:OnEnabledStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetEnabledState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "ComponentCleanup",
+    "Outer": "WBP_IBC_Image_C",
+    "Super": "ComponentCleanup",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Resizable_C:ComponentCleanup",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.1"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "ComponentInitialize",
+    "Outer": "WBP_IBC_Image_C",
+    "Super": "ComponentInitialize",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Resizable_C:ComponentInitialize",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.2"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "WBP_IBC_Image_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_IBC_Image_C",
+    "Super": "PreConstruct",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Resizable_C:PreConstruct",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDefaultColorChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEngagedColorChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEditColorChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCrossedOutColorChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDisabledColorChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnImageMaterialChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MaterialInstanceNew",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CachedImageTexture",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnImageTextureChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextureNew",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnButtonSizeDimensionsChanged",
+    "Outer": "WBP_IBC_Image_C",
+    "Super": "OnButtonSizeDimensionsChanged",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Resizable_C:OnButtonSizeDimensionsChanged",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ButtonSizeDimensions",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "SetImageTexture",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetImageMaterial",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDefaultColor",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshImage",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshImageColor",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "ApplyImageColor",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InColor",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDefaultColorChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ColorProperty",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorOld",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEngagedColorChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ColorProperty",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorOld",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEditColorChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ColorProperty",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorOld",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCrossedOutColorChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ColorProperty",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorOld",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDisabledColorChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "ColorProperty",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorOld",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorNew",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnImageMaterialChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "PropertyID",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MaterialInstanceOld",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MaterialInstanceNew",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CachedImageTexture",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "OnImageTextureChanged_Internal",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "PropertyID",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextureOld",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextureNew",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetImageTextureToDefault",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetImageMaterialToDefault",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetImageColorToDefault",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEmpty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HasValidImage",
+    "Outer": "WBP_IBC_Image_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IBC_Image_C",
+    "Super": "WBP_IBC_Resizable_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IBC_Image_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.37"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_IBC_Image_C:ExecuteUbergraph_WBP_IBC_Image",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Resizable_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:HasValidImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.33"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageColorToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.32"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageMaterialToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.31"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageTextureToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.30"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageTextureChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.29"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageMaterialChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.28"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDisabledColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.27"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.26"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEditColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.25"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEngagedColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.24"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDefaultColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.23"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ApplyImageColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.22"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:RefreshImageColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.21"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:RefreshImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.20"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:SetDefaultColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.19"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:SetImageMaterial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.18"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:SetImageTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.17"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnButtonSizeDimensionsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.16"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageTextureChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.15"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageMaterialChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.14"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDisabledColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.13"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.12"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEditColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.11"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEngagedColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.10"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDefaultColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.9"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.8"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.7"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ComponentInitialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.6"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ComponentCleanup",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.5"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEnabledStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.4"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnButtonStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.3"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.2"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:OnSelectedForEditChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.1"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_Image_C:ExecuteUbergraph_WBP_IBC_Image",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUseDefaultColorSettings",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DynamicMaterialInstance",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DefaultColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "ImageTextureProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "ImageMaterialProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EngagedColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CrossedOutColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EditColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DisabledColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ImageTexture",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ImageMaterial",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "MaterialTextureParam",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "MaterialColorParam",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "DefaultColorProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "EngagedColorProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "EditColorProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CrossedOutColorProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "DisabledColorProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_IBC_Image": {
+        "ObjectName": "Function WBP_IBC_Image_C:ExecuteUbergraph_WBP_IBC_Image",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.0"
+      },
+      "OnSelectedForEditChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnSelectedForEditChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.1"
+      },
+      "OnCrossedOutChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.2"
+      },
+      "OnButtonStateChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnButtonStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.3"
+      },
+      "OnEnabledStateChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEnabledStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.4"
+      },
+      "ComponentCleanup": {
+        "ObjectName": "Function WBP_IBC_Image_C:ComponentCleanup",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.5"
+      },
+      "ComponentInitialize": {
+        "ObjectName": "Function WBP_IBC_Image_C:ComponentInitialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.6"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.7"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function WBP_IBC_Image_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.8"
+      },
+      "OnDefaultColorChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDefaultColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.9"
+      },
+      "OnEngagedColorChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEngagedColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.10"
+      },
+      "OnEditColorChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEditColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.11"
+      },
+      "OnCrossedOutColorChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.12"
+      },
+      "OnDisabledColorChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDisabledColorChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.13"
+      },
+      "OnImageMaterialChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageMaterialChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.14"
+      },
+      "OnImageTextureChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageTextureChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.15"
+      },
+      "OnButtonSizeDimensionsChanged": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnButtonSizeDimensionsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.16"
+      },
+      "SetImageTexture": {
+        "ObjectName": "Function WBP_IBC_Image_C:SetImageTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.17"
+      },
+      "SetImageMaterial": {
+        "ObjectName": "Function WBP_IBC_Image_C:SetImageMaterial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.18"
+      },
+      "SetDefaultColor": {
+        "ObjectName": "Function WBP_IBC_Image_C:SetDefaultColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.19"
+      },
+      "RefreshImage": {
+        "ObjectName": "Function WBP_IBC_Image_C:RefreshImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.20"
+      },
+      "RefreshImageColor": {
+        "ObjectName": "Function WBP_IBC_Image_C:RefreshImageColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.21"
+      },
+      "ApplyImageColor": {
+        "ObjectName": "Function WBP_IBC_Image_C:ApplyImageColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.22"
+      },
+      "OnDefaultColorChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDefaultColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.23"
+      },
+      "OnEngagedColorChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEngagedColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.24"
+      },
+      "OnEditColorChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnEditColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.25"
+      },
+      "OnCrossedOutColorChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnCrossedOutColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.26"
+      },
+      "OnDisabledColorChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnDisabledColorChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.27"
+      },
+      "OnImageMaterialChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageMaterialChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.28"
+      },
+      "OnImageTextureChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_Image_C:OnImageTextureChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.29"
+      },
+      "ResetImageTextureToDefault": {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageTextureToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.30"
+      },
+      "ResetImageMaterialToDefault": {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageMaterialToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.31"
+      },
+      "ResetImageColorToDefault": {
+        "ObjectName": "Function WBP_IBC_Image_C:ResetImageColorToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.32"
+      },
+      "HasValidImage": {
+        "ObjectName": "Function WBP_IBC_Image_C:HasValidImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.33"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IBC_Image_C Default__WBP_IBC_Image_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.35"
+    }
+  },
+  {
+    "Type": "WBP_IBC_Image_C",
+    "Name": "Default__WBP_IBC_Image_C",
+    "Template": "Default__WBP_IBC_Resizable_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bUseDefaultColorSettings": true,
+      "DefaultColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "CrossedOutColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "EditColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "DisabledColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "MaterialTextureParam": "Texture",
+      "MaterialColorParam": "Color",
+      "bHandlesButtonStateChanged": true,
+      "bHandlesCrossedOutChanged": true,
+      "bHandlesEnabledStateChange": true,
+      "bHandlesSelectedForEditChange": true
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IBC_Image_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Image WBP_IBC_Image_C:WidgetTree.Image",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.36"
+      }
+    }
+  }
+]

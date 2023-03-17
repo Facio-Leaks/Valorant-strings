@@ -1,0 +1,979 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ComboActionButton_Crouch",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_DamageResponse",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnCharacterDeathResponseSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:RefreshCharacterHUD__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_IsActive_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:DroneWidgetActive__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:CrouchStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.3"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:AstralFormActive__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.18"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEditModeWidget_EditModeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_EditControls_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.43"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlying_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlying_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsOverlaySlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class OverlaySlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacter_ShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacter_ShooterCharacter_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterCharacterMovement_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacterMovement",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacter_ShooterCharacter_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCrouching_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnComponentSelectStateChanged",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnComponentSelectStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "AstralFormToggled",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCrouchStateChanged",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchEngage",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresActionButton:HandleTouchEngage",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 201852928
+  },
+  {
+    "Type": "Function",
+    "Name": "DroneToggled",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCharacterDeath",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DamageResponse",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRefreshCharacterHUD",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchDisengage",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresActionButton:HandleTouchDisengage",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 201852928
+  },
+  {
+    "Type": "Function",
+    "Name": "Toggle Crouch State",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCrouching_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "AutoUncrouch",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ForceUncrouch",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacter_ShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetCrouchHeld_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCrouching_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "IsFlying",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterCharacterMovement_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacterMovement",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "IsCrouching",
+    "Outer": "BP_ComboActionButton_Crouch_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchWidgetOwningCharacter_OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCrouching_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ComboActionButton_Crouch_C",
+    "Super": "BP_ComboActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ComboActionButton_Crouch_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.16"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:ExecuteUbergraph_BP_ComboActionButton_Crouch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:IsCrouching",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.13"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:IsFlying",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.12"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:AutoUncrouch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.11"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:Toggle Crouch State",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.10"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:HandleTouchDisengage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.9"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.8"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnRefreshCharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.7"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnCharacterDeath",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.6"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:DroneToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.5"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:HandleTouchEngage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.4"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnCrouchStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.3"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:AstralFormToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.2"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.1"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:ExecuteUbergraph_BP_ComboActionButton_Crouch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "DroneIsActive",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AstralFormActive",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CrouchMapping",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ComboActionButton_Crouch": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:ExecuteUbergraph_BP_ComboActionButton_Crouch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.0"
+      },
+      "OnComponentSelectStateChanged": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.1"
+      },
+      "AstralFormToggled": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:AstralFormToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.2"
+      },
+      "OnCrouchStateChanged": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnCrouchStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.3"
+      },
+      "HandleTouchEngage": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:HandleTouchEngage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.4"
+      },
+      "DroneToggled": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:DroneToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.5"
+      },
+      "OnCharacterDeath": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnCharacterDeath",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.6"
+      },
+      "OnRefreshCharacterHUD": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:OnRefreshCharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.7"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.8"
+      },
+      "HandleTouchDisengage": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:HandleTouchDisengage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.9"
+      },
+      "Toggle Crouch State": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:Toggle Crouch State",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.10"
+      },
+      "AutoUncrouch": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:AutoUncrouch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.11"
+      },
+      "IsFlying": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:IsFlying",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.12"
+      },
+      "IsCrouching": {
+        "ObjectName": "Function BP_ComboActionButton_Crouch_C:IsCrouching",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.13"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ComboActionButton_Crouch_C Default__BP_ComboActionButton_Crouch_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Crouch.15"
+    }
+  },
+  {
+    "Type": "BP_ComboActionButton_Crouch_C",
+    "Name": "Default__BP_ComboActionButton_Crouch_C",
+    "Template": "Default__BP_ComboActionButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CrouchMapping": "Crouch",
+      "FlipVertical": true,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.5
+        },
+        "LinearColorProperties": {},
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D Icon_Crouch",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_Crouch.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ComboActionButton_Crouch_C"
+  }
+]

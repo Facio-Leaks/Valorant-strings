@@ -1,0 +1,563 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AresIconButton_Base",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_NewScale",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_AresIconButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnScaleChanged",
+    "Outer": "BP_AresIconButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnScaleChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewScale",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCustomAbilityWidgetSlot",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Slot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class NamedSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "AddCustomAbilityWidgetAsChild",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CAW",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget_Component_Interface",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class AresTouchWidgetComponentInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomAbilityWidgetSlot_Slot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class NamedSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetIconTexture",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetIconScale",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetIconColor",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetButtonColor",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetButtonText",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetButtonTextColor",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCustomAbilityWidgetScale",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_Custom_Ability_Widget",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass BPI_CustomAbilityWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetUserDefinedLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "FetchCurrentCharacter",
+    "Outer": "BP_AresIconButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacter_ShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_AresIconButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_AresIconButton_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.15"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ExecuteUbergraph_BP_AresIconButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresIconButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:FetchCurrentCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.12"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:UpdateCustomAbilityWidgetScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.11"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonTextColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.10"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.9"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.8"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.7"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.6"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.5"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:AddCustomAbilityWidgetAsChild",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.4"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:GetCustomAbilityWidgetSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.3"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:OnScaleChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.2"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ExecuteUbergraph_BP_AresIconButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CustomAbilityWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CachedHUDMobile",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AresIconButton_Base": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ExecuteUbergraph_BP_AresIconButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.0"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.1"
+      },
+      "OnScaleChanged": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:OnScaleChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.2"
+      },
+      "GetCustomAbilityWidgetSlot": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:GetCustomAbilityWidgetSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.3"
+      },
+      "AddCustomAbilityWidgetAsChild": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:AddCustomAbilityWidgetAsChild",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.4"
+      },
+      "ResetIconTexture": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.5"
+      },
+      "ResetIconScale": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.6"
+      },
+      "ResetIconColor": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetIconColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.7"
+      },
+      "ResetButtonColor": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.8"
+      },
+      "ResetButtonText": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.9"
+      },
+      "ResetButtonTextColor": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:ResetButtonTextColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.10"
+      },
+      "UpdateCustomAbilityWidgetScale": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:UpdateCustomAbilityWidgetScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.11"
+      },
+      "FetchCurrentCharacter": {
+        "ObjectName": "Function BP_AresIconButton_Base_C:FetchCurrentCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.12"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AresIconButton_Base_C Default__BP_AresIconButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.14"
+    }
+  },
+  {
+    "Type": "BP_AresIconButton_Base_C",
+    "Name": "Default__BP_AresIconButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_AresIconButton_Base_C"
+  }
+]

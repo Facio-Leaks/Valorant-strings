@@ -1,0 +1,1107 @@
+[
+  {
+    "Type": "Function",
+    "Name": "MovementStickMoved__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Axes",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "MovementStickReleased__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityActivated__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bHidePrimaryFire",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityDeactivated__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "AltFireDataChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "OverridesData",
+        "Flags": 1,
+        "ElementSize": 96,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "PrimaryFireDataChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "OverridesData",
+        "Flags": 1,
+        "ElementSize": 96,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "DroneWidgetActive__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshCharacterHUD__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "CanShopChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CanShop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "CancelButtonDataChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "OverridesData",
+        "Flags": 1,
+        "ElementSize": 96,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "HideMinimapVisualsChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bHide",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAbilityCancelVisibility__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "EquippableSlot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Show",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "WithinSprintZoneChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InitialTouchLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsInZone",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStopAbilityHUDWidgets__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bForceStop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "TogglePingWheel__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleGameStateWidgetVisuals__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Hides",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "PingWheelLongPressStarted__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "HoldTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "PingWheelLongPressEnded__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "AstralFormActive__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "GlideActive__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleShopBanner__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggledOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "DoubleTapOptionsChanged__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "MovementStickPressed__DelegateSignature",
+    "Outer": "HUDMobile_UIBindings_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_HUDMobile_UIBindings",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bHides",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleHideMinimapVisuals",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bHides",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCancelButtonVisibility",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "EquippableSlot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bShow",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCancelButtonOverrides",
+    "Outer": "HUDMobile_UIBindings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ButtonOverrides",
+        "Flags": 1,
+        "ElementSize": 96,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HUDMobile_UIBindings_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ExecuteUbergraph_HUDMobile_UIBindings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.23"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateCancelButtonOverrides",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.26"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateCancelButtonVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.25"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleHideMinimapVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.24"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ExecuteUbergraph_HUDMobile_UIBindings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.23"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickPressed__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.22"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:DoubleTapOptionsChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.21"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleShopBanner__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.20"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:GlideActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.19"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AstralFormActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.18"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressEnded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.17"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressStarted__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.16"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleGameStateWidgetVisuals__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.15"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:TogglePingWheel__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.14"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:OnStopAbilityHUDWidgets__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.13"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:WithinSprintZoneChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.12"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateAbilityCancelVisibility__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.11"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:HideMinimapVisualsChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.10"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:CancelButtonDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.9"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:CanShopChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.8"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:RefreshCharacterHUD__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.7"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:DroneWidgetActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.6"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PrimaryFireDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.5"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AltFireDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.4"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AbilityDeactivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.3"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AbilityActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.2"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickReleased__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.1"
+      },
+      {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickMoved__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "MovementStickPressed",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickPressed__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.22"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "MovementStickMoved",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickMoved__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "MovementStickReleased",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickReleased__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "AbilityActivated",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:AbilityActivated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.2"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "AbilityDeactivated",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:AbilityDeactivated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.3"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "AltFireDataChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:AltFireDataChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.4"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "PrimaryFireDataChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:PrimaryFireDataChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.5"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "DroneWidgetActive",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:DroneWidgetActive__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.6"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "RefreshCharacterHUD",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:RefreshCharacterHUD__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.7"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "CanShopChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:CanShopChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.8"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "CancelButtonDataChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:CancelButtonDataChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bHidesMinimapVisuals",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "HideMinimapVisualsChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:HideMinimapVisualsChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.10"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "UpdateAbilityCancelVisibility",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:UpdateAbilityCancelVisibility__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.11"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "WithinSprintZoneChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:WithinSprintZoneChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.12"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnStopAbilityHUDWidgets",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:OnStopAbilityHUDWidgets__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.13"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "TogglePingWheel",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:TogglePingWheel__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.14"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "ToggleGameStateWidgetVisuals",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:ToggleGameStateWidgetVisuals__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.15"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "PingWheelLongPressStarted",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressStarted__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.16"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "PingWheelLongPressEnded",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressEnded__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.17"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "AstralFormActive",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:AstralFormActive__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.18"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "GlideActive",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:GlideActive__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.19"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentCancelOverrides",
+        "Flags": 2097153,
+        "ElementSize": 96,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CurrentCancelSlot",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "ToggleShopBanner",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:ToggleShopBanner__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.20"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "DoubleTapOptionsChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:DoubleTapOptionsChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.21"
+        }
+      }
+    ],
+    "FuncMap": {
+      "MovementStickMoved__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickMoved__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.0"
+      },
+      "MovementStickReleased__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickReleased__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.1"
+      },
+      "AbilityActivated__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AbilityActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.2"
+      },
+      "AbilityDeactivated__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AbilityDeactivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.3"
+      },
+      "AltFireDataChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AltFireDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.4"
+      },
+      "PrimaryFireDataChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PrimaryFireDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.5"
+      },
+      "DroneWidgetActive__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:DroneWidgetActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.6"
+      },
+      "RefreshCharacterHUD__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:RefreshCharacterHUD__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.7"
+      },
+      "CanShopChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:CanShopChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.8"
+      },
+      "CancelButtonDataChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:CancelButtonDataChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.9"
+      },
+      "HideMinimapVisualsChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:HideMinimapVisualsChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.10"
+      },
+      "UpdateAbilityCancelVisibility__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateAbilityCancelVisibility__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.11"
+      },
+      "WithinSprintZoneChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:WithinSprintZoneChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.12"
+      },
+      "OnStopAbilityHUDWidgets__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:OnStopAbilityHUDWidgets__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.13"
+      },
+      "TogglePingWheel__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:TogglePingWheel__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.14"
+      },
+      "ToggleGameStateWidgetVisuals__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleGameStateWidgetVisuals__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.15"
+      },
+      "PingWheelLongPressStarted__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressStarted__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.16"
+      },
+      "PingWheelLongPressEnded__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:PingWheelLongPressEnded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.17"
+      },
+      "AstralFormActive__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:AstralFormActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.18"
+      },
+      "GlideActive__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:GlideActive__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.19"
+      },
+      "ToggleShopBanner__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleShopBanner__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.20"
+      },
+      "DoubleTapOptionsChanged__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:DoubleTapOptionsChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.21"
+      },
+      "MovementStickPressed__DelegateSignature": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:MovementStickPressed__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.22"
+      },
+      "ExecuteUbergraph_HUDMobile_UIBindings": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ExecuteUbergraph_HUDMobile_UIBindings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.23"
+      },
+      "ToggleHideMinimapVisuals": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:ToggleHideMinimapVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.24"
+      },
+      "UpdateCancelButtonVisibility": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateCancelButtonVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.25"
+      },
+      "UpdateCancelButtonOverrides": {
+        "ObjectName": "Function HUDMobile_UIBindings_C:UpdateCancelButtonOverrides",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.26"
+      }
+    },
+    "ClassFlags": 264208,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HUDMobile_UIBindings_C Default__HUDMobile_UIBindings_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.28"
+    }
+  },
+  {
+    "Type": "HUDMobile_UIBindings_C",
+    "Name": "Default__HUDMobile_UIBindings_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CurrentCancelOverrides": {
+        "Overrides": [],
+        "IconTexture": null,
+        "IconScale": 0.7,
+        "IconColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.8,
+          "Hex": "CCFFFFFF"
+        },
+        "ButtonColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFFFF"
+        },
+        "ButtonSize": "EAresIconButtonSize::Small",
+        "ButtonText": {
+          "CultureInvariantString": null
+        },
+        "bResetUnspecifiedValuesToDefaults": false
+      }
+    }
+  }
+]

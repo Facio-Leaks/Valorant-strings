@@ -1,0 +1,294 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TouchWheelSegment_Comm_Combat_Ult",
+    "Outer": "BP_TouchWheelSegment_Comm_Combat_Ult_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBase_Controller",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseController_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/BaseController.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterPlayerState_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetNumUltimatePoints_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetNumPointsNeededForUltimate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUltimateReady_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass PlayerNonverbalChatComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/PlayerNonverbalChatComponent.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "DoWork",
+    "Outer": "BP_TouchWheelSegment_Comm_Combat_Ult_C",
+    "Super": "DoWork",
+    "SuperStruct": {
+      "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:DoWork",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_TouchWheelSegment_Comm_Combat_Ult_C",
+    "Super": "BP_TouchWheelSegment_RadioComms_Base_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_TouchWheelSegment_Comm_Combat_Ult_C:ExecuteUbergraph_BP_TouchWheelSegment_Comm_Combat_Ult",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass BP_TouchWheelSegment_RadioComms_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.2"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_Comm_Combat_Ult_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.1"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_Comm_Combat_Ult_C:ExecuteUbergraph_BP_TouchWheelSegment_Comm_Combat_Ult",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TouchWheelSegment_Comm_Combat_Ult": {
+        "ObjectName": "Function BP_TouchWheelSegment_Comm_Combat_Ult_C:ExecuteUbergraph_BP_TouchWheelSegment_Comm_Combat_Ult",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.0"
+      },
+      "DoWork": {
+        "ObjectName": "Function BP_TouchWheelSegment_Comm_Combat_Ult_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.1"
+      }
+    },
+    "ClassFlags": 264208,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TouchWheelSegment_Comm_Combat_Ult_C Default__BP_TouchWheelSegment_Comm_Combat_Ult_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Comm_Combat_Ult.3"
+    }
+  },
+  {
+    "Type": "BP_TouchWheelSegment_Comm_Combat_Ult_C",
+    "Name": "Default__BP_TouchWheelSegment_Comm_Combat_Ult_C",
+    "Template": "Default__BP_TouchWheelSegment_RadioComms_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CommType": "NonVerbalCommTypesEnum::NewEnumerator25",
+      "SegmentText": {
+        "TableId": "/Game/UI/InGame/QuickComms/UI_NonVerbalComm_Strings.UI_NonVerbalComm_Strings",
+        "Key": "Comm_UltimateReady"
+      }
+    }
+  }
+]

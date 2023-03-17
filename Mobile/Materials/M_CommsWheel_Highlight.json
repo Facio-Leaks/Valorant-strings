@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_CommsWheel_Highlight",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "5C64197E-45899268-E5442FB6-7AA03DDA",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              16110468229604899754
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "SegmentAngle",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "28197050-4B870430-1C8E34BE-53964F78"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.25
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+            "Function": {
+              "ObjectName": "MaterialFunction RadialGradientExponential",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.0"
+            }
+          },
+          {
+            "StateId": "853CD90B-4B1CFC3F-80D349BB-27F4CF39",
+            "Function": {
+              "ObjectName": "MaterialFunction RingMaterialFunction",
+              "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/_MaterialFunctions/RingMaterialFunction.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction CustomRotator",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "FDF0E218-49F6EE8B-E9059C85-221B2F68",
+            "Function": {
+              "ObjectName": "MaterialFunction Pi",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Pi.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "FF404CC0-434D4291-768580A0-1ADB397F",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorToRadialValue",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorToRadialValue.0"
+            }
+          },
+          {
+            "StateId": "853CD90B-4B1CFC3F-80D349BB-27F4CF39",
+            "Function": {
+              "ObjectName": "MaterialFunction RingMaterialFunction",
+              "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/_MaterialFunctions/RingMaterialFunction.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

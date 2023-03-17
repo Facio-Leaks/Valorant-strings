@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_VoiceChatButton_Speaker_C",
+    "Super": "BP_VoiceChatButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_VoiceChatButton_Speaker_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Speaker.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.39"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_VoiceChatButton_Speaker_C Default__BP_VoiceChatButton_Speaker_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Speaker.1"
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_Speaker_C",
+    "Name": "Default__BP_VoiceChatButton_Speaker_C",
+    "Template": "Default__BP_VoiceChatButton_Base_C",
+    "Properties": {
+      "Setting_OverallEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerEnabled",
+      "Setting_PartyEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerPartyEnabled",
+      "Setting_TeamEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerTeamEnabled",
+      "TouchWidgetDefaultProperties": {
+        "TextProperties": {},
+        "Texture2DProperties": {},
+        "MaterialInterfaceProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_VoiceChatButton_Speaker_C"
+  }
+]

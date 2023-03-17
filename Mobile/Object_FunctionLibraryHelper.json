@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "Function",
+    "Name": "EquipFromSlot",
+    "Outer": "Object_FunctionLibraryHelper_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Slot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Object_FunctionLibraryHelper_C",
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Object_FunctionLibraryHelper_C:EquipFromSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Object_FunctionLibraryHelper.0"
+      }
+    ],
+    "FuncMap": {
+      "EquipFromSlot": {
+        "ObjectName": "Function Object_FunctionLibraryHelper_C:EquipFromSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Object_FunctionLibraryHelper.0"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Object_FunctionLibraryHelper_C Default__Object_FunctionLibraryHelper_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Object_FunctionLibraryHelper.2"
+    }
+  },
+  {
+    "Type": "Object_FunctionLibraryHelper_C",
+    "Name": "Default__Object_FunctionLibraryHelper_C",
+    "Properties": {
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  }
+]

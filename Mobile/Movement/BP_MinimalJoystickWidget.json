@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_MinimalJoystickWidget_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_MinimalJoystickWidget_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_91",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MinimalJoystickWidget_C Default__BP_MinimalJoystickWidget_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.1"
+    }
+  },
+  {
+    "Type": "BP_MinimalJoystickWidget_C",
+    "Name": "Default__BP_MinimalJoystickWidget_C",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_77",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_MinimalJoystickWidget_C:WidgetTree.CanvasPanel_77.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_77",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_MinimalJoystickWidget_C:WidgetTree.CanvasPanel_77",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.2"
+      },
+      "Content": {
+        "ObjectName": "Image BP_MinimalJoystickWidget_C:WidgetTree.Image_91",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_91",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D TouchJoystickNub",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TouchJoystickNub.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_MinimalJoystickWidget_C:WidgetTree.CanvasPanel_77.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_MinimalJoystickWidget_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_MinimalJoystickWidget_C:WidgetTree.CanvasPanel_77",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_MinimalJoystickWidget.2"
+      }
+    }
+  }
+]

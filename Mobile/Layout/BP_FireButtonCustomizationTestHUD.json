@@ -1,0 +1,4939 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FireButtonCustomizationTestHUD",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_FAresTouchTrackingData_1",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_GetSlotName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_AbilitySlot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_3",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_2",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_1",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_9",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:AbilityButtonPressed__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.10"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_10",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_11",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetViewedCharacterInventory_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresInventory",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_12",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnEquippableChangedSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_13",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_14",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_15",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_16",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPosition_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetViewportSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_Vector2DVector2D_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_17",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_PixelPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_ViewportPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetParent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_18",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:AbilityButtonPressed__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.10"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetViewportSize_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "UnbindButtons",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTwoToggled",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnOneToggled",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "CloseHUD",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetSettings",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "StopDragging",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "ExitCompletely",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "AbilitySlot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "DragHUD",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeWidgets",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButtonMenu",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_FireButtonCustomizationScreen_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_FireButtonCustomizationScreen.25"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_PixelPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_ViewportPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_PixelPosition_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_ViewportPosition_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DoWidgetsOverlap_AreOverlapping",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEquippableSniper_IsSniper",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDefaultLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetSettingsToDefault",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 2,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDefaultLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_Value_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "SaveFireButtonWidgetSettings",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "Cancel Clicked",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetCurrentPreset_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "FireButtonChecked",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FireButtonCustomizationCheckbox_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.8"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsTwoButton",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterHUDMobile_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_CharacterHUD_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.99"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetPrimaryFireRight_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetPrimaryFireLeft_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Action_Button_Primary_Fire",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Action_Button_Primary_Fire_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDraggingMode",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Dragging",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "MoveTestHUD",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Get_Fire_Button_Viewport_Position_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFireButtonOnLeftSide_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "On Weapon Changed",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable_1",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEquippableSniper_IsSniper",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetWeaponDataPath_Path",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "Change Select State",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Setting_Toggle",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetWeaponDataPath_Path",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetWeaponDataPath",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "Path",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWeaponUIDataAsset_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class FireCustomizationWeaponDataList",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetObjectClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 248,
+        "Struct": {
+          "ObjectName": "ScriptStruct FireButtonWeaponCustomizationSettingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Conv_ClassToSoftClassReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEquippableUIData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class BaseContentUIData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_SoftClassReferenceToString_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsChildOfClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "DoWidgetsOverlap",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetOnePosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetTwoPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetOneSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetTwoSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AreOverlapping",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "IsFireButtonOnLeftSide",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetParent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPosition_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsCanvas_Panel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetAnchors_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Anchors",
+          "ObjectPath": "/Script/Slate"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "Get Fire Button Viewport Position",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1408,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetLocalSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_PixelPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_ViewportPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTestHUDAbsolutePosition",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteCoordinate",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_FireButtonCustomizationTestHUD_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_FireButtonCustomizationTestHUD_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.106"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ExecuteUbergraph_BP_FireButtonCustomizationTestHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWidget",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SetTestHUDAbsolutePosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.24"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Get Fire Button Viewport Position",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.23"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:IsFireButtonOnLeftSide",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.22"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:DoWidgetsOverlap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.21"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:GetWeaponDataPath",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.20"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Change Select State",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.19"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:On Weapon Changed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.18"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:MoveTestHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.17"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SetDraggingMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.16"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:FireButtonChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.15"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Cancel Clicked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.14"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SaveFireButtonWidgetSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.13"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ResetSettingsToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.12"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:InitializeWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.11"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.10"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:DragHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.9"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ExitCompletely",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.8"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:StopDragging",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.7"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ResetSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.6"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:CloseHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.5"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:OnOneToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.4"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:OnTwoToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.3"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:UnbindButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.2"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.1"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ExecuteUbergraph_BP_FireButtonCustomizationTestHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AimPassthrough",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresTouchBounds_561",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchBounds",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AutoADS",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BackButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Background",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CloseButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireOnRelease",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_194",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_488",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_540",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MovePassthrough",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OneButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FireButtonCustomizationCheckbox_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ResetToDefaults",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TestHUDContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class ScaleBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TwoButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FireButtonCustomizationCheckbox_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentFireButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSniper",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButtonCustomizationHUD",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_FireButtonCustomizationScreen_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_FireButtonCustomizationScreen.25"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsBeingDragged",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "SettingsButtons",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "SettingsButtons",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentEquippableData",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class BaseContentUIData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "WeaponName",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "TestHUDMoveBufferArea",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bShouldReturnToShop",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FireButtonCustomizationTestHUD": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ExecuteUbergraph_BP_FireButtonCustomizationTestHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.0"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.1"
+      },
+      "UnbindButtons": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:UnbindButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.2"
+      },
+      "OnTwoToggled": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:OnTwoToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.3"
+      },
+      "OnOneToggled": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:OnOneToggled",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.4"
+      },
+      "CloseHUD": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:CloseHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.5"
+      },
+      "ResetSettings": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ResetSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.6"
+      },
+      "StopDragging": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:StopDragging",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.7"
+      },
+      "ExitCompletely": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ExitCompletely",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.8"
+      },
+      "DragHUD": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:DragHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.9"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.10"
+      },
+      "InitializeWidgets": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:InitializeWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.11"
+      },
+      "ResetSettingsToDefault": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:ResetSettingsToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.12"
+      },
+      "SaveFireButtonWidgetSettings": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SaveFireButtonWidgetSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.13"
+      },
+      "Cancel Clicked": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Cancel Clicked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.14"
+      },
+      "FireButtonChecked": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:FireButtonChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.15"
+      },
+      "SetDraggingMode": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SetDraggingMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.16"
+      },
+      "MoveTestHUD": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:MoveTestHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.17"
+      },
+      "On Weapon Changed": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:On Weapon Changed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.18"
+      },
+      "Change Select State": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Change Select State",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.19"
+      },
+      "GetWeaponDataPath": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:GetWeaponDataPath",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.20"
+      },
+      "DoWidgetsOverlap": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:DoWidgetsOverlap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.21"
+      },
+      "IsFireButtonOnLeftSide": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:IsFireButtonOnLeftSide",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.22"
+      },
+      "Get Fire Button Viewport Position": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:Get Fire Button Viewport Position",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.23"
+      },
+      "SetTestHUDAbsolutePosition": {
+        "ObjectName": "Function BP_FireButtonCustomizationTestHUD_C:SetTestHUDAbsolutePosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.24"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FireButtonCustomizationTestHUD_C Default__BP_FireButtonCustomizationTestHUD_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.26"
+    }
+  },
+  {
+    "Type": "BP_FireButtonCustomizationTestHUD_C",
+    "Name": "Default__BP_FireButtonCustomizationTestHUD_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TestHUDMoveBufferArea": {
+        "X": 0.1,
+        "Y": 0.25
+      },
+      "ReceivingForwardedInputChannel": 16,
+      "bCheckBoundsForForwardedTouchScreenPresses": false,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "AresTextBlock",
+    "Name": "AresTextBlock_190",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "WeaponName"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.53"
+      }
+    }
+  },
+  {
+    "Type": "AresTextBlock",
+    "Name": "AresTextBlock_587",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Fire Button"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.46"
+      }
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "AresTouchBounds_561",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.74"
+      }
+    }
+  },
+  {
+    "Type": "BP_EditControlsBoolSettingToggle_C",
+    "Name": "AimPassthrough",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_EditControlsBoolSettingToggle_C",
+    "Properties": {
+      "WidgetLayoutSettingName": "EWidgetLayoutSettingName::AimPassthrough",
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "LinearColorProperties": null
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.99"
+      }
+    }
+  },
+  {
+    "Type": "BP_EditControlsBoolSettingToggle_C",
+    "Name": "AutoADS",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_EditControlsBoolSettingToggle_C",
+    "Properties": {
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "LinearColorProperties": null
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_15",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.100"
+      }
+    }
+  },
+  {
+    "Type": "BP_EditControlsBoolSettingToggle_C",
+    "Name": "FireOnRelease",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_EditControlsBoolSettingToggle_C",
+    "Properties": {
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "LinearColorProperties": null
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_16",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.101"
+      }
+    }
+  },
+  {
+    "Type": "BP_EditControlsBoolSettingToggle_C",
+    "Name": "MovePassthrough",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_EditControlsBoolSettingToggle_C",
+    "Properties": {
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "LinearColorProperties": null
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_17",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.102"
+      }
+    }
+  },
+  {
+    "Type": "BP_FireButtonCustomizationCheckbox_C",
+    "Name": "OneButton",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FireButtonCustomizationCheckbox_C",
+    "Properties": {
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.7
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "CultureInvariantString": "One"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": {
+            "ObjectName": "Texture2D UI_White",
+            "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+          },
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "ButtonMaterial": null,
+          "IconMaterial": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.81"
+      }
+    }
+  },
+  {
+    "Type": "BP_FireButtonCustomizationCheckbox_C",
+    "Name": "TwoButton",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FireButtonCustomizationCheckbox_C",
+    "Properties": {
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.7
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "CultureInvariantString": "Two"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": {
+            "ObjectName": "Texture2D UI_White",
+            "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+          },
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "ButtonMaterial": null,
+          "IconMaterial": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.38"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Properties": {
+      "LayoutData": {
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.37"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.TestHUDContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.79"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "ButtonSideSelection",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ButtonSideSelection.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.45"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.94"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2076",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.46"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.47"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.48"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.49"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.50"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ButtonSideSelection.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.45"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "ResetArea",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ResetArea.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.96"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "WeaponInfo",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.53"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.54"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.56"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.92"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "WeaponSettings",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponSettings.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.95"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "ButtonSideSelection",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ButtonSideSelection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.40"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "AresTextBlock BP_FireButtonCustomizationTestHUD_C:WidgetTree.AresTextBlock_587",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.28"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_FireButtonCustomizationTestHUD_C:WidgetTree.Spacer_811",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.86"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonOne",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_FireButtonCustomizationTestHUD_C:WidgetTree.Spacer_755",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.85"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonTwo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": "HorizontalBox_2076",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.41"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_FireButtonCustomizationTestHUD_C:WidgetTree.Spacer_1288",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.83"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "ResetArea",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ResetArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.42"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.ResetToDefaults",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.105"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "WeaponInfo",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.43"
+      },
+      "Content": {
+        "ObjectName": "AresTextBlock BP_FireButtonCustomizationTestHUD_C:WidgetTree.AresTextBlock_190",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.27"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "WeaponInfo",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.43"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_FireButtonCustomizationTestHUD_C:WidgetTree.Spacer_238",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.84"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "WeaponInfo",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.43"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.CloseButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.104"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_6",
+    "Outer": "WeaponInfo",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.43"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.BackButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.103"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "WeaponSettings",
+    "Properties": {
+      "Size": {
+        "Value": 0.5,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.44"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.89"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Background",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.011761,
+            "G": 0.035762,
+            "B": 0.046875,
+            "A": 0.671,
+            "Hex": "AB1C353D"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.75"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 3.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.229,
+            "Hex": "3AFFFFFF"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.97"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 3.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.229,
+            "Hex": "3AFFFFFF"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_8",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.98"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_194",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 30.328701
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.062017,
+            "G": 0.135019,
+            "B": 0.167709,
+            "A": 0.55,
+            "Hex": "8C466772"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_488",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 3.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.229,
+            "Hex": "3AFFFFFF"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.93"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_540",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 498.01526,
+          "Y": 2.916395
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.72"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "FireButtonOne",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonOne.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.48"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "FireButtonTwo",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonTwo.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.50"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.71"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.91"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.74"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.73"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.TestHUDContainer.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.82"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_209",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.75"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.90"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "FireButtonOne",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonOne",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.64"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.78"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "FireButtonTwo",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonTwo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.65"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.77"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.66"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Image_194",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.61"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.66"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Image_540",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.63"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.67"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.87"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_1",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.67"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_FireButtonCustomizationTestHUD_C:WidgetTree.AresTouchBounds_561",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_209",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.68"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Background",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.58"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_209",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.68"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.56,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.80"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonTwo.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.70"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.56,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireButtonOne.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.69"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "TestHUDContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.553145,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.TestHUDContainer.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.39"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.77"
+      },
+      "Content": {
+        "ObjectName": "BP_FireButtonCustomizationCheckbox_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.TwoButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.35"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_2",
+    "Outer": "ScaleBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.78"
+      },
+      "Content": {
+        "ObjectName": "BP_FireButtonCustomizationCheckbox_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.OneButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.34"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "TestHUDContainer",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.TestHUDContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.79"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.67"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_1288",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 5.0,
+        "Y": 1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.51"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_238",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 17.0,
+        "Y": 1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.54"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_755",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 4.0,
+        "Y": 1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.49"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_811",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.HorizontalBox_2076.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.47"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.91"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.90"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_1.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.73"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_471",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.92"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.93"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.94"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.97"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.95"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_8",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.98"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471.VerticalBoxSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.96"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.76"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_692",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.99"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_15",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.100"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_16",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.101"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692.VerticalBoxSlot_17",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.102"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponSettings.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.57"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.87"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_209",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.68"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.87"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FireButtonCustomizationTestHUD_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.66"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.43"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Image_488",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.62"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ButtonSideSelection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.40"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.44"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.ResetArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.42"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Image",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.59"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_8",
+    "Outer": "VerticalBox_471",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_471",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.88"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FireButtonCustomizationTestHUD_C:WidgetTree.Image_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.60"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_692",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.89"
+      },
+      "Content": {
+        "ObjectName": "BP_EditControlsBoolSettingToggle_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.AimPassthrough",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.30"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_15",
+    "Outer": "VerticalBox_692",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.89"
+      },
+      "Content": {
+        "ObjectName": "BP_EditControlsBoolSettingToggle_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.AutoADS",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.31"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_16",
+    "Outer": "VerticalBox_692",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.89"
+      },
+      "Content": {
+        "ObjectName": "BP_EditControlsBoolSettingToggle_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.FireOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.32"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_17",
+    "Outer": "VerticalBox_692",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_FireButtonCustomizationTestHUD_C:WidgetTree.VerticalBox_692",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.89"
+      },
+      "Content": {
+        "ObjectName": "BP_EditControlsBoolSettingToggle_C BP_FireButtonCustomizationTestHUD_C:WidgetTree.MovePassthrough",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.33"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "BackButton",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "CultureInvariantString": "<-"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "IconMaterial": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.56"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "CloseButton",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/UI_Common_Strings.UI_Common_Strings",
+            "Key": "ButtonText_CLOSE"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "IconMaterial": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.WeaponInfo.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.55"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "ResetToDefaults",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 16,
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+            "Key": "ResetDefaultsGroup"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "IconMaterial": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_FireButtonCustomizationTestHUD_C:WidgetTree.ResetArea.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.52"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_FireButtonCustomizationTestHUD_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_FireButtonCustomizationTestHUD_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationTestHUD.36"
+      }
+    }
+  }
+]

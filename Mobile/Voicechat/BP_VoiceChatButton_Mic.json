@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_VoiceChatButton_Mic_C",
+    "Super": "BP_VoiceChatButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_VoiceChatButton_Mic_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Mic.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.39"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_VoiceChatButton_Mic_C Default__BP_VoiceChatButton_Mic_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Mic.1"
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_Mic_C",
+    "Name": "Default__BP_VoiceChatButton_Mic_C",
+    "Template": "Default__BP_VoiceChatButton_Base_C",
+    "Properties": {
+      "Setting_OverallEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicEnabled",
+      "Setting_PartyEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicPartyEnabled",
+      "Setting_TeamEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicTeamEnabled",
+      "Texture_SettingIcon": {
+        "ObjectName": "Texture2D TX_VoiceChat_Mic",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Mic.0"
+      },
+      "Texture_ContextSettingIcon_Disabled": {
+        "ObjectName": "Texture2D TX_VoiceChat_Mic_Off",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Mic_Off.0"
+      },
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "Context_Icon_Scale": 0.5
+        },
+        "TextProperties": {},
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D TX_VoiceChat_Mic",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Mic.0"
+          },
+          "ContextTeam_Icon": {
+            "ObjectName": "Texture2D TX_VoiceChat_Mic",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Mic.0"
+          },
+          "ContextParty_Icon": {
+            "ObjectName": "Texture2D TX_VoiceChat_Mic",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Mic.0"
+          }
+        },
+        "MaterialInterfaceProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_VoiceChatButton_Mic_C"
+  }
+]

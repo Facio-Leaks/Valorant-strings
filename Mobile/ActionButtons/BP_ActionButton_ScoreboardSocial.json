@@ -1,0 +1,637 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ActionButton_ScoreboardSocial",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Button_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDisengage_Event_0",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEngage_Event_0",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "SetIsChecked",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "InIsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_ScoreboardSocial_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_ScoreboardSocial_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.21"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:ExecuteUbergraph_BP_ActionButton_ScoreboardSocial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresActionButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:SetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.5"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.4"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.3"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:OnEngage_Event_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.2"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:OnDisengage_Event_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.1"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:ExecuteUbergraph_BP_ActionButton_ScoreboardSocial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BG",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Icon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconImage",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Texture",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TX_Unchecked",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TX_Checked",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Checked",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Toggleable",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ActionButton_ScoreboardSocial": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:ExecuteUbergraph_BP_ActionButton_ScoreboardSocial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.0"
+      },
+      "OnDisengage_Event_0": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:OnDisengage_Event_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.1"
+      },
+      "OnEngage_Event_0": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:OnEngage_Event_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.2"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.3"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.4"
+      },
+      "SetIsChecked": {
+        "ObjectName": "Function BP_ActionButton_ScoreboardSocial_C:SetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.5"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_ScoreboardSocial_C Default__BP_ActionButton_ScoreboardSocial_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.7"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_ScoreboardSocial_C",
+    "Name": "Default__BP_ActionButton_ScoreboardSocial_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "IconImage": {
+        "ObjectName": "Texture2D TX_Icon_Social_AddFriend",
+        "ObjectPath": "ShooterGame/Content/UI/OutOfGame/MainMenu/Social/assets/TX_Icon_Social_AddFriend.0"
+      },
+      "TX_Unchecked": {
+        "ObjectName": "Texture2D TX_UI_Square",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+      },
+      "TX_Checked": {
+        "ObjectName": "Texture2D TX_UI_Square",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+      },
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "TouchBounds",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.12"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BG",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.004777,
+            "G": 0.009721,
+            "B": 0.016807,
+            "A": 0.55,
+            "Hex": "8C0F1923"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Square",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.13"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_346.ScaleBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.18"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_99",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.12"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.13"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.14"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.SizeBox_279.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.20"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.11"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_ActionButton_ScoreboardSocial_C:WidgetTree.TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.8"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.11"
+      },
+      "Content": {
+        "ObjectName": "Image BP_ActionButton_ScoreboardSocial_C:WidgetTree.BG",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.9"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.11"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_346",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.16"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_32",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::None",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_32.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_346",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_346.ScaleBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99.OverlaySlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.14"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_32",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_32",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.15"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.SizeBox_279",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.19"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_346",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_346",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.16"
+      },
+      "Content": {
+        "ObjectName": "Image BP_ActionButton_ScoreboardSocial_C:WidgetTree.Icon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.10"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_279",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 70.0,
+      "HeightOverride": 30.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.SizeBox_279.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_32.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.17"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_279",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.SizeBox_279",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.19"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ActionButton_ScoreboardSocial_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.11"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_ScoreboardSocial_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox BP_ActionButton_ScoreboardSocial_C:WidgetTree.ScaleBox_32",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_ScoreboardSocial.15"
+      }
+    }
+  }
+]

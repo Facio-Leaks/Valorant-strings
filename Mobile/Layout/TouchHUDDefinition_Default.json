@@ -1,0 +1,1436 @@
+[
+  {
+    "Type": "Function",
+    "Name": "GetTypeTables",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "OutTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OutTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "TypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "GetLayoutTablesForPreset",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "PresetIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "OutLayoutTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OutLayoutTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "OutLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755814272,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "OutLayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "OutLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813893,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "LayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "LayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "RootIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TabletWidthThreshold",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TabletRatioThreshold",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "LayoutTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "LayoutTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetRootPresetIndex_RootPresetIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetPhysicalDeviceWidth_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_Select_Default",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_Select_Default_1",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "GetAllTables",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresSettingsManager",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "OuTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OuTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Tables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Tables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetGameModeSpecificTypeTables_ModeSpecificPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813888,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetTypeTables_OutTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetTypeTables_OutTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Max_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Max_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "AppendPreset",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "TargetArray",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218132,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "TargetArray",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "PresetLayouts",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218132,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "PresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "PresetIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "GetGameModeSpecificTypeTables",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "ModeSpecificTypeTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "ModeSpecificTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "ModeSpecificPresetLayouts",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 384,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "ModeSpecificPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+          "Flags": 1,
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+        "Flags": 1,
+        "ElementSize": 80,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct GameModeWidgetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/GameModeWidgetLayout.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsChildOfClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "GetRootPresetIndex",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "PresetIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "RootPresetIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetRootPreset_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Conv_ByteToInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetLayoutDataForPreset",
+    "Outer": "TouchHUDDefinition_Default_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Preset",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "OutLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755814272,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "OutLayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "OutLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "RootPresetIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813893,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "LayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "LayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetRootPresetIndex_RootPresetIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813888,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetLayoutTablesForPreset_OutLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class DataTable",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+          "Flags": 1,
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+        "Flags": 1,
+        "ElementSize": 216,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_CharacterHUDPresetLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 1126449662656512,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDPresetLayoutData",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayoutData.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDPresetLayoutData",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayoutData.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TouchHUDDefinition_Default_C",
+    "SuperStruct": {
+      "ObjectName": "Class GetOuterWorldObject",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetLayoutDataForPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.6"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetRootPresetIndex",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.5"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetGameModeSpecificTypeTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.4"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:AppendPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.3"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetAllTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.2"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetLayoutTablesForPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.1"
+      },
+      {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetTypeTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "CommonWidgetTypeTables",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CommonWidgetTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CommonPresetLayouts",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CommonPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CommonPresetLayouts_Tablet",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CommonPresetLayouts_Tablet",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CharacterSpecificTypeTables",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CharacterSpecificTypeTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CharacterSpecificPresetLayouts",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CharacterSpecificPresetLayouts",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CharacterSpecificPresetLayouts_Tablet",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CharacterSpecificPresetLayouts_Tablet",
+          "Flags": 1,
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GameStateWidgetTypes",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class DataTable",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresSettingsManagerReference",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CachedPresetLayoutData",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 549755879429,
+        "KeyProp": {
+          "Type": "IntProperty",
+          "Name": "CachedPresetLayoutData",
+          "Flags": 1,
+          "ElementSize": 4
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CachedPresetLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 80,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDPresetLayoutData",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterHUDPresetLayoutData.0"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "GetTypeTables": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetTypeTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.0"
+      },
+      "GetLayoutTablesForPreset": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetLayoutTablesForPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.1"
+      },
+      "GetAllTables": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetAllTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.2"
+      },
+      "AppendPreset": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:AppendPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.3"
+      },
+      "GetGameModeSpecificTypeTables": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetGameModeSpecificTypeTables",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.4"
+      },
+      "GetRootPresetIndex": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetRootPresetIndex",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.5"
+      },
+      "GetLayoutDataForPreset": {
+        "ObjectName": "Function TouchHUDDefinition_Default_C:GetLayoutDataForPreset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.6"
+      }
+    },
+    "ClassFlags": 8652816,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TouchHUDDefinition_Default_C Default__TouchHUDDefinition_Default_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.8"
+    }
+  },
+  {
+    "Type": "TouchHUDDefinition_Default_C",
+    "Name": "Default__TouchHUDDefinition_Default_C",
+    "Properties": {
+      "CommonWidgetTypeTables": [
+        {
+          "ObjectName": "DataTable WidgetTypes_Default",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetTypes_Default.0"
+        }
+      ],
+      "CommonPresetLayouts": [
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_Simple",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetLayouts_Default_Simple.0"
+            }
+          ]
+        },
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_Advanced",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetLayouts_Default_Advanced.0"
+            }
+          ]
+        },
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_PresetExperimental",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Experimental/WidgetLayouts_Default_PresetExperimental.0"
+            }
+          ]
+        }
+      ],
+      "CommonPresetLayouts_Tablet": [
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_Simple_Tablet",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/Tablet/WidgetLayouts_Default_Simple_Tablet.0"
+            }
+          ]
+        },
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_Advanced_Tablet",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/Tablet/WidgetLayouts_Default_Advanced_Tablet.0"
+            }
+          ]
+        },
+        {
+          "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+            {
+              "ObjectName": "DataTable WidgetLayouts_Default_PresetExperimental_Tablet",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Experimental/TabletLayouts/WidgetLayouts_Default_PresetExperimental_Tablet.0"
+            }
+          ]
+        }
+      ],
+      "GameStateWidgetTypes": {
+        "ObjectName": "DataTable WidgetTypes_GameStates",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetTypes_GameStates.0"
+      }
+    }
+  }
+]

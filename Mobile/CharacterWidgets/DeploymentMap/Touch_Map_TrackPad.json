@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Touch_Map_TrackPad_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree Touch_Map_TrackPad_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/DeploymentMap/Touch_Map_TrackPad.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresActionButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresTouchBounds_32",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchBounds",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Touch_Map_TrackPad_C Default__Touch_Map_TrackPad_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/DeploymentMap/Touch_Map_TrackPad.1"
+    }
+  },
+  {
+    "Type": "Touch_Map_TrackPad_C",
+    "Name": "Default__Touch_Map_TrackPad_C",
+    "Properties": {
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "EditTouchMode": "EAresTouchWidgetMode::Hidden",
+      "TouchTrackingMode": "EAresTouchTrackingMode::LocalExclusive",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "AresTouchBounds_32",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "BoundsShape": "EAresTouchBoundsShape::Circle"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "Touch_Map_TrackPad_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "AresTouchBounds Touch_Map_TrackPad_C:WidgetTree.AresTouchBounds_32",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/DeploymentMap/Touch_Map_TrackPad.2"
+      }
+    }
+  }
+]

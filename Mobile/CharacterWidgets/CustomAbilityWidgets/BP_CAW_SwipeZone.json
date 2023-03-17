@@ -1,0 +1,340 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CAW_SwipeZone",
+    "Outer": "BP_CAW_SwipeZone_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_CAW_SwipeZone_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "DragTexture",
+    "Outer": "BP_CAW_SwipeZone_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleHighlight",
+    "Outer": "BP_CAW_SwipeZone_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Highlighted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_CAW_SwipeZone_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_CAW_SwipeZone_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.11"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:ExecuteUbergraph_BP_CAW_SwipeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresIconButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:ToggleHighlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.3"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:DragTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.2"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.1"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:ExecuteUbergraph_BP_CAW_SwipeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MidBG",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Image_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.34"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_TouchBounds",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_TouchBounds_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_TouchBounds.3"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_CAW_SwipeZone": {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:ExecuteUbergraph_BP_CAW_SwipeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.0"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.1"
+      },
+      "DragTexture": {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:DragTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.2"
+      },
+      "ToggleHighlight": {
+        "ObjectName": "Function BP_CAW_SwipeZone_C:ToggleHighlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.3"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CAW_SwipeZone_C Default__BP_CAW_SwipeZone_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.5"
+    }
+  },
+  {
+    "Type": "BP_CAW_SwipeZone_C",
+    "Name": "Default__BP_CAW_SwipeZone_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SwipeOptions": 3,
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_CAW_SwipeZone_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.7"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_CAW_SwipeZone_C:WidgetTree.Overlay_0.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_CAW_SwipeZone_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_TouchBounds_C BP_CAW_SwipeZone_C:WidgetTree.WBP_IBC_TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.10"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_CAW_SwipeZone_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Image_C BP_CAW_SwipeZone_C:WidgetTree.MidBG",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.9"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Image_C",
+    "Name": "MidBG",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Image_C",
+    "Properties": {
+      "DefaultColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.247059,
+        "Hex": "3F000000"
+      },
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.25,
+        "Hex": "3FFFFFFF"
+      },
+      "CrossedOutColor": {
+        "R": 0.87451,
+        "G": 0.105882,
+        "B": 0.094118,
+        "A": 0.25,
+        "Hex": "3FF15B56"
+      },
+      "EditColor": {
+        "R": 0.807843,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.5,
+        "Hex": "7FE9EB96"
+      },
+      "DisabledColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.1,
+        "Hex": "19000000"
+      },
+      "ImageTexture": {
+        "ObjectName": "Texture2D TX_UI_HUDHexMid",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/TX_UI_HUDHexMid.0"
+      },
+      "ImageMaterial": {
+        "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+      },
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_CAW_SwipeZone_C:WidgetTree.Overlay_0.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.8"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_TouchBounds_C",
+    "Name": "WBP_IBC_TouchBounds",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_TouchBounds_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_CAW_SwipeZone_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_CAW_SwipeZone_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_CAW_SwipeZone_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.6"
+      }
+    }
+  }
+]

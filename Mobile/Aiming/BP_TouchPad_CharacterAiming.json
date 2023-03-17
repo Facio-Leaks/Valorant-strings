@@ -1,0 +1,635 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TouchPad_CharacterAiming",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchPadXLocationChangedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchPadYLocationChangedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_ModifiedDelta",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Get_FOV_Modified_Delta_OutDelta",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_ModifiedDelta_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Get_FOV_Modified_Delta_OutDelta_1",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDeltaYChanged",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ModifiedDelta",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDeltaXChanged",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ModifiedDelta",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Get FOV Modified Delta",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "InDelta",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "OutDelta",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresGlobals_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameGlobals",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerCameraManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerCameraManager",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFOVAngle_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_TouchPad_CharacterAiming_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_TouchPad_CharacterAiming_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.12"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:ExecuteUbergraph_BP_TouchPad_CharacterAiming",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresCharacterAimingTouchPad",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:Get FOV Modified Delta",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.4"
+      },
+      {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnDeltaXChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.3"
+      },
+      {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnDeltaYChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.2"
+      },
+      {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.1"
+      },
+      {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:ExecuteUbergraph_BP_TouchPad_CharacterAiming",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Root",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_CTA_CharacterAiming",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_CTA_CharacterAiming_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_CharacterAiming.7"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "AccelerationCurvesX",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "AccelerationCurvesX",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class CurveFloat",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "AccelerationCurvesY",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "AccelerationCurvesY",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class CurveFloat",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsHoldingDoubleTap",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AllowAiming",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TouchPad_CharacterAiming": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:ExecuteUbergraph_BP_TouchPad_CharacterAiming",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.0"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.1"
+      },
+      "OnDeltaYChanged": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnDeltaYChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.2"
+      },
+      "OnDeltaXChanged": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:OnDeltaXChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.3"
+      },
+      "Get FOV Modified Delta": {
+        "ObjectName": "Function BP_TouchPad_CharacterAiming_C:Get FOV Modified Delta",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.4"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TouchPad_CharacterAiming_C Default__BP_TouchPad_CharacterAiming_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.6"
+    }
+  },
+  {
+    "Type": "BP_TouchPad_CharacterAiming_C",
+    "Name": "Default__BP_TouchPad_CharacterAiming_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AccelerationCurvesX": [
+        {
+          "ObjectName": "CurveFloat AimDeltaScalingX",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/AimDeltaScalingX.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Linear",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Linear.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration1.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration3.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_S1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_S1.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_S2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_S2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp1-5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp1-5.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp2-5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp2-5.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3_Offset50",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3_Offset50.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3_Offset75",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3_Offset75.0"
+        }
+      ],
+      "AccelerationCurvesY": [
+        {
+          "ObjectName": "CurveFloat AimDeltaScalingY",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/AimDeltaScalingY.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Linear",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Linear.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration1.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_NoDeceleration3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_NoDeceleration3.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_S1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_S1.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_S2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_S2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp1-5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp1-5.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp2.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp2-5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp2-5.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3_Offset50",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3_Offset50.0"
+        },
+        {
+          "ObjectName": "CurveFloat AimDeltaScaling_Exp3_Offset75",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/AccelerationCurves/AimDeltaScaling_Exp3_Offset75.0"
+        }
+      ],
+      "AllowAiming": true,
+      "DebugHudElementClasses": [
+        {
+          "ObjectName": "BlueprintGeneratedClass DebugTouchInputHUDElement_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Blueprints/Mobile/DebugTouchInputHUDElement.0"
+        }
+      ],
+      "MaxTouchesAllowed": 4,
+      "ForwardingInputChannel": 1,
+      "ReceivingForwardedInputChannel": 4,
+      "bCheckBoundsForForwardedTouchScreenPresses": false,
+      "EditTouchMode": "EAresTouchWidgetMode::Hidden",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "TouchBounds",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchPad_CharacterAiming_C:WidgetTree.Root.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.10"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Root",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchPad_CharacterAiming_C:WidgetTree.Root.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.10"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchPad_CharacterAiming_C:WidgetTree.Root.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.9"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchPad_CharacterAiming_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.8"
+      },
+      "Content": {
+        "ObjectName": "WBP_CTA_CharacterAiming_C BP_TouchPad_CharacterAiming_C:WidgetTree.WBP_CTA_CharacterAiming",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.11"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchPad_CharacterAiming_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.8"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_TouchPad_CharacterAiming_C:WidgetTree.TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.7"
+      }
+    }
+  },
+  {
+    "Type": "WBP_CTA_CharacterAiming_C",
+    "Name": "WBP_CTA_CharacterAiming",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_CTA_CharacterAiming_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchPad_CharacterAiming_C:WidgetTree.Root.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.9"
+      },
+      "RenderTransform": {
+        "Angle": 180.0
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_TouchPad_CharacterAiming_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_TouchPad_CharacterAiming_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.8"
+      }
+    }
+  }
+]

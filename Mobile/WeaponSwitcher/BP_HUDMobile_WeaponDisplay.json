@@ -1,0 +1,488 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_HUDMobile_WeaponDisplay",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Refresh",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_3",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Blueprint_GetSizeY_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Blueprint_GetSizeX_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetWeaponTexture",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponTexture",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_HUDMobile_WeaponDisplay_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_HUDMobile_WeaponDisplay_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:ExecuteUbergraph_BP_HUDMobile_WeaponDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:SetWeaponTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.4"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:Refresh",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.3"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.2"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.1"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:ExecuteUbergraph_BP_HUDMobile_WeaponDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DisplayBorder",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Border",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponIcon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponTexture",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bHighlighted",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUseAlphaMaterial",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlphaMaterialInstance",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_HUDMobile_WeaponDisplay": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:ExecuteUbergraph_BP_HUDMobile_WeaponDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.0"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.1"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.2"
+      },
+      "Refresh": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:Refresh",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.3"
+      },
+      "SetWeaponTexture": {
+        "ObjectName": "Function BP_HUDMobile_WeaponDisplay_C:SetWeaponTexture",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.4"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HUDMobile_WeaponDisplay_C Default__BP_HUDMobile_WeaponDisplay_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.6"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_WeaponDisplay_C",
+    "Name": "Default__BP_HUDMobile_WeaponDisplay_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WeaponTexture": {
+        "ObjectName": "Texture2D TX_Hud_Sniper_BoltAction_L",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/Shared/Icons/Weapons/TX_Hud_Sniper_BoltAction_L.0"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "DisplayBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 284.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Top": 0.1,
+          "Right": 0.1,
+          "Bottom": 0.1
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot BP_HUDMobile_WeaponDisplay_C:WidgetTree.DisplayBorder.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.8"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "DisplayBorder",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": 10.0,
+        "Right": 10.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "Border BP_HUDMobile_WeaponDisplay_C:WidgetTree.DisplayBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.7"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDMobile_WeaponDisplay_C:WidgetTree.WeaponIcon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.9"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "WeaponIcon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "BorderSlot BP_HUDMobile_WeaponDisplay_C:WidgetTree.DisplayBorder.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.8"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_HUDMobile_WeaponDisplay_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border BP_HUDMobile_WeaponDisplay_C:WidgetTree.DisplayBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.7"
+      }
+    }
+  }
+]

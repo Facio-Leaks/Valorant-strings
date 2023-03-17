@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "Material",
+    "Name": "AudioVizArc",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionReroute_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "E03A1764-4FEC019C-9FDBD398-E90EB533",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              1098716408136884473,
+              1179742372323928862,
+              2149956735529034689,
+              3460186936614105055,
+              10255647651673186970,
+              16110468229604899754,
+              18049287459873205941
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "BrushSize",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Gradient Density",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "InnerRingDensity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Thickness",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "RingDensity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "SegmentAngle",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "InnerRingThickness",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "AD65E53B-430A7D80-46722FA8-C7CBD291",
+              "A2BB9C8C-4747DEFA-61C1D3B7-EED25141",
+              "D2FA9FDF-4C9E75A6-D8B4F998-DCD14C62",
+              "B84B1981-437C2583-212DE1B5-9E4D74B2",
+              "EF3AB38A-45F991D5-3A4F548B-19694453",
+              "28197050-4B870430-1C8E34BE-53964F78",
+              "DB959E58-4B76E46F-CF2D5F9E-4249A74B"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            600.0,
+            90000.0,
+            0.8,
+            155.0,
+            0.0,
+            0.25,
+            0.08
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+            "Function": {
+              "ObjectName": "MaterialFunction RadialGradientExponential",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.0"
+            }
+          },
+          {
+            "StateId": "853CD90B-4B1CFC3F-80D349BB-27F4CF39",
+            "Function": {
+              "ObjectName": "MaterialFunction RingMaterialFunction",
+              "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/_MaterialFunctions/RingMaterialFunction.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction CustomRotator",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "FDF0E218-49F6EE8B-E9059C85-221B2F68",
+            "Function": {
+              "ObjectName": "MaterialFunction Pi",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Pi.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "FF404CC0-434D4291-768580A0-1ADB397F",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorToRadialValue",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorToRadialValue.0"
+            }
+          },
+          {
+            "StateId": "853CD90B-4B1CFC3F-80D349BB-27F4CF39",
+            "Function": {
+              "ObjectName": "MaterialFunction RingMaterialFunction",
+              "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/_MaterialFunctions/RingMaterialFunction.0"
+            }
+          },
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+            "Function": {
+              "ObjectName": "MaterialFunction ExponentialDensity",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+            }
+          },
+          {
+            "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+            "Function": {
+              "ObjectName": "MaterialFunction RadialGradientExponential",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

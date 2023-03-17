@@ -1,0 +1,3121 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_HUDMobile_AmmoCounter_WeaponSwitcher",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsFloatSettingSlider_C:OnValueChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsFloatSettingSlider_C:OnValueChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEditModeWidget_EditModeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_EditControls_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.43"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Float_Setting_Slider",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsFloatSettingSlider_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Float_Setting_Slider_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsFloatSettingSlider_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Options",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControls_BoolOptions_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControls_BoolOptions.12"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Options_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControls_BoolOptions_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControls_BoolOptions.12"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Float_Setting_Slider_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsFloatSettingSlider_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_NewValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_Location",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_CalculateDropOverlayPosition_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControls_BoolOptions_C:SettingUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControls_BoolOptions.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:RefreshCharacterHUD__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInSpectatorMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUsingStaticLayout_isUsingStaticLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_ForceStop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewState_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUsingStaticLayout_isUsingStaticLayout_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlyoutDirectionInverted_isDirectionInverted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFlyoutDirectionInverted_isDirectionInverted_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUsingStaticLayout_isUsingStaticLayout_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControls_BoolOptions_C:SettingUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControls_BoolOptions.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnViewTargetChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsFloatSettingSlider_C:OnValueChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsFloatSettingSlider.0"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_NewValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetMeleeButtonWidth_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_NewValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSpikeButtonWidth_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetMeleeButtonWidth_OutValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSpikeButtonWidth_OutValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchInputDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_InTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_AbsoluteToLocal_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolPropertyValue_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchWidgetProperties_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolPropertyValue_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLongTouchMoved",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSpikeButtonWidthChange",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMeleeButtonWidthChange",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDirectionChanged",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnShapeChanged",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "StopWidget",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ForceStop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "StartWidget",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRefreshCharacterHUD",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchModeChange",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnTouchModeChange",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_5_WeaponSwitchButtonLongPressEnded__DelegateSignature",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_4_WeaponSwitchButtonLongPressed__DelegateSignature",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Location",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCharacterHUDAnimationFinished",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnCharacterHUDAnimationFinished",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "OnComponentSelectStateChanged",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnComponentSelectStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDropThresholdChanged",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "TryShowDropSpot",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Item_Can_be_Dropped_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "Item Can be Dropped",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchWidgetOwningCharacter_OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BuffIsActiveOnActor_IsActive",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetItemSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetDropThresholdDistance",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 1408
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateDropThresholdVisuals",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ThresholdDistance",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateEditOutlineVisuals",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateLayoutVisuals",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "UseStaticLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bInvertLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsSizeBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "IsUsingStaticLayout",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isUsingStaticLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "IsFlyoutDirectionInverted",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isDirectionInverted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "CalculateDropOverlayPosition",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteCoordinate",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 1408
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDesiredSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_AbsoluteToLocal_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSpikeButton",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpikeButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_AresIconButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.13"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "OverrideEquippableText",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "TextProperty",
+        "Name": "NameOverride",
+        "Flags": 1,
+        "ElementSize": 24,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnViewTargetChanged",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewViewTarget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsChildOfClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInSpectatorMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchCurrentCharacterMobile_ShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetMeleeButtonWidth",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "OutValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSpikeButtonWidth",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "OutValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetFloatLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Will Drop Weapon on Release",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "WillDropWeaponOnRelease",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842772,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "MoveDropVisualsToPrimaryButton",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDropThresholdDistance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDropLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_CalculateDropOverlayPosition_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.57"
+      },
+      "bClassRequiresNativeTick": true,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.37"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:ExecuteUbergraph_BP_HUDMobile_AmmoCounter_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresActionButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:MoveDropVisualsToPrimaryButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.32"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:Set Will Drop Weapon on Release",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.31"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetSpikeButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.30"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetMeleeButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.29"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnViewTargetChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.28"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OverrideEquippableText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.27"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetSpikeButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.26"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:CalculateDropOverlayPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.25"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:IsFlyoutDirectionInverted",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.24"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:IsUsingStaticLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.23"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateLayoutVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.22"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateEditOutlineVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.21"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateDropThresholdVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.20"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetDropThresholdDistance",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.19"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:Item Can be Dropped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.18"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:TryShowDropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.17"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnDropThresholdChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.16"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.15"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnCharacterHUDAnimationFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.14"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_4_WeaponSwitchButtonLongPressed__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.13"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_5_WeaponSwitchButtonLongPressEnded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.12"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.11"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnRefreshCharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.10"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.9"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.8"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:StartWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.7"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:StopWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.6"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnShapeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.5"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnDirectionChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.4"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnMeleeButtonWidthChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.3"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnSpikeButtonWidthChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.2"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnLongTouchMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.1"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:ExecuteUbergraph_BP_HUDMobile_AmmoCounter_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_HUDMobile_WeaponSwitchPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_WeaponSwitchPanel_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponSwitchPanel.39"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditOutline_DropWeapon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditOutline_WeaponPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_DropSpot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_Gradient",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Overlay_DropSpot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Overlay_WeaponSwitchPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Root",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox_MaxSizeInCurrentLayout",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DropEquipHoldTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DropThresholdDefault",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DropThresholdMin",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DropThresholdMax",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bPreviewStaticLayout",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "InspectHoldTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bPreviewInvertedDirection",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DropOverlayDefaultPos",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MinimumButtonWidth",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MaxWidgetSize",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MaxWidgetSizeInDynamicLayout",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MaximumButtonWidth",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Cached_DropOverlayXPos",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bWillDropWeapon",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Cached_DropTouchIndex",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DropImageExpandedSize",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DropImageSmallSize",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DropFocusColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DropDefaultColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsShowingPossessableAbilityCancelVisuals",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_HUDMobile_AmmoCounter_WeaponSwitcher": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:ExecuteUbergraph_BP_HUDMobile_AmmoCounter_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.0"
+      },
+      "OnLongTouchMoved": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnLongTouchMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.1"
+      },
+      "OnSpikeButtonWidthChange": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnSpikeButtonWidthChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.2"
+      },
+      "OnMeleeButtonWidthChange": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnMeleeButtonWidthChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.3"
+      },
+      "OnDirectionChanged": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnDirectionChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.4"
+      },
+      "OnShapeChanged": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnShapeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.5"
+      },
+      "StopWidget": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:StopWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.6"
+      },
+      "StartWidget": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:StartWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.7"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.8"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.9"
+      },
+      "OnRefreshCharacterHUD": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnRefreshCharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.10"
+      },
+      "OnTouchModeChange": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.11"
+      },
+      "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_5_WeaponSwitchButtonLongPressEnded__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_5_WeaponSwitchButtonLongPressEnded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.12"
+      },
+      "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_4_WeaponSwitchButtonLongPressed__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_4_WeaponSwitchButtonLongPressed__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.13"
+      },
+      "OnCharacterHUDAnimationFinished": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnCharacterHUDAnimationFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.14"
+      },
+      "OnComponentSelectStateChanged": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.15"
+      },
+      "OnDropThresholdChanged": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnDropThresholdChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.16"
+      },
+      "TryShowDropSpot": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:TryShowDropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.17"
+      },
+      "Item Can be Dropped": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:Item Can be Dropped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.18"
+      },
+      "GetDropThresholdDistance": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetDropThresholdDistance",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.19"
+      },
+      "UpdateDropThresholdVisuals": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateDropThresholdVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.20"
+      },
+      "UpdateEditOutlineVisuals": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateEditOutlineVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.21"
+      },
+      "UpdateLayoutVisuals": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:UpdateLayoutVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.22"
+      },
+      "IsUsingStaticLayout": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:IsUsingStaticLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.23"
+      },
+      "IsFlyoutDirectionInverted": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:IsFlyoutDirectionInverted",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.24"
+      },
+      "CalculateDropOverlayPosition": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:CalculateDropOverlayPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.25"
+      },
+      "GetSpikeButton": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetSpikeButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.26"
+      },
+      "OverrideEquippableText": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OverrideEquippableText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.27"
+      },
+      "OnViewTargetChanged": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:OnViewTargetChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.28"
+      },
+      "GetMeleeButtonWidth": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetMeleeButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.29"
+      },
+      "GetSpikeButtonWidth": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:GetSpikeButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.30"
+      },
+      "Set Will Drop Weapon on Release": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:Set Will Drop Weapon on Release",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.31"
+      },
+      "MoveDropVisualsToPrimaryButton": {
+        "ObjectName": "Function BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:MoveDropVisualsToPrimaryButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.32"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C Default__BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.34"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "Name": "Default__BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DropEquipHoldTime": 0.15,
+      "DropThresholdDefault": 80.0,
+      "DropThresholdMin": 50.0,
+      "DropThresholdMax": 150.0,
+      "InspectHoldTime": 0.8,
+      "DropOverlayDefaultPos": 155.0,
+      "MinimumButtonWidth": 57.0,
+      "MaxWidgetSize": 905.0,
+      "MaxWidgetSizeInDynamicLayout": 725.0,
+      "MaximumButtonWidth": 225.0,
+      "Cached_DropOverlayXPos": 155.0,
+      "DropImageExpandedSize": {
+        "X": 57.0,
+        "Y": 57.0
+      },
+      "DropImageSmallSize": {
+        "X": 30.0,
+        "Y": 30.0
+      },
+      "DropFocusColor": {
+        "R": 0.978821,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFDFF00"
+      },
+      "DropDefaultColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "ActivationMode": "EActionButtonActivationMode::DoNotActivate",
+      "bVisibilityCustomizable": false,
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "TouchBounds",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.48"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_WeaponSwitchPanel_C",
+    "Name": "BP_HUDMobile_WeaponSwitchPanel",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_HUDMobile_WeaponSwitchPanel_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.50"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "BP_HUDMobile_WeaponSwitchPanel",
+          "DelegatePropertyName": "WeaponSwitchButtonLongPressEnded",
+          "FunctionNameToBind": "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_5_WeaponSwitchButtonLongPressEnded__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "BP_HUDMobile_WeaponSwitchPanel",
+          "DelegatePropertyName": "WeaponSwitchButtonLongPressed",
+          "FunctionNameToBind": "BndEvt__BP_HUDMobile_WeaponSwitchPanel_K2Node_ComponentBoundEvent_4_WeaponSwitchButtonLongPressed__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EditOutline_DropWeapon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 73.826866,
+          "Y": 40.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D Toggle_ColorBg",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/Toggle_ColorBg.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.799103,
+        "G": 0.83077,
+        "B": 0.304987,
+        "A": 0.5,
+        "Hex": "7FE7EB96"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.45"
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EditOutline_WeaponPanel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 48.676075
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D Toggle_ColorBg",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/Toggle_ColorBg.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.799103,
+        "G": 0.83077,
+        "B": 0.304987,
+        "A": 0.5,
+        "Hex": "7FE7EB96"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.49"
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_DropSpot",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Cancel",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_UI_Cancel.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_1.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.55"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Gradient",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 250.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D JoystickSprintWedge",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/JoystickSprintWedge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.46"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_DropSpot",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.45"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.46"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.51"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 155.0,
+          "Y": -80.0
+        }
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_WeaponSwitchPanel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.49"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.50"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_MaxSizeInCurrentLayout.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.56"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Root",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.52"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.51"
+        }
+      ],
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_DropSpot",
+    "Properties": {
+      "Padding": {
+        "Left": -1.0,
+        "Top": 5.0,
+        "Right": -1.0,
+        "Bottom": -2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.42"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.EditOutline_DropWeapon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.38"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_DropSpot",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.42"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Image_Gradient",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.41"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_DropSpot",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.42"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.53"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_WeaponSwitchPanel",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.43"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "Overlay_WeaponSwitchPanel",
+    "Properties": {
+      "Padding": {
+        "Left": -1.0,
+        "Top": 5.0,
+        "Right": -1.0,
+        "Bottom": -2.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.43"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.EditOutline_WeaponPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.39"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_WeaponSwitchPanel",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.43"
+      },
+      "Content": {
+        "ObjectName": "BP_HUDMobile_WeaponSwitchPanel_C BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.BP_HUDMobile_WeaponSwitchPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Root",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.44"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.42"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Root",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.44"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_MaxSizeInCurrentLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.54"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 57.0,
+      "HeightOverride": 57.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_1.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_DropSpot.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.47"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_MaxSizeInCurrentLayout",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "MinDesiredWidth": 725.0,
+      "bOverride_MinDesiredWidth": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_MaxSizeInCurrentLayout.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.56"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.52"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Properties": {
+      "Padding": {
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.53"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Image_DropSpot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.40"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_MaxSizeInCurrentLayout",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.SizeBox_MaxSizeInCurrentLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.54"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Overlay_WeaponSwitchPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.43"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_HUDMobile_AmmoCounter_WeaponSwitcher_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_HUDMobile_AmmoCounter_WeaponSwitcher_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter_WeaponSwitcher.44"
+      }
+    }
+  }
+]

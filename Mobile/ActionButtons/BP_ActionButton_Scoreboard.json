@@ -1,0 +1,955 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ActionButton_Scoreboard",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresFloatSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnScoreboardVisibleUpdated__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_HUDMobile_CharacterHUD_Base_C:DynamicHUDCreated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.3"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresFloatSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_OldValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_NewValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsVisible_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "Super": "OnInitialized",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnInitialized",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.2"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLongPressed",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "Super": "OnLongPressed",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnLongPressed",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "TapTimeUpdated",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresFloatSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "OldValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLong",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "Super": "OnLong",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnLong",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleButtonReleased",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleScoreboardHUDState",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Show",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleHUDCreated",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_HUDMobile_CharacterHUD_Base_C:DynamicHUDCreated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.3"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInCharacterHUD_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetMovementJoystick_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_JoystickWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_HUDMobile_JoystickWidget.78"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHealthArmorWidget_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_Mobile_HealthArmor_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_HealthArmor.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetMinimap_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_MinimapTouchWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Minimap/BP_MinimapTouchWidget.29"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_TouchWidgetStateOverrides",
+        "Flags": 1,
+        "ElementSize": 4,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct TouchWidgetStateOverrides",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDState/TouchWidgetStateOverrides.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetStats_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDStateManager_HUDStateManager",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass TouchHUDStateManager_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDState/TouchHUDStateManager.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateHUDState_HUDState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass TouchHUDState_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDState/TouchHUDState.11"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleScoreboardVisUpdated",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bVisible",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckIfTapped",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateScoreboardHUDStateBomb",
+    "Outer": "BP_ActionButton_Scoreboard_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "EnableBomb",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_TouchWidgetStateOverrides",
+        "Flags": 1,
+        "ElementSize": 4,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct TouchWidgetStateOverrides",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDState/TouchWidgetStateOverrides.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetBomb_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetBomb_Widget_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_Scoreboard_C",
+    "Super": "BP_ActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_Scoreboard_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.15"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:ExecuteUbergraph_BP_ActionButton_Scoreboard",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:UpdateScoreboardHUDStateBomb",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.12"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:CheckIfTapped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.11"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleScoreboardVisUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.10"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleHUDCreated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.9"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:ToggleScoreboardHUDState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.8"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleButtonReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.7"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnLong",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.6"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:TapTimeUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.5"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.4"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnLongPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.3"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.2"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.1"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:ExecuteUbergraph_BP_ActionButton_Scoreboard",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ScoreBoardHUDState",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass TouchHUDState_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDState/TouchHUDState.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ScoreboardVisibility",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "LongPressOccuring",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActivation",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsPressed",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ActionButton_Scoreboard": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:ExecuteUbergraph_BP_ActionButton_Scoreboard",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.0"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.1"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.2"
+      },
+      "OnLongPressed": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnLongPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.3"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.4"
+      },
+      "TapTimeUpdated": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:TapTimeUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.5"
+      },
+      "OnLong": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:OnLong",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.6"
+      },
+      "HandleButtonReleased": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleButtonReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.7"
+      },
+      "ToggleScoreboardHUDState": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:ToggleScoreboardHUDState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.8"
+      },
+      "HandleHUDCreated": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleHUDCreated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.9"
+      },
+      "HandleScoreboardVisUpdated": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:HandleScoreboardVisUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.10"
+      },
+      "CheckIfTapped": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:CheckIfTapped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.11"
+      },
+      "UpdateScoreboardHUDStateBomb": {
+        "ObjectName": "Function BP_ActionButton_Scoreboard_C:UpdateScoreboardHUDStateBomb",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.12"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_Scoreboard_C Default__BP_ActionButton_Scoreboard_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.14"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Scoreboard_C",
+    "Name": "Default__BP_ActionButton_Scoreboard_C",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UsesLongPress": true,
+      "ButtonSize": "EAresIconButtonSize::Small",
+      "ForwardingInputChannel": 1,
+      "TouchWidgetDefaultProperties": {
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D Icon_Scoreboard",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_Scoreboard.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_Scoreboard_C"
+  }
+]

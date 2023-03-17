@@ -1,0 +1,385 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_IconButton_EquipSecondary",
+    "Outer": "WBP_IconButton_EquipSecondary_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_WeaponSlotIsEquipped_IsEquipped",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEquippableFromSlot_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_UseStaticLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnShapeChanged",
+    "Outer": "WBP_IconButton_EquipSecondary_C",
+    "Super": "OnShapeChanged",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IconButton_EquipGun_C:OnShapeChanged",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipGun.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "UseStaticLayout",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchModeChange",
+    "Outer": "WBP_IconButton_EquipSecondary_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnTouchModeChange",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshImpl",
+    "Outer": "WBP_IconButton_EquipSecondary_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:RefreshImpl",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IconButton_EquipSecondary_C",
+    "Super": "WBP_IconButton_EquipGun_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IconButton_EquipSecondary_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.6"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:ExecuteUbergraph_WBP_IconButton_EquipSecondary",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_EquipGun_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipGun.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:RefreshImpl",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.3"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.2"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:OnShapeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.1"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:ExecuteUbergraph_WBP_IconButton_EquipSecondary",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_IconButton_EquipSecondary": {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:ExecuteUbergraph_WBP_IconButton_EquipSecondary",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.0"
+      },
+      "OnShapeChanged": {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:OnShapeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.1"
+      },
+      "OnTouchModeChange": {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.2"
+      },
+      "RefreshImpl": {
+        "ObjectName": "Function WBP_IconButton_EquipSecondary_C:RefreshImpl",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.3"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IconButton_EquipSecondary_C Default__WBP_IconButton_EquipSecondary_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipSecondary.5"
+    }
+  },
+  {
+    "Type": "WBP_IconButton_EquipSecondary_C",
+    "Name": "Default__WBP_IconButton_EquipSecondary_C",
+    "Template": "Default__WBP_IconButton_EquipGun_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DefaultButtonSize": "EAresIconButtonSize::Large",
+      "WeaponSlot": "EAresItemSlot::Secondary"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IconButton_EquipSecondary_C"
+  }
+]

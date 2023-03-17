@@ -1,0 +1,4433 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnContextMenuVisibilityUpdated__DelegateSignature",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_VoiceChatButton_Base",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SettingName_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_OldValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SettingName_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_OldValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SettingName_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_OldValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_InTouchInfo_1",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_InTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchInputDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Initialize_Connection_Mode_DidConnectionsChange",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetSwipedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresClientGameInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresClientGameInstance",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMenuStackManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ClosedEntry",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_OldValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_9",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresClientGameInstance_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresClientGameInstance",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_10",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnAresBoolSettingChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMenuStackManager_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPlayInEditor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_11",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnMenuStackManagerMenuClose__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_12",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_13",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchInputDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_14",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnyConnectionAvailable_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnyConnectionAvailable_Result_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnyConnectionAvailable_Result_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_15",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction PresetIndexDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_16",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction PresetIndexDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_17",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchInputDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsVisible_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsVisible_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCustomPartyVoiceChatEnabledChanged",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "OldValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMenuClosed",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ClosedEntry",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnContextMenuVisibilityUpdate",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnGlobalTouchStarted",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPreLongPressTimeout",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchModeChange",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnTouchModeChange",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "On Touch Released",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPrimaryPressEvent",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnVoiceChatSettingChange_Team",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "OldValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnVoiceChatSettingChange_Party",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "OldValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnVoiceChatSettingChange_Overall",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "OldValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPrimarySwipeEvent",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLongPressTimeout",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeButtons",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeVoiceChatSettings",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetVoiceManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class RNetVoiceManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Keys_Keys",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "EnumProperty",
+          "Name": "CallFunc_Map_Keys_Keys",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EAresBoolSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolSetting_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "Initialize Connection Mode",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "DidConnectionsChange",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bCurrentTeamConnectionAvailable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bCurrentPartyConnectionAvailable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bAnyConnectionChanged",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetVoiceManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class RNetVoiceManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsRoomConnectionAvailable_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsRoomConnectionAvailable_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetVoiceEnabled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleRelease_Tap",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleRelease_Swipe",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleRelease_LongPress",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleVoiceChatSetting",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "InSetting",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsEnabling",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetVoiceManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class RNetVoiceManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSingleConnectionMode_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Map_Find_Value_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresSettingsManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresSettingsManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateVoiceChatSettingsVisuals",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnyConnectionAvailable_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetContextMenuVisibility",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Visible",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleContextButtonTapped",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ContextButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_ContextBase_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_ContextBase.13"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "IsSingleConnectionMode",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanXOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "IsAnyConnectionAvailable",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeGeometryArray",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class UserWidget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckPressedUnderGeometryArray",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AresTouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDidTouchWidget",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_True_if_break_was_hit_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCachedGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUnderLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsVisible_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "CacheInitialValues",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RepositionSettingsAndVCOptionsMenu",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetViewportSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ConstuctWidgetPositionVector_GetWidgetPositionVector",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetDisplayName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_FloatToString_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_IntToString_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_IntToString_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_FloatToString_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_WidgetTransform",
+        "Flags": 1,
+        "ElementSize": 28,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetTransform",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_7",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_WidgetTransform_1",
+        "Flags": 1,
+        "ElementSize": 28,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetTransform",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_6",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_6",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "CacheSettingsInitTransform",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSettingsMenuVisibility",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ConstuctWidgetPositionVector",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CanvasPanelSlot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907367060,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "GetWidgetPositionVector",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetViewportScale_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstLocalPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerController",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetViewportSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPlayerScreenWidgetGeometry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "ScriptStruct Geometry",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetOffsets_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Margin",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetAnchors_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Anchors",
+          "ObjectPath": "/Script/Slate"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_PixelPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LocalToViewport_ViewportPosition",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "CalculateFinalRenderTransformXPos",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 1408
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetViewportScale_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLayoutChanged",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "PresetIndex",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_VoiceChatButton_Base_C",
+    "Super": "BP_AresIconButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_VoiceChatButton_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.64"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ExecuteUbergraph_BP_VoiceChatButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_AresIconButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.13"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnLayoutChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.38"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CalculateFinalRenderTransformXPos",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.37"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ConstuctWidgetPositionVector",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.36"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:UpdateSettingsMenuVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.35"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CacheSettingsInitTransform",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.34"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:RepositionSettingsAndVCOptionsMenu",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.33"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CacheInitialValues",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.32"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CheckPressedUnderGeometryArray",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.31"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeGeometryArray",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.30"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:IsAnyConnectionAvailable",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.29"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:IsSingleConnectionMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.28"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleContextButtonTapped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.27"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:SetContextMenuVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.26"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:UpdateVoiceChatSettingsVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.25"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ToggleVoiceChatSetting",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.24"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_LongPress",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.23"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_Swipe",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.22"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_Tap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.21"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Initialize Connection Mode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.20"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeVoiceChatSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.19"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.18"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnLongPressTimeout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.17"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPrimarySwipeEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.16"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Overall",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.15"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Party",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.14"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Team",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.13"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPrimaryPressEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.12"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.11"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:On Touch Released",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.10"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.9"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPreLongPressTimeout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.8"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnGlobalTouchStarted",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.7"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdate",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.6"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.5"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.4"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnMenuClosed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.3"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnCustomPartyVoiceChatEnabledChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.2"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ExecuteUbergraph_BP_VoiceChatButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_VoiceChatButton_ContextParty",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_ContextBase_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_ContextBase.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_VoiceChatButton_ContextTeam",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_ContextBase_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_ContextBase.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_VoiceChatButton_Primary",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_Primary_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Primary.10"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_VoiceChatButton_Settings",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_VoiceChatButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Settings.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditPanel_SizeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditTouchBounds",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchBounds",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RootOverlay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_VoiceChatOptions",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_VoiceChatOptions_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/WBP_VoiceChatOptions.15"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Duration_PreLongPress",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Duration_LongPress",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDidPress",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDidSwipe",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDidLongPressStart",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDidLongPress",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bContextMenuOpen",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Setting_OverallEnabled",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Setting_PartyEnabled",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Setting_TeamEnabled",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresBoolSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ColorAlpha_Enabled",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ColorAlpha_Disabled",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Texture_SettingIcon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Texture_ContextSettingIcon_Disabled",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "SpeakerMicSettingMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 65557,
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "SpeakerMicSettingMap",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EAresBoolSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "EnumProperty",
+          "Name": "SpeakerMicSettingMap_Value",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EAresBoolSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "MicSpeakerSettingMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 65557,
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "MicSpeakerSettingMap",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EAresBoolSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "EnumProperty",
+          "Name": "MicSpeakerSettingMap_Value",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EAresBoolSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "PressTouchIndex",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum ETouchIndex",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnContextMenuVisibilityUpdated",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bPartyConnectionAvailable",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bTeamConnectionAvailable",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "ButtonGeometryArray",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "ButtonGeometryArray",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class UserWidget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetPosToScreenCenterVec",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "HorizontalOffsetMagnitude",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "HorizontalOffsetDirection",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "VerticalOffsetDirection",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InitialSettingsWidgetTransform",
+        "Flags": 2097153,
+        "ElementSize": 28,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetTransform",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InitialVoiceChatOptionsTransform",
+        "Flags": 2097153,
+        "ElementSize": 28,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetTransform",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsOffsetInitialized",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "VoiceChatOptionsWidth",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsVoiceChatOptionsMenuVisible",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "OnContextMenuVisibilityUpdated__DelegateSignature": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.0"
+      },
+      "ExecuteUbergraph_BP_VoiceChatButton_Base": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ExecuteUbergraph_BP_VoiceChatButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.1"
+      },
+      "OnCustomPartyVoiceChatEnabledChanged": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnCustomPartyVoiceChatEnabledChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.2"
+      },
+      "OnMenuClosed": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnMenuClosed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.3"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.4"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.5"
+      },
+      "OnContextMenuVisibilityUpdate": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnContextMenuVisibilityUpdate",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.6"
+      },
+      "OnGlobalTouchStarted": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnGlobalTouchStarted",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.7"
+      },
+      "OnPreLongPressTimeout": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPreLongPressTimeout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.8"
+      },
+      "OnTouchModeChange": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.9"
+      },
+      "On Touch Released": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:On Touch Released",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.10"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.11"
+      },
+      "OnPrimaryPressEvent": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPrimaryPressEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.12"
+      },
+      "OnVoiceChatSettingChange_Team": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Team",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.13"
+      },
+      "OnVoiceChatSettingChange_Party": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Party",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.14"
+      },
+      "OnVoiceChatSettingChange_Overall": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnVoiceChatSettingChange_Overall",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.15"
+      },
+      "OnPrimarySwipeEvent": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnPrimarySwipeEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.16"
+      },
+      "OnLongPressTimeout": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnLongPressTimeout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.17"
+      },
+      "InitializeButtons": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.18"
+      },
+      "InitializeVoiceChatSettings": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeVoiceChatSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.19"
+      },
+      "Initialize Connection Mode": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:Initialize Connection Mode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.20"
+      },
+      "HandleRelease_Tap": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_Tap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.21"
+      },
+      "HandleRelease_Swipe": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_Swipe",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.22"
+      },
+      "HandleRelease_LongPress": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleRelease_LongPress",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.23"
+      },
+      "ToggleVoiceChatSetting": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ToggleVoiceChatSetting",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.24"
+      },
+      "UpdateVoiceChatSettingsVisuals": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:UpdateVoiceChatSettingsVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.25"
+      },
+      "SetContextMenuVisibility": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:SetContextMenuVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.26"
+      },
+      "HandleContextButtonTapped": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:HandleContextButtonTapped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.27"
+      },
+      "IsSingleConnectionMode": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:IsSingleConnectionMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.28"
+      },
+      "IsAnyConnectionAvailable": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:IsAnyConnectionAvailable",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.29"
+      },
+      "InitializeGeometryArray": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:InitializeGeometryArray",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.30"
+      },
+      "CheckPressedUnderGeometryArray": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CheckPressedUnderGeometryArray",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.31"
+      },
+      "CacheInitialValues": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CacheInitialValues",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.32"
+      },
+      "RepositionSettingsAndVCOptionsMenu": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:RepositionSettingsAndVCOptionsMenu",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.33"
+      },
+      "CacheSettingsInitTransform": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CacheSettingsInitTransform",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.34"
+      },
+      "UpdateSettingsMenuVisibility": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:UpdateSettingsMenuVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.35"
+      },
+      "ConstuctWidgetPositionVector": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:ConstuctWidgetPositionVector",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.36"
+      },
+      "CalculateFinalRenderTransformXPos": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:CalculateFinalRenderTransformXPos",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.37"
+      },
+      "OnLayoutChanged": {
+        "ObjectName": "Function BP_VoiceChatButton_Base_C:OnLayoutChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.38"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_VoiceChatButton_Base_C Default__BP_VoiceChatButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.40"
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_Base_C",
+    "Name": "Default__BP_VoiceChatButton_Base_C",
+    "Template": "Default__BP_AresIconButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Duration_PreLongPress": 0.3,
+      "Duration_LongPress": 0.8,
+      "ColorAlpha_Enabled": 1.0,
+      "ColorAlpha_Disabled": 0.15,
+      "Texture_SettingIcon": {
+        "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+      },
+      "Texture_ContextSettingIcon_Disabled": {
+        "ObjectName": "Texture2D TX_VoiceChat_Speaker_Off",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker_Off.0"
+      },
+      "SpeakerMicSettingMap": {
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicEnabled",
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerTeamEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicTeamEnabled",
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerPartyEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_MicPartyEnabled"
+      },
+      "MicSpeakerSettingMap": {
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_MicEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerEnabled",
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_MicTeamEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerTeamEnabled",
+        "EAresBoolSettingName::VoiceChat_ChannelToggle_MicPartyEnabled": "EAresBoolSettingName::VoiceChat_ChannelToggle_SpeakerPartyEnabled"
+      },
+      "WidgetPosToScreenCenterVec": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "InitialSettingsWidgetTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "Shear": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Angle": 0.0
+      },
+      "InitialVoiceChatOptionsTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "Shear": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Angle": 0.0
+      },
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Local",
+      "TouchWidgetDefaultProperties": {
+        "TextProperties": {
+          "ContextButton_Text_Party": {
+            "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+            "Key": "Party"
+          }
+        },
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+          },
+          "ContextTeam_Icon": {
+            "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+          },
+          "ContextParty_Icon": {
+            "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+          }
+        },
+        "MaterialInterfaceProperties": {
+          "ButtonMaterial": {
+            "ObjectName": "Material M_UI_HUDButtonBG",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/M_UI_HUDButtonBG.0"
+          },
+          "IconMaterial": {
+            "ObjectName": "Material M_HUDMobile_IconAlpha",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/M_HUDMobile_IconAlpha.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "EditTouchBounds",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.47"
+      }
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_ContextBase_C",
+    "Name": "BP_VoiceChatButton_ContextParty",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_VoiceChatButton_ContextBase_C",
+    "Properties": {
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "Context_IconScale": 0.54
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ContextButton_Text": {
+            "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+            "Key": "Party"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": null,
+          "Context_IconTexture": {
+            "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+          }
+        },
+        "MaterialInterfaceProperties": {
+          "ButtonMaterial": {
+            "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+          },
+          "Context_IconMaterial": {
+            "ObjectName": "Material M_HUDMobile_IconAlpha",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/M_HUDMobile_IconAlpha.0"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.53"
+      }
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_ContextBase_C",
+    "Name": "BP_VoiceChatButton_ContextTeam",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_VoiceChatButton_ContextBase_C",
+    "Properties": {
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "Context_IconScale": 0.54
+        },
+        "BoolProperties": {
+          "CrossedOut": false
+        },
+        "TextProperties": {
+          "ContextButton_Text": {
+            "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+            "Key": "Team"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": null,
+          "Context_IconTexture": {
+            "ObjectName": "Texture2D TX_VoiceChat_Speaker",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_VoiceChat_Speaker.0"
+          }
+        },
+        "MaterialInterfaceProperties": {
+          "ButtonMaterial": {
+            "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+          },
+          "Context_IconMaterial": {
+            "ObjectName": "Material M_HUDMobile_IconAlpha",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/M_HUDMobile_IconAlpha.0"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.54"
+      }
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_Primary_C",
+    "Name": "BP_VoiceChatButton_Primary",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_VoiceChatButton_Primary_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.52"
+      }
+    }
+  },
+  {
+    "Type": "BP_VoiceChatButton_Settings_C",
+    "Name": "BP_VoiceChatButton_Settings",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_VoiceChatButton_Settings_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.55"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 65.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "EditPanel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel.CanvasPanelSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel_SizeBox.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.61"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "EditPanel",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "ZOrder": 20,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_VoiceChatButton_Base_C:WidgetTree.EditPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.46"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_VoiceChatButton_Base_C:WidgetTree.EditTouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.41"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "EditPanel",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_VoiceChatButton_Base_C:WidgetTree.EditPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.46"
+      },
+      "Content": {
+        "ObjectName": "Image BP_VoiceChatButton_Base_C:WidgetTree.EditOutline",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.49"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EditOutline",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 16.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+          "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.807843,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.5,
+        "Hex": "7FE9EB96"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel.CanvasPanelSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.48"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.52"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.53"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.54"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_VoiceChatButton_Base_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.62"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "RootOverlay",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.57"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.58"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.56"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.50"
+      },
+      "Content": {
+        "ObjectName": "BP_VoiceChatButton_Primary_C BP_VoiceChatButton_Base_C:WidgetTree.BP_VoiceChatButton_Primary",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.44"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.50"
+      },
+      "Content": {
+        "ObjectName": "BP_VoiceChatButton_ContextBase_C BP_VoiceChatButton_Base_C:WidgetTree.BP_VoiceChatButton_ContextParty",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.42"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.50"
+      },
+      "Content": {
+        "ObjectName": "BP_VoiceChatButton_ContextBase_C BP_VoiceChatButton_Base_C:WidgetTree.BP_VoiceChatButton_ContextTeam",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.43"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.50"
+      },
+      "Content": {
+        "ObjectName": "BP_VoiceChatButton_Settings_C BP_VoiceChatButton_Base_C:WidgetTree.BP_VoiceChatButton_Settings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.45"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "RootOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.51"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_VoiceChatButton_Base_C:WidgetTree.EditPanel_SizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.59"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "RootOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.51"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_VoiceChatButton_Base_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.60"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "RootOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.51"
+      },
+      "Content": {
+        "ObjectName": "WBP_VoiceChatOptions_C BP_VoiceChatButton_Base_C:WidgetTree.WBP_VoiceChatOptions",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.63"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "EditPanel_SizeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 57.0,
+      "HeightOverride": 57.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_VoiceChatButton_Base_C:WidgetTree.EditPanel_SizeBox.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.56"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 185.0,
+      "HeightOverride": 58.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_VoiceChatButton_Base_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.57"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "EditPanel_SizeBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_VoiceChatButton_Base_C:WidgetTree.EditPanel_SizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.59"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_VoiceChatButton_Base_C:WidgetTree.EditPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.46"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_VoiceChatButton_Base_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.60"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.50"
+      }
+    }
+  },
+  {
+    "Type": "WBP_VoiceChatOptions_C",
+    "Name": "WBP_VoiceChatOptions",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_VoiceChatOptions_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay.OverlaySlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.58"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 150.0,
+          "Y": 100.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_VoiceChatButton_Base_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_VoiceChatButton_Base_C:WidgetTree.RootOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Voicechat/BP_VoiceChatButton_Base.51"
+      }
+    }
+  }
+]

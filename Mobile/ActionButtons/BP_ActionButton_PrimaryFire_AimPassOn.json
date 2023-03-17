@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_PrimaryFire_AimPassOn_C",
+    "Super": "BP_ActionButton_PrimaryFire_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_PrimaryFire_AimPassOn_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire_AimPassOn.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_PrimaryFire_AimPassOn_C Default__BP_ActionButton_PrimaryFire_AimPassOn_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire_AimPassOn.1"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_PrimaryFire_AimPassOn_C",
+    "Name": "Default__BP_ActionButton_PrimaryFire_AimPassOn_C",
+    "Template": "Default__BP_ActionButton_PrimaryFire_C",
+    "Properties": {
+      "AutoScopeDefaultValue": true,
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "ForwardingInputChannel": 4,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "ButtonScale": 1.2
+        },
+        "Texture2DProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_PrimaryFire_AimPassOn_C"
+  }
+]

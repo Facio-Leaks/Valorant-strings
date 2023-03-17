@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "Function",
+    "Name": "SetShouldShow",
+    "Outer": "BPI_CustomAbilityWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bShouldShow",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bForceAnimRestart",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCustomScale",
+    "Outer": "BPI_CustomAbilityWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Scale",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPI_CustomAbilityWidget_C",
+    "SuperStruct": {
+      "ObjectName": "Class Interface",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BPI_CustomAbilityWidget_C:SetCustomScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.1"
+      },
+      {
+        "ObjectName": "Function BPI_CustomAbilityWidget_C:SetShouldShow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.0"
+      }
+    ],
+    "FuncMap": {
+      "SetShouldShow": {
+        "ObjectName": "Function BPI_CustomAbilityWidget_C:SetShouldShow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.0"
+      },
+      "SetCustomScale": {
+        "ObjectName": "Function BPI_CustomAbilityWidget_C:SetCustomScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.1"
+      }
+    },
+    "ClassFlags": 278544,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPI_CustomAbilityWidget_C Default__BPI_CustomAbilityWidget_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.3"
+    }
+  },
+  {
+    "Type": "BPI_CustomAbilityWidget_C",
+    "Name": "Default__BPI_CustomAbilityWidget_C"
+  }
+]

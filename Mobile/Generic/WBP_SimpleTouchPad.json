@@ -1,0 +1,640 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnTouchPress__DelegateSignature",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchRelease__DelegateSignature",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchMove__DelegateSignature",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchEnter__DelegateSignature",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchExit__DelegateSignature",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_SimpleTouchPad",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "RebuildTouchComponent",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:RebuildTouchComponent",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1408,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_RebuildTouchComponent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchPressed",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchReleased",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchMoved",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchEntered",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchExited",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_SimpleTouchPad_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_SimpleTouchPad_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.17"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:ExecuteUbergraph_WBP_SimpleTouchPad",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWidget",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchExited",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.13"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchEntered",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.12"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.11"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.10"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.9"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:RebuildTouchComponent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.8"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.7"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.6"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:ExecuteUbergraph_WBP_SimpleTouchPad",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.5"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchExit__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.4"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchEnter__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.3"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchMove__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.2"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchRelease__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.1"
+      },
+      {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchPress__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "BoundsShape",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchBoundsShape",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnTouchPress",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchPress__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnTouchRelease",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchRelease__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnTouchMove",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchMove__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.2"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnTouchEnter",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchEnter__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.3"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnTouchExit",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchExit__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.4"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxFingersSupported",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      }
+    ],
+    "FuncMap": {
+      "OnTouchPress__DelegateSignature": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchPress__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.0"
+      },
+      "OnTouchRelease__DelegateSignature": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchRelease__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.1"
+      },
+      "OnTouchMove__DelegateSignature": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchMove__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.2"
+      },
+      "OnTouchEnter__DelegateSignature": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchEnter__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.3"
+      },
+      "OnTouchExit__DelegateSignature": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnTouchExit__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.4"
+      },
+      "ExecuteUbergraph_WBP_SimpleTouchPad": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:ExecuteUbergraph_WBP_SimpleTouchPad",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.6"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.7"
+      },
+      "RebuildTouchComponent": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:RebuildTouchComponent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.8"
+      },
+      "HandleTouchPressed": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.9"
+      },
+      "HandleTouchReleased": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.10"
+      },
+      "HandleTouchMoved": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.11"
+      },
+      "HandleTouchEntered": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchEntered",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.12"
+      },
+      "HandleTouchExited": {
+        "ObjectName": "Function WBP_SimpleTouchPad_C:HandleTouchExited",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.13"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_SimpleTouchPad_C Default__WBP_SimpleTouchPad_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.15"
+    }
+  },
+  {
+    "Type": "WBP_SimpleTouchPad_C",
+    "Name": "Default__WBP_SimpleTouchPad_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MaxFingersSupported": 1,
+      "EditTouchMode": "EAresTouchWidgetMode::Visible",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "TouchBounds",
+    "Outer": "WidgetTree"
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_SimpleTouchPad_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "AresTouchBounds WBP_SimpleTouchPad_C:WidgetTree.TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Generic/WBP_SimpleTouchPad.16"
+      }
+    }
+  }
+]

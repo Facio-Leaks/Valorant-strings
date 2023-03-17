@@ -1,0 +1,641 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CTA_WalkRun",
+    "Outer": "BP_CTA_WalkRun_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_CTA_WalkRun_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRingSize",
+    "Outer": "BP_CTA_WalkRun_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "InnerFill",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "OuterFill",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetNewRingState",
+    "Outer": "BP_CTA_WalkRun_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "InnerThreshold",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "OuterThreshold",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ConfirmValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayFade",
+    "Outer": "BP_CTA_WalkRun_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_CTA_WalkRun_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_CTA_WalkRun_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.17"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation BP_CTA_WalkRun_C:FadeIn_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.16"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:ExecuteUbergraph_BP_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_CTA_WalkRun_C:PlayFade",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.4"
+      },
+      {
+        "ObjectName": "Function BP_CTA_WalkRun_C:SetNewRingState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.3"
+      },
+      {
+        "ObjectName": "Function BP_CTA_WalkRun_C:SetRingSize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.2"
+      },
+      {
+        "ObjectName": "Function BP_CTA_WalkRun_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.1"
+      },
+      {
+        "ObjectName": "Function BP_CTA_WalkRun_C:ExecuteUbergraph_BP_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FadeIn",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RingMaterial",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MI_RunWalk",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_CTA_WalkRun": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:ExecuteUbergraph_BP_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.0"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.1"
+      },
+      "SetRingSize": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:SetRingSize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.2"
+      },
+      "SetNewRingState": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:SetNewRingState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.3"
+      },
+      "PlayFade": {
+        "ObjectName": "Function BP_CTA_WalkRun_C:PlayFade",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.4"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CTA_WalkRun_C Default__BP_CTA_WalkRun_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.6"
+    }
+  },
+  {
+    "Type": "BP_CTA_WalkRun_C",
+    "Name": "Default__BP_CTA_WalkRun_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "RingMaterial",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_RunWalkCTA",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MI_RunWalkCTA.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.8,
+        "Hex": "CCFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_CTA_WalkRun_C:WidgetTree.Overlay_13.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.15"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "FadeIn",
+    "Outer": "FadeIn_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "F569482B-48255512-BCDFB79C-9951B815",
+          "Name": "RingMaterial",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "F569482B-48255512-BCDFB79C-9951B815",
+          "BindingName": "RingMaterial",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.13"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "EF99B666-44C12938-CE8C4199-34B4F0BC"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "FadeIn_INST",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.12"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "F569482B-48255512-BCDFB79C-9951B815"
+          }
+        ]
+      },
+      "CompiledSignature": "D8D9F5B8-468A7E48-4D291A8E-88AB9178",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.9"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.10"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "2CFD1932-4FD112D4-0EC04AAB-658C0536"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "FadeIn",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.12"
+        }
+      ],
+      "EvaluationFieldGuid": "B5A836D4-4AB7351A-9E258CA2-E0979815",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CTA_WalkRun_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.12"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B5A836D4-4AB7351A-9E258CA2-E0979815"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_13",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_CTA_WalkRun_C:WidgetTree.Overlay_13.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_13",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_CTA_WalkRun_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.14"
+      },
+      "Content": {
+        "ObjectName": "Image BP_CTA_WalkRun_C:WidgetTree.RingMaterial",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "FadeIn_INST",
+    "Outer": "BP_CTA_WalkRun_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene BP_CTA_WalkRun_C:FadeIn_INST.FadeIn",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.8"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "RingMaterial",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F569482B-48255512-BCDFB79C-9951B815",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "FadeIn",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData BP_CTA_WalkRun_C:FadeIn_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.11"
+      },
+      "Signature": "D8D9F5B8-468A7E48-4D291A8E-88AB9178"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_CTA_WalkRun_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_CTA_WalkRun_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.14"
+      }
+    }
+  }
+]

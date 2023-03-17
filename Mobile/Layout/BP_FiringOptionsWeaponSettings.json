@@ -1,0 +1,2473 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FiringOptionsWeaponSettings",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "ApplyUIData",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InData",
+        "Flags": 1,
+        "ElementSize": 248,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct FireButtonWeaponCustomizationSettingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AimPassthroughEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AutoADSEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FireOnRelease",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "MovePassthrough",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PrimaryFireButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSettingColors",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "AimPassthroughEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AutoADSEnabled",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FireOnRelease",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "MovePassthrough",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PrimaryFireButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default_3",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeSettingIcons",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ApplyUIDataToNextIconWidget",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "InSetting",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurSettingIcon",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 160,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateBrush",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "Color Setting if Valid",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "InSetting",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InColor",
+        "Flags": 1,
+        "ElementSize": 40,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InPrimaryFire",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateEquippedBanner",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InData",
+        "Flags": 1,
+        "ElementSize": 248,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct FireButtonWeaponCustomizationSettingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstLocalPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerController",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetPawn_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Pawn",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetObjectClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Conv_ClassToSoftClassReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEquippableUIData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class BaseContentUIData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsChildOfClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSelectionColor",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ApplyEquipBannerWithCachedData",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSettingIconAlpha",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InIcon",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "InSetting",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PrimaryFireButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_SoftClassReferenceToString_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetSettingWeaponOverride_OutValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetSettingWeaponOverride_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_FiringOptionsWeaponSettings_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_FiringOptionsWeaponSettings_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.42"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ExecuteUbergraph_BP_FiringOptionsWeaponSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresActionButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSettingIconAlpha",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.10"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyEquipBannerWithCachedData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.9"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSelectionColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.8"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateEquippedBanner",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.7"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:Color Setting if Valid",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.6"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyUIDataToNextIconWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.5"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:InitializeSettingIcons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.4"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSettingColors",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.3"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyUIData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.2"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.1"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ExecuteUbergraph_BP_FiringOptionsWeaponSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BackgroundBorder",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Border",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FiringOptionsLayoutSettingIcon_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FiringOptionsLayoutSettingIcon_2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FiringOptionsLayoutSettingIcon_3",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FiringOptionsLayoutSettingIcon_4",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EquippedBannerOverlay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EquippedBannerText",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponImage",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponName",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "FireButtons",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "FireButtons",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "UnlitColor",
+        "Flags": 2097153,
+        "ElementSize": 40,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LitColorAimPassthrough",
+        "Flags": 2097153,
+        "ElementSize": 40,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LitColorAutoADS",
+        "Flags": 2097153,
+        "ElementSize": 40,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LitColorFireOnRelease",
+        "Flags": 2097153,
+        "ElementSize": 40,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LitColorMovePassthrough",
+        "Flags": 2097153,
+        "ElementSize": 40,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutSettingTextureMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 65541,
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "LayoutSettingTextureMap",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EWidgetLayoutSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "LayoutSettingTextureMap_Value",
+          "Flags": 1,
+          "ElementSize": 160,
+          "Struct": {
+            "ObjectName": "ScriptStruct SlateBrush",
+            "ObjectPath": "/Script/SlateCore"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "SettingsIcons",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "SettingsIcons",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CurrentSettingsIconIndex",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutSettingLabelMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 65541,
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "LayoutSettingLabelMap",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EWidgetLayoutSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "TextProperty",
+          "Name": "LayoutSettingLabelMap_Value",
+          "Flags": 1,
+          "ElementSize": 24
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutSettingIconWidgetMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 549755879429,
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "LayoutSettingIconWidgetMap",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum EWidgetLayoutSettingName",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": 1,
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "ObjectProperty",
+          "Name": "LayoutSettingIconWidgetMap_Value",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsLayoutSettingIcon_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsLayoutSettingIcon.2"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CachedUIData",
+        "Flags": 2097153,
+        "ElementSize": 248,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct FireButtonWeaponCustomizationSettingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LinearColorBackgroundLit",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "LinearColorBackgroundUnlit",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponGrid",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsWeaponCustomizationGrid_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponCustomizationGrid.14"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OverriddenSettingIconOpacity",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DefaultSettingIconOpacity",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FiringOptionsWeaponSettings": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ExecuteUbergraph_BP_FiringOptionsWeaponSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.0"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.1"
+      },
+      "ApplyUIData": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyUIData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.2"
+      },
+      "UpdateSettingColors": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSettingColors",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.3"
+      },
+      "InitializeSettingIcons": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:InitializeSettingIcons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.4"
+      },
+      "ApplyUIDataToNextIconWidget": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyUIDataToNextIconWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.5"
+      },
+      "Color Setting if Valid": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:Color Setting if Valid",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.6"
+      },
+      "UpdateEquippedBanner": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateEquippedBanner",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.7"
+      },
+      "UpdateSelectionColor": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSelectionColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.8"
+      },
+      "ApplyEquipBannerWithCachedData": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:ApplyEquipBannerWithCachedData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.9"
+      },
+      "UpdateSettingIconAlpha": {
+        "ObjectName": "Function BP_FiringOptionsWeaponSettings_C:UpdateSettingIconAlpha",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.10"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FiringOptionsWeaponSettings_C Default__BP_FiringOptionsWeaponSettings_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.12"
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsWeaponSettings_C",
+    "Name": "Default__BP_FiringOptionsWeaponSettings_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UnlitColor": {
+        "SpecifiedColor": {
+          "R": 0.23074004,
+          "G": 0.25818285,
+          "B": 0.29177064,
+          "A": 1.0,
+          "Hex": "FF848B93"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "LitColorAimPassthrough": {
+        "SpecifiedColor": {
+          "R": 0.41788507,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFADFF00"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "LitColorAutoADS": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF0000"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "LitColorFireOnRelease": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.871367,
+          "A": 1.0,
+          "Hex": "FF00FFF0"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "LitColorMovePassthrough": {
+        "SpecifiedColor": {
+          "R": 0.73791,
+          "G": 0.238398,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFDF8600"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "LayoutSettingTextureMap": {
+        "EWidgetLayoutSettingName::AimPassthrough": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D tx_ui_scoreboard_ultimate_ready",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/Scoreboard/tx_ui_scoreboard_ultimate_ready.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "EWidgetLayoutSettingName::AutoADS": {
+          "ImageSize": {
+            "X": 8.0,
+            "Y": 8.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D TX_UI_Square",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "EWidgetLayoutSettingName::FireOnReleaseSnipers": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D tx_ui_scoreboard_ultimate_ready",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/Scoreboard/tx_ui_scoreboard_ultimate_ready.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "EWidgetLayoutSettingName::MovementPassthrough": {
+          "ImageSize": {
+            "X": 8.0,
+            "Y": 8.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D TX_UI_Square",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        }
+      },
+      "LayoutSettingLabelMap": {
+        "EWidgetLayoutSettingName::AimPassthrough": {
+          "CultureInvariantString": "AP"
+        },
+        "EWidgetLayoutSettingName::AutoADS": {
+          "CultureInvariantString": "AS"
+        },
+        "EWidgetLayoutSettingName::FireOnReleaseSnipers": {
+          "CultureInvariantString": "FR"
+        },
+        "EWidgetLayoutSettingName::MovementPassthrough": {
+          "CultureInvariantString": "MP"
+        }
+      },
+      "CachedUIData": {
+        "EquippableUIData": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "WeaponName": "",
+        "WeaponCategory": "EEquippableCategory::Invalid",
+        "WeaponImage": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "ValidLayoutSettings": []
+      },
+      "LinearColorBackgroundLit": {
+        "R": 0.0,
+        "G": 0.234551,
+        "B": 0.109462,
+        "A": 1.0,
+        "Hex": "FF00855D"
+      },
+      "LinearColorBackgroundUnlit": {
+        "R": 0.06301,
+        "G": 0.095307,
+        "B": 0.132868,
+        "A": 1.0,
+        "Hex": "FF475766"
+      },
+      "OverriddenSettingIconOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "DefaultSettingIconOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.3,
+        "Hex": "4CFFFFFF"
+      },
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "BackgroundBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Background": {
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Square",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+        }
+      },
+      "BrushColor": {
+        "R": 0.06301,
+        "G": 0.095307,
+        "B": 0.132868,
+        "A": 1.0,
+        "Hex": "FF475766"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.26"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "EquippedBannerBackgroundBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Background": {
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Square",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+        }
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 0.0865,
+        "B": 0.027321,
+        "A": 1.0,
+        "Hex": "FFFF532E"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.33"
+      }
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "WeaponNameBackgroundBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Background": {
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Square",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+        }
+      },
+      "BrushColor": {
+        "R": 0.114435,
+        "G": 0.14996,
+        "B": 0.191202,
+        "A": 1.0,
+        "Hex": "FF5F6C79"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay.OverlaySlot_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.34"
+      }
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsLayoutSettingIcon_C",
+    "Name": "BP_FiringOptionsLayoutSettingIcon_1",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FiringOptionsLayoutSettingIcon_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.23"
+      }
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsLayoutSettingIcon_C",
+    "Name": "BP_FiringOptionsLayoutSettingIcon_2",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FiringOptionsLayoutSettingIcon_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.25"
+      }
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsLayoutSettingIcon_C",
+    "Name": "BP_FiringOptionsLayoutSettingIcon_3",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FiringOptionsLayoutSettingIcon_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_9",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.28"
+      }
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsLayoutSettingIcon_C",
+    "Name": "BP_FiringOptionsLayoutSettingIcon_4",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_FiringOptionsLayoutSettingIcon_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_42",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_7",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_11",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.24"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_8",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.23"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.25"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_9",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_10",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.65,
+            "Y": 0.55
+          },
+          "Maximum": {
+            "X": 0.8,
+            "Y": 0.8
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "BP_FiringOptionsLayoutSettingIcon_C BP_FiringOptionsWeaponSettings_C:WidgetTree.BP_FiringOptionsLayoutSettingIcon_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.15
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.05,
+            "Y": 0.55
+          },
+          "Maximum": {
+            "X": 0.2,
+            "Y": 0.8
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "BP_FiringOptionsLayoutSettingIcon_C BP_FiringOptionsWeaponSettings_C:WidgetTree.BP_FiringOptionsLayoutSettingIcon_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.16"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.2,
+            "Y": 0.2
+          },
+          "Maximum": {
+            "X": 0.8,
+            "Y": 0.8
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "Image BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.25,
+            "Y": 0.55
+          },
+          "Maximum": {
+            "X": 0.4,
+            "Y": 0.8
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "BP_FiringOptionsLayoutSettingIcon_C BP_FiringOptionsWeaponSettings_C:WidgetTree.BP_FiringOptionsLayoutSettingIcon_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "Border BP_FiringOptionsWeaponSettings_C:WidgetTree.BackgroundBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.13"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.8
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_42",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.45,
+            "Y": 0.55
+          },
+          "Maximum": {
+            "X": 0.6,
+            "Y": 0.8
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      },
+      "Content": {
+        "ObjectName": "BP_FiringOptionsLayoutSettingIcon_C BP_FiringOptionsWeaponSettings_C:WidgetTree.BP_FiringOptionsLayoutSettingIcon_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.18"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "WeaponImage",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Hud_Pistol_Classic",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/Shared/Icons/Weapons/icons/TX_Hud_Pistol_Classic.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.24"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "EquippedBannerOverlay",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.33"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_11",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.22"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "WeaponNameOverlay",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay.OverlaySlot_10",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.34"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay.OverlaySlot_11",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42.CanvasPanelSlot_8",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.27"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "EquippedBannerOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.30"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "EquippedBannerOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.30"
+      },
+      "Content": {
+        "ObjectName": "Border BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerBackgroundBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.14"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Outer": "WeaponNameOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.31"
+      },
+      "Content": {
+        "ObjectName": "Border BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameBackgroundBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.15"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_11",
+    "Outer": "WeaponNameOverlay",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.31"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox_128",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.37"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerOverlay.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.32"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_128",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox_128.ScaleBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponNameOverlay.OverlaySlot_11",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.35"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.36"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_FiringOptionsWeaponSettings_C:WidgetTree.EquippedBannerText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.40"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_128",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox_128",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.37"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_FiringOptionsWeaponSettings_C:WidgetTree.WeaponName",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.41"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "EquippedBannerText",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Equipped Weapon"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.38"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "WeaponName",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Text Block"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_FiringOptionsWeaponSettings_C:WidgetTree.ScaleBox_128.ScaleBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.39"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_FiringOptionsWeaponSettings_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_FiringOptionsWeaponSettings_C:WidgetTree.CanvasPanel_42",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponSettings.20"
+      }
+    }
+  }
+]

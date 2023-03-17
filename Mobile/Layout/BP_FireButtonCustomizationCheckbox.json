@@ -1,0 +1,476 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ToggleStateUpdated__DelegateSignature",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FireButtonCustomizationCheckbox",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function WBP_IconButton_Settings_C:OnButtonClicked__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "Super": "OnInitialized",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IconButton_Settings_C:OnInitialized",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.4"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchEngageVisuals",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresActionButton:HandleTouchEngageVisuals",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 201852928
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleButtonClicked",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchDisengageVisuals",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresActionButton:HandleTouchDisengageVisuals",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 201852928
+  },
+  {
+    "Type": "Function",
+    "Name": "SetToggleState",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresIconButtonState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresIconButtonState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresIconButtonState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_FireButtonCustomizationCheckbox_C",
+    "Super": "WBP_IconButton_Settings_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_FireButtonCustomizationCheckbox_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.10"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ExecuteUbergraph_BP_FireButtonCustomizationCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:SetToggleState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.7"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleTouchDisengageVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.6"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleButtonClicked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.5"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleTouchEngageVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.4"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.3"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.2"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ExecuteUbergraph_BP_FireButtonCustomizationCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.1"
+      },
+      {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ToggleStateUpdated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleState",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OnTextColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OffTextColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OnBorderColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OffBorderColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "ToggleStateUpdated",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ToggleStateUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ToggleStateUpdated__DelegateSignature": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ToggleStateUpdated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.0"
+      },
+      "ExecuteUbergraph_BP_FireButtonCustomizationCheckbox": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:ExecuteUbergraph_BP_FireButtonCustomizationCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.1"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.2"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.3"
+      },
+      "HandleTouchEngageVisuals": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleTouchEngageVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.4"
+      },
+      "HandleButtonClicked": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleButtonClicked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.5"
+      },
+      "HandleTouchDisengageVisuals": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:HandleTouchDisengageVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.6"
+      },
+      "SetToggleState": {
+        "ObjectName": "Function BP_FireButtonCustomizationCheckbox_C:SetToggleState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.7"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FireButtonCustomizationCheckbox_C Default__BP_FireButtonCustomizationCheckbox_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FireButtonCustomizationCheckbox.9"
+    }
+  },
+  {
+    "Type": "BP_FireButtonCustomizationCheckbox_C",
+    "Name": "Default__BP_FireButtonCustomizationCheckbox_C",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "OnTextColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "OffTextColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "OnBorderColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "OffBorderColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "ForwardingInputChannel": 0,
+      "EditTouchMode": "EAresTouchWidgetMode::Edit",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Local",
+      "TouchWidgetDefaultProperties": {
+        "LinearColorProperties": {},
+        "Texture2DProperties": {},
+        "MaterialInterfaceProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_FireButtonCustomizationCheckbox_C"
+  }
+]

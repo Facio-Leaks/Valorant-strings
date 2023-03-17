@@ -1,0 +1,5983 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CAW_SwipeArrow",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "ExpandOrCollapse",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Expand",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayConfirmSwipe",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayExpandedLoop",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetAndCollapse",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetVisibility_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetEndTime_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ClearAnimationBindings",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetIsFlatSide",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsFlat",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDesiredVisibility",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SkipAnimation",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetVisibility_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_CAW_SwipeArrow_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.111"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation BP_CAW_SwipeArrow_C:Expand_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.109"
+        },
+        {
+          "ObjectName": "WidgetAnimation BP_CAW_SwipeArrow_C:ExpandedLoop_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.110"
+        },
+        {
+          "ObjectName": "WidgetAnimation BP_CAW_SwipeArrow_C:ConfirmSwipe_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.108"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ExecuteUbergraph_BP_CAW_SwipeArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:SetDesiredVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.8"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:SetIsFlatSide",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.7"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ClearAnimationBindings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.6"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ResetAndCollapse",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.5"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PlayExpandedLoop",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.4"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PlayConfirmSwipe",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.3"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ExpandOrCollapse",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.2"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.1"
+      },
+      {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ExecuteUbergraph_BP_CAW_SwipeArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConfirmSwipe",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ExpandedLoop",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Expand",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "3",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FlatSide",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "DesiredVisibility",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_CAW_SwipeArrow": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ExecuteUbergraph_BP_CAW_SwipeArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.0"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.1"
+      },
+      "ExpandOrCollapse": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ExpandOrCollapse",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.2"
+      },
+      "PlayConfirmSwipe": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PlayConfirmSwipe",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.3"
+      },
+      "PlayExpandedLoop": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:PlayExpandedLoop",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.4"
+      },
+      "ResetAndCollapse": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ResetAndCollapse",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.5"
+      },
+      "ClearAnimationBindings": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:ClearAnimationBindings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.6"
+      },
+      "SetIsFlatSide": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:SetIsFlatSide",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.7"
+      },
+      "SetDesiredVisibility": {
+        "ObjectName": "Function BP_CAW_SwipeArrow_C:SetDesiredVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.8"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CAW_SwipeArrow_C Default__BP_CAW_SwipeArrow_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.10"
+    }
+  },
+  {
+    "Type": "BP_CAW_SwipeArrow_C",
+    "Name": "Default__BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FlatSide": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.14"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.12"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_CAW_SwipeArrow_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.105"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 9.0,
+          "Right": 110.5
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.11"
+      },
+      "Content": {
+        "ObjectName": "Image BP_CAW_SwipeArrow_C:WidgetTree.2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.16"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 18.0,
+          "Right": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.11"
+      },
+      "Content": {
+        "ObjectName": "Image BP_CAW_SwipeArrow_C:WidgetTree.3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.11"
+      },
+      "Content": {
+        "ObjectName": "Image BP_CAW_SwipeArrow_C:WidgetTree.1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.15"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 13.5,
+          "Y": 25.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Swipe1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_UI_Swipe1.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.14"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 13.5,
+          "Y": 25.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Swipe2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_UI_Swipe2.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.12"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "3",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 13.5,
+          "Y": 25.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Swipe2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_UI_Swipe2.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.13"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible",
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "ConfirmSwipe",
+    "Outer": "ConfirmSwipe_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "54AD99AF-4A97826E-0F7F3780-701BF808",
+          "Name": "2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "B90BF94F-42BF7F42-6CBBFC81-D556D6B1",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "54AD99AF-4A97826E-0F7F3780-701BF808"
+        },
+        {
+          "Tags": [],
+          "Guid": "C99BE396-450C651B-4FEDA19E-84D83507",
+          "Name": "3",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "38B1AD01-4F0C02BD-24FA7685-3D8286A5",
+          "Name": "CanvasPanelSlot_2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "C99BE396-450C651B-4FEDA19E-84D83507"
+        },
+        {
+          "Tags": [],
+          "Guid": "CE042348-464A5F48-81A85999-A8216DE6",
+          "Name": "1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "C4B53457-411C7B83-8D73A4BA-451A240E",
+          "Name": "CanvasPanelSlot_3",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "CE042348-464A5F48-81A85999-A8216DE6"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "54AD99AF-4A97826E-0F7F3780-701BF808",
+          "BindingName": "2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.80"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "B90BF94F-42BF7F42-6CBBFC81-D556D6B1",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.96"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C99BE396-450C651B-4FEDA19E-84D83507",
+          "BindingName": "3",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.81"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "38B1AD01-4F0C02BD-24FA7685-3D8286A5",
+          "BindingName": "CanvasPanelSlot_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.97"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "CE042348-464A5F48-81A85999-A8216DE6",
+          "BindingName": "1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneColorTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.67"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.23"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.82"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C4B53457-411C7B83-8D73A4BA-451A240E",
+          "BindingName": "CanvasPanelSlot_3",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.98"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45004
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "D2994AA5-4A763801-C10C99A6-CBC095C1"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Expand",
+    "Outer": "Expand_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "F2352F57-4180EF02-6B98A6AD-8CDA437C",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "9F5E8A3E-43B46607-411D9394-EAB20233"
+        },
+        {
+          "Tags": [],
+          "Guid": "9F5E8A3E-43B46607-411D9394-EAB20233",
+          "Name": "2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "BAE06B54-4D9F33A0-975CEF94-21481C44",
+          "Name": "CanvasPanelSlot_2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "37C47DB5-436F52E8-5FB7F48D-DD598889"
+        },
+        {
+          "Tags": [],
+          "Guid": "37C47DB5-436F52E8-5FB7F48D-DD598889",
+          "Name": "3",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F",
+          "Name": "1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "6F030D82-4A524788-5BA8D0A2-C6D2DD30",
+          "Name": "CanvasPanelSlot_3",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "F2352F57-4180EF02-6B98A6AD-8CDA437C",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.99"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "9F5E8A3E-43B46607-411D9394-EAB20233",
+          "BindingName": "2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.83"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "BAE06B54-4D9F33A0-975CEF94-21481C44",
+          "BindingName": "CanvasPanelSlot_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.100"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "37C47DB5-436F52E8-5FB7F48D-DD598889",
+          "BindingName": "3",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.84"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F",
+          "BindingName": "1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.24"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.85"
+            },
+            {
+              "ObjectName": "MovieSceneColorTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneColorTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.68"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "6F030D82-4A524788-5BA8D0A2-C6D2DD30",
+          "BindingName": "CanvasPanelSlot_3",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_2",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.101"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "067857DA-4EAD3CDE-A0A55ABD-6DAAF1F7"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "ExpandedLoop",
+    "Outer": "ExpandedLoop_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "93BABE7E-4D4B9E2B-615C5098-F575F3A1",
+          "Name": "2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "AB4A5FE0-46F80121-730FE380-7CEEFAC0",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "93BABE7E-4D4B9E2B-615C5098-F575F3A1"
+        },
+        {
+          "Tags": [],
+          "Guid": "58CAD968-4F3B3D6E-F68D6281-ABBCE285",
+          "Name": "3",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "E543F475-47A30A45-913B4388-254DFA9F",
+          "Name": "CanvasPanelSlot_2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class CanvasPanelSlot",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "58CAD968-4F3B3D6E-F68D6281-ABBCE285"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "93BABE7E-4D4B9E2B-615C5098-F575F3A1",
+          "BindingName": "2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.86"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "AB4A5FE0-46F80121-730FE380-7CEEFAC0",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.102"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "58CAD968-4F3B3D6E-F68D6281-ABBCE285",
+          "BindingName": "3",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.87"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "E543F475-47A30A45-913B4388-254DFA9F",
+          "BindingName": "CanvasPanelSlot_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.103"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "26B00CC5-46325C01-CEEB04A7-197B8191"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_2",
+    "Properties": {
+      "TransformMask": {
+        "Mask": 24
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          },
+          {
+            "Value": 36000
+          },
+          {
+            "Value": 39000
+          },
+          {
+            "Value": 45000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.25,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          },
+          {
+            "Value": 36000
+          },
+          {
+            "Value": 39000
+          },
+          {
+            "Value": 45000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.25,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.25"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.26"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "FAAFD73D-4685F478-B4E42987-F5AB80C9"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_0",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.41"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.42"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "0BA636B5-44A47E65-280572A0-175505D7"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_2",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.21"
+        }
+      ],
+      "EvaluationFieldGuid": "CB55C144-4063764E-12E2488A-C7EEE767",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CB55C144-4063764E-12E2488A-C7EEE767"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.22"
+        }
+      ],
+      "EvaluationFieldGuid": "206C0537-49306043-13E5518B-EC03DBE8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "206C0537-49306043-13E5518B-EC03DBE8"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0"
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Outer": "MovieSceneColorTrack_2",
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 45003
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.887923,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 45003
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.584079,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 45003
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.07227206,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 45003
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneColorTrack_2.MovieSceneColorSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.27"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneColorTrack_2.MovieSceneColorSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.28"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "69820463-4DB0873B-2DFB4EA5-4A8B01CB"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Outer": "MovieSceneColorTrack_0",
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.43"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.44"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "F6AEE985-475A4250-1A1D8CBD-61DF6B11"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_2",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneColorTrack_2.MovieSceneColorSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.65"
+        }
+      ],
+      "EvaluationFieldGuid": "5DBA4C05-49D7937D-B6DDD788-E778E3F5",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneColorTrack_2.MovieSceneColorSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.65"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5DBA4C05-49D7937D-B6DDD788-E778E3F5"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.66"
+        }
+      ],
+      "EvaluationFieldGuid": "FA309FBF-45203105-3F8D80B0-B41084D4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.66"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "FA309FBF-45203105-3F8D80B0-B41084D4"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "ConfirmSwipe_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 3
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 45003
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.72"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.73"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.74"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "54AD99AF-4A97826E-0F7F3780-701BF808"
+          },
+          {
+            "ObjectBindingID": "C99BE396-450C651B-4FEDA19E-84D83507"
+          },
+          {
+            "ObjectBindingID": "CE042348-464A5F48-81A85999-A8216DE6"
+          },
+          {
+            "ObjectBindingID": "CE042348-464A5F48-81A85999-A8216DE6"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 45003
+                }
+              },
+              "UpperBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 45003
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 4
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 3,
+                "TearDownIndex": 65532
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 2,
+                "TearDownIndex": 65533
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "E90C832B-42389C07-8D8A7281-7E405206",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "Expand_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 3
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.75"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.76"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.77"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "9F5E8A3E-43B46607-411D9394-EAB20233"
+          },
+          {
+            "ObjectBindingID": "37C47DB5-436F52E8-5FB7F48D-DD598889"
+          },
+          {
+            "ObjectBindingID": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F"
+          },
+          {
+            "ObjectBindingID": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 15000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 4
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 3,
+                "TearDownIndex": 65532
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 2,
+                "TearDownIndex": 65533
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "F138C977-49D70C60-B34B5B82-1732C6AF",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "ExpandedLoop_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 59999
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 59999
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.78"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.79"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "93BABE7E-4D4B9E2B-615C5098-F575F3A1"
+          },
+          {
+            "ObjectBindingID": "58CAD968-4F3B3D6E-F68D6281-ABBCE285"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 60000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "AF3C3291-4309B03B-D73318A1-CAADC819",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.29"
+        },
+        "bManualEaseIn": true,
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "21F489D6-403B4747-2089329A-B09CFB5C"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "67566ACA-4081D68B-D1B89D94-0808E307"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 36000
+          },
+          {
+            "Value": 45000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.34"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "CA5B4EEA-4E3F9D1E-5D89EE85-5E3A468D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 8.333333E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 8.333333E-05,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.45"
+        },
+        "bManualEaseIn": true,
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.46"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "07D22F4B-40FDD9CA-69E5AAA7-1AF205D5"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 8.333333E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 8.333333E-05,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.47"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.48"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "FA4371DC-48F1D639-EC321692-41DCC678"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.49"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.50"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "50E540FF-4D6EC72D-F8B4D78B-C11D2F9C"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.57"
+        },
+        "bManualEaseIn": true,
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.58"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 59999
+            }
+          }
+        }
+      },
+      "Signature": "10BE6A67-4DBC7AEF-292BA99D-1F67C7C0"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.59"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.60"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "8B098CB9-40A5D124-73C26BB6-6288FF97"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.72"
+        }
+      ],
+      "EvaluationFieldGuid": "31165213-4CB6EC96-12DB32A9-939BFAF8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.72"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "31165213-4CB6EC96-12DB32A9-939BFAF8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.73"
+        }
+      ],
+      "EvaluationFieldGuid": "005DE220-40DC6B2F-3F9347B1-4412A8E7",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.73"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "005DE220-40DC6B2F-3F9347B1-4412A8E7"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.74"
+        }
+      ],
+      "EvaluationFieldGuid": "DEB92EFB-49A544C3-3D0A5A91-E68D5822",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.74"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "DEB92EFB-49A544C3-3D0A5A91-E68D5822"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.75"
+        }
+      ],
+      "EvaluationFieldGuid": "0FE931A3-44F57983-0C31E4A8-EA9CEB35",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.75"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0FE931A3-44F57983-0C31E4A8-EA9CEB35"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.76"
+        }
+      ],
+      "EvaluationFieldGuid": "F2AD751A-4ADB2DC8-30D42CAA-AD9ED9F8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.76"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "F2AD751A-4ADB2DC8-30D42CAA-AD9ED9F8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.77"
+        }
+      ],
+      "EvaluationFieldGuid": "374E22A7-4D587699-237DE0A9-269D2C8F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneFloatTrack_2.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.77"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "374E22A7-4D587699-237DE0A9-269D2C8F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "ExpandedLoop",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.78"
+        }
+      ],
+      "EvaluationFieldGuid": "74BDCDDE-48D41E68-6B5796BA-B0D4BB8D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.78"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 59999
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "74BDCDDE-48D41E68-6B5796BA-B0D4BB8D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "ExpandedLoop",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.79"
+        }
+      ],
+      "EvaluationFieldGuid": "EBBB9C93-4A89C0BA-1177B3BA-1C91C65C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.79"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EBBB9C93-4A89C0BA-1177B3BA-1C91C65C"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 9.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.36"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "13B19899-4286B052-9FE116A6-C80B6C26"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_1",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 18.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.37"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.38"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "128E8A75-401863B3-AB3699B3-47703D7D"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_2",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 36000
+          },
+          {
+            "Value": 39000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "BottomCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 45003
+          }
+        ],
+        "Values": [
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 30.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_2.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.39"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_2.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.40"
+        },
+        "bManualEaseOut": true
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 45003
+            }
+          }
+        }
+      },
+      "Signature": "F489F374-46A8D500-CA736A9E-90F278F8"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 4.5,
+            "Tangent": {
+              "ArriveTangent": 0.000375,
+              "LeaveTangent": 0.000375,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 9.0,
+            "Tangent": {
+              "ArriveTangent": 0.000375,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.51"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.52"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "D8488A71-4B2B4009-5A64689A-4D56E9C0"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_1",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 9.0,
+            "Tangent": {
+              "ArriveTangent": 0.00075,
+              "LeaveTangent": 0.00075,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 18.0,
+            "Tangent": {
+              "ArriveTangent": 0.00075,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.53"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.54"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "390F3AA6-4A5C3CE5-2B2A93B1-C9469BD6"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_2",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_2.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.55"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_2.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.56"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "D2A6F93B-4D310C80-A6CB80A0-75F64BE9"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 9.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.61"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.62"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "BD0D2B44-44E84D0E-0948C7BA-C1BC877C"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_1",
+    "Properties": {
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 18.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.63"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.64"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "DBD3986B-451A13F8-BB88C78D-6C398322"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.88"
+        }
+      ],
+      "EvaluationFieldGuid": "050AE759-4C636A1C-AF89AAB0-B8A710F7",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.88"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "050AE759-4C636A1C-AF89AAB0-B8A710F7"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_1",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.89"
+        }
+      ],
+      "EvaluationFieldGuid": "CC01A21A-4C6E68BD-B73015BA-3C68510F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.89"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CC01A21A-4C6E68BD-B73015BA-3C68510F"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_2",
+    "Outer": "ConfirmSwipe",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_2.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.90"
+        }
+      ],
+      "EvaluationFieldGuid": "E2FCF9CE-4289A0C3-4A0037B2-98D6B50B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe.MovieSceneMarginTrack_2.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.90"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 45003
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E2FCF9CE-4289A0C3-4A0037B2-98D6B50B"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.91"
+        }
+      ],
+      "EvaluationFieldGuid": "1B03ABBF-400BF1FB-1EB7959D-F661AFF3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.91"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "1B03ABBF-400BF1FB-1EB7959D-F661AFF3"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_1",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.92"
+        }
+      ],
+      "EvaluationFieldGuid": "B7664E65-41CE7377-82AB0CA6-33A5A8EC",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.92"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B7664E65-41CE7377-82AB0CA6-33A5A8EC"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_2",
+    "Outer": "Expand",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_2.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.93"
+        }
+      ],
+      "EvaluationFieldGuid": "0F6DE512-417666C5-F1EA498F-D51DA09E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:Expand_INST.Expand.MovieSceneMarginTrack_2.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.93"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0F6DE512-417666C5-F1EA498F-D51DA09E"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "ExpandedLoop",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.94"
+        }
+      ],
+      "EvaluationFieldGuid": "F3925069-42FE854D-C091DF81-01FF5D86",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_0.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.94"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "F3925069-42FE854D-C091DF81-01FF5D86"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_1",
+    "Outer": "ExpandedLoop",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "Offsets",
+        "PropertyPath": "LayoutData.Offsets"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.95"
+        }
+      ],
+      "EvaluationFieldGuid": "D313C427-490EFB96-48651DAA-3FE60F4B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneMarginSection BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop.MovieSceneMarginTrack_1.MovieSceneMarginSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.95"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D313C427-490EFB96-48651DAA-3FE60F4B"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_CAW_SwipeArrow_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.105"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_CAW_SwipeArrow_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.107"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_CAW_SwipeArrow_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.104"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_CAW_SwipeArrow_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.11"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 35.0,
+      "HeightOverride": 35.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_CAW_SwipeArrow_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.107"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox BP_CAW_SwipeArrow_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.106"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_CAW_SwipeArrow_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.104"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "ConfirmSwipe_INST",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.ConfirmSwipe",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.18"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "54AD99AF-4A97826E-0F7F3780-701BF808",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C99BE396-450C651B-4FEDA19E-84D83507",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "B90BF94F-42BF7F42-6CBBFC81-D556D6B1",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "CanvasPanelSlot_2",
+          "AnimationGuid": "38B1AD01-4F0C02BD-24FA7685-3D8286A5",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CE042348-464A5F48-81A85999-A8216DE6",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "1",
+          "SlotWidgetName": "CanvasPanelSlot_3",
+          "AnimationGuid": "C4B53457-411C7B83-8D73A4BA-451A240E",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "ConfirmSwipe",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData BP_CAW_SwipeArrow_C:ConfirmSwipe_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.69"
+      },
+      "Signature": "E90C832B-42389C07-8D8A7281-7E405206"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Expand_INST",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene BP_CAW_SwipeArrow_C:Expand_INST.Expand",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.19"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "9F5E8A3E-43B46607-411D9394-EAB20233",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "F2352F57-4180EF02-6B98A6AD-8CDA437C",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "37C47DB5-436F52E8-5FB7F48D-DD598889",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "CanvasPanelSlot_2",
+          "AnimationGuid": "BAE06B54-4D9F33A0-975CEF94-21481C44",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "283FF66A-417EA4F2-06CD4BA6-2E8E8B7F",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "1",
+          "SlotWidgetName": "CanvasPanelSlot_3",
+          "AnimationGuid": "6F030D82-4A524788-5BA8D0A2-C6D2DD30",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Expand",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData BP_CAW_SwipeArrow_C:Expand_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.70"
+      },
+      "Signature": "F138C977-49D70C60-B34B5B82-1732C6AF"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "ExpandedLoop_INST",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene BP_CAW_SwipeArrow_C:ExpandedLoop_INST.ExpandedLoop",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.20"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "93BABE7E-4D4B9E2B-615C5098-F575F3A1",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "58CAD968-4F3B3D6E-F68D6281-ABBCE285",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "2",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "AB4A5FE0-46F80121-730FE380-7CEEFAC0",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "3",
+          "SlotWidgetName": "CanvasPanelSlot_2",
+          "AnimationGuid": "E543F475-47A30A45-913B4388-254DFA9F",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "ExpandedLoop",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData BP_CAW_SwipeArrow_C:ExpandedLoop_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.71"
+      },
+      "Signature": "AF3C3291-4309B03B-D73318A1-CAADC819"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_CAW_SwipeArrow_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox BP_CAW_SwipeArrow_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeArrow.106"
+      }
+    }
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnCooldownStarted__DelegateSignature",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckExpiring",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "Super": "CheckExpiring",
+    "SuperStruct": {
+      "ObjectName": "Function Widget_Ability_Element_Timer_Parent_C:CheckExpiring",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Widget_Ability_Element_Timer_Parent.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCooldownStartedInternal",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCooldown",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetCooldownStatus_InCooldown",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetCooldownStatus_SecondsRemaining",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCooldownForStatus",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "InCooldown",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SecondsRemaining",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupTimerFromCooldownComponent",
+    "Outer": "Timer_AbilityButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InCooldownComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Ability_CooldownComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Ability_CooldownComponent.24"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetCooldownStatus_InCooldown",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetCooldownStatus_SecondsRemaining",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function Comp_Ability_CooldownComponent_C:OnCooldownStarted__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Ability_CooldownComponent.0"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Timer_AbilityButton_Base_C",
+    "Super": "Widget_Ability_Element_Timer_Parent_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree Timer_AbilityButton_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.8"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass Widget_Ability_Element_Timer_Parent_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Widget_Ability_Element_Timer_Parent.19"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:SetupTimerFromCooldownComponent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.5"
+      },
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:UpdateCooldownForStatus",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.4"
+      },
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:UpdateCooldown",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.3"
+      },
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:OnCooldownStartedInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.2"
+      },
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:CheckExpiring",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.1"
+      },
+      {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:OnCooldownStarted__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ExpireWarningTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CooldownComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Ability_CooldownComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Ability_CooldownComponent.24"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CooldownChargeComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CooldownUpdateRate",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnCooldownStarted",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function Timer_AbilityButton_Base_C:OnCooldownStarted__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnCooldownStarted__DelegateSignature": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:OnCooldownStarted__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.0"
+      },
+      "CheckExpiring": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:CheckExpiring",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.1"
+      },
+      "OnCooldownStartedInternal": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:OnCooldownStartedInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.2"
+      },
+      "UpdateCooldown": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:UpdateCooldown",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.3"
+      },
+      "UpdateCooldownForStatus": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:UpdateCooldownForStatus",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.4"
+      },
+      "SetupTimerFromCooldownComponent": {
+        "ObjectName": "Function Timer_AbilityButton_Base_C:SetupTimerFromCooldownComponent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.5"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Timer_AbilityButton_Base_C Default__Timer_AbilityButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Timers/Timer_AbilityButton_Base.7"
+    }
+  },
+  {
+    "Type": "Timer_AbilityButton_Base_C",
+    "Name": "Default__Timer_AbilityButton_Base_C",
+    "Template": "Default__Widget_Ability_Element_Timer_Parent_C",
+    "Properties": {
+      "ExpireWarningTime": 3.0,
+      "CooldownUpdateRate": 0.1,
+      "bHasScriptImplementedTick": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "Timer_AbilityButton_Base_C"
+  }
+]

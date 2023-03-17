@@ -1,0 +1,247 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ComboActionButton_Jump",
+    "Outer": "BP_ComboActionButton_Jump_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetCrouch_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Action_Button_Crouch",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Crouch_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Crouch.16"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEditModeWidget_EditModeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_EditControls_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.43"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_ComboActionButton_Jump_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnComponentSelectStateChanged",
+    "Outer": "BP_ComboActionButton_Jump_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnComponentSelectStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchEngage",
+    "Outer": "BP_ComboActionButton_Jump_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresActionButton:HandleTouchEngage",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 201852928
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ComboActionButton_Jump_C",
+    "Super": "BP_ComboActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ComboActionButton_Jump_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.6"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:ExecuteUbergraph_BP_ComboActionButton_Jump",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:HandleTouchEngage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.3"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.2"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.1"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:ExecuteUbergraph_BP_ComboActionButton_Jump",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ComboActionButton_Jump": {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:ExecuteUbergraph_BP_ComboActionButton_Jump",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.0"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.1"
+      },
+      "OnComponentSelectStateChanged": {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.2"
+      },
+      "HandleTouchEngage": {
+        "ObjectName": "Function BP_ComboActionButton_Jump_C:HandleTouchEngage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.3"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ComboActionButton_Jump_C Default__BP_ComboActionButton_Jump_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Jump.5"
+    }
+  },
+  {
+    "Type": "BP_ComboActionButton_Jump_C",
+    "Name": "Default__BP_ComboActionButton_Jump_C",
+    "Template": "Default__BP_ComboActionButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ActionMappingName": "Jump",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {},
+        "LinearColorProperties": {},
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D Icon_Jump",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_Jump.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ComboActionButton_Jump_C"
+  }
+]

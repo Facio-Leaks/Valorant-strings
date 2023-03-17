@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "CharacterAbilityButtonData",
+    "Properties": {
+      "Guid": "C66F38D1-44502E7E-8E80EABB-F6B26DA9"
+    },
+    "ChildProperties": [
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CustomWidget_2_69CC5AEE4792D2627678ACB555763CD0",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass BPI_CustomAbilityWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BPI_CustomAbilityWidget.2"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CustomWidgetReferenceSlotName_5_4BCD732B49363B171B8320A405DE3A19",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CustomWidgetReferenceSlot_8_F13676E8417EAA85241F8AA98BEBFEED",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "HidePrimaryFire_11_CEB933F449D2B704222A3799F07D742A",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "AltFireEnabledStateOverride_26_38F54DC34464A82454A586B90F0CC90A",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum EButtonEnabledStateOverride",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/EButtonEnabledStateOverride.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "PrimaryFireOverrides_16_0A6FF26D4D4F0914FA623E815C1563A7",
+        "Flags": 2097153,
+        "ElementSize": 96,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AltFireOverrides_18_847C6036482A15069F5CC59E300ABD52",
+        "Flags": 2097153,
+        "ElementSize": 96,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CancelButtonOverrides_20_9EA30F694AACC93E7099789AA752FC23",
+        "Flags": 2097153,
+        "ElementSize": 96,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonOverridesData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ]
+  }
+]

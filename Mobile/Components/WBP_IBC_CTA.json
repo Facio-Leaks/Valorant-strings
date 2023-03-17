@@ -1,0 +1,420 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_IBC_CTA",
+    "Outer": "WBP_IBC_CTA_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_CallToActionState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetParentIconButton_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresIconButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "BindWidgetCallToActionEvents",
+    "Outer": "WBP_IBC_CTA_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201459720
+  },
+  {
+    "Type": "Function",
+    "Name": "SetWidgetCallToActionState",
+    "Outer": "WBP_IBC_CTA_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CallToActionState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201459720
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCTAButtonPressed",
+    "Outer": "WBP_IBC_CTA_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleAnimations",
+    "Outer": "WBP_IBC_CTA_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnButtonSizeDimensionsChanged",
+    "Outer": "WBP_IBC_CTA_C",
+    "Super": "OnButtonSizeDimensionsChanged",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Resizable_C:OnButtonSizeDimensionsChanged",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ButtonSizeDimensions",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IBC_CTA_C",
+    "Super": "WBP_IBC_Resizable_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IBC_CTA_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.11"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_IBC_CTA_C:ExecuteUbergraph_WBP_IBC_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Resizable_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Resizable.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:OnButtonSizeDimensionsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.5"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:ToggleAnimations",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.4"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:OnCTAButtonPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.3"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:SetWidgetCallToActionState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.2"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:BindWidgetCallToActionEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.1"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_CTA_C:ExecuteUbergraph_WBP_IBC_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_CTA_PulsingCircle",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_Pulsing_CTA_Circle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.11"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_IBC_CTA": {
+        "ObjectName": "Function WBP_IBC_CTA_C:ExecuteUbergraph_WBP_IBC_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.0"
+      },
+      "BindWidgetCallToActionEvents": {
+        "ObjectName": "Function WBP_IBC_CTA_C:BindWidgetCallToActionEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.1"
+      },
+      "SetWidgetCallToActionState": {
+        "ObjectName": "Function WBP_IBC_CTA_C:SetWidgetCallToActionState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.2"
+      },
+      "OnCTAButtonPressed": {
+        "ObjectName": "Function WBP_IBC_CTA_C:OnCTAButtonPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.3"
+      },
+      "ToggleAnimations": {
+        "ObjectName": "Function WBP_IBC_CTA_C:ToggleAnimations",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.4"
+      },
+      "OnButtonSizeDimensionsChanged": {
+        "ObjectName": "Function WBP_IBC_CTA_C:OnButtonSizeDimensionsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.5"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class AresTouchWidgetCTAInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IBC_CTA_C Default__WBP_IBC_CTA_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.7"
+    }
+  },
+  {
+    "Type": "WBP_IBC_CTA_C",
+    "Name": "Default__WBP_IBC_CTA_C",
+    "Template": "Default__WBP_IBC_Resizable_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DefaultSize": {
+        "X": 86.0,
+        "Y": 86.0
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 49.142857,
+      "HeightOverride": 49.142857,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_IBC_CTA_C:WidgetTree.SizeBox.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.9"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_IBC_CTA_C:WidgetTree.SizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.8"
+      },
+      "Content": {
+        "ObjectName": "WBP_Pulsing_CTA_Circle_C WBP_IBC_CTA_C:WidgetTree.WBP_CTA_PulsingCircle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.10"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Pulsing_CTA_Circle_C",
+    "Name": "WBP_CTA_PulsingCircle",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_IBC_CTA_C:WidgetTree.SizeBox.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.9"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IBC_CTA_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox WBP_IBC_CTA_C:WidgetTree.SizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.8"
+      }
+    }
+  }
+]

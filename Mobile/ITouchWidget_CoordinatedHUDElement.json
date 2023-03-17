@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "Function",
+    "Name": "SetHUDModel",
+    "Outer": "ITouchWidget_CoordinatedHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "HUDModel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedHUDModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetShooterUIModel",
+    "Outer": "ITouchWidget_CoordinatedHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShooterUIModel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedShooterUIModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ITouchWidget_CoordinatedHUDElement_C",
+    "SuperStruct": {
+      "ObjectName": "Class Interface",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function ITouchWidget_CoordinatedHUDElement_C:SetShooterUIModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ITouchWidget_CoordinatedHUDElement.1"
+      },
+      {
+        "ObjectName": "Function ITouchWidget_CoordinatedHUDElement_C:SetHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ITouchWidget_CoordinatedHUDElement.0"
+      }
+    ],
+    "FuncMap": {
+      "SetHUDModel": {
+        "ObjectName": "Function ITouchWidget_CoordinatedHUDElement_C:SetHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ITouchWidget_CoordinatedHUDElement.0"
+      },
+      "SetShooterUIModel": {
+        "ObjectName": "Function ITouchWidget_CoordinatedHUDElement_C:SetShooterUIModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ITouchWidget_CoordinatedHUDElement.1"
+      }
+    },
+    "ClassFlags": 278544,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ITouchWidget_CoordinatedHUDElement_C Default__ITouchWidget_CoordinatedHUDElement_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ITouchWidget_CoordinatedHUDElement.3"
+    }
+  },
+  {
+    "Type": "ITouchWidget_CoordinatedHUDElement_C",
+    "Name": "Default__ITouchWidget_CoordinatedHUDElement_C"
+  }
+]

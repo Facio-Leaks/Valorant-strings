@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_Ability1_Generic_C",
+    "Super": "BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_Ability1_Generic_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_ActionButton_Ability1_Generic.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_Ability1_Generic_C Default__BP_ActionButton_Ability1_Generic_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_ActionButton_Ability1_Generic.1"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Ability1_Generic_C",
+    "Name": "Default__BP_ActionButton_Ability1_Generic_C",
+    "Template": "Default__BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "UsesLongPress": true,
+      "ActionTrigger": "PrimaryTrigger",
+      "ActionMappingName": "Activate_Ability1",
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_Ability1_Generic_C"
+  }
+]

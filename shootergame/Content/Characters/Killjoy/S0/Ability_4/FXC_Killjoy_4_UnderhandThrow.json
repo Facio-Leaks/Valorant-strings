@@ -1,0 +1,193 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_4_UnderhandThrow_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioBasic",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_PlayAnimation_ShooterCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_4_UnderhandThrow_C Default__FXC_Killjoy_4_UnderhandThrow_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.1"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_4_UnderhandThrow_C",
+    "Name": "Default__FXC_Killjoy_4_UnderhandThrow_C",
+    "Properties": {
+      "InitialLifeSpan": 1.0
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioBasic_C",
+    "Name": "Comp_FXC_AudioBasic_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_UnderhandThrow_C",
+    "Template": "Default__Comp_FXC_AudioBasic_C",
+    "Properties": {
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Nanoswarm_Cast",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Killjoy_Abil_Nanoswarm_Cast.1"
+      },
+      "VisualizeAttenuation": "Enum_AttenuationVisualization::NewEnumerator1"
+    }
+  },
+  {
+    "Type": "Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Name": "Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_UnderhandThrow_C",
+    "Template": "Default__Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Properties": {
+      "1P_Animation": {
+        "ObjectName": "AnimMontage FP_Killjoy_4_Heal_UnderhandThrow_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_4_Heal_UnderhandThrow_Montage.0"
+      },
+      "3P_Animation": {
+        "ObjectName": "AnimMontage TP_Killjoy_S0_4_Swarm_SecondaryThrow_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Swarm_SecondaryThrow_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_UnderhandThrow_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_4_UnderhandThrow_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.4"
+      },
+      "VariableGuid": "79A958FA-41CA88B0-17BE1989-A374CEA3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_PlayAnimation_ShooterCharacter_C FXC_Killjoy_4_UnderhandThrow_C:Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.3"
+      },
+      "VariableGuid": "1B6BFAC4-437877DF-C942A982-D1216138",
+      "InternalVariableName": "Comp_FXC_PlayAnimation_ShooterCharacter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioBasic_C FXC_Killjoy_4_UnderhandThrow_C:Comp_FXC_AudioBasic_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.2"
+      },
+      "VariableGuid": "08FE5C04-4250799E-7451989B-5A0E3F4D",
+      "InternalVariableName": "Comp_FXC_AudioBasic"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_4_UnderhandThrow_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_4_UnderhandThrow_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.5"
+      }
+    }
+  }
+]

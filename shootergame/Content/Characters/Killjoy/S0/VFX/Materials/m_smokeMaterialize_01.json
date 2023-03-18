@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_smokeMaterialize_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_4",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_6",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "6236F681-4B3E1AC5-DEDBF7AB-B8E2495D",
+      "CachedExpressionData": {
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_tile_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_tile_01.0"
+          },
+          {
+            "ObjectName": "Texture2D FlowMap_1_TEX",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/UVdist/FlowMap_1_TEX.0"
+          },
+          {
+            "ObjectName": "Texture2D power_charge_mask",
+            "ObjectPath": "ShooterGame/Content/Characters/Wraith/S0/VFX/Textures/power_charge_mask.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_tile_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_tile_02.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_20",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_20.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SmoothStep",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+            }
+          },
+          {
+            "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SmoothStep",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Param1",
+          "Param2",
+          "Param3",
+          "WPO"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_tile_02"
+        }
+      ]
+    }
+  }
+]

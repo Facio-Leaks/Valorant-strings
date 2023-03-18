@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "TP_Killjoy_S0_4_Equip_Montage",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage TP_Killjoy_S0_4_Equip_Montage",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Equip_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence TP_Killjoy_S0_4_Equip_UB",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Equip_UB.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "UpperBody",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence TP_Killjoy_S0_4_Equip_UB",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Equip_UB.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "SlotName": "LowerBody",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence TP_Killjoy_S0_4_Equip_LB",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Equip_LB.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "SlotName": "Face",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence TP_Killjoy_S0_4_Equip_UB",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Equip_UB.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 0.8,
+      "Skeleton": {
+        "ObjectName": "Skeleton Core_Skeleton",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Models/Core_Skeleton.34"
+      }
+    },
+    "SkeletonGuid": "EB95FE60-4D3DB70C-9882CE9D-BF2549F0"
+  }
+]

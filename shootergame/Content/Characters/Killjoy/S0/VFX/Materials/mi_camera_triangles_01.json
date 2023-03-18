@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_camera_triangles_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_camera_triangles_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_camera_triangles_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.668581,
+            "A": 1.0,
+            "Hex": "FF00FFD6"
+          },
+          "ExpressionGUID": "2226E3BC-4E622C03-A0B328BF-A2BD5ACB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.008039,
+            "G": 0.009673,
+            "B": 0.015,
+            "A": 1.0,
+            "Hex": "FF161920"
+          },
+          "ExpressionGUID": "6C35FA02-4D927F6D-A5DEECA1-A310D2D7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FlickerColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 4.0,
+            "G": 0.64,
+            "B": 1.885941,
+            "A": 1.0,
+            "Hex": "FFFFD2FF"
+          },
+          "ExpressionGUID": "5CE7DFDE-41D397B8-C01EBE81-A1AB5230"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_screen_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_screen_02.0"
+        }
+      ]
+    }
+  }
+]

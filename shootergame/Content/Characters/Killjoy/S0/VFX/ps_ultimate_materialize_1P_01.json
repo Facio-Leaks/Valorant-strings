@@ -1,0 +1,882 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_3"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_6"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_11",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_ultimate_materialize_1P_01:ParticleModuleRequired_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.13"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_ultimate_materialize_1P_01:ParticleModuleLifetime_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.8"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_ultimate_materialize_1P_01:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.14"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_ultimate_materialize_1P_01:ParticleModuleColorOverLife_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.5"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_ultimate_materialize_1P_01:ParticleModuleSizeMultiplyLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_ultimate_materialize_1P_01:ParticleModuleLocation_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.9"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_ultimate_materialize_1P_01:ParticleModuleMeshRotation_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.10"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_ultimate_materialize_1P_01:ParticleModuleParameterDynamic_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_ultimate_materialize_1P_01:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.4"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_ultimate_materialize_1P_01:ParticleModuleColorScaleOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.7"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_ultimate_materialize_1P_01:ParticleModuleTypeDataMesh_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.19"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_ultimate_materialize_1P_01:ParticleModuleSpawn_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.17"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_8",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_ultimate_materialize_1P_01:ParticleModuleRequired_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.12"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_ultimate_materialize_1P_01:ParticleModuleLifetime_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.8"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_ultimate_materialize_1P_01:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.14"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_ultimate_materialize_1P_01:ParticleModuleColorOverLife_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.6"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_ultimate_materialize_1P_01:ParticleModuleSizeMultiplyLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_ultimate_materialize_1P_01:ParticleModuleLocation_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.9"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_ultimate_materialize_1P_01:ParticleModuleMeshRotation_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.10"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_ultimate_materialize_1P_01:ParticleModuleParameterDynamic_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_ultimate_materialize_1P_01:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.4"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_ultimate_materialize_1P_01:ParticleModuleColorScaleOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.7"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_ultimate_materialize_1P_01:ParticleModuleTypeDataMesh_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.18"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_ultimate_materialize_1P_01:ParticleModuleSpawn_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.16"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_1",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_10",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            3.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.06666667,
+            0.13333334,
+            0.2,
+            0.26666668,
+            0.33333334,
+            0.4,
+            0.4666667,
+            0.46666664,
+            0.39999995,
+            0.3333333,
+            0.26666662,
+            0.19999997,
+            0.13333328,
+            0.06666664,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_4",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 1.378173,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.378173
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.378173
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            1.0,
+            1.378173
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            0.0,
+            0.057142857,
+            0.11428572,
+            0.17142859,
+            0.17142856,
+            0.1142857,
+            0.057142816,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_3",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 20.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 1.0,
+          "Z": 20.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 2.0,
+          "Values": [
+            10.0,
+            1.0,
+            20.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_8",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.6,
+        "MaxValue": 0.6,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.6
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_10",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -10.0,
+        "MaxValue": 147.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": -10.0,
+          "Z": 147.0
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": -10.0,
+          "Z": 147.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0,
+            -10.0,
+            147.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_8",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.1,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.08,
+          "Z": -0.1
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.08,
+          "Z": -0.1
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.08,
+            -0.1
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_6",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Foe",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "ScrollClamp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.75,
+            "MaxValue": -0.75,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.75
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "WPO",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 0.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_ultimate_materialize_1P_01:ParticleModuleRequired_3.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.0"
+        }
+      },
+      "EmitterDelay": 0.2,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_6",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_ultimate_materialize_1P_01:ParticleModuleRequired_6.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.1"
+        }
+      },
+      "EmitterDelay": 0.2,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_7",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.4,
+        "MaxValue": 2.5,
+        "MinValueVec": {
+          "X": 2.5,
+          "Y": 1.4,
+          "Z": 1.4
+        },
+        "MaxValueVec": {
+          "X": 2.5,
+          "Y": 1.4,
+          "Z": 1.4
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            2.5,
+            1.4,
+            1.4
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_6",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.0,
+            1.0,
+            0.20829993,
+            0.048728257,
+            1.0,
+            0.40412402,
+            0.17542945,
+            1.0,
+            0.58162934,
+            0.35203534,
+            1.0,
+            0.73515,
+            0.5499209,
+            1.0,
+            0.85882837,
+            0.7406851,
+            1.0,
+            0.9469917,
+            0.89592934,
+            1.0,
+            0.993811,
+            0.9871325,
+            1.0,
+            1.0,
+            0.94666666,
+            0.9333333,
+            1.0,
+            0.8399999,
+            0.7999999,
+            1.0,
+            0.7333333,
+            0.6666666,
+            1.0,
+            0.6266666,
+            0.53333324,
+            1.0,
+            0.5199999,
+            0.39999995,
+            1.0,
+            0.4133332,
+            0.26666656,
+            1.0,
+            0.3066666,
+            0.13333328,
+            1.0,
+            0.2,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_3",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_6",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_5",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_in_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_in_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_6",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_out_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_out_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_11",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_Out",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_ultimate_materialize_1P_01:ParticleSpriteEmitter_11.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.2"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_8",
+    "Outer": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_ultimate_materialize_1P_01:ParticleSpriteEmitter_8.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.3"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_ultimate_materialize_1P_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_ultimate_materialize_1P_01:ParticleSpriteEmitter_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.21"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_ultimate_materialize_1P_01:ParticleSpriteEmitter_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.20"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

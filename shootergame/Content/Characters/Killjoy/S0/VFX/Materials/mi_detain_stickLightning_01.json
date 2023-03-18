@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_detain_stickLightning_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_detain_stickLightning_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_detain_stickLightning_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Width",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "CB9A1051-460C6073-BC33A0BF-7681FBD8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D ring_glow",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberStrip",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberPeriod",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+        },
+        {
+          "ObjectName": "Texture2D flipbook",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D Lightning_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Hunter/S0/VFX/Textures/Lightning_3.0"
+        }
+      ]
+    }
+  }
+]

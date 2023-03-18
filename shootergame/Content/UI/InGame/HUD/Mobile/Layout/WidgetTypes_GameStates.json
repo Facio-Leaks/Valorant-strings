@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WidgetTypes_GameStates",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct GameModeWidgetLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/GameModeWidgetLayout.0"
+      }
+    },
+    "Rows": {
+      "ShootingRange": {
+        "GameState_13_11843D67455672C1F2E95D99E8CDBBC7": {
+          "AssetPathName": "/Game/GameModes/ShootingRange/ShootingRangeGameState.ShootingRangeGameState_C",
+          "SubPathString": ""
+        },
+        "ModeSpecificTypeTables_8_1AFB4054489328BEBBBB04BDBDB487B3": [
+          {
+            "ObjectName": "DataTable WidgetTypes_ShootingRange",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetTypes_ShootingRange.0"
+          }
+        ],
+        "ModeSpecificPresetLayouts_11_B1BE39604D9DA8C6B9AB419D2DB00CE2": []
+      },
+      "NPE_BotMode": {
+        "GameState_13_11843D67455672C1F2E95D99E8CDBBC7": {
+          "AssetPathName": "/Game/GameModes/NewPlayerExperience/HavenNPE/NPE_BotGameState.NPE_BotGameState_C",
+          "SubPathString": ""
+        },
+        "ModeSpecificTypeTables_8_1AFB4054489328BEBBBB04BDBDB487B3": [
+          {
+            "ObjectName": "DataTable WidgetTypes_NPEBotMode",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetTypes_NPEBotMode.0"
+          }
+        ],
+        "ModeSpecificPresetLayouts_11_B1BE39604D9DA8C6B9AB419D2DB00CE2": [
+          {
+            "WidgetLayoutTables_5_0B7D789144E133AE1694879CE3871CA3": [
+              {
+                "ObjectName": "DataTable WidgetLayouts_NPEBotMode",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/WidgetLayouts_NPEBotMode.0"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

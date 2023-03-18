@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_deactive_01_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_deactive_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_deactive_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Tex",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_deactive_symbol_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_deactive_symbol_02.0"
+          },
+          "ExpressionGUID": "CA0D8158-443507B0-998FE7A0-67275E2B"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_deactive_symbol_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_deactive_symbol_01.0"
+        }
+      ]
+    }
+  }
+]

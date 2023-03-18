@@ -1,0 +1,451 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_dome_02",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAdd_6",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithMeshParticles": true,
+      "StateId": "F908F0A7-48CFF941-5F01AAA2-FB29343D",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              117110932760653224,
+              402025038970658399,
+              1453651776067917343,
+              1959847427846127910,
+              2583060181611597665,
+              4318273270571105460,
+              4444891137410652811,
+              4843634547787192003,
+              5789066654111099247,
+              6679377367955030093,
+              8144582890167604360,
+              8373881615859872484,
+              8811961159139897156,
+              9439902468095805114,
+              10670173988425413691,
+              11420662800734813838,
+              11556774488890891978,
+              12071195956297265147,
+              12784891370072273202,
+              14133906027422618451,
+              14159487610736858353,
+              17712694829846980260
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Tex_TimeMul_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Boost",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tex_SineMul_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tex_SineMul_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_U_C",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "ScanlineFadeDistance",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "PulseSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tex_Offset_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tex_TimeMul_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Power",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_V_C",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "ScanlineScale_C",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_U_A",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_V_A",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "ScanlineScale_A",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "ScanlineScale_B",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tex_Offset_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Dome_CenterOpacity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowMul",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Period",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "03A89887-41FA420F-A2B665AF-AD7876DF",
+              "9127BC43-451C1354-472B28B2-0919D25A",
+              "4E095895-4787CEA5-9A218B80-00C5E58B",
+              "6A297ACA-4E5DC3AB-9128B4A6-25BD1DBC",
+              "14005A62-4F9382CB-E7B9AD84-CB5CDEBF",
+              "E070E267-4DEF7B66-8911E1BD-032A7A42",
+              "6068B0A6-4143083A-23EA86A8-6B5C373F",
+              "C30FEA00-45CB2CE2-5FC6F1AC-F178C582",
+              "06270233-469C06A4-53D3F695-9C4267D0",
+              "6BD36971-4FCB61C0-6B23098F-DDE85042",
+              "FB77A37F-4CAFE1D5-B160F7AB-DC5A1CE9",
+              "0B4014D6-40AA5EA6-1EA44681-F233A6A4",
+              "BEF350D9-440A7B28-11A28FAB-D36FE715",
+              "B2BDD91F-46E3A82B-AD8CC8A5-6F492377",
+              "BB4CF27E-49E04065-970D998C-A5D166F1",
+              "ED62F830-4C34ADDF-E0131C9B-BCF8D13B",
+              "5B731F2E-408DB469-6519BCAE-01F106A9",
+              "6ED23453-4ED74B46-1CEE188E-A32BEFBB",
+              "033AAAFC-4FAAEDDD-FF4F03AA-18B8E006",
+              "403B0BB0-433E93A2-442FEB8F-1E3E2032",
+              "6AB5A3DB-4C335A8F-88943B8B-718C8B60",
+              "0EC1E664-4F94CA42-D2DA038F-9991FC8C"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              12279385124011487613
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "67F05D5E-4831C478-E291C8B8-82317A25"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              38924385930886634,
+              5320070445412625146,
+              9283632343426237818,
+              16814799441567644698
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Texture_A",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GradientPanner",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Texture_B",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Texture_C",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "0311E7BA-48F803A5-0DC320AB-C282F03A",
+              "24A4BFD7-4D317288-FE9F359B-6547D0ED",
+              "3C3BF935-494EBE1D-B3F8DF93-7EB1A4DB",
+              "65CAC872-44BF9FD9-F4F664A4-E9123180"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            15.0,
+            1.0,
+            200.0,
+            1.0,
+            1.0,
+            200.0,
+            200.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FF000000"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D DefaultTexture",
+              "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+            },
+            {
+              "ObjectName": "Texture2D tex_gradient_08",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_08.0"
+            },
+            {
+              "ObjectName": "Texture2D DefaultTexture",
+              "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+            },
+            {
+              "ObjectName": "Texture2D DefaultTexture",
+              "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D DefaultTexture",
+            "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_08",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_08.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction ScreenAlignedPixelToPixelUVs",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          },
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction ScreenAlignedPixelToPixelUVs",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "314E1BAB-4256C08C-1343BA80-B249A3F0",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_textureOffsetTime_01",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_textureOffsetTime_01.0"
+            }
+          },
+          {
+            "StateId": "CD103B86-431AD7A0-53BBCBA6-1EE44DDE",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_wiggle_01",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_wiggle_01.0"
+            }
+          },
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction ScreenAlignedPixelToPixelUVs",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "DB3E993F-4E2E98B3-05AD13B9-2D8C5DA5",
+            "Function": {
+              "ObjectName": "MaterialFunction CameraDepthFade",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "CoordLerp",
+          "Panner",
+          "MaskOpacity",
+          "ReflectionVec"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_scanLines_gradient_01"
+        }
+      ]
+    }
+  }
+]

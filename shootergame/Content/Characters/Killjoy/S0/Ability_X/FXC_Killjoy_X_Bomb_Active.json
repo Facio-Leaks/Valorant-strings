@@ -1,0 +1,1263 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_X_Bomb_Active",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsBeingDestroyed_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_StartTime",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_StopEffectType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EStopEffectType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsGame_Object_Killjoy_X_Bomb",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsGame_Object_Killjoy_X_Bomb_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AnimInstance",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Montage_Play_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsBeingDestroyed_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_FindClosestPositionOnRadius_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_FindClosestPositionOnRadius_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult",
+        "Flags": 1,
+        "ElementSize": 148,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "ScriptStruct HitResult",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Aud_PlayAtLocation_AudioComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresAudioComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Aud_PlayAtLocation_FOWHandle",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Aud_StopEvent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Aud_Play2d_AudioComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresAudioComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Aud_Play2d_FOWHandle",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Aud_StopEvent_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_UsingTouchInput_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "SuperStruct": {
+      "ObjectName": "Function Actor:ReceiveTick",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "StopEffect",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "SuperStruct": {
+      "ObjectName": "Function EffectContainer:StopEffect",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "StopEffectType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EStopEffectType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "StartEffect",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "SuperStruct": {
+      "ObjectName": "Function EffectContainer:StartEffect",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "SpawnEmitter",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_UseEnemyColoring_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_UseEnemyColoring_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystem",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "CreateWidget",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsGame_Object_Killjoy_X_Bomb",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_AddToPlayerScreen_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_BombTimer_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Widget_Killjoy_X_BombTimer.11"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "FindClosestPositionOnRadius",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 1408,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPlayerViewLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Normal_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateDomeAudioState",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPlayerViewLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_Distance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "CreateAltWidget",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsGame_Object_Killjoy_X_Bomb",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_BombTimer_Alt_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Killjoy/KilljoyMobileFXC/Widget_Killjoy_X_BombTimer_Alt.9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_AddToPlayerScreen_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_X_Bomb_Active_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:ExecuteUbergraph_FXC_Killjoy_X_Bomb_Active",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:CreateAltWidget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.8"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:UpdateDomeAudioState",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.7"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:FindClosestPositionOnRadius",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.6"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:CreateWidget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.5"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:SpawnEmitter",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.4"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.3"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:StopEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.2"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:ReceiveTick",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:ExecuteUbergraph_FXC_Killjoy_X_Bomb_Active",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioLoop",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioLoop_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioLoop.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttachedVFX",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TimerWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_BombTimer_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Widget_Killjoy_X_BombTimer.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttachedVFX2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BombActiveMontage",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class AnimMontage",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BombLocation",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "BombRadius",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BombDomeLoop",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class AresAudioComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InsideDomeSound",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class AresAudioComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Particle Ref",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_X_Bomb_Active": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:ExecuteUbergraph_FXC_Killjoy_X_Bomb_Active",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.0"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:ReceiveTick",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.1"
+      },
+      "StopEffect": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:StopEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.2"
+      },
+      "StartEffect": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.3"
+      },
+      "SpawnEmitter": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:SpawnEmitter",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.4"
+      },
+      "CreateWidget": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:CreateWidget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.5"
+      },
+      "FindClosestPositionOnRadius": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:FindClosestPositionOnRadius",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.6"
+      },
+      "UpdateDomeAudioState": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:UpdateDomeAudioState",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.7"
+      },
+      "CreateAltWidget": {
+        "ObjectName": "Function FXC_Killjoy_X_Bomb_Active_C:CreateAltWidget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.8"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_X_Bomb_Active_C Default__FXC_Killjoy_X_Bomb_Active_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.10"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_X_Bomb_Active_C",
+    "Name": "Default__FXC_Killjoy_X_Bomb_Active_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BombActiveMontage": {
+        "ObjectName": "AnimMontage ABTP_Killjoy_S0_X_DetainBomb_Deploy_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/3P/Anims/PropSet/ABTP_Killjoy_S0_X_DetainBomb_Deploy_Montage.0"
+      },
+      "BombLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": true,
+        "TickInterval": 0.5
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioLoop_C",
+    "Name": "Comp_FXC_AudioLoop_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "Template": "Default__Comp_FXC_AudioLoop_C",
+    "Properties": {
+      "StopEvent": {
+        "ObjectName": "AkAudioEvent Stop_Killjoy_AbilX_Lockdown_Activate_Loop",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/LockDown/Stop_Killjoy_AbilX_Lockdown_Activate_Loop.1"
+      },
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_AbilX_Lockdown_Activate_Loop",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/LockDown/Play_Killjoy_AbilX_Lockdown_Activate_Loop.1"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_X_Bomb_Active_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.12"
+      },
+      "VariableGuid": "BB2A5418-4D83158D-1C113993-EC853F72",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioLoop_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioLoop.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioLoop_C FXC_Killjoy_X_Bomb_Active_C:Comp_FXC_AudioLoop_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.11"
+      },
+      "VariableGuid": "709D8AA8-414EA294-479946BF-669868A8",
+      "InternalVariableName": "Comp_FXC_AudioLoop"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_X_Bomb_Active_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.13"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.13"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_X_Bomb_Active_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.13"
+      }
+    }
+  }
+]

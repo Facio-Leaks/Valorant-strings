@@ -1,0 +1,1032 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnCast__DelegateSignature",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Ability_Killjoy_Q_Alarmbot",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_EnteredState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ScriptStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_StateTransitionContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class StateTransitionContext",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_ComponentBoundEvent_StartTimeOffset",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_AuthCastAbility_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__SpawnActorState_K2Node_ComponentBoundEvent_1_OnStateEnterSignature__DelegateSignature",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "EnteredState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class ScriptStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StateTransitionContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class StateTransitionContext",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTimeOffset",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Ability_Killjoy_Q_Alarmbot_C",
+    "Super": "Ability_Killjoy_Recallable_Deployable_Base_C",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding Ability_Killjoy_Q_Alarmbot_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.8"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript Ability_Killjoy_Q_Alarmbot_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.29"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler Ability_Killjoy_Q_Alarmbot_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:ExecuteUbergraph_Ability_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:BndEvt__SpawnActorState_K2Node_ComponentBoundEvent_1_OnStateEnterSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.2"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:ExecuteUbergraph_Ability_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.1"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:OnCast__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnCast",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:OnCast__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CastRecordedThisRound",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Pickup Cooldown",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      }
+    ],
+    "FuncMap": {
+      "OnCast__DelegateSignature": {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:OnCast__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.0"
+      },
+      "ExecuteUbergraph_Ability_Killjoy_Q_Alarmbot": {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:ExecuteUbergraph_Ability_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.1"
+      },
+      "BndEvt__SpawnActorState_K2Node_ComponentBoundEvent_1_OnStateEnterSignature__DelegateSignature": {
+        "ObjectName": "Function Ability_Killjoy_Q_Alarmbot_C:BndEvt__SpawnActorState_K2Node_ComponentBoundEvent_1_OnStateEnterSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.2"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Ability_Killjoy_Q_Alarmbot_C Default__Ability_Killjoy_Q_Alarmbot_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.4"
+    }
+  },
+  {
+    "Type": "Ability_Killjoy_Q_Alarmbot_C",
+    "Name": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "Default__Ability_Killjoy_Recallable_Deployable_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Pickup Cooldown": 7.0,
+      "CooldownOnDestroy": 0.0,
+      "CharacterAnims1P": {
+        "Class /Script/ShooterGame.IdleAdditiveAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.FP_Killjoy_S0_Q_StealthDrone_Idle1",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.LookAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_AimOffset.FP_Killjoy_S0_Q_StealthDrone_AimOffset",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchIdleAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.FP_Killjoy_S0_Q_StealthDrone_Idle1",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.RunAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Run.FP_Killjoy_S0_Q_StealthDrone_Run",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.StandUpAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_StandUp.FP_Killjoy_S0_Q_StealthDrone_StandUp",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Crouch_In.FP_Killjoy_S0_Q_StealthDrone_Crouch_In",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchWalkAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.FP_Killjoy_S0_Q_StealthDrone_Walk",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.WalkAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.FP_Killjoy_S0_Q_StealthDrone_Walk",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.JumpAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump.FP_Killjoy_S0_Q_StealthDrone_Jump",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.JumpLandAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump_Land.FP_Killjoy_S0_Q_StealthDrone_Jump_Land",
+          "SubPathString": ""
+        }
+      },
+      "CharacterAnimsUpperBody3P": {
+        "Class /Script/ShooterGame.IdleBaseUpperBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Q_StealthDrone_Idle_UB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/TP_Killjoy_S0_Q_StealthDrone_Idle_UB.0"
+        },
+        "Class /Script/ShooterGame.CrouchUpperBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Q_StealthDrone_Idle_UB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/TP_Killjoy_S0_Q_StealthDrone_Idle_UB.0"
+        }
+      },
+      "CharacterAnimsLowerBody3P": {
+        "Class /Script/ShooterGame.IdleLowerBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Q_StealthDrone_Idle_LB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/TP_Killjoy_S0_Q_StealthDrone_Idle_LB.0"
+        }
+      },
+      "PrimaryAimSpring1PStiffness": 300.0,
+      "PrimaryAimSpring1PDampening": 0.75,
+      "CachedCharacterAnimationAssetMap": {
+        "Class /Script/ShooterGame.IdleAdditiveAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Idle1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Idle1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.0"
+          }
+        },
+        "Class /Script/ShooterGame.LookAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AimOffsetBlendSpace FP_Killjoy_S0_Q_StealthDrone_AimOffset",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_AimOffset.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AimOffsetBlendSpace FP_Killjoy_S0_Q_StealthDrone_AimOffset",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_AimOffset.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchIdleAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Idle1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Idle1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Idle1.0"
+          }
+        },
+        "Class /Script/ShooterGame.RunAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Run",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Run.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Run",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Run.0"
+          }
+        },
+        "Class /Script/ShooterGame.StandUpAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_StandUp",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_StandUp.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_StandUp",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_StandUp.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Crouch_In",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Crouch_In.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Crouch_In",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Crouch_In.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchWalkAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.0"
+          }
+        },
+        "Class /Script/ShooterGame.WalkAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Walk.0"
+          }
+        },
+        "Class /Script/ShooterGame.JumpAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Jump",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Jump",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump.0"
+          }
+        },
+        "Class /Script/ShooterGame.JumpLandAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Jump_Land",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump_Land.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_Q_StealthDrone_Jump_Land",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Jump_Land.0"
+          }
+        }
+      },
+      "MySceneRoot": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.26"
+      },
+      "MyRoot3P": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.27"
+      },
+      "Mesh1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.30"
+      },
+      "OutlineComponent1P": {
+        "ObjectName": "AresOutlineComponent Default__Ability_Killjoy_Q_Alarmbot_C:OutlineComponent1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.5"
+      },
+      "Mesh3P": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.31"
+      },
+      "OutlineComponent3P": {
+        "ObjectName": "AresOutlineComponent Default__Ability_Killjoy_Q_Alarmbot_C:OutlineComponent3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.6"
+      },
+      "EquippableStateMachine": {
+        "ObjectName": "EquippableStateMachineComponent Default__Ability_Killjoy_Q_Alarmbot_C:EquippableStateMachine",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.14"
+      },
+      "EquippableFogOfWar": {
+        "ObjectName": "EquippableFogOfWarComponent Default__Ability_Killjoy_Q_Alarmbot_C:EquippableFogOfWarComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.12"
+      },
+      "EquippableEventComponent": {
+        "ObjectName": "EquippableEventEquippableComponent Default__Ability_Killjoy_Q_Alarmbot_C:EquippableEventComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.11"
+      },
+      "Meshes": [
+        {
+          "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh1P",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.30"
+        },
+        {
+          "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh3P",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.31"
+        }
+      ],
+      "Persistence": {
+        "ObjectName": "RoundPersistenceComponent Default__Ability_Killjoy_Q_Alarmbot_C:Persistence",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.24"
+      },
+      "ReplicationSleepComponent": {
+        "ObjectName": "ReplicationSleepComponent Default__Ability_Killjoy_Q_Alarmbot_C:ReplicationSleep",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.26"
+      }
+    }
+  },
+  {
+    "Type": "AresOutlineComponent",
+    "Name": "OutlineComponent1P",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "OutlineComponent1P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.30"
+      }
+    }
+  },
+  {
+    "Type": "AresOutlineComponent",
+    "Name": "OutlineComponent3P",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "OutlineComponent3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_Q_Alarmbot_C:WeaponMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.31"
+      }
+    }
+  },
+  {
+    "Type": "CharacterAbilityStatisticsComponent_C",
+    "Name": "CharacterAbilityStatisticsComponent_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "CharacterAbilityStatisticsComponent_GEN_VARIABLE",
+    "Properties": {
+      "ReclaimableAbility": true
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SpawnActorState",
+          "DelegatePropertyName": "OnStateEnter",
+          "FunctionNameToBind": "BndEvt__SpawnActorState_K2Node_ComponentBoundEvent_1_OnStateEnterSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConsumeResourcesStateComponent",
+    "Name": "ConsumeResourcesState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "ConsumeResourcesState_GEN_VARIABLE",
+    "Properties": {
+      "bShouldReportAbilityCast": false
+    }
+  },
+  {
+    "Type": "EquipmentChargeComponent",
+    "Name": "EquipmentCharge_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "EquipmentCharge_GEN_VARIABLE",
+    "Properties": {
+      "DesignPlaytestCost": 200,
+      "PipCost": 2
+    }
+  },
+  {
+    "Type": "EquippableEventEquippableComponent",
+    "Name": "EquippableEventComponent",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "EquippableEventComponent"
+  },
+  {
+    "Type": "EquippableFogOfWarComponent",
+    "Name": "EquippableFogOfWarComponent",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "EquippableFogOfWarComponent",
+    "Properties": {
+      "DebugComponent": {
+        "ObjectName": "FogOfWarDebugComponent Default__Ability_Killjoy_Q_Alarmbot_C:EquippableFogOfWarComponent.FogOfWarDebugComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.16"
+      }
+    }
+  },
+  {
+    "Type": "EquippableStateMachineComponent",
+    "Name": "ReclaimStateMachine_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "ReclaimStateMachine_GEN_VARIABLE",
+    "Properties": {
+      "OnStateChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EquippableStateMachineComponent Ability_Killjoy_Q_Alarmbot_C:ReclaimStateMachine_GEN_VARIABLE",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.13"
+            },
+            "FunctionName": "HandleStateChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "EquippableStateMachineComponent",
+    "Name": "EquippableStateMachine",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "EquippableStateMachine",
+    "Properties": {
+      "OnStateChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EquippableStateMachineComponent Default__Ability_Killjoy_Q_Alarmbot_C:EquippableStateMachine",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.14"
+            },
+            "FunctionName": "HandleStateChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "EquipStateComponent",
+    "Name": "EquipAbilityState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "EquipAbilityState_GEN_VARIABLE",
+    "Properties": {
+      "StateEffects": []
+    }
+  },
+  {
+    "Type": "FogOfWarDebugComponent",
+    "Name": "FogOfWarDebugComponent",
+    "Outer": "EquippableFogOfWarComponent",
+    "Template": "FogOfWarDebugComponent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class RespondToEventStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "RespondToEventStateComponent Ability_Killjoy_Q_Alarmbot_C:Reclaim_WaitForReclaimStartState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.21"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "Reclaim_WaitForReclaimStartState",
+            "AssociatedGuid": "91ECD8A2-4C859EE3-82CAAE9E-1CD2AC3A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class PlacementTargetingStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PlacementTargetingStateComponent Ability_Killjoy_Q_Alarmbot_C:PlacementTargetingState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "PlacementTargetingState",
+            "AssociatedGuid": "0DA44D82-43213AD4-2A487683-55FC2077"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ConsumeResourcesStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ConsumeResourcesStateComponent Ability_Killjoy_Q_Alarmbot_C:ConsumeResourcesState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "ConsumeResourcesState",
+            "AssociatedGuid": "04EF4B10-4E7A0ED2-D6121597-34B1F2B4"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass CharacterAbilityStatisticsComponent_C",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/Statistics/CharacterAbilityStatisticsComponent.39"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "CharacterAbilityStatisticsComponent_C Ability_Killjoy_Q_Alarmbot_C:CharacterAbilityStatisticsComponent_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/Ability_Base.39"
+            },
+            "SCSVariableName": "CharacterAbilityStatisticsComponent",
+            "AssociatedGuid": "C26C3508-45DCDD84-620D49AA-DB458B5E"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class EquipStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "EquipStateComponent Ability_Killjoy_Q_Alarmbot_C:EquipAbilityState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Equipped_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/Ability_Equipped_Base.4"
+            },
+            "SCSVariableName": "EquipAbilityState",
+            "AssociatedGuid": "4EA43908-44F41460-B6FFFDB6-3A6C3786"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SpawnActorStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SpawnActorStateComponent Ability_Killjoy_Q_Alarmbot_C:SpawnActorState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "SpawnActorState",
+            "AssociatedGuid": "B1CE8EF0-4248E2F9-E1AFC68B-B985A25A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class RespondToEventStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "RespondToEventStateComponent Ability_Killjoy_Q_Alarmbot_C:RespondToEventState_0_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.22"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "RespondToEventState_0",
+            "AssociatedGuid": "61EDB9CE-425BBE9B-2254EA91-747D89B3"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class EquipmentChargeComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "EquipmentChargeComponent Ability_Killjoy_Q_Alarmbot_C:EquipmentCharge_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "EquipmentCharge",
+            "AssociatedGuid": "B69F8743-4E726CEC-EC1FF584-5D924DBE"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class EquippableStateMachineComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "EquippableStateMachineComponent Ability_Killjoy_Q_Alarmbot_C:ReclaimStateMachine_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.13"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+            },
+            "SCSVariableName": "ReclaimStateMachine",
+            "AssociatedGuid": "970B9937-456ECC8C-F16558B9-AFFCFDB2"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PlacementTargetingStateComponent",
+    "Name": "PlacementTargetingState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "PlacementTargetingState_GEN_VARIABLE",
+    "Properties": {
+      "PlacementOffset": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 30.0
+        }
+      },
+      "PlacementWallBuffer": 50.0,
+      "bPlaceFlat": true,
+      "EncroachCheckHalfHeight": 20.0,
+      "EncroachCheckRadius": 20.0,
+      "EncroachChannel": "ECC_Pawn",
+      "NavmeshProjection": "ENavmeshProjection::Required",
+      "NavmeshSearchExtents": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "bLineOfSightRequired": true,
+      "bLedgePlacement": true,
+      "TargetingRange": 1000.0,
+      "FloorTraceAboveNavmeshHeight": 100.0,
+      "StateEffects": [
+        {
+          "Effect": {
+            "EffectType": {
+              "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.3"
+            },
+            "AttachOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "AttachRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "AttachSocket": "None"
+          },
+          "bStopEffectOnStateEnd": true,
+          "bStopEffectOnStateInterrupt": false,
+          "bOwnerEffectOnly": true,
+          "Context": "EStateContext::TriggeringState",
+          "MovementSync": "EMovementSync::None"
+        },
+        {
+          "Effect": {
+            "EffectType": {
+              "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_PlacementInput_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_PlacementInput.0"
+            },
+            "AttachOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "AttachRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "AttachSocket": "None"
+          },
+          "bStopEffectOnStateEnd": true,
+          "bStopEffectOnStateInterrupt": false,
+          "bOwnerEffectOnly": false,
+          "Context": "EStateContext::TriggeringState",
+          "MovementSync": "EMovementSync::None"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PurchasedItemComponent",
+    "Name": "PurchasedItemComponent",
+    "Outer": "EquipmentCharge_GEN_VARIABLE",
+    "Template": "PurchasedItemComponent"
+  },
+  {
+    "Type": "ReplicationSleepComponent",
+    "Name": "ReplicationSleep",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "ReplicationSleep"
+  },
+  {
+    "Type": "RespondToEventStateComponent",
+    "Name": "Reclaim_WaitForReclaimStartState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "Reclaim_WaitForReclaimStartState_GEN_VARIABLE",
+    "Properties": {
+      "StateEffects": [
+        {
+          "Effect": {
+            "EffectType": {
+              "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_RecallInput_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.0"
+            },
+            "AttachOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "AttachRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "AttachSocket": "None"
+          },
+          "bStopEffectOnStateEnd": true,
+          "bStopEffectOnStateInterrupt": false,
+          "bOwnerEffectOnly": false,
+          "Context": "EStateContext::TriggeringState",
+          "MovementSync": "EMovementSync::None"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RespondToEventStateComponent",
+    "Name": "RespondToEventState_0_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "RespondToEventState_0_GEN_VARIABLE",
+    "Properties": {
+      "StateEffects": []
+    }
+  },
+  {
+    "Type": "RespondToEventStateComponent",
+    "Name": "InactiveState",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "InactiveState"
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "Persistence",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "Persistence"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "SceneRoot"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot3P",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "SceneRoot3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.26"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent Ability_Killjoy_Q_Alarmbot_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.25"
+      },
+      "VariableGuid": "F9A8E6A2-48B0E8FD-131F2BAD-170C9FCE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node Ability_Killjoy_Q_Alarmbot_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.28"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponMesh1P",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "WeaponMesh1P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.26"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponMesh3P",
+    "Outer": "Default__Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "WeaponMesh3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_Q_Alarmbot_C:SceneRoot3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.27"
+      }
+    }
+  },
+  {
+    "Type": "SpawnActorStateComponent",
+    "Name": "SpawnActorState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_Q_Alarmbot_C",
+    "Template": "SpawnActorState_GEN_VARIABLE",
+    "Properties": {
+      "SpawnMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn"
+    }
+  }
+]

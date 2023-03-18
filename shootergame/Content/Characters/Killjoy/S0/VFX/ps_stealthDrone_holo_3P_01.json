@@ -1,0 +1,1278 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_16"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_26"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_9"
+  },
+  {
+    "Type": "DistributionVectorConstant",
+    "Name": "RequiredDistributionInheritVelocityScale",
+    "Outer": "ParticleModuleEventReceiverSpawn_0",
+    "Properties": {
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DistributionVectorConstant",
+    "Name": "RequiredDistributionInheritVelocityScale",
+    "Outer": "ParticleModuleEventReceiverSpawn_3",
+    "Properties": {
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_11",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_stealthDrone_holo_3P_01:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.25"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleEventGenerator ps_stealthDrone_holo_3P_01:ParticleModuleEventGenerator_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.13"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshMaterial ps_stealthDrone_holo_3P_01:ParticleModuleMeshMaterial_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.21"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime ps_stealthDrone_holo_3P_01:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_stealthDrone_holo_3P_01:ParticleModuleSize_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.29"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_stealthDrone_holo_3P_01:ParticleModuleColorOverLife_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.12"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_stealthDrone_holo_3P_01:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.19"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_stealthDrone_holo_3P_01:ParticleModuleTypeDataMesh_9",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.38"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_stealthDrone_holo_3P_01:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.32"
+      },
+      "EventGenerator": {
+        "ObjectName": "ParticleModuleEventGenerator ps_stealthDrone_holo_3P_01:ParticleModuleEventGenerator_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.13"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_14",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_stealthDrone_holo_3P_01:ParticleModuleRequired_16",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.24"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleEventReceiverSpawn ps_stealthDrone_holo_3P_01:ParticleModuleEventReceiverSpawn_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_stealthDrone_holo_3P_01:ParticleModuleSize_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.29"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshMaterial ps_stealthDrone_holo_3P_01:ParticleModuleMeshMaterial_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.21"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_stealthDrone_holo_3P_01:ParticleModuleColorOverLife_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.12"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_stealthDrone_holo_3P_01:ParticleModuleTypeDataMesh_23",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.37"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_stealthDrone_holo_3P_01:ParticleModuleSpawn_16",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.31"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_2",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_stealthDrone_holo_3P_01:ParticleModuleRequired_9",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.27"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleEventReceiverSpawn ps_stealthDrone_holo_3P_01:ParticleModuleEventReceiverSpawn_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_stealthDrone_holo_3P_01:ParticleModuleSize_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.28"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_stealthDrone_holo_3P_01:ParticleModuleColor_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.10"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_stealthDrone_holo_3P_01:ParticleModuleMeshRotation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.22"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_stealthDrone_holo_3P_01:ParticleModuleTypeDataMesh_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.35"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_stealthDrone_holo_3P_01:ParticleModuleSpawn_9",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.34"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_26",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_stealthDrone_holo_3P_01:ParticleModuleRequired_26",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.26"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleEventGenerator ps_stealthDrone_holo_3P_01:ParticleModuleEventGenerator_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.14"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime ps_stealthDrone_holo_3P_01:ParticleModuleLifetime_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.17"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_stealthDrone_holo_3P_01:ParticleModuleSize_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.28"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_stealthDrone_holo_3P_01:ParticleModuleLocation_22",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_stealthDrone_holo_3P_01:ParticleModuleColor_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_stealthDrone_holo_3P_01:ParticleModuleSizeMultiplyLife_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.30"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_stealthDrone_holo_3P_01:ParticleModuleMeshRotation_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.23"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_stealthDrone_holo_3P_01:ParticleModuleTypeDataMesh_20",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.36"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_stealthDrone_holo_3P_01:ParticleModuleSpawn_26",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.33"
+      },
+      "EventGenerator": {
+        "ObjectName": "ParticleModuleEventGenerator ps_stealthDrone_holo_3P_01:ParticleModuleEventGenerator_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.14"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 3.46632
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 3.46632
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0,
+            0.0,
+            3.46632
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.8,
+        "MaxValue": 0.8,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.8
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_11",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 3.46632
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 3.46632
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0,
+            0.0,
+            3.46632
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.8,
+        "MaxValue": 0.8,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.8
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_13",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleEventGenerator",
+    "Name": "ParticleModuleEventGenerator_3",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Events": [
+        {
+          "Type": "EPET_Death",
+          "Frequency": 0,
+          "ParticleFrequency": 0,
+          "FirstTimeOnly": false,
+          "LastTimeOnly": false,
+          "UseReflectedImpactVector": false,
+          "bUseOrbitOffset": false,
+          "CustomName": "Loop3",
+          "ParticleModuleEventsToSendToGame": []
+        }
+      ],
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleEventGenerator",
+    "Name": "ParticleModuleEventGenerator_5",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Events": [
+        {
+          "Type": "EPET_Death",
+          "Frequency": 0,
+          "ParticleFrequency": 0,
+          "FirstTimeOnly": false,
+          "LastTimeOnly": false,
+          "UseReflectedImpactVector": false,
+          "bUseOrbitOffset": false,
+          "CustomName": "Loop",
+          "ParticleModuleEventsToSendToGame": []
+        }
+      ],
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleEventReceiverSpawn",
+    "Name": "ParticleModuleEventReceiverSpawn_0",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "SpawnCount": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "InheritVelocityScale": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstant ps_stealthDrone_holo_3P_01:ParticleModuleEventReceiverSpawn_0.RequiredDistributionInheritVelocityScale",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.4"
+        }
+      },
+      "EventGeneratorType": "EPET_Death",
+      "EventName": "Loop3",
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleEventReceiverSpawn",
+    "Name": "ParticleModuleEventReceiverSpawn_3",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "SpawnCount": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "InheritVelocityScale": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstant ps_stealthDrone_holo_3P_01:ParticleModuleEventReceiverSpawn_3.RequiredDistributionInheritVelocityScale",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.5"
+        }
+      },
+      "EventGeneratorType": "EPET_Death",
+      "EventName": "Loop",
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_18",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.2,
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 8.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 8.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 8.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            8.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_22",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -0.25,
+        "MaxValue": 12.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 12.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 12.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            12.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshMaterial",
+    "Name": "ParticleModuleMeshMaterial_0",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "MeshMaterials": [
+        {
+          "ObjectName": "Material m_corner_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_corner_01.0"
+        },
+        {
+          "ObjectName": "Material m_shaft_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_shaft_01.0"
+        }
+      ],
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_1",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 0.5,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_13",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 0.5,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_16",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material WorldGridMaterial",
+        "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_stealthDrone_holo_3P_01:ParticleModuleRequired_16.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material WorldGridMaterial",
+        "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_stealthDrone_holo_3P_01:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.1"
+        }
+      },
+      "EmitterDelay": 0.09,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_26",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_holo_06",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_holo_06.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_stealthDrone_holo_3P_01:ParticleModuleRequired_26.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.2"
+        }
+      },
+      "EmitterDelay": 0.1,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_9",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_holo_06",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_holo_06.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_stealthDrone_holo_3P_01:ParticleModuleRequired_9.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.3"
+        }
+      },
+      "EmitterDelay": 0.3,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_18",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.17,
+        "MaxValue": 0.17,
+        "MinValueVec": {
+          "X": 0.17,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.17,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.17,
+            0.17,
+            0.17
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 7.5,
+        "MaxValue": 7.5,
+        "MinValueVec": {
+          "X": 7.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 7.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            7.5,
+            7.5,
+            7.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_17",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.2,
+        "MaxValue": 1.1338842,
+        "MinValueVec": {
+          "X": 0.7,
+          "Y": 0.7,
+          "Z": 0.2
+        },
+        "MaxValueVec": {
+          "X": 1.1338842,
+          "Y": 1.1338842,
+          "Z": 1.0000001
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 15.555556,
+          "Values": [
+            0.7,
+            0.7,
+            0.2,
+            0.95274776,
+            0.95274776,
+            0.4332277,
+            1.087436,
+            1.087436,
+            0.62097824,
+            1.1329222,
+            1.1329222,
+            0.76674956,
+            1.118064,
+            1.118064,
+            0.8740395,
+            1.0717194,
+            1.0717194,
+            0.946346,
+            1.0227454,
+            1.0227454,
+            0.9871669,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_16",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_26",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_9",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_alarmBot_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_alarmBot_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_20",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_alarmBot_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_alarmBot_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_23",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_CornerShaft_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_CornerShaft_01.2"
+      },
+      "RollPitchYawRange": {
+        "MaxValue": 270.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 270.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 270.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            90.0,
+            270.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_9",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_CornerShaft_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_CornerShaft_01.2"
+      },
+      "RollPitchYawRange": {
+        "MaxValue": 270.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 270.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 90.0,
+          "Z": 270.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            90.0,
+            270.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_11",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "EmitterName": "Corner_03",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_11.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.6"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_14",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "EmitterName": "BotLoop",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_14.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.7"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_2",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "EmitterName": "BotLoop",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_2.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.8"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_26",
+    "Outer": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "EmitterName": "BotStart",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_26.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.9"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_stealthDrone_holo_3P_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_26",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.42"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.41"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.39"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_stealthDrone_holo_3P_01:ParticleSpriteEmitter_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_3P_01.40"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

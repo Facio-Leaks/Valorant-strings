@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IBC_Background_C",
+    "Super": "WBP_IBC_Image_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IBC_Background_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Background.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Image_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.34"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IBC_Background_C Default__WBP_IBC_Background_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Background.1"
+    }
+  },
+  {
+    "Type": "WBP_IBC_Background_C",
+    "Name": "Default__WBP_IBC_Background_C",
+    "Template": "Default__WBP_IBC_Image_C",
+    "Properties": {
+      "DefaultColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.25,
+        "Hex": "3F000000"
+      },
+      "ImageTextureProperty": "ButtonTexture",
+      "ImageMaterialProperty": "ButtonMaterial",
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "CrossedOutColor": {
+        "R": 0.87451,
+        "G": 0.105882,
+        "B": 0.094118,
+        "A": 0.25,
+        "Hex": "3FF15B56"
+      },
+      "EditColor": {
+        "R": 0.807843,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.5,
+        "Hex": "7FE9EB96"
+      },
+      "DisabledColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.1,
+        "Hex": "19000000"
+      },
+      "ImageMaterial": {
+        "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+      },
+      "MaterialColorParam": "None",
+      "DefaultColorProperty": "ButtonColor",
+      "EngagedColorProperty": "EngagedColor",
+      "EditColorProperty": "EditColor",
+      "CrossedOutColorProperty": "CrossedOutColor",
+      "DisabledColorProperty": "DisabledColor",
+      "ScaleProperty": "ButtonScale"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IBC_Background_C"
+  }
+]

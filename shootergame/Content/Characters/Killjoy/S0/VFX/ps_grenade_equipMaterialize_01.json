@@ -1,0 +1,2878 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_0"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_1"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_19"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_3"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_5"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_0",
+    "Properties": {
+      "bEnabled": false,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.49"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.30"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.53"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorOverLife_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.23"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_grenade_equipMaterialize_01:ParticleModuleSizeMultiplyLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.57"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_grenade_equipMaterialize_01:ParticleModuleParameterDynamic_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.41"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.34"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_grenade_equipMaterialize_01:ParticleModuleMeshRotation_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.40"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.12"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_grenade_equipMaterialize_01:ParticleModuleTypeDataMesh_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.68"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.64"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.47"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.29"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.51"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_grenade_equipMaterialize_01:ParticleModuleSizeMultiplyLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.55"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_grenade_equipMaterialize_01:ParticleModuleParameterDynamic_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.42"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.35"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_grenade_equipMaterialize_01:ParticleModuleMeshRotation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.38"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.13"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_grenade_equipMaterialize_01:ParticleModuleTypeDataMesh_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.66"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.62"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_2",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.46"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.28"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_21",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.52"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorOverLife_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_grenade_equipMaterialize_01:ParticleModuleSizeMultiplyLife_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.56"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorScaleOverLife_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.25"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.32"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.16"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.61"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_3",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.48"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.29"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.51"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.22"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_grenade_equipMaterialize_01:ParticleModuleSizeMultiplyLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.55"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_grenade_equipMaterialize_01:ParticleModuleParameterDynamic_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.43"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.36"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_grenade_equipMaterialize_01:ParticleModuleMeshRotation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.39"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.14"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_grenade_equipMaterialize_01:ParticleModuleTypeDataMesh_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.67"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.63"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_4",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.44"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.26"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.50"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_grenade_equipMaterialize_01:ParticleModuleColor_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.24"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeScale ps_grenade_equipMaterialize_01:ParticleModuleSizeScale_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.58"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.33"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.15"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.59"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_5",
+    "Properties": {
+      "bEnabled": false,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_grenade_equipMaterialize_01:ParticleModuleRequired_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.45"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_grenade_equipMaterialize_01:ParticleModuleLifetime_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.27"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_grenade_equipMaterialize_01:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.53"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_grenade_equipMaterialize_01:ParticleModuleColorOverLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_grenade_equipMaterialize_01:ParticleModuleSizeMultiplyLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.54"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_grenade_equipMaterialize_01:ParticleModuleParameterDynamic_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.41"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_grenade_equipMaterialize_01:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.31"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_grenade_equipMaterialize_01:ParticleModuleMeshRotation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.37"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_grenade_equipMaterialize_01:ParticleModuleCameraOffset_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.17"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_grenade_equipMaterialize_01:ParticleModuleTypeDataMesh_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.65"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_grenade_equipMaterialize_01:ParticleModuleSpawn_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.60"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_3",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_4",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 40.0,
+        "MaxValue": 40.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            40.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 1.21279
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 1.21279
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            1.21279
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.347207
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.347207
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            0.347207
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.347207
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.347207
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            0.347207
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_14",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 100.0,
+        "MaxValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 33.3333
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            100.0,
+            0.0,
+            33.3333,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.1,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 3.0,
+          "Values": [
+            0.0,
+            0.06666667,
+            0.06666666,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 4,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.577497
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.577497
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            3.577497
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.5,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.09677419,
+            0.19354838,
+            0.29032254,
+            0.38709676,
+            0.48387095,
+            0.5806451,
+            0.6774193,
+            0.7741935,
+            0.8709678,
+            0.9677419,
+            1.0645161,
+            1.1612902,
+            1.2580645,
+            1.3548386,
+            1.4516128,
+            1.451613,
+            1.3548388,
+            1.2580644,
+            1.1612902,
+            1.0645162,
+            0.9677422,
+            0.8709678,
+            0.7741935,
+            0.6774194,
+            0.5806454,
+            0.48387098,
+            0.38709673,
+            0.29032284,
+            0.19354875,
+            0.09677426,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_4",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.577497
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.577497
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            3.577497
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            0.0,
+            0.057142857,
+            0.11428572,
+            0.17142859,
+            0.17142856,
+            0.1142857,
+            0.057142816,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_7",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_17",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.6,
+        "MaxValue": 0.6,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.6
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.8,
+        "MaxValue": 0.8,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.8
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_8",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -21.5,
+        "MinValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -21.5,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -5.0,
+        "MaxValue": 13.0,
+        "MinValueVec": {
+          "X": 13.0,
+          "Y": 0.0,
+          "Z": -5.0
+        },
+        "MaxValueVec": {
+          "X": 13.0,
+          "Y": 0.0,
+          "Z": -5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            13.0,
+            0.0,
+            -5.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_3",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -21.5,
+        "MinValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -21.5,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_4",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -21.5,
+        "MinValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -21.5,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -21.5,
+        "MinValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -21.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -21.5,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_8",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Foe",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.5,
+            "MaxValue": -0.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.5
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "ScrollClamp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.75,
+            "MaxValue": -0.75,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.75
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "WPO",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 1.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.5,
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Foe",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.5,
+            "MaxValue": -0.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.5
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "ScrollClamp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.75,
+            "MaxValue": -0.75,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.75
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "WPO",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 1.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.5,
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Foe",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.5,
+            "MaxValue": -0.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.5
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "ScrollClamp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.75,
+            "MaxValue": -0.75,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.75
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "WPO",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 1.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.5,
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant Phoenix_4_FakeLight",
+        "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Materials/Phoenix_4_FakeLight.0"
+      },
+      "EmitterOrigin": {
+        "X": -15.0,
+        "Y": 0.0,
+        "Z": -3.0
+      },
+      "ScreenAlignment": "PSA_FacingCameraPosition",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.5,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_0.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_1.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.1"
+        }
+      },
+      "EmitterDelay": 0.15,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_19",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_01.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_19.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.2"
+        }
+      },
+      "EmitterDelay": 0.1,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.3"
+        }
+      },
+      "EmitterDelay": 0.3,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_3.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.4"
+        }
+      },
+      "EmitterDelay": 0.3,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_grenade_equipMaterialize_01:ParticleModuleRequired_5.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.5"
+        }
+      },
+      "EmitterDelay": 0.15,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 15.0,
+          "Y": 100.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 15.0,
+          "Y": 100.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            15.0,
+            100.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 2.0,
+        "MinValueVec": {
+          "X": 2.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 2.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            2.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_21",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 20.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            20.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_7",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 1.25,
+        "MinValueVec": {
+          "X": 1.25,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.25,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.25,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.0,
+            1.0,
+            0.20829993,
+            0.048728257,
+            1.0,
+            0.40412402,
+            0.17542945,
+            1.0,
+            0.58162934,
+            0.35203534,
+            1.0,
+            0.73515,
+            0.5499209,
+            1.0,
+            0.85882837,
+            0.7406851,
+            1.0,
+            0.9469917,
+            0.89592934,
+            1.0,
+            0.993811,
+            0.9871325,
+            1.0,
+            1.0,
+            0.94666666,
+            0.9333333,
+            1.0,
+            0.8399999,
+            0.7999999,
+            1.0,
+            0.7333333,
+            0.6666666,
+            1.0,
+            0.6266666,
+            0.53333324,
+            1.0,
+            0.5199999,
+            0.39999995,
+            1.0,
+            0.4133332,
+            0.26666656,
+            1.0,
+            0.3066666,
+            0.13333328,
+            1.0,
+            0.2,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.8,
+          "Z": 0.8
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.0,
+            0.5,
+            0.19855428,
+            0.19806124,
+            0.51461846,
+            0.36903813,
+            0.36833155,
+            0.5526288,
+            0.5112223,
+            0.5105129,
+            0.6056106,
+            0.6251658,
+            0.62459356,
+            0.6649763,
+            0.71069133,
+            0.7103263,
+            0.7222055,
+            0.7678059,
+            0.7676481,
+            0.7687788,
+            0.7963845,
+            0.79636383,
+            0.7961398,
+            0.81333333,
+            0.76,
+            0.74666667,
+            0.84000003,
+            0.67999995,
+            0.6399999,
+            0.8666667,
+            0.59999996,
+            0.5333333,
+            0.8933334,
+            0.5199999,
+            0.4266666,
+            0.92,
+            0.43999997,
+            0.31999996,
+            0.94666666,
+            0.35999992,
+            0.21333322,
+            0.97333336,
+            0.27999994,
+            0.106666625,
+            1.0,
+            0.2,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_13",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.68006194,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 0.68006194,
+          "Y": 0.68006194,
+          "Z": 0.68006194
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            1.0,
+            1.0,
+            1.0,
+            0.84626573,
+            0.84626573,
+            0.84626573,
+            0.75008476,
+            0.75008476,
+            0.75008476,
+            0.69910055,
+            0.69910055,
+            0.69910055,
+            0.68095654,
+            0.68095654,
+            0.68095654,
+            0.6832961,
+            0.6832961,
+            0.6832961,
+            0.69376284,
+            0.69376284,
+            0.69376284,
+            0.7,
+            0.7,
+            0.7
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_6",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.0,
+            1.0,
+            0.20829993,
+            0.048728257,
+            1.0,
+            0.40412402,
+            0.17542945,
+            1.0,
+            0.58162934,
+            0.35203534,
+            1.0,
+            0.73515,
+            0.5499209,
+            1.0,
+            0.85882837,
+            0.7406851,
+            1.0,
+            0.9469917,
+            0.89592934,
+            1.0,
+            0.993811,
+            0.9871325,
+            1.0,
+            1.0,
+            0.94666666,
+            0.9333333,
+            1.0,
+            0.8399999,
+            0.7999999,
+            1.0,
+            0.7333333,
+            0.6666666,
+            1.0,
+            0.6266666,
+            0.53333324,
+            1.0,
+            0.5199999,
+            0.39999995,
+            1.0,
+            0.4133332,
+            0.26666656,
+            1.0,
+            0.3066666,
+            0.13333328,
+            1.0,
+            0.2,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeScale",
+    "Name": "ParticleModuleSizeScale_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "SizeScale": {
+        "MinValue": 1.2,
+        "MaxValue": 1.2,
+        "MinValueVec": {
+          "X": 1.2,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.2,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "MinValue": 3.0,
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_19",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_3",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_out_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_out_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_out_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_out_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_in_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_in_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_in_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_in_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_0.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.6"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_1.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.7"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_2",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_2.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.8"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_3.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.9"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_4",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "FakeLight",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_4.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.10"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Outer": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_5.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.11"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_grenade_equipMaterialize_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.74"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.69"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.70"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.72"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.71"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_grenade_equipMaterialize_01:ParticleSpriteEmitter_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_grenade_equipMaterialize_01.73"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

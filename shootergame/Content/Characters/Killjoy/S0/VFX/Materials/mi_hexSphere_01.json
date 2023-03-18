@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_hexSphere_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_hexSphere_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_hexSphere_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "AEF6182E-4109C9FB-87455681-7AE44946"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Noise Speed",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "86F364E0-4207F171-8C23BC85-136CEA08"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "1850E7EA-4AD6310F-9D1E8C83-677A250B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO Amount",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "FC547DB5-41F3CF07-AC49AB8D-6C609A1B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.71875,
+            "G": 0.581931,
+            "B": 0.252389,
+            "A": 1.0,
+            "Hex": "FFDDC98A"
+          },
+          "ExpressionGUID": "A1927AAE-44E390F5-96FCD4B5-76159319"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.634962,
+            "G": 1.210623,
+            "B": 1.5,
+            "A": 1.0,
+            "Hex": "FFD1FFFF"
+          },
+          "ExpressionGUID": "11BE43A1-4EB6109B-422E9F8D-396BE5DF"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Fresnel",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "0291CB7D-438E19D5-FC081BA2-72A0C937"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_hexSphere_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_hexSphere_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_noise_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_noise_01.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_InspectActionButton_Base",
+    "Outer": "BP_InspectActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEditModeWidget_EditModeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_EditControls_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.43"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonMovedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLong",
+    "Outer": "BP_InspectActionButton_Base_C",
+    "Super": "OnLong",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnLong",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "TouchIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLongMoved",
+    "Outer": "BP_InspectActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_InspectActionButton_Base_C",
+    "Super": "OnInitialized",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnInitialized",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.2"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnComponentSelectStateChanged",
+    "Outer": "BP_InspectActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnComponentSelectStateChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSelected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_InspectActionButton_Base_C",
+    "Super": "BP_ActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_InspectActionButton_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.7"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:ExecuteUbergraph_BP_InspectActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.4"
+      },
+      {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.3"
+      },
+      {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnLongMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.2"
+      },
+      {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnLong",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:ExecuteUbergraph_BP_InspectActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_InspectActionButton_Base": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:ExecuteUbergraph_BP_InspectActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.0"
+      },
+      "OnLong": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnLong",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.1"
+      },
+      "OnLongMoved": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnLongMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.2"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.3"
+      },
+      "OnComponentSelectStateChanged": {
+        "ObjectName": "Function BP_InspectActionButton_Base_C:OnComponentSelectStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.4"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_InspectActionButton_Base_C Default__BP_InspectActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_InspectActionButton_Base.6"
+    }
+  },
+  {
+    "Type": "BP_InspectActionButton_Base_C",
+    "Name": "Default__BP_InspectActionButton_Base_C",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UsesLongPress": true,
+      "ReceivingForwardedInputChannel": 4,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {},
+        "TextProperties": {},
+        "MaterialInterfaceProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_InspectActionButton_Base_C"
+  }
+]

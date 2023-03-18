@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_Q_Equip__C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioBasic",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_PlayAnimation_ShooterCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_Q_Equip__C Default__FXC_Killjoy_Q_Equip__C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.1"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_Q_Equip__C",
+    "Name": "Default__FXC_Killjoy_Q_Equip__C",
+    "Properties": {
+      "InitialLifeSpan": 0.7
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioBasic_C",
+    "Name": "Comp_FXC_AudioBasic_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_Equip__C",
+    "Template": "Default__Comp_FXC_AudioBasic_C",
+    "Properties": {
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Alarmbot_Equip",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Alarmbot/Play_Killjoy_Abil_Alarmbot_Equip.1"
+      },
+      "AddTailForSound": false
+    }
+  },
+  {
+    "Type": "Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Name": "Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_Equip__C",
+    "Template": "Default__Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Properties": {
+      "1P_Animation": {
+        "ObjectName": "AnimMontage FP_Killjoy_S0_Q_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_Equip_Montage.0"
+      },
+      "1P_Overlay_Animation": {
+        "ObjectName": "AnimMontage FP_Killjoy_S0_Q_StealthDrone_Equip_Cosmetic_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Anims/FP_Killjoy_S0_Q_StealthDrone_Equip_Cosmetic_Montage.0"
+      },
+      "3P_Animation": {
+        "ObjectName": "AnimMontage TP_Killjoy_S0_Q_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/TP_Killjoy_S0_Q_Equip_Montage.0"
+      },
+      "3P_Cosmetic_Animation": {
+        "ObjectName": "AnimMontage TP_Killjoy_S0_Q_StealthDrone_Equip_Cosmetic_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/TP_Killjoy_S0_Q_StealthDrone_Equip_Cosmetic_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_Equip__C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_Q_Equip__C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.4"
+      },
+      "VariableGuid": "6669C863-44EDD6FC-41D491B3-66650F4D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_PlayAnimation_ShooterCharacter_C FXC_Killjoy_Q_Equip__C:Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.3"
+      },
+      "VariableGuid": "38484B28-4E8CE23A-CCBC60B9-4DD8CE6F",
+      "InternalVariableName": "Comp_FXC_PlayAnimation_ShooterCharacter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioBasic_C FXC_Killjoy_Q_Equip__C:Comp_FXC_AudioBasic_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.2"
+      },
+      "VariableGuid": "09E89032-400858D0-4D40DE86-161C1F78",
+      "InternalVariableName": "Comp_FXC_AudioBasic"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_Q_Equip__C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_Q_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Equip_.5"
+      }
+    }
+  }
+]

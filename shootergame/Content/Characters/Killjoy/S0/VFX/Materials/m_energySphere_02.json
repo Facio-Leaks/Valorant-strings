@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_energySphere_02",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_8",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Additive",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_7",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "20EED779-4FDFCF79-B20199BB-A74694DC",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              4015275682499240590
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Axis",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "0259B30B-43CDD572-93EF0587-36F94248"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "VectorValues": [
+            {
+              "R": 0.5,
+              "G": 0.7,
+              "B": 0.25,
+              "A": 1.0,
+              "Hex": "FFBCDA89"
+            }
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "DB3E993F-4E2E98B3-05AD13B9-2D8C5DA5",
+            "Function": {
+              "ObjectName": "MaterialFunction CameraDepthFade",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "PulseSpeed",
+          "Emissive Multiply",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_4"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_cs_pupil:ParticleModuleRequired_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.7"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_cs_pupil:ParticleModuleLifetime_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.5"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_cs_pupil:ParticleModuleSize_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.9"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_cs_pupil:ParticleModuleColor_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.3"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation ps_cs_pupil:ParticleModuleRotation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.8"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_cs_pupil:ParticleModuleCameraOffset_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.2"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_cs_pupil:ParticleModuleColorScaleOverLife_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.4"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_cs_pupil:ParticleModuleLocation_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.6"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_cs_pupil:ParticleModuleSpawn_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.10"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_4",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 370.0,
+        "MaxValue": 370.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            370.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_4",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 5.0,
+          "Z": 4.316065
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 5.0,
+          "Z": 4.316065
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            5.0,
+            4.316065
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.05,
+        "MaxValue": 0.085,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.05,
+            0.085
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_5",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 3.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 3.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_1",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.1,
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.1,
+            0.2
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_5",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 7.0,
+        "MinValueVec": {
+          "X": 7.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 7.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            7.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_4",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant ArrowLense_Flare_MI",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/ArrowLense_Flare_MI.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.1,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_cs_pupil:ParticleModuleRequired_4.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_1",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "StartRotation": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_1",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 20.0,
+          "Y": 20.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0,
+            20.0,
+            1.0,
+            10.0,
+            10.0,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "ps_cs_pupil",
+    "Properties": {
+      "EmitterName": "LenseFlare",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_cs_pupil:ParticleSpriteEmitter_1.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.1"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_cs_pupil",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_cs_pupil:ParticleSpriteEmitter_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_pupil.11"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

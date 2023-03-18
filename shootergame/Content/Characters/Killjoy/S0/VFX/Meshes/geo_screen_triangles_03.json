@@ -1,0 +1,271 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "geo_screen_triangles_03",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -0.12500012,
+                "Y": -1.375,
+                "Z": -0.9203493
+              },
+              {
+                "X": 0.40624997,
+                "Y": -0.84375,
+                "Z": -0.9203493
+              },
+              {
+                "X": 0.40625003,
+                "Y": 1.125,
+                "Z": -0.9203493
+              },
+              {
+                "X": -0.43665683,
+                "Y": 1.0796506,
+                "Z": -0.92034936
+              },
+              {
+                "X": -0.43665683,
+                "Y": -1.0633432,
+                "Z": -0.92034936
+              },
+              {
+                "X": 0.43581372,
+                "Y": -0.81418616,
+                "Z": 0.5641862
+              },
+              {
+                "X": 0.43581372,
+                "Y": 0.8141861,
+                "Z": 0.5641862
+              },
+              {
+                "X": 0.43581372,
+                "Y": 0.81418633,
+                "Z": -0.90625
+              },
+              {
+                "X": -0.43581367,
+                "Y": 1.0641863,
+                "Z": 0.9289247
+              },
+              {
+                "X": -0.43581367,
+                "Y": -1.0641863,
+                "Z": 0.9289247
+              },
+              {
+                "X": 0.40624997,
+                "Y": 1.125,
+                "Z": 0.92034936
+              },
+              {
+                "X": 0.40625003,
+                "Y": -1.0796504,
+                "Z": 0.92034936
+              },
+              {
+                "X": -0.43665683,
+                "Y": -1.1875,
+                "Z": 0.92034936
+              },
+              {
+                "X": -0.125,
+                "Y": 1.375,
+                "Z": 0.62499976
+              },
+              {
+                "X": 0.17458022,
+                "Y": 1.0754198,
+                "Z": 0.9245799
+              },
+              {
+                "X": -0.12499997,
+                "Y": 1.375,
+                "Z": -0.6249999
+              },
+              {
+                "X": 0.21875012,
+                "Y": 1.03125,
+                "Z": -0.96875
+              },
+              {
+                "X": -0.12500009,
+                "Y": -1.3749999,
+                "Z": 0.625
+              },
+              {
+                "X": 0.06972253,
+                "Y": -1.0697225,
+                "Z": 0.93027735
+              },
+              {
+                "X": 0.13231054,
+                "Y": -1.1176893,
+                "Z": 0.8676897
+              },
+              {
+                "X": 0.07965092,
+                "Y": 1.125,
+                "Z": 0.92034936
+              },
+              {
+                "X": 0.43665686,
+                "Y": -0.81334305,
+                "Z": -0.5633431
+              },
+              {
+                "X": 0.43665686,
+                "Y": 0.8133433,
+                "Z": -0.5633431
+              },
+              {
+                "X": 0.12012258,
+                "Y": 1.1298776,
+                "Z": -0.87987745
+              },
+              {
+                "X": 0.0625,
+                "Y": 1.0624996,
+                "Z": -0.9375
+              },
+              {
+                "X": 0.0625,
+                "Y": -1.1874999,
+                "Z": -0.9375
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": -0.43665683,
+                "Y": -1.375,
+                "Z": -0.96875
+              },
+              "Max": {
+                "X": 0.43665686,
+                "Y": 1.375,
+                "Z": 0.93027735
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Level",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "56366CA84E2CA92AF28ACEA475C67A72",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 25019,
+        "SizeOnDisk": 25019,
+        "OffsetInFile": "0x2325D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "geo_screen_triangles_03",
+    "CookedFormatData": {}
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "geo_screen_triangles_03",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material WorldGridMaterial",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 0.21813162,
+            "LocalUVDensities": 2.1581738,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 3.571088
+          }
+        }
+      ],
+      "LightmapUVDensity": 3.571088,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 3,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 2.9802322E-08,
+          "Y": -1.1920929E-07,
+          "Z": 5.9604645E-08
+        },
+        "BoxExtent": {
+          "X": 0.3358137,
+          "Y": 1.2379122,
+          "Z": 0.82034934
+        },
+        "SphereRadius": 1.3277817
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup geo_screen_triangles_03:BodySetup_0",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_screen_triangles_03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision geo_screen_triangles_03:NavCollision_0",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_screen_triangles_03.1"
+    },
+    "LightingGuid": "5E55CF60-4E02EA84-624825BD-B4DCD883",
+    "RenderData": null
+  }
+]

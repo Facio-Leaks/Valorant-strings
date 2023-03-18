@@ -1,0 +1,978 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnDamageSectionLifeValueChanged__DelegateSignature",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewLifeValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "StartComponentListening",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetParentWidget_ParentWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_FindWidgetOwningCharacterInterface_WidgetOwningCharacterInterface",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class AresWidgetOwningCharacterInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FindWidgetOwningCharacterInterface_bFound",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FetchOwningCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopComponentListening",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetParentWidget_ParentWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_FindWidgetOwningCharacterInterface_WidgetOwningCharacterInterface",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class AresWidgetOwningCharacterInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FindWidgetOwningCharacterInterface_bFound",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnOwningCharacterChanged",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OldCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CallFunc_Conv_ObjectToSoftObjectReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedOwningCharacter_OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateDamageSection",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedOwningCharacter_OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CallFunc_Conv_ObjectToSoftObjectReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateDamageHandler",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewDamageHandler",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CallFunc_Conv_ObjectToSoftObjectReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedDamageSection_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedDamageHandler_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedOwningCharacter_OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedDamageHandler_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnDamageSectionDirtiedSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateLifeValue",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedDamageHandler_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCachedDamageSection_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSectionLife_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateLifeValue_Internal",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewLifeValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDamageSectionClass",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ClassProperty",
+        "Name": "NewDamageSectionClass",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class ChildRegionDamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ClassClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetParentWidget",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParentWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOuterObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsUser_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCachedLifeValue",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CachedLifeValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCachedOwningCharacter",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OwningCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCachedDamageSection",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 525696,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsDamage_Section_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCachedDamageHandler",
+    "Outer": "BP_Mobile_DamageSectionComponent_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 525696,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsDamageable_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Mobile_DamageSectionComponent_C",
+    "SuperStruct": {
+      "ObjectName": "Class GetOuterWorldObject",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedDamageHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.13"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedDamageSection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.12"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedOwningCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.11"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedLifeValue",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.10"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetParentWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.9"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:SetDamageSectionClass",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.8"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateLifeValue_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.7"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateLifeValue",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.6"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateDamageHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.5"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateDamageSection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.4"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.3"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:StopComponentListening",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.2"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:StartComponentListening",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.1"
+      },
+      {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnDamageSectionLifeValueChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnDamageSectionLifeValueChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnDamageSectionLifeValueChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.0"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CachedDamageSection",
+        "Flags": 2097153,
+        "ElementSize": 48,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CachedDamageHandler",
+        "Flags": 2097153,
+        "ElementSize": 48,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CachedOwningCharacter",
+        "Flags": 2097153,
+        "ElementSize": 48,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CachedLifeValue",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DamageSectionClass",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 281474976710661,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnDamageSectionLifeValueChanged__DelegateSignature": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnDamageSectionLifeValueChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.0"
+      },
+      "StartComponentListening": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:StartComponentListening",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.1"
+      },
+      "StopComponentListening": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:StopComponentListening",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.2"
+      },
+      "OnOwningCharacterChanged": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.3"
+      },
+      "UpdateDamageSection": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateDamageSection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.4"
+      },
+      "UpdateDamageHandler": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateDamageHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.5"
+      },
+      "UpdateLifeValue": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateLifeValue",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.6"
+      },
+      "UpdateLifeValue_Internal": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:UpdateLifeValue_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.7"
+      },
+      "SetDamageSectionClass": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:SetDamageSectionClass",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.8"
+      },
+      "GetParentWidget": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetParentWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.9"
+      },
+      "GetCachedLifeValue": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedLifeValue",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.10"
+      },
+      "GetCachedOwningCharacter": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedOwningCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.11"
+      },
+      "GetCachedDamageSection": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedDamageSection",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.12"
+      },
+      "GetCachedDamageHandler": {
+        "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:GetCachedDamageHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.13"
+      }
+    },
+    "ClassFlags": 8652816,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Mobile_DamageSectionComponent_C Default__BP_Mobile_DamageSectionComponent_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.15"
+    }
+  },
+  {
+    "Type": "BP_Mobile_DamageSectionComponent_C",
+    "Name": "Default__BP_Mobile_DamageSectionComponent_C"
+  }
+]

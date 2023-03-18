@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DmgType_Killjoy_4_Bees_C",
+    "Super": "DmgType_Base_C",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass DmgType_Base_C",
+      "ObjectPath": "ShooterGame/Content/Blueprints/Damage/DmgType_Base.3"
+    },
+    "ClassFlags": 329744,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DmgType_Killjoy_4_Bees_C Default__DmgType_Killjoy_4_Bees_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/DmgType_Killjoy_4_Bees.1"
+    }
+  },
+  {
+    "Type": "DmgType_Killjoy_4_Bees_C",
+    "Name": "Default__DmgType_Killjoy_4_Bees_C",
+    "Template": "Default__DmgType_Base_C",
+    "Properties": {
+      "ShowDamageDirection": false,
+      "bReportDamageDone": true,
+      "bReportKills": true,
+      "EquippableSlot": "EAresItemSlot::GrenadeAbility",
+      "KillIcon": {
+        "Texture": {
+          "ObjectName": "Texture2D TX_KJ_Bees",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/TX_KJ_Bees.0"
+        },
+        "UL": 24.0,
+        "VL": 25.0
+      },
+      "Equippable": {
+        "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+        "SubPathString": ""
+      },
+      "ObjectScale": 0.5,
+      "bShowHitConfirm": false,
+      "bApplyAllyDamageMultiplier": true,
+      "DisplayNameText": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "GrenadeAbility_DisplayName"
+      },
+      "DamageCategory": "EAresDamageCategory::DamageCategory_ExternalZone",
+      "DamageIndicationType": "EAresDamageIndicationType::PrioritizeDamageCauser",
+      "HitIndicatorDisplayType": "EAresHitIndicatorDisplayType::NeverShowHitIndicator",
+      "HitSoundPlayType": "EAresHitSoundPlayType::NeverPlayHitSound",
+      "DamageSource": {
+        "ObjectName": "BlueprintGeneratedClass DmgSource_Ability_C",
+        "ObjectPath": "ShooterGame/Content/Blueprints/DamageSources/DmgSource_Ability.0"
+      }
+    }
+  }
+]

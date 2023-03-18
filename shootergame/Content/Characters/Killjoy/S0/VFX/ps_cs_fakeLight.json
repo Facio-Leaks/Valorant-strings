@@ -1,0 +1,547 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Properties": {
+      "bEnabled": false,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_cs_fakeLight:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.8"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_cs_fakeLight:ParticleModuleLifetime_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.6"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_cs_fakeLight:ParticleModuleSize_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.9"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_cs_fakeLight:ParticleModuleColor_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.3"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_cs_fakeLight:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.5"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_cs_fakeLight:ParticleModuleColorScaleOverLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.4"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeScale ps_cs_fakeLight:ParticleModuleSizeScale_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.10"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_cs_fakeLight:ParticleModuleLocation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.7"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_cs_fakeLight:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.2"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_cs_fakeLight:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.11"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.332238
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 3.332238
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0,
+            0.0,
+            3.332238
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.2,
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_0",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MaxValue": 2.0,
+        "MaxValueVec": {
+          "X": 1.614498,
+          "Y": 0.0,
+          "Z": 2.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.614498,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 62.999996,
+          "Values": [
+            0.0,
+            0.095238104,
+            0.19047621,
+            0.2857143,
+            0.38095242,
+            0.4761905,
+            0.5714286,
+            0.66666675,
+            0.76190484,
+            0.85714287,
+            0.952381,
+            1.0476191,
+            1.1428572,
+            1.2380953,
+            1.3333335,
+            1.4285716,
+            1.5238097,
+            1.6190476,
+            1.7142859,
+            1.809524,
+            1.904762,
+            2.0000002,
+            2.0952382,
+            2.1904762,
+            2.2857144,
+            2.3809526,
+            2.4761906,
+            2.5714288,
+            2.666667,
+            2.761905,
+            2.8571432,
+            2.9523811,
+            2.9523807,
+            2.857143,
+            2.7619047,
+            2.6666667,
+            2.5714283,
+            2.47619,
+            2.380952,
+            2.2857141,
+            2.190476,
+            2.095238,
+            1.9999999,
+            1.904762,
+            1.8095235,
+            1.7142856,
+            1.6190473,
+            1.5238094,
+            1.4285709,
+            1.333333,
+            1.2380948,
+            1.142857,
+            1.0476184,
+            0.9523806,
+            0.8571423,
+            0.7619045,
+            0.66666627,
+            0.5714284,
+            0.47619018,
+            0.3809523,
+            0.2857136,
+            0.19047573,
+            0.095237866,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 64,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 0.807249,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            0.807249,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.25,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.25,
+            0.5
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant Phoenix_4_FakeLight",
+        "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Materials/Phoenix_4_FakeLight.0"
+      },
+      "EmitterOrigin": {
+        "X": -15.0,
+        "Y": 0.0,
+        "Z": -3.0
+      },
+      "ScreenAlignment": "PSA_FacingCameraPosition",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_cs_fakeLight:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 150.0,
+        "MaxValue": 150.0,
+        "MinValueVec": {
+          "X": 150.0,
+          "Y": 25.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 150.0,
+          "Y": 25.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            150.0,
+            150.0,
+            150.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeScale",
+    "Name": "ParticleModuleSizeScale_0",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "SizeScale": {
+        "MinValue": 1.2,
+        "MaxValue": 1.2,
+        "MinValueVec": {
+          "X": 1.2,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.2,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "ps_cs_fakeLight",
+    "Properties": {
+      "EmitterName": "FakeLight",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_cs_fakeLight:ParticleSpriteEmitter_1.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.1"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_cs_fakeLight",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_cs_fakeLight:ParticleSpriteEmitter_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_cs_fakeLight.12"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

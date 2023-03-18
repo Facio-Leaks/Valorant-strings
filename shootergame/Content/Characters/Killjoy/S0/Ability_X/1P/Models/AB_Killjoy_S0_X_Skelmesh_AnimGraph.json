@@ -1,0 +1,277 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AB_Killjoy_S0_X_Skelmesh_AnimGraph",
+    "Outer": "AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Outer": "AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraph",
+        "Flags": 1,
+        "ElementSize": 24,
+        "PropertyFlags": 384,
+        "Struct": {
+          "ObjectName": "ScriptStruct PoseLink",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+    "Properties": {
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton AB_Killjoy_S0_X_Skelmesh_Skeleton",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_Skeleton.1"
+      },
+      "OrderedSavedPoseIndicesMap": {
+        "AnimGraph": {
+          "OrderedSavedPoseNodeIndices": []
+        }
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function AB_Killjoy_S0_X_Skelmesh_AnimGraph_C:ExecuteUbergraph_AB_Killjoy_S0_X_Skelmesh_AnimGraph",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AnimInstance",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function AB_Killjoy_S0_X_Skelmesh_AnimGraph_C:AnimGraph",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.1"
+      },
+      {
+        "ObjectName": "Function AB_Killjoy_S0_X_Skelmesh_AnimGraph_C:ExecuteUbergraph_AB_Killjoy_S0_X_Skelmesh_AnimGraph",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": 2097153,
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_Root",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Slot_1",
+        "Flags": 2097153,
+        "ElementSize": 128,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_Slot",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyMeshSpaceAdditive",
+        "Flags": 2097153,
+        "ElementSize": 264,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_ApplyMeshSpaceAdditive",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Slot",
+        "Flags": 2097153,
+        "ElementSize": 128,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_Slot",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_IdentityPose",
+        "Flags": 2097153,
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_RefPose",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": 2097153,
+        "ElementSize": 176,
+        "Struct": {
+          "ObjectName": "ScriptStruct AnimNode_SequencePlayer",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AB_Killjoy_S0_X_Skelmesh_AnimGraph": {
+        "ObjectName": "Function AB_Killjoy_S0_X_Skelmesh_AnimGraph_C:ExecuteUbergraph_AB_Killjoy_S0_X_Skelmesh_AnimGraph",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.0"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function AB_Killjoy_S0_X_Skelmesh_AnimGraph_C:AnimGraph",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.1"
+      }
+    },
+    "ClassFlags": 8652824,
+    "ClassWithin": {
+      "ObjectName": "Class SkeletalMeshComponent",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AB_Killjoy_S0_X_Skelmesh_AnimGraph_C Default__AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.3"
+    }
+  },
+  {
+    "Type": "AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+    "Name": "Default__AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimGraphNode_Root": {
+        "Result": {
+          "LinkID": 2
+        },
+        "Name": "AnimGraph",
+        "Group": "None"
+      },
+      "AnimGraphNode_Slot_1": {
+        "Source": {
+          "LinkID": 5
+        },
+        "SlotName": "DefaultSlot",
+        "bAlwaysUpdateSourcePose": false
+      },
+      "AnimGraphNode_ApplyMeshSpaceAdditive": {
+        "Base": {
+          "LinkID": 1
+        },
+        "Additive": {
+          "LinkID": 3
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "Alpha": 1.0,
+        "bAlphaBoolEnabled": true,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "LODThreshold": -1
+      },
+      "AnimGraphNode_Slot": {
+        "Source": {
+          "LinkID": 4
+        },
+        "SlotName": "HitAdditiveGroup",
+        "bAlwaysUpdateSourcePose": false
+      },
+      "AnimGraphNode_IdentityPose": {
+        "RefPoseType": "EIT_Additive"
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "Sequence": {
+          "ObjectName": "AnimSequence AB_Killjoy_S0_X_Bomb_IdlePose",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Anims/AB_Killjoy_S0_X_Bomb_IdlePose.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": true,
+        "GroupName": "None",
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "GroupScope": "EAnimSyncGroupScope::Local",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      }
+    }
+  }
+]

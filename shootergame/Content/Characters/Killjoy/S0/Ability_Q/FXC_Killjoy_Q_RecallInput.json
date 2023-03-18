@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_Q_RecallInput_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_HUD_Ability_InputPrompt",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_HUD_Ability_InputPrompt_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Comp_FXC_HUD_Ability_InputPrompt.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_Q_RecallInput_C Default__FXC_Killjoy_Q_RecallInput_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.1"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_Q_RecallInput_C",
+    "Name": "Default__FXC_Killjoy_Q_RecallInput_C"
+  },
+  {
+    "Type": "Comp_FXC_HUD_Ability_InputPrompt_C",
+    "Name": "Comp_FXC_HUD_Ability_InputPrompt_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_RecallInput_C",
+    "Template": "Default__Comp_FXC_HUD_Ability_InputPrompt_C",
+    "Properties": {
+      "ButtonPrompts": [
+        {
+          "MounseInput_2_88A0D62A4694903C7842EBB3A9E63237": "Enum_AbilityInputs::NewEnumerator3",
+          "BindingName_21_5FDFA94A44D999FD54DF0E8583A3D472": "None",
+          "InputImage_8_8BF21A634BDA5BE54D8999AF5C2425C1": {
+            "ObjectName": "Texture2D TX_Hud_Icons_InputPrompt_Detonate",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/NormalNew/TX_Hud_Icons_InputPrompt_Detonate.0"
+          },
+          "InputColor_15_8EBFC16C4DBCCC83C733C6B336DFEB4F": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ImageColor_16_6F9B48764FEFC256F724ED90C5D24EE8": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_RecallInput_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_Q_RecallInput_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.3"
+      },
+      "VariableGuid": "CC10F180-42AD40E6-B376458E-F908D21D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_HUD_Ability_InputPrompt_C",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Comp_FXC_HUD_Ability_InputPrompt.11"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_HUD_Ability_InputPrompt_C FXC_Killjoy_Q_RecallInput_C:Comp_FXC_HUD_Ability_InputPrompt_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.2"
+      },
+      "VariableGuid": "80709268-4DF68197-3B7A92A7-843F5175",
+      "InternalVariableName": "Comp_FXC_HUD_Ability_InputPrompt"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_Q_RecallInput_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.4"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.4"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_Q_RecallInput_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_RecallInput.4"
+      }
+    }
+  }
+]

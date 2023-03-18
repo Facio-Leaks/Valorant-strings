@@ -1,0 +1,887 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_19"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_7"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_triangle_reclaim_01:ParticleModuleRequired_7",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.16"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_triangle_reclaim_01:ParticleModuleLifetime_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.12"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_triangle_reclaim_01:ParticleModuleSize_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_triangle_reclaim_01:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.8"
+        },
+        {
+          "ObjectName": "ParticleModuleRotationRate ps_triangle_reclaim_01:ParticleModuleRotationRate_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.17"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag ps_triangle_reclaim_01:ParticleModuleAccelerationDrag_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.4"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_triangle_reclaim_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.9"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_triangle_reclaim_01:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.5"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere ps_triangle_reclaim_01:ParticleModuleLocationPrimitiveSphere_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.14"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_triangle_reclaim_01:ParticleModuleSpawn_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.22"
+      },
+      "PeakActiveParticles": 6
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_2",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_triangle_reclaim_01:ParticleModuleRequired_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.15"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_triangle_reclaim_01:ParticleModuleLifetime_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_triangle_reclaim_01:ParticleModuleSize_21",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_triangle_reclaim_01:ParticleModuleColorOverLife_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.7"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_triangle_reclaim_01:ParticleModuleSizeMultiplyLife_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_triangle_reclaim_01:ParticleModuleCameraOffset_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.6"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_triangle_reclaim_01:ParticleModuleLocation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.13"
+        }
+      ],
+      "ModulePendingDelete": {
+        "ObjectName": "ParticleModuleColorScaleOverLife ps_triangle_reclaim_01:ParticleModuleColorScaleOverLife_7",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.10"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_triangle_reclaim_01:ParticleModuleSpawn_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.21"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationDrag",
+    "Name": "ParticleModuleAccelerationDrag_1",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "DragCoefficientRaw": {
+        "MinValue": 2.5,
+        "MaxValue": 2.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            2.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": -20.0,
+        "MaxValue": -20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_2",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 15.0,
+        "MaxValue": 22.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            22.0,
+            15.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_14",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.693254
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 3.151639,
+          "Z": 5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            10.0,
+            0.0,
+            0.693254,
+            0.0,
+            3.151639,
+            5.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.75,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.1,
+            0.2,
+            0.29999998,
+            0.4,
+            0.50000006,
+            0.59999996,
+            0.70000005,
+            0.7,
+            0.5999999,
+            0.49999997,
+            0.39999992,
+            0.29999995,
+            0.19999994,
+            0.09999999,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.430979,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 0.940722,
+          "Y": 100.0,
+          "Z": 81.89323
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            0.0,
+            100.0,
+            81.89323,
+            0.940722,
+            0.430979,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 5.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            5.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            10.0,
+            10.0,
+            10.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_7",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.94447595,
+            0.6063916,
+            0.19828883,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 1
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_17",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_7",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.15,
+        "MaxValue": 0.3,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.15,
+            0.3
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_2",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -10.5,
+        "MaxValue": 161.0,
+        "MinValueVec": {
+          "X": 25.0,
+          "Y": -10.5,
+          "Z": 161.0
+        },
+        "MaxValueVec": {
+          "X": 25.0,
+          "Y": -10.5,
+          "Z": 161.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            25.0,
+            -10.5,
+            161.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_0",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 5.0,
+        "MaxValue": 5.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            5.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "SurfaceOnly": true,
+      "Velocity": true,
+      "VelocityScale": {
+        "MinValue": -4.0,
+        "MaxValue": -4.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -4.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartLocation": {
+        "MinValue": -10.0,
+        "MaxValue": 160.0,
+        "MinValueVec": {
+          "X": 25.0,
+          "Y": -10.0,
+          "Z": 160.0
+        },
+        "MaxValueVec": {
+          "X": 25.0,
+          "Y": -10.0,
+          "Z": 160.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            25.0,
+            -10.0,
+            160.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_19",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_01.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.1,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_triangle_reclaim_01:ParticleModuleRequired_19.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.0"
+        }
+      },
+      "EmitterDelay": 0.2,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_7",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_simpleTexture_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_simpleTexture_19.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_triangle_reclaim_01:ParticleModuleRequired_7.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.1"
+        }
+      },
+      "EmitterDelay": 0.4,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotationRate",
+    "Name": "ParticleModuleRotationRate_1",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "StartRotationRate": {
+        "MinValue": 0.5,
+        "MaxValue": 1.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5,
+            1.5
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_21",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 4.0,
+        "MaxValue": 4.0,
+        "MinValueVec": {
+          "X": 4.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 4.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_6",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 2.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 2.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "LockFlag": 4
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_13",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.4364215,
+        "MaxValue": 0.7,
+        "MinValueVec": {
+          "X": 0.4364215,
+          "Y": 0.4364215,
+          "Z": 0.4364215
+        },
+        "MaxValueVec": {
+          "X": 0.7,
+          "Y": 0.7,
+          "Z": 0.7
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            0.7,
+            0.7,
+            0.7,
+            0.5518067,
+            0.5518067,
+            0.5518067,
+            0.46991146,
+            0.46991146,
+            0.46991146,
+            0.43845978,
+            0.43845978,
+            0.43845978,
+            0.44159728,
+            0.44159728,
+            0.44159728,
+            0.46346942,
+            0.46346942,
+            0.46346942,
+            0.48822185,
+            0.48822185,
+            0.48822185,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_19",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 5,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_triangle_reclaim_01:ParticleSpriteEmitter_1.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.2"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_2",
+    "Outer": "ps_triangle_reclaim_01",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_triangle_reclaim_01:ParticleSpriteEmitter_2.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.3"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_triangle_reclaim_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_triangle_reclaim_01:ParticleSpriteEmitter_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.23"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_triangle_reclaim_01:ParticleSpriteEmitter_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_triangle_reclaim_01.24"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

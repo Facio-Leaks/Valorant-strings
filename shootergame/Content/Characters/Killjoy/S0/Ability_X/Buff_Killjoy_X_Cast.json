@@ -1,0 +1,194 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Buff_Killjoy_X_Cast_C",
+    "SuperStruct": {
+      "ObjectName": "Class AresGameplayBuff",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ClassFlags": 8652816,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Buff_Killjoy_X_Cast_C Default__Buff_Killjoy_X_Cast_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Buff_Killjoy_X_Cast.1"
+    }
+  },
+  {
+    "Type": "Buff_Killjoy_X_Cast_C",
+    "Name": "Default__Buff_Killjoy_X_Cast_C",
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::HasDuration",
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 0.6
+        }
+      },
+      "Modifiers": [
+        {
+          "Attribute": {
+            "AttributeName": "MaxTurnRate",
+            "Attribute": {
+              "Path": [
+                "MaxTurnRate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class AresAttributeSet",
+                "ObjectPath": "/Script/ShooterGame"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class AresAttributeSet",
+              "ObjectPath": "/Script/ShooterGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 180.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": {
+                    "Path": [],
+                    "ResolvedOwner": null
+                  },
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            },
+            "FloatCurveMagnitude": {
+              "Curve": {
+                "EditorCurveData": {
+                  "Keys": [
+                    {
+                      "InterpMode": "RCIM_Cubic",
+                      "TangentMode": "RCTM_Break",
+                      "TangentWeightMode": "RCTWM_WeightedNone",
+                      "Time": 0.0,
+                      "Value": 20.0,
+                      "ArriveTangent": 0.0,
+                      "ArriveTangentWeight": 0.0,
+                      "LeaveTangent": 0.0,
+                      "LeaveTangentWeight": 0.0
+                    },
+                    {
+                      "InterpMode": "RCIM_Linear",
+                      "TangentMode": "RCTM_Auto",
+                      "TangentWeightMode": "RCTWM_WeightedNone",
+                      "Time": 1.25,
+                      "Value": 0.0,
+                      "ArriveTangent": 0.0,
+                      "ArriveTangentWeight": 0.0,
+                      "LeaveTangent": 0.0,
+                      "LeaveTangentWeight": 0.0
+                    }
+                  ],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "RCCE_Constant",
+                  "PostInfinityExtrap": "RCCE_Constant",
+                  "KeyHandlesToIndices": {}
+                },
+                "ExternalCurve": null
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        }
+      ]
+    }
+  }
+]

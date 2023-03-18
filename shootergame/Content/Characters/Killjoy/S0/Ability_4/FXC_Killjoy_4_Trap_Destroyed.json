@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_4_Trap_Destroyed_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_Team",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioBasic",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_4_Trap_Destroyed_C Default__FXC_Killjoy_4_Trap_Destroyed_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.1"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_4_Trap_Destroyed_C",
+    "Name": "Default__FXC_Killjoy_4_Trap_Destroyed_C",
+    "Properties": {
+      "InitialLifeSpan": 1.0
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioBasic_C",
+    "Name": "Comp_FXC_AudioBasic_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_Trap_Destroyed_C",
+    "Template": "Default__Comp_FXC_AudioBasic_C",
+    "Properties": {
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Char_Killjoy_Abil_Nanoswarm_Destroy",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Char_Killjoy_Abil_Nanoswarm_Destroy.1"
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_Team_C",
+    "Name": "Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_Trap_Destroyed_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_Team_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_Trap_Destroyed_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_4_Trap_Destroyed_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.4"
+      },
+      "VariableGuid": "BE6FC064-4E4EF2B9-118739BB-E15E6953",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioBasic_C FXC_Killjoy_4_Trap_Destroyed_C:Comp_FXC_AudioBasic_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.2"
+      },
+      "VariableGuid": "B495A12E-470ED803-88777EA1-B092638A",
+      "InternalVariableName": "Comp_FXC_AudioBasic"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_Team_C FXC_Killjoy_4_Trap_Destroyed_C:Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.3"
+      },
+      "VariableGuid": "86B1ACB4-4F1C144F-E2795583-9E989378",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_Team"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_4_Trap_Destroyed_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.5"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_4_Trap_Destroyed_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.5"
+      }
+    }
+  }
+]

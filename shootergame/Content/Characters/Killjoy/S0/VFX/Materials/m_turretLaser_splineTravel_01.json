@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_turretLaser_splineTravel_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_6",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "TwoSided": true,
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "D57F8659-40466346-E43588AC-E103A45A",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              6802856553126733131
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "SplineWidth",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "CA1411CB-4F9FCC79-BF6CBA8C-54E21EE0"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            2.2
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_gradient_10",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_10.0"
+          },
+          {
+            "ObjectName": "Texture2D Smoke_Dissolve_Grayscale",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/NoiseDissolve/Smoke_Dissolve_Grayscale.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "2C0AFCEF-4B67951F-85943A89-8827DBDF",
+            "Function": {
+              "ObjectName": "MaterialFunction TangentBasis",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/TangentBasis.0"
+            }
+          },
+          {
+            "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+            "Function": {
+              "ObjectName": "MaterialFunction BlendAngleCorrectedNormals",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "ECE951FC-4C7C5272-6BF3A8A4-4A98443F",
+            "Function": {
+              "ObjectName": "MaterialFunction SplineThicken",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Random",
+          "SplineThicken",
+          "Travel",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

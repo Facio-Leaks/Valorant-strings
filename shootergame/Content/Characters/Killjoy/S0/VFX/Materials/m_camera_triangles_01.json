@@ -1,0 +1,166 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_camera_triangles_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_5",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Additive",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_1",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "12A5E535-4EBECAF7-4ADFC596-F0B50DCE",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              10507330158586570323
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "HDR Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "A75DEEC3-4B1078E2-C8691695-0A54BB26"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              10975057850833063825,
+              11407146775622156701,
+              16001865301981087660
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Color2",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FlickerColor",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Color1",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "6C35FA02-4D927F6D-A5DEECA1-A310D2D7",
+              "5CE7DFDE-41D397B8-C01EBE81-A1AB5230",
+              "2226E3BC-4E622C03-A0B328BF-A2BD5ACB"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            5.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.008039,
+              "G": 0.009673,
+              "B": 0.015,
+              "A": 1.0,
+              "Hex": "FF161920"
+            },
+            {
+              "R": 4.0,
+              "G": 0.64,
+              "B": 1.885941,
+              "A": 1.0,
+              "Hex": "FFFFD2FF"
+            },
+            {
+              "R": 0.195823,
+              "G": 0.778086,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF7AE5FF"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_screen_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_screen_02.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "FC5000CA-4D8CA069-2B6968BF-9ED68904",
+            "Function": {
+              "ObjectName": "MaterialFunction DeriveHDRfromLDR",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/DeriveHDRfromLDR.0"
+            }
+          },
+          {
+            "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+            "Function": {
+              "ObjectName": "MaterialFunction LinearGradient",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "FadeIn",
+          "Param2",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

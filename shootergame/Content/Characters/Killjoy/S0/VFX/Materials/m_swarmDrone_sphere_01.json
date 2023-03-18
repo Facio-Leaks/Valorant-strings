@@ -1,0 +1,279 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_swarmDrone_sphere_01",
+    "Properties": {
+      "Normal": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_3",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAdd_2",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_20",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "E4655099-4D21E1AB-4D741EA7-2504BE28",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              1061491671268766426,
+              2501037205345548048,
+              10140284250607477056,
+              11267344654566421975,
+              14606909325788339709,
+              14698134943385265213,
+              15515593298631156973,
+              16230380568358653952,
+              16503408249194756020
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "GlowExponent",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Fake Specular",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FadeViewAngle",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Fake Roughness",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FresnelMainBaseReflect",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowBaseReflect",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "NormalTile_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FresnelMainExponent",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "NormalTile_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "C2FDB234-4E9B7674-0422F89A-275AD80B",
+              "1D3419FD-44164310-D0ED60B5-A1B468B8",
+              "FD5CE18F-49D28557-1EB39788-0D20DACD",
+              "99AE8297-4D8663EC-B12DBD93-A62682B8",
+              "F65B43F4-4530BD16-F5D8E3AA-77F602B1",
+              "AEC37761-4ECC7290-5BE56CB5-2E61DAF4",
+              "AED92098-49398518-45FFC68B-AB900F3C",
+              "F85E3A13-4C10FA15-E7E4149F-A8142B83",
+              "2272BB2F-4556B1FF-91DBD093-28A8D4AB"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              11440900129719635940,
+              12695343120255488483
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "GlowColor",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Specular_Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "1EED4F32-40F6A839-6933B3BE-B11C7F5E",
+              "A5C08552-491B451E-C5FA7B8A-164C8A8C"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              4708953410708818575,
+              17813208253201329904
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Normal",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Reflection Cubemap",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "DB760847-46956F33-3FCA1396-13FA60B4",
+              "F6DF2D04-44FC45DB-877F36A0-201D8893"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            5.0,
+            10.0,
+            0.0,
+            2.0,
+            0.0,
+            0.05,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FF000000"
+            },
+            {
+              "R": 2.0,
+              "G": 2.0,
+              "B": 2.0,
+              "A": 0.0,
+              "Hex": "FFFFFF"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D flatnormal",
+              "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatnormal.0"
+            },
+            {
+              "ObjectName": "TextureCube Ares_HDRI_FirstPerson",
+              "ObjectPath": "ShooterGame/Content/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPerson.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "TextureCube Ares_HDRI_FirstPerson",
+            "ObjectPath": "ShooterGame/Content/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPerson.0"
+          },
+          {
+            "ObjectName": "Texture2D flatnormal",
+            "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatnormal.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "20CB7094-472816F8-289DF892-F0CE035F",
+            "Function": {
+              "ObjectName": "MaterialFunction FixRotateAboutAxisNormals",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/FixRotateAboutAxisNormals.0"
+            }
+          },
+          {
+            "StateId": "B2D4EA75-49B4C3CB-8D0B7EBB-3CBFA823",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_fadeOnViewAngle_01",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/mf_fadeOnViewAngle_01.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Random",
+          "MoveSpeed",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

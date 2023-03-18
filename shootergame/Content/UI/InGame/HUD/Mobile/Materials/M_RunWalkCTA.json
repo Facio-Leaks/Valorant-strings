@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_RunWalkCTA",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "EB926565-40A7FFD4-8B6F44AA-A47BD9CC",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              775074307206140251,
+              8887657220982474774,
+              13733671865127321143
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "InnerFill",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Confirm",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "OuterFill",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "93540E0D-4560C293-25817BBC-D2D16AF8",
+              "A24863F2-44AE07A3-3989049F-34279767",
+              "92793243-42DEAEC6-2D6DA5B7-E4EA73AD"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.9,
+            1.0,
+            1.0
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "A2E50DB6-4B7F05CC-93B7E583-1AEF7EF2",
+            "Function": {
+              "ObjectName": "MaterialFunction MF_RingMaterial",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MF_RingMaterial.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,4473 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TouchWheelMenu_Base",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_AbsoluteWidgetLocation_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_AbsoluteWidgetLocation_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Angle",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RadiansToDegrees_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Event_SegmentStartOffsets_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "K2Node_Event_SegmentStartOffsets_1",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_StaticStartDirection_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_SelectedIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Event_SegmentStartOffsets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "K2Node_Event_SegmentStartOffsets",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_StaticStartDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_IsInDeadzone",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWheelInDeadzoneChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_Index_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_Index_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsInBounds",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_Index",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelTapReleased",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelTapReleased",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Index",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelTapBoundsChanged",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelTapBoundsChanged",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Index",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsInBounds",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelTapPressed",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelTapPressed",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Index",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInDeadzoneChanged",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsInDeadzone",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "RebuildDynamicSectionSegments",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:RebuildDynamicSectionSegments",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SegmentStartOffsets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218134,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "SegmentStartOffsets",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "StaticStartDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 138938368
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectionChangedInternal",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnSelectionChangedInternal",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "SelectedIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "BuildWidgetSegments",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:BuildWidgetSegments",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SegmentStartOffsets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218134,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "SegmentStartOffsets",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "StaticStartDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 138938368
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:OnInitialized",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchModeChange",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:OnTouchModeChange",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "NewTouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "HideWheelMenuInternal",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:HideWheelMenuInternal",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowWheelMenuInternal",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:ShowWheelMenuInternal",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelReleased",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelReleased",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelMoved",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelMoved",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Angle",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWheelPressed",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelMenu:OnTouchWheelPressed",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Selected Segment Visuals",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "SelectedIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_Text_Variable",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSegmentDataFromIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSegmentHighlightOffsetAngle_Angle",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetChildrenCount_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSelectedSegmentData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_3",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetChildrenCount_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsWheel_Segment_Info_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_1",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsWheel_Segment_Info_Widget_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAlternateSelectedSegmentVisuals",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetAlternateSelectionIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsWheel_Segment_Info_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum ETouchWheelInfoState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/ETouchWheelInfoState.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetAlternateSelectionIndex_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetChildrenCount_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSegmentHighlightOffsetAngle_Angle",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "SetWidgetPositionAroundWheel",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ZeroDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DegOffset",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DistanceFromCenter",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShouldRotate",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetRotated2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BuildSectionBorders",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ZeroDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BuildSectionSegments",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SegmentStartOffsetsRad",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218132,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "SegmentStartOffsetsRad",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ZeroDirection",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconsWrapper",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BordersWrapper",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SectionSizeDeg",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "NumSegments",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "IndexOffsetInBorders",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDistanceCenteredInSegment_CenteredDistance",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSegmentDataFromIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RadiansToDegrees_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDegOffsetCenteredInSegment_CenteredOffset",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "RebuildDynamicSectionSegments_Helper",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SegmentStartOffsets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134218132,
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "SegmentStartOffsets",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Zero Direction",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BorderWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InfoWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSuboptionsParentSegmentData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Select_Default",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class AresTouchWheelSegment",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_1",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_2",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_3",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllWidgetChildren_ChildWidgets_3",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsWheel_Segment_Info_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsWheel_Segment_Border_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSuboptionsParentSegmentData_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Select_Default_2",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class AresTouchWheelSegment",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RadiansToDegrees_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDistanceCenteredInSegment_CenteredDistance",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDegOffsetCenteredInSegment_CenteredOffset",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "GetDegOffsetCenteredInSegment",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "SectionSize",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "NumSegmentsInSection",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SegmentStartOffset",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CenteredOffset",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetDistanceCenteredInSegment",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CenteredDistance",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "ScaleSegmentBorder",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BorderWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentBorderWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetThumbstickPosition",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Location",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Angle",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Divide_Vector2DFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ClampAxes2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHighlightSegmentAngle",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "NumSegments",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSegmentHighlightOffsetAngle",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "SelectedIndex",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Angle",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSuboptionsParentSegmentData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelSegment",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Select_Default",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class AresTouchWheelSegment",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDegOffsetCenteredInSegment_CenteredOffset",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_TouchWheelMenu_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_TouchWheelMenu_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.64"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ExecuteUbergraph_BP_TouchWheelMenu_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWheelMenu",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetSegmentHighlightOffsetAngle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.26"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetHighlightSegmentAngle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.25"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetThumbstickPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.24"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ScaleSegmentBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.23"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetDistanceCenteredInSegment",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.22"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetDegOffsetCenteredInSegment",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.21"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:RebuildDynamicSectionSegments_Helper",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.20"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildSectionSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.19"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildSectionBorders",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.18"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetWidgetPositionAroundWheel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.17"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:UpdateAlternateSelectedSegmentVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.16"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:Update Selected Segment Visuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.15"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.14"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.13"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.12"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ShowWheelMenuInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.11"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:HideWheelMenuInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.10"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.9"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.8"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildWidgetSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.7"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnSelectionChangedInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.6"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:RebuildDynamicSectionSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.5"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnInDeadzoneChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.4"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.3"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapBoundsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.2"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ExecuteUbergraph_BP_TouchWheelMenu_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlternateHighlight",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Background",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DynamicSegmentBorders",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DynamicSegmentIcons",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Highlight",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RadialIndicator",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SectionBorders",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SelectedSegmentInfo",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WheelSegmentInfoWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentInfoWidget.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticSegmentBorders",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticSegmentIcons",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Thumbstick",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass TouchWheelSelectorWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InitialTouchLocation",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SegmentBorderScalingValue",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CachedZeroDirection",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUseRadialIndicator",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bShowSelectedSegmentInfo",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bAlternateIsInBounds",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TouchWheelMenu_Base": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ExecuteUbergraph_BP_TouchWheelMenu_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.0"
+      },
+      "OnTouchWheelTapReleased": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.1"
+      },
+      "OnTouchWheelTapBoundsChanged": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapBoundsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.2"
+      },
+      "OnTouchWheelTapPressed": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelTapPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.3"
+      },
+      "OnInDeadzoneChanged": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnInDeadzoneChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.4"
+      },
+      "RebuildDynamicSectionSegments": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:RebuildDynamicSectionSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.5"
+      },
+      "OnSelectionChangedInternal": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnSelectionChangedInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.6"
+      },
+      "BuildWidgetSegments": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildWidgetSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.7"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.8"
+      },
+      "OnTouchModeChange": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchModeChange",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.9"
+      },
+      "HideWheelMenuInternal": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:HideWheelMenuInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.10"
+      },
+      "ShowWheelMenuInternal": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ShowWheelMenuInternal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.11"
+      },
+      "OnTouchWheelReleased": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.12"
+      },
+      "OnTouchWheelMoved": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.13"
+      },
+      "OnTouchWheelPressed": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:OnTouchWheelPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.14"
+      },
+      "Update Selected Segment Visuals": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:Update Selected Segment Visuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.15"
+      },
+      "UpdateAlternateSelectedSegmentVisuals": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:UpdateAlternateSelectedSegmentVisuals",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.16"
+      },
+      "SetWidgetPositionAroundWheel": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetWidgetPositionAroundWheel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.17"
+      },
+      "BuildSectionBorders": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildSectionBorders",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.18"
+      },
+      "BuildSectionSegments": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:BuildSectionSegments",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.19"
+      },
+      "RebuildDynamicSectionSegments_Helper": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:RebuildDynamicSectionSegments_Helper",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.20"
+      },
+      "GetDegOffsetCenteredInSegment": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetDegOffsetCenteredInSegment",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.21"
+      },
+      "GetDistanceCenteredInSegment": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetDistanceCenteredInSegment",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.22"
+      },
+      "ScaleSegmentBorder": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:ScaleSegmentBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.23"
+      },
+      "SetThumbstickPosition": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetThumbstickPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.24"
+      },
+      "SetHighlightSegmentAngle": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:SetHighlightSegmentAngle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.25"
+      },
+      "GetSegmentHighlightOffsetAngle": {
+        "ObjectName": "Function BP_TouchWheelMenu_Base_C:GetSegmentHighlightOffsetAngle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.26"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TouchWheelMenu_Base_C Default__BP_TouchWheelMenu_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.28"
+    }
+  },
+  {
+    "Type": "BP_TouchWheelMenu_Base_C",
+    "Name": "Default__BP_TouchWheelMenu_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "InitialTouchLocation": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "SegmentBorderScalingValue": 1.0,
+      "CachedZeroDirection": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bUseRadialIndicator": true,
+      "TouchMoveScale": 8.0,
+      "SelectionDeadzoneThreshold": 210.0,
+      "SelectionInputBufferWidth": 150.0,
+      "SegmentWidth": 300.0,
+      "SelectionConfirmDelay": 0.25,
+      "bDisableResetSuboptionsOnNoSelection": true,
+      "StaticSectionSize": 120.0,
+      "ForwardingInputChannel": 1,
+      "ReceivingForwardedInputChannel": 8,
+      "bCheckBoundsForForwardedTouchScreenPresses": false,
+      "EditTouchMode": "EAresTouchWidgetMode::Hidden",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.37"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "DynamicSegmentBorders",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.43"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "DynamicSegmentIcons",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.47"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "RadialIndicator",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator.CanvasPanelSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.48"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "SectionBorders",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "StaticSegmentBorders",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.46"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "StaticSegmentIcons",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.45"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "WheelRoot",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_8",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.49"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_10",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_11",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_9",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.46"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_7",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.58"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 100.0,
+          "Right": 0.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.CanvasPanel_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.29"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_TouchWheelMenu_Base_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.57"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "RadialIndicator",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -187.5
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.32"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_TouchWheelMenu_Base_C:WidgetTree.Needle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.60"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "RadialIndicator",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.32"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.RotatingCursor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.Background",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.AlternateHighlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "TouchWheelSelectorWidget_C BP_TouchWheelMenu_Base_C:WidgetTree.Thumbstick",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.59"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.DynamicSegmentBorders",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.SectionBorders",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.StaticSegmentIcons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.StaticSegmentBorders",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.34"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.DynamicSegmentIcons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.32"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.Highlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "WheelRoot",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": 1,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      },
+      "Content": {
+        "ObjectName": "WheelSegmentInfoWidget_C BP_TouchWheelMenu_Base_C:WidgetTree.SelectedSegmentInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.63"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "AlternateHighlight",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1000.0,
+          "Y": 1000.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_CommsWheel_Highlight",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MI_CommsWheel_Highlight.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.751143,
+        "A": 1.0,
+        "Hex": "FF00FFE1"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.41"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Background",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1000.0,
+          "Y": 1000.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_CommsWheel_BG",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MI_CommsWheel_BG.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.40"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BottomPiece",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 2.0,
+          "Y": 20.51256
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.85,
+        "Hex": "D9FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.Needle.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.62"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Highlight",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1000.0,
+          "Y": 1000.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_CommsWheel_Highlight",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MI_CommsWheel_Highlight.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.751143,
+        "A": 1.0,
+        "Hex": "FF00FFE1"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_8",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.49"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "RotatingCursor",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 375.0,
+          "Y": 375.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material Wheel_Cursor",
+          "ObjectPath": "ShooterGame/Content/UI/Shared/Widgets/RadialMenu/Wheel_Cursor.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.85,
+        "Hex": "D9FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator.CanvasPanelSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.39"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "TopPiece",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 5.0,
+          "Y": 15.0
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.85,
+        "Hex": "D9FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.Needle.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.61"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.58"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.37"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_TouchWheelMenu_Base_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.57"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.36"
+      }
+    }
+  },
+  {
+    "Type": "TouchWheelSelectorWidget_C",
+    "Name": "Thumbstick",
+    "Outer": "WidgetTree",
+    "Template": "Default__TouchWheelSelectorWidget_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_11",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.42"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Needle",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.Needle.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.61"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_TouchWheelMenu_Base_C:WidgetTree.Needle.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.RadialIndicator.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "Needle",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_TouchWheelMenu_Base_C:WidgetTree.Needle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.60"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.TopPiece",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.56"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "Needle",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_TouchWheelMenu_Base_C:WidgetTree.Needle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.60"
+      },
+      "Content": {
+        "ObjectName": "Image BP_TouchWheelMenu_Base_C:WidgetTree.BottomPiece",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.53"
+      }
+    }
+  },
+  {
+    "Type": "WheelSegmentInfoWidget_C",
+    "Name": "SelectedSegmentInfo",
+    "Outer": "WidgetTree",
+    "Template": "Default__WheelSegmentInfoWidget_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_TouchWheelMenu_Base_C:WidgetTree.WheelRoot.CanvasPanelSlot_9",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.50"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_TouchWheelMenu_Base_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_TouchWheelMenu_Base_C:WidgetTree.CanvasPanel_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Base.29"
+      }
+    }
+  }
+]

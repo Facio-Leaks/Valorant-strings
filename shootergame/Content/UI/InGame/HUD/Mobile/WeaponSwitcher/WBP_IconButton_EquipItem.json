@@ -1,0 +1,951 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_IconButton_EquipItem",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshImpl",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:RefreshImpl",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshBackgroundColor",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_WeaponSlotIsEquipped_IsEquipped",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "InvertLayout",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "Super": "InvertLayout",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IconButton_Equip_Base_C:InvertLayout",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_Equip_Base.20"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "DoInvert",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateButtonWidth",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewWidth",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsCanvasSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSize_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IconButton_EquipItem_C",
+    "Super": "WBP_IconButton_Equip_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IconButton_EquipItem_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.31"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:ExecuteUbergraph_WBP_IconButton_EquipItem",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Equip_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_Equip_Base.22"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:UpdateButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.5"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:InvertLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.4"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:RefreshBackgroundColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.3"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.2"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:RefreshImpl",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.1"
+      },
+      {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:ExecuteUbergraph_WBP_IconButton_EquipItem",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentDisplay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_WeaponDisplay_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_WeaponDisplay.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EquippableNameText",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OutlineBorder",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox_WeaponDisplay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_Background",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Background_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Background.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_CTA",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_CTA_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_TouchBounds",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_TouchBounds_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_TouchBounds.3"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ButtonWidthPreview",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_IconButton_EquipItem": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:ExecuteUbergraph_WBP_IconButton_EquipItem",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.0"
+      },
+      "RefreshImpl": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:RefreshImpl",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.1"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.2"
+      },
+      "RefreshBackgroundColor": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:RefreshBackgroundColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.3"
+      },
+      "InvertLayout": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:InvertLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.4"
+      },
+      "UpdateButtonWidth": {
+        "ObjectName": "Function WBP_IconButton_EquipItem_C:UpdateButtonWidth",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.5"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IconButton_EquipItem_C Default__WBP_IconButton_EquipItem_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.7"
+    }
+  },
+  {
+    "Type": "WBP_IconButton_EquipItem_C",
+    "Name": "Default__WBP_IconButton_EquipItem_C",
+    "Template": "Default__WBP_IconButton_Equip_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ButtonWidthPreview": 57.0,
+      "DefaultWeaponTexture": {
+        "ObjectName": "Texture2D TX_Hud_Knife_Standard",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/Shared/Icons/Weapons/icons/TX_Hud_Knife_Standard.0"
+      },
+      "ButtonSize": "EAresIconButtonSize::Small"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_WeaponDisplay_C",
+    "Name": "CurrentDisplay",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_HUDMobile_WeaponDisplay_C",
+    "Properties": {
+      "WeaponTexture": {
+        "ObjectName": "Texture2D TX_Hud_SMGs_Ninja",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/Shared/Icons/Weapons/icons/TX_Hud_SMGs_Ninja.0"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.19"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Root",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.10"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.11"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.12"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.14"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_TouchBounds_C WBP_IconButton_EquipItem_C:WidgetTree.WBP_IBC_TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 45.0,
+          "Bottom": 45.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Background_C WBP_IconButton_EquipItem_C:WidgetTree.WBP_IBC_Background",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      },
+      "Content": {
+        "ObjectName": "SizeBox WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_WeaponDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 57.0,
+          "Bottom": 70.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      },
+      "Content": {
+        "ObjectName": "Image WBP_IconButton_EquipItem_C:WidgetTree.OutlineBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.15"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 50.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      },
+      "Content": {
+        "ObjectName": "Overlay WBP_IconButton_EquipItem_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.16"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "OutlineBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 52.0,
+          "Y": 32.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D Toggle_Border",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/Toggle_Border.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.25,
+        "Hex": "3FFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.13"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_IconButton_EquipItem_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.14"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay WBP_IconButton_EquipItem_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.16"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_CTA_C WBP_IconButton_EquipItem_C:WidgetTree.WBP_IBC_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.29"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.19"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.22"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox WBP_IconButton_EquipItem_C:WidgetTree.ScaleBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.18"
+      },
+      "Content": {
+        "ObjectName": "BP_HUDMobile_WeaponDisplay_C WBP_IconButton_EquipItem_C:WidgetTree.CurrentDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.8"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "MinDesiredHeight": 50.0,
+      "MaxDesiredHeight": 40.0,
+      "bOverride_MaxDesiredHeight": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.26"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_WeaponDisplay",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 55.0,
+      "MinDesiredHeight": 50.0,
+      "MaxDesiredWidth": 86.0,
+      "MaxDesiredHeight": 60.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_MaxDesiredHeight": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_WeaponDisplay.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.12"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.20"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox WBP_IconButton_EquipItem_C:WidgetTree.ScaleBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.18"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_WeaponDisplay",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_WeaponDisplay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.21"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.25"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "EquippableNameText",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "LongestGunName"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.75,
+          "Hex": "BFFFFFFF"
+        }
+      },
+      "Font": {
+        "TypefaceFontName": "Medium",
+        "Size": 10,
+        "Tracking": 1
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox.VerticalBoxSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.27"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.26"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox.VerticalBoxSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_WeaponDisplay.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.23"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.25"
+      },
+      "Content": {
+        "ObjectName": "SizeBox WBP_IconButton_EquipItem_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.20"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox",
+    "Properties": {
+      "Padding": {
+        "Right": 3.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_IconButton_EquipItem_C:WidgetTree.VerticalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock WBP_IconButton_EquipItem_C:WidgetTree.EquippableNameText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.24"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Background_C",
+    "Name": "WBP_IBC_Background",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Background_C",
+    "Properties": {
+      "EditColor": {
+        "R": 0.8,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.247059,
+        "Hex": "3FE8EB96"
+      },
+      "ImageTexture": {
+        "ObjectName": "Texture2D UI_White",
+        "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+      },
+      "ImageMaterial": null,
+      "DefaultSize": {
+        "X": 45.0,
+        "Y": 50.0
+      },
+      "SizeMap": {},
+      "Scale": 0.95,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.11"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_CTA_C",
+    "Name": "WBP_IBC_CTA",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_CTA_C",
+    "Properties": {
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_IconButton_EquipItem_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.17"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.3,
+          "Y": 1.3
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_TouchBounds_C",
+    "Name": "WBP_IBC_TouchBounds",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_TouchBounds_C",
+    "Properties": {
+      "DefaultSize": {
+        "X": 57.0,
+        "Y": 70.0
+      },
+      "SizeMap": {},
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WBP_IconButton_EquipItem_C:WidgetTree.Root.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.10"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.85,
+          "Y": 0.85
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IconButton_EquipItem_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel WBP_IconButton_EquipItem_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/WBP_IconButton_EquipItem.9"
+      }
+    }
+  }
+]

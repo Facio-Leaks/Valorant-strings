@@ -1,0 +1,1791 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Mobile_ArmorHUDElement_CharacterHUD",
+    "Outer": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ArmorComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterHudComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetCharacterHudDrawValues_Out",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct CharacterHudDrawValues",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_IntToText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnArmorComponentUpdated",
+    "Outer": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Super": "OnArmorComponentUpdated",
+    "SuperStruct": {
+      "ObjectName": "Function ArmorHUDElement_Base_C:OnArmorComponentUpdated",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/ArmorHUDElement_Base.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArmorComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterHudComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Super": "ArmorHUDElement_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.29"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.28"
+        },
+        {
+          "ObjectName": "WidgetAnimation Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.27"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function Mobile_ArmorHUDElement_CharacterHUD_C:ExecuteUbergraph_Mobile_ArmorHUDElement_CharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass ArmorHUDElement_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/ArmorHUDElement_Base.9"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Mobile_ArmorHUDElement_CharacterHUD_C:OnArmorComponentUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.1"
+      },
+      {
+        "ObjectName": "Function Mobile_ArmorHUDElement_CharacterHUD_C:ExecuteUbergraph_Mobile_ArmorHUDElement_CharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Equipped",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NotEquipped",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArmorValue",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Border_Armor",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Border",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ColorArmor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Mobile_ArmorHUDElement_CharacterHUD": {
+        "ObjectName": "Function Mobile_ArmorHUDElement_CharacterHUD_C:ExecuteUbergraph_Mobile_ArmorHUDElement_CharacterHUD",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.0"
+      },
+      "OnArmorComponentUpdated": {
+        "ObjectName": "Function Mobile_ArmorHUDElement_CharacterHUD_C:OnArmorComponentUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.1"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Mobile_ArmorHUDElement_CharacterHUD_C Default__Mobile_ArmorHUDElement_CharacterHUD_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.3"
+    }
+  },
+  {
+    "Type": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Name": "Default__Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Template": "Default__ArmorHUDElement_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ColorArmor": {
+        "R": 0.084376,
+        "G": 0.708376,
+        "B": 0.491021,
+        "A": 0.35,
+        "Hex": "5952DBBA"
+      }
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_Armor",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Armor",
+          "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/TX_UI_Armor.0"
+        }
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.Border_Armor.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.5"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.SizeBox_4.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.25"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_Armor",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Border Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.Border_Armor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.4"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.22"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Equipped",
+    "Outer": "Equipped_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "2D286FC5-4A5E5374-C27FD591-DE4CFA8D",
+          "Name": "ArmorIcon",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "2D286FC5-4A5E5374-C27FD591-DE4CFA8D",
+          "BindingName": "ArmorIcon",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.17"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 1
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "21616436-424BB475-0EF00A94-3B2476B2"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "NotEquipped",
+    "Outer": "NotEquipped_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "2AD56DE1-4CD7BB94-170B7AB1-FD869334",
+          "Name": "ArmorIcon",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "E11444DA-42C42DA3-A0FC13AF-3F8186AC",
+          "Name": "ArmorValue",
+          "PossessedObjectClass": {
+            "ObjectName": "Class TextBlock",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "2AD56DE1-4CD7BB94-170B7AB1-FD869334",
+          "BindingName": "ArmorIcon",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.18"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "E11444DA-42C42DA3-A0FC13AF-3F8186AC",
+          "BindingName": "ArmorValue",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.19"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -1498
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 1
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20000,
+        "Denominator": 1000
+      },
+      "Signature": "0CE957D3-40DF1CC8-0486D8BD-3D468AB6"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_4"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_4"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_1"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_1"
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_4",
+    "Outer": "MovieSceneColorTrack_4",
+    "Properties": {
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 1
+            }
+          }
+        }
+      },
+      "Signature": "9603C9F6-4434106F-F0E14FA9-0FEE9F93"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Outer": "MovieSceneColorTrack_0",
+    "Properties": {
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 1
+            }
+          }
+        }
+      },
+      "Signature": "08AECB0A-43CC5B54-A79076BE-8A9ECA86"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_1",
+    "Outer": "MovieSceneColorTrack_1",
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 1
+            }
+          }
+        }
+      },
+      "Signature": "435D912D-4ACE8812-C46DADAB-A5840F29"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_4",
+    "Outer": "Equipped",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.14"
+        }
+      ],
+      "EvalOptions": {
+        "bEvalNearestSection": true
+      },
+      "EvaluationFieldGuid": "53F62898-48B6CF64-79B9058F-E64255AD",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.14"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.14"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 1
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped.MovieSceneColorTrack_4.MovieSceneColorSection_4",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.14"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 1
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": 1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "53F62898-48B6CF64-79B9058F-E64255AD"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Outer": "NotEquipped",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.15"
+        }
+      ],
+      "EvalOptions": {
+        "bEvalNearestSection": true
+      },
+      "EvaluationFieldGuid": "B17C84EA-4328F9D4-49755B98-49FD5753",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.15"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.15"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 1
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_0.MovieSceneColorSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.15"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 1
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": 1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B17C84EA-4328F9D4-49755B98-49FD5753"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_1",
+    "Outer": "NotEquipped",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.16"
+        }
+      ],
+      "EvalOptions": {
+        "bEvalNearestSection": true
+      },
+      "EvaluationFieldGuid": "B7CEFB41-4286CFC1-D0640388-B719FC2D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.16"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.16"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 1
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped.MovieSceneColorTrack_1.MovieSceneColorSection_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.16"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 1
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": 1
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B7CEFB41-4286CFC1-D0640388-B719FC2D"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "Equipped_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 1
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 1
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -1
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": 1
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "461BF5EB-43F47DFE-B065B2B4-D73C3723",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "NotEquipped_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 1
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 1
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -1
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -1
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": 1
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": 1
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "1016C2B8-44CF7A24-FDE549BD-C66EBA65",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::ScaleToFitX",
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.Border_Armor.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.5"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.ArmorValue",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.26"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_4",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 43.0,
+      "HeightOverride": 43.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.SizeBox_4.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_4",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.SizeBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.24"
+      },
+      "Content": {
+        "ObjectName": "Border Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.Border_Armor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.4"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ArmorValue",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "50"
+      },
+      "Font": {
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "bApplyOutlineToDropShadows": true,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "TypefaceFontName": "Medium",
+        "Size": 20,
+        "Tracking": -1
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.23"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Equipped_INST",
+    "Outer": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.Equipped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.6"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "ArmorIcon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "2D286FC5-4A5E5374-C27FD591-DE4CFA8D",
+          "bIsRootWidget": false
+        }
+      ],
+      "bLegacyFinishOnStop": false,
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData Mobile_ArmorHUDElement_CharacterHUD_C:Equipped_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.20"
+      },
+      "Signature": "461BF5EB-43F47DFE-B065B2B4-D73C3723"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "NotEquipped_INST",
+    "Outer": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.NotEquipped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.7"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "ArmorIcon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "2AD56DE1-4CD7BB94-170B7AB1-FD869334",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "ArmorValue",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "E11444DA-42C42DA3-A0FC13AF-3F8186AC",
+          "bIsRootWidget": false
+        }
+      ],
+      "bLegacyFinishOnStop": false,
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData Mobile_ArmorHUDElement_CharacterHUD_C:NotEquipped_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.21"
+      },
+      "Signature": "1016C2B8-44CF7A24-FDE549BD-C66EBA65"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "Mobile_ArmorHUDElement_CharacterHUD_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox Mobile_ArmorHUDElement_CharacterHUD_C:WidgetTree.SizeBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_ArmorHUDElement_CharacterHUD.24"
+      }
+    }
+  }
+]

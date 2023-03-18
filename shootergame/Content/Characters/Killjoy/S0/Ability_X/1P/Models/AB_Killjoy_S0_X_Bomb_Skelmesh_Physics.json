@@ -1,0 +1,402 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.6"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.7"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.8"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.9"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.10"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:SkeletalBodySetup_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.11"
+        }
+      ],
+      "ConstraintSetup": [
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:PhysicsConstraintTemplate_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.1"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:PhysicsConstraintTemplate_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.2"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:PhysicsConstraintTemplate_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.3"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:PhysicsConstraintTemplate_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.4"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_X_Bomb_Skelmesh_Physics:PhysicsConstraintTemplate_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh_Physics.5"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_0",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "Base",
+        "ConstraintBone1": "Base",
+        "ConstraintBone2": "Root",
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_1",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "DoorA",
+        "ConstraintBone1": "DoorA",
+        "ConstraintBone2": "Base",
+        "Pos2": {
+          "X": 11.161012,
+          "Y": -9.495753,
+          "Z": -6.7388296
+        },
+        "PriAxis2": {
+          "X": 0.8660254,
+          "Y": 0.0,
+          "Z": -0.5
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_2",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "DoorB",
+        "ConstraintBone1": "DoorB",
+        "ConstraintBone2": "Base",
+        "Pos2": {
+          "X": -10.285761,
+          "Y": -9.495753,
+          "Z": -5.9993005
+        },
+        "PriAxis2": {
+          "X": -0.8660253,
+          "Y": -1.06057525E-16,
+          "Z": -0.5
+        },
+        "SecAxis2": {
+          "X": -6.123234E-17,
+          "Y": 1.0,
+          "Z": -1.06057525E-16
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_3",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "DoorC",
+        "ConstraintBone1": "DoorC",
+        "ConstraintBone2": "Base",
+        "Pos2": {
+          "X": -0.0050774813,
+          "Y": -9.495753,
+          "Z": 11.770414
+        },
+        "PriAxis2": {
+          "X": 5.9604645E-08,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_4",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "Top",
+        "ConstraintBone1": "Top",
+        "ConstraintBone2": "Root",
+        "Pos2": {
+          "X": 0.0,
+          "Y": -52.964,
+          "Z": 0.0
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -89.99999,
+              "Roll": 0.0
+            },
+            "Radius": 0.505,
+            "Length": 0.505,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "Root",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9BC2CA78434CD348C687E49E7903A3A7"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -0.0012270898,
+              "Y": -28.200197,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "Pitch": -0.4394407,
+              "Yaw": 179.60881,
+              "Roll": -89.96506
+            },
+            "Radius": 21.27297,
+            "Length": 26.0,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "Base",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "444BACF54AE2CA3E75C639A7B18A02AC"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 0.4007801,
+              "Y": -13.136147,
+              "Z": 0.3401718
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -1.3193263,
+              "Roll": -89.857864
+            },
+            "Radius": 11.310324,
+            "Length": 16.291136,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "DoorA",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "DEC21755404ED377C60CDD86DF16DC07"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 1.5285363,
+              "Y": -13.136143,
+              "Z": 0.032011986
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -1.3193194,
+              "Roll": -89.85788
+            },
+            "Radius": 11.310325,
+            "Length": 16.291134,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "DoorB",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "F9DCFD924F145AD555D0EBA0C306235A"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_4",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 1.6655058,
+              "Y": -13.136141,
+              "Z": 0.07960224
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -1.3193122,
+              "Roll": -89.857864
+            },
+            "Radius": 11.310323,
+            "Length": 16.291134,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "DoorC",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "4EF3ECA442EC109EA127FBBF723F1DDF"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_5",
+    "Outer": "AB_Killjoy_S0_X_Bomb_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -9.669127E-06,
+              "Y": 21.402905,
+              "Z": 0.48731855
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -179.99995,
+              "Roll": -87.98097
+            },
+            "Radius": 20.865545,
+            "Length": 25.0,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "Top",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BEDE67514B7A0B75BE3F019A286CAACC"
+  }
+]

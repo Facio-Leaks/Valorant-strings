@@ -1,0 +1,5521 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnExit__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "EditControlsWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_EditControls_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.43"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "ExitToTestMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum TestModeState",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TestModeState.0"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCustomPresetChanged__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewPreset",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_HUDMobile_EditControls",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_ToggleState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_WidgetLayoutSettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_Value",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_NewSelectedWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnWidgetSelectionChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ScreenDelta",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetMoved__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetMoved__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_CustomEvent_Value_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetEditReleased__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetEditPressed__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetEditReleased__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetEditPressed__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterAimingWidget_CharacterAimingWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_TouchPad_CharacterAiming_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Aiming/BP_TouchPad_CharacterAiming.5"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetCurrentPreset_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_InSpectatorMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchData_4",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchData_3",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchData_2",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchData_1",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsToggledOn_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_WidgetLayoutSettingName_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsToggledOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_WidgetLayoutSettingName_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPassthroughMultiToggleValueChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "WidgetLayoutSettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMovementPassthroughValueChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsToggledOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "WidgetLayoutSettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAimPassthroughValueChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsToggledOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "WidgetLayoutSettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__CancelButton_1_K2Node_ComponentBoundEvent_16_OnButtonClicked__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__SaveButton_1_K2Node_ComponentBoundEvent_9_OnButtonClicked__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Preset1_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ResetToDefault_1_K2Node_ComponentBoundEvent_2_OnButtonClicked__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__TestButton_K2Node_ComponentBoundEvent_0_OnButtonClicked__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectedWidgetPressed",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectedWidgetReleased",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelectedWidgetMoved",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ScreenDelta",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnOpacityValueChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Value",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ToggleVisibility_K2Node_ComponentBoundEvent_3_OnCheckBoxComponentStateChanged__DelegateSignature",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTouchWidgetSelectionChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewSelectedWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnScaleValueChanged",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Value",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshScaleSliderPosition",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InSlider",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class Slider",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetUserDefinedLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_InterpolateRange_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshOpacitySliderPosition",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InSlider",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class Slider",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetUserDefinedLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_InterpolateRange_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshWidgetScale",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "InSliderValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_InterpolateRange_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshWidgetOpacity",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SliderValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_InterpolateRange_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SaveWidgetLayout",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshVisibilityCheckboxState",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetUserDefinedLayout_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 264,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct WidgetLayout",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "AddCustomWidget",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ClassProperty",
+        "Name": "WidgetClass",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidgetRef",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Margin",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Margin",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOrCreateCustomWidgetFromPool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChildToVerticalBox_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "ClearCustomWidgets",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RemoveChild_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshContextualButtons",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasEdits_HasEdits",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDirty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPresetPressed",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "PresetNum",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetChanges",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetShowTestMode",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bShowTestMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetShowAgentSelect",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bShowAgentSelect",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshSettingsButtonStyle",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bTestMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWidgetSettings_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Action_Button_Settings",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Settings.8"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SaveLayouts",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleElementControls",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnFloatValueChangedEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnFloatValueChangedEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HasEdits",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "HasEdits",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetLayoutManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCustomLayoutData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CustomWidgetLayoutData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetCurrentPreset_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutPresetType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDirty_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474218496
+  },
+  {
+    "Type": "Function",
+    "Name": "InSpectatorMode",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsOutOfGame_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerController",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsObserver_Player_Controller",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ObserverPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CastToShooterPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInSpectatorMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "AddAimPassthroughWidget",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsBoolSettingToggle_C:ToggleStateUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAimPassthroughEnabled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Margin",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Margin",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Setting_Toggle",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetAgentComboBox",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ComboBox",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class ComboBoxString",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "AddMovementPassthroughWidget",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsBoolSettingToggle_C:ToggleStateUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInputChannelPassthroughEnabled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Margin",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Margin",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Setting_Toggle",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSettingToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingToggle.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "AddPassthroughMultiToggle",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAimPassthroughEnabled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInputChannelPassthroughEnabled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsBoolSetting_MultiToggle_C:ToggleUpdated__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSetting_MultiToggle.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddCustomWidget_WidgetRef",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Edit_Controls_Bool_Setting_Multi_Toggle",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_EditControlsBoolSetting_MultiToggle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSetting_MultiToggle.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetEnabledTextColor",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 40,
+        "PropertyFlags": 1408,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor",
+        "Flags": 1,
+        "ElementSize": 40,
+        "PropertyFlags": 1125899906842624,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor_1",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 482607104
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_HUDMobile_EditControls_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_HUDMobile_EditControls_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.135"
+      },
+      "bClassRequiresNativeTick": true,
+      "Bindings": [
+        {
+          "ObjectName": "TextBlock_113",
+          "PropertyName": "ColorAndOpacity",
+          "FunctionName": "GetColorAndOpacity_0",
+          "SourcePath": {
+            "Segments": [
+              {
+                "Name": "GetEnabledTextColor",
+                "ArrayIndex": -1
+              }
+            ],
+            "CachedFunction": null
+          },
+          "Kind": "EBindingKind::Function"
+        }
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding BP_HUDMobile_EditControls_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.57"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ExecuteUbergraph_BP_HUDMobile_EditControls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresEditControls",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:GetEnabledTextColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.42"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddPassthroughMultiToggle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.41"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddMovementPassthroughWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.40"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:GetAgentComboBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.39"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddAimPassthroughWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.38"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:InSpectatorMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.37"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:HasEdits",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.36"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ToggleElementControls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.35"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SaveLayouts",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.34"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshSettingsButtonStyle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.33"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SetShowAgentSelect",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.32"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SetShowTestMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.31"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ResetChanges",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.30"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnPresetPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.29"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshContextualButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.28"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ClearCustomWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.27"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddCustomWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.26"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshVisibilityCheckboxState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.25"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SaveWidgetLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.24"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshWidgetOpacity",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.23"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshWidgetScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.22"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshOpacitySliderPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.21"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshScaleSliderPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.20"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.19"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.18"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnScaleValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.17"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnTouchWidgetSelectionChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.16"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__ToggleVisibility_K2Node_ComponentBoundEvent_3_OnCheckBoxComponentStateChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.15"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnOpacityValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.14"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.13"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.12"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.11"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__TestButton_K2Node_ComponentBoundEvent_0_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.10"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__ResetToDefault_1_K2Node_ComponentBoundEvent_2_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.9"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__Preset1_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.8"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__SaveButton_1_K2Node_ComponentBoundEvent_9_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.7"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__CancelButton_1_K2Node_ComponentBoundEvent_16_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.6"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnAimPassthroughValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.5"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnMovementPassthroughValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.4"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnPassthroughMultiToggleValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.3"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ExecuteUbergraph_BP_HUDMobile_EditControls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.2"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnCustomPresetChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.1"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnExit__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AgentSelectContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CancelButton_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ComboBox_AgentName",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class ComboBoxString",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ElementControlsBorder",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Border",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ElementControlsList",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Opacity_Slider",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Slider",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Overlay_Controls",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Preset_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ResetToDefault_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SaveButton_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scale_Slider",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Slider",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TestButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IconButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Options/Touch/WBP_IconButton_Settings.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TestModeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_113",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429256,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ToggleVisibility",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CheckBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SelectedWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetScaleRange",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CustomWidgetList",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CustomWidgetList",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class UserWidget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParentTouchScreen",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 281474977234949,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchScreen",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnExit",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_HUDMobile_EditControls_C:OnExit__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.0"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "WidgetMinOpacity",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CharacterHUD",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 281474977234949,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_CharacterHUD_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.99"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnCustomPresetChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_HUDMobile_EditControls_C:OnCustomPresetChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.1"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnExit__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnExit__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.0"
+      },
+      "OnCustomPresetChanged__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnCustomPresetChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.1"
+      },
+      "ExecuteUbergraph_BP_HUDMobile_EditControls": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ExecuteUbergraph_BP_HUDMobile_EditControls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.2"
+      },
+      "OnPassthroughMultiToggleValueChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnPassthroughMultiToggleValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.3"
+      },
+      "OnMovementPassthroughValueChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnMovementPassthroughValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.4"
+      },
+      "OnAimPassthroughValueChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnAimPassthroughValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.5"
+      },
+      "BndEvt__CancelButton_1_K2Node_ComponentBoundEvent_16_OnButtonClicked__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__CancelButton_1_K2Node_ComponentBoundEvent_16_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.6"
+      },
+      "BndEvt__SaveButton_1_K2Node_ComponentBoundEvent_9_OnButtonClicked__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__SaveButton_1_K2Node_ComponentBoundEvent_9_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.7"
+      },
+      "BndEvt__Preset1_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__Preset1_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.8"
+      },
+      "BndEvt__ResetToDefault_1_K2Node_ComponentBoundEvent_2_OnButtonClicked__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__ResetToDefault_1_K2Node_ComponentBoundEvent_2_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.9"
+      },
+      "BndEvt__TestButton_K2Node_ComponentBoundEvent_0_OnButtonClicked__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__TestButton_K2Node_ComponentBoundEvent_0_OnButtonClicked__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.10"
+      },
+      "OnSelectedWidgetPressed": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.11"
+      },
+      "OnSelectedWidgetReleased": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.12"
+      },
+      "OnSelectedWidgetMoved": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnSelectedWidgetMoved",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.13"
+      },
+      "OnOpacityValueChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnOpacityValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.14"
+      },
+      "BndEvt__ToggleVisibility_K2Node_ComponentBoundEvent_3_OnCheckBoxComponentStateChanged__DelegateSignature": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:BndEvt__ToggleVisibility_K2Node_ComponentBoundEvent_3_OnCheckBoxComponentStateChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.15"
+      },
+      "OnTouchWidgetSelectionChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnTouchWidgetSelectionChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.16"
+      },
+      "OnScaleValueChanged": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnScaleValueChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.17"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.18"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.19"
+      },
+      "RefreshScaleSliderPosition": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshScaleSliderPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.20"
+      },
+      "RefreshOpacitySliderPosition": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshOpacitySliderPosition",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.21"
+      },
+      "RefreshWidgetScale": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshWidgetScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.22"
+      },
+      "RefreshWidgetOpacity": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshWidgetOpacity",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.23"
+      },
+      "SaveWidgetLayout": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SaveWidgetLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.24"
+      },
+      "RefreshVisibilityCheckboxState": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshVisibilityCheckboxState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.25"
+      },
+      "AddCustomWidget": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddCustomWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.26"
+      },
+      "ClearCustomWidgets": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ClearCustomWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.27"
+      },
+      "RefreshContextualButtons": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshContextualButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.28"
+      },
+      "OnPresetPressed": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:OnPresetPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.29"
+      },
+      "ResetChanges": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ResetChanges",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.30"
+      },
+      "SetShowTestMode": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SetShowTestMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.31"
+      },
+      "SetShowAgentSelect": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SetShowAgentSelect",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.32"
+      },
+      "RefreshSettingsButtonStyle": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:RefreshSettingsButtonStyle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.33"
+      },
+      "SaveLayouts": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:SaveLayouts",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.34"
+      },
+      "ToggleElementControls": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:ToggleElementControls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.35"
+      },
+      "HasEdits": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:HasEdits",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.36"
+      },
+      "InSpectatorMode": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:InSpectatorMode",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.37"
+      },
+      "AddAimPassthroughWidget": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddAimPassthroughWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.38"
+      },
+      "GetAgentComboBox": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:GetAgentComboBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.39"
+      },
+      "AddMovementPassthroughWidget": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddMovementPassthroughWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.40"
+      },
+      "AddPassthroughMultiToggle": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:AddPassthroughMultiToggle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.41"
+      },
+      "GetEnabledTextColor": {
+        "ObjectName": "Function BP_HUDMobile_EditControls_C:GetEnabledTextColor",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.42"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HUDMobile_EditControls_C Default__BP_HUDMobile_EditControls_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.44"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_EditControls_C",
+    "Name": "Default__BP_HUDMobile_EditControls_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WidgetScaleRange": {
+        "X": 0.5,
+        "Y": 3.0
+      },
+      "WidgetMinOpacity": 0.05,
+      "bIsFocusable": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D UI_White",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_0.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.73"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_6",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 0.0,
+        "Right": 5.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D UI_White",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_6.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.74"
+      }
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_7",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D UI_White",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_7.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.68"
+      }
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ElementControlsBorder",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 5.0,
+        "Right": 0.0,
+        "Bottom": 5.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D UI_White",
+          "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsBorder.BorderSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.125"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_0",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.45"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.112"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_6",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 0.0,
+        "Right": 5.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.46"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.113"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_7",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.47"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.64"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "ElementControlsBorder",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 5.0,
+        "Right": 0.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.48"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_HUDMobile_EditControls_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.54"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 25.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.12
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.12
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_EditControls_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.53"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_HUDMobile_EditControls_C:WidgetTree.Overlay_Controls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.78"
+      }
+    }
+  },
+  {
+    "Type": "CheckBox",
+    "Name": "ToggleVisibility",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "CheckedState": "ECheckBoxState::Checked",
+      "WidgetStyle": {
+        "UncheckedImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.1,
+            "Top": 0.1,
+            "Right": 0.1,
+            "Bottom": 0.1
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Unchecked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Unchecked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "UncheckedHoveredImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.1,
+            "Top": 0.1,
+            "Right": 0.1,
+            "Bottom": 0.1
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Unchecked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Unchecked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "UncheckedPressedImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/CheckBox_Checked_Hovered.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedHoveredImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedPressedImage": {
+          "ImageSize": {
+            "X": 30.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/CheckBox_Checked_Hovered.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "Padding": {
+          "Left": 0.0
+        }
+      },
+      "IsFocusable": false,
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot BP_HUDMobile_EditControls_C:WidgetTree.ToggleVisibility.PanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_274.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.72"
+      },
+      "Tag": "CheckBox_247"
+    }
+  },
+  {
+    "Type": "ComboBoxString",
+    "Name": "ComboBox_AgentName",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidgetStyle": {
+        "ComboButtonStyle": {
+          "ButtonStyle": {
+            "Normal": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.5,
+                "Top": 0.5,
+                "Right": 0.5,
+                "Bottom": 0.5
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D TX_UI_Dropdown_BG",
+                "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/Settings/TX_UI_Dropdown_BG.0"
+              }
+            },
+            "Hovered": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 32.0
+              },
+              "Margin": {
+                "Left": 0.5,
+                "Top": 0.5,
+                "Right": 0.5,
+                "Bottom": 0.5
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 0.084376,
+                  "G": 0.708376,
+                  "B": 0.491021,
+                  "A": 1.0,
+                  "Hex": "FF52DBBA"
+                }
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D TX_UI_Dropdown_BG",
+                "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/Settings/TX_UI_Dropdown_BG.0"
+              }
+            },
+            "Pressed": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 32.0
+              },
+              "Margin": {
+                "Left": 0.5,
+                "Top": 0.5,
+                "Right": 0.5,
+                "Bottom": 0.5
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 0.084376,
+                  "G": 0.708376,
+                  "B": 0.491021,
+                  "A": 1.0,
+                  "Hex": "FF52DBBA"
+                }
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D TX_UI_Dropdown_BG",
+                "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/Settings/TX_UI_Dropdown_BG.0"
+              }
+            },
+            "Disabled": {
+              "ImageSize": {
+                "X": 4.0,
+                "Y": 4.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 0.520833,
+                  "G": 0.520833,
+                  "B": 0.520833,
+                  "A": 1.0,
+                  "Hex": "FFBFBFBF"
+                }
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D UI_White",
+                "ObjectPath": "ShooterGame/Content/UI/OutOfGame/Shared/Textures/UI_White.0"
+              }
+            },
+            "NormalPadding": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "PressedPadding": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            }
+          },
+          "DownArrowImage": {
+            "ImageSize": {
+              "X": 15.0,
+              "Y": 18.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 0.0,
+                "Hex": "FFFFFF"
+              }
+            }
+          },
+          "MenuBorderBrush": {
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 0.0,
+                "Hex": "FFFFFF"
+              }
+            }
+          },
+          "MenuBorderPadding": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          }
+        }
+      },
+      "ItemStyle": {
+        "ActiveHoveredBrush": {
+          "ImageSize": {
+            "X": 350.0,
+            "Y": 60.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.084376,
+              "G": 0.708376,
+              "B": 0.491021,
+              "A": 1.0,
+              "Hex": "FF52DBBA"
+            }
+          }
+        },
+        "ActiveBrush": {
+          "ImageSize": {
+            "X": 350.0,
+            "Y": 60.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.084376,
+              "G": 0.708376,
+              "B": 0.491021,
+              "A": 1.0,
+              "Hex": "FF52DBBA"
+            }
+          }
+        },
+        "InactiveHoveredBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "InactiveBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "EvenRowBackgroundHoveredBrush": {
+          "ImageSize": {
+            "X": 80.0,
+            "Y": 80.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.084376,
+              "G": 0.708376,
+              "B": 0.491021,
+              "A": 1.0,
+              "Hex": "FF52DBBA"
+            }
+          }
+        },
+        "EvenRowBackgroundBrush": {
+          "ImageSize": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.603828,
+              "G": 0.603828,
+              "B": 0.603828,
+              "A": 1.0,
+              "Hex": "FFCCCCCC"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "OddRowBackgroundHoveredBrush": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.084376,
+              "G": 0.708376,
+              "B": 0.491021,
+              "A": 1.0,
+              "Hex": "FF52DBBA"
+            }
+          }
+        },
+        "OddRowBackgroundBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.520996,
+              "G": 0.520996,
+              "B": 0.520996,
+              "A": 1.0,
+              "Hex": "FFBFBFBF"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "TextColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF000000"
+          }
+        },
+        "DropIndicator_Above": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.483362,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFB900"
+            }
+          }
+        },
+        "DropIndicator_Onto": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.483362,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFB900"
+            }
+          }
+        },
+        "DropIndicator_Below": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.483362,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFB900"
+            }
+          }
+        }
+      },
+      "ContentPadding": {
+        "Left": 25.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Font": {
+        "TypefaceFontName": "Regular",
+        "Size": 12
+      },
+      "ForegroundColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFFFF"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_7.SizeBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.97"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "CancelButton_1",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__CancelButton_1_K2Node_ComponentBoundEvent_16_OnButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "SaveButton_1",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__SaveButton_1_K2Node_ComponentBoundEvent_9_OnButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Preset_1",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__Preset1_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ResetToDefault_1",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__ResetToDefault_1_K2Node_ComponentBoundEvent_2_OnButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "TestButton",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__TestButton_K2Node_ComponentBoundEvent_0_OnButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ToggleVisibility",
+          "DelegatePropertyName": "OnCheckStateChanged",
+          "FunctionNameToBind": "BndEvt__ToggleVisibility_K2Node_ComponentBoundEvent_3_OnCheckBoxComponentStateChanged__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.66"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.65"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.119"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.67"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.124"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.70"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.117"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.120"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_274",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_274.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.118"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_3",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.73"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_Controls.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.81"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_4",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.75"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_7.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.51"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox",
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "Size": {
+        "Value": 0.75,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.58"
+      },
+      "Content": {
+        "ObjectName": "Slider BP_HUDMobile_EditControls_C:WidgetTree.Opacity_Slider",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.99"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Size": {
+        "Value": 0.25,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.58"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.83"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Properties": {
+      "Size": {
+        "Value": 0.5,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.59"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.77"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.59"
+      },
+      "Content": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.47"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_1",
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "Size": {
+        "Value": 0.75,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.60"
+      },
+      "Content": {
+        "ObjectName": "Slider BP_HUDMobile_EditControls_C:WidgetTree.Scale_Slider",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.100"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_1",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Size": {
+        "Value": 0.25,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.60"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.84"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_2",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.61"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.88"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_274",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_274",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.62"
+      },
+      "Content": {
+        "ObjectName": "CheckBox BP_HUDMobile_EditControls_C:WidgetTree.ToggleVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.55"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_3",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.63"
+      },
+      "Content": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.45"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_3",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.63"
+      },
+      "Content": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.Border_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.46"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_4",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.64"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.114"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_4",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.64"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.110"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.79"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.80"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.67"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_Controls",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_Controls.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_HUDMobile_EditControls_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.54"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.77"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.108"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.77"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.111"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_Controls",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_HUDMobile_EditControls_C:WidgetTree.Overlay_Controls",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.78"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.63"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Outer": "ToggleVisibility",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CheckBox BP_HUDMobile_EditControls_C:WidgetTree.ToggleVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.55"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_113",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.102"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.66"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.86"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.70"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.83"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.101"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.84"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_91",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.107"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_10",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 50.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_10.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.127"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 50.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_2.SizeBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.94"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.71"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_4",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 50.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_4.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.95"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.126"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_6",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 50.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_6.SizeBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.96"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox.VerticalBoxSlot_11",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.122"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_7",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 100.0,
+      "HeightOverride": 40.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_7.SizeBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.97"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer.VerticalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.116"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_8",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 50.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_8.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.98"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4.VerticalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.129"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_10",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.87"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_HUDMobile_EditControls_C:WidgetTree.CancelButton_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.130"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_2",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.88"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_HUDMobile_EditControls_C:WidgetTree.Preset_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.131"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_4",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.89"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_HUDMobile_EditControls_C:WidgetTree.SaveButton_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.133"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_6",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.90"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_HUDMobile_EditControls_C:WidgetTree.TestButton",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.134"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_7",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.91"
+      },
+      "Content": {
+        "ObjectName": "ComboBoxString BP_HUDMobile_EditControls_C:WidgetTree.ComboBox_AgentName",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.56"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_8",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_8",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.92"
+      },
+      "Content": {
+        "ObjectName": "WBP_IconButton_Settings_C BP_HUDMobile_EditControls_C:WidgetTree.ResetToDefault_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.132"
+      }
+    }
+  },
+  {
+    "Type": "Slider",
+    "Name": "Opacity_Slider",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidgetStyle": {
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "HoveredThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "DisabledThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 1.0,
+              "Hex": "FFBCBCBC"
+            }
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "BarThickness": 10.0
+      },
+      "SliderBarColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "IsFocusable": false,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.65"
+      },
+      "Tag": "Slider_639"
+    }
+  },
+  {
+    "Type": "Slider",
+    "Name": "Scale_Slider",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidgetStyle": {
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "HoveredThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "DisabledThumbImage": {
+          "ImageSize": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Margin": {
+            "Left": 0.2,
+            "Top": 0.2,
+            "Right": 0.2,
+            "Bottom": 0.2
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 1.0,
+              "Hex": "FFBCBCBC"
+            }
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "BarThickness": 10.0
+      },
+      "SliderBarColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "IsFocusable": false,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.69"
+      },
+      "Tag": "Slider_639"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+        "Key": "Option_Opacity"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.85"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_113",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+        "Key": "Option_Enabled"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Margin": {
+        "Left": 10.0
+      },
+      "Slot": {
+        "ObjectName": "PanelSlot BP_HUDMobile_EditControls_C:WidgetTree.ToggleVisibility.PanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.82"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_129",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+        "Key": "HUDTest"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox.VerticalBoxSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.123"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_176",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+        "Key": "TemplateSnap"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.121"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_397",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+        "Key": "Option_Revert"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.128"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_73",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+        "Key": "PreviewAgent"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.115"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_91",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+        "Key": "Option_Scale"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.86"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "AgentSelectContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.115"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer.VerticalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.116"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.79"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "ElementControlsList",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.118"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.117"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList.VerticalBoxSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.119"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsBorder.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.52"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "PresetVertBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.121"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.120"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.76"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "TestModeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox.VerticalBoxSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.123"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox.VerticalBoxSlot_11",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.122"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_HUDMobile_EditControls_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.80"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.124"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.125"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_0.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.49"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.126"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.127"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot BP_HUDMobile_EditControls_C:WidgetTree.Border_6.BorderSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.50"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_4",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.128"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4.VerticalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.129"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_4.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.75"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "AgentSelectContainer",
+    "Properties": {
+      "Size": {
+        "Value": 0.5
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Top": 2.0,
+        "Right": 5.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.108"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_73",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.106"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "AgentSelectContainer",
+    "Properties": {
+      "Size": {
+        "Value": 0.5,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.AgentSelectContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.108"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.91"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "ElementControlsList",
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.109"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.60"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "ElementControlsList",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.109"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_274",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.62"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": "ElementControlsList",
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsList",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.109"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.58"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "PresetVertBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.5
+      },
+      "Padding": {
+        "Bottom": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.110"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.61"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "PresetVertBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.5
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Top": 2.0,
+        "Right": 5.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.PresetVertBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.110"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_176",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.104"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_11",
+    "Outer": "TestModeBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.111"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.90"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": "TestModeBox",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 2.0,
+        "Right": 5.0,
+        "Bottom": 2.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.TestModeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.111"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_129",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.103"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.112"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_HUDMobile_EditControls_C:WidgetTree.HorizontalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.59"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.112"
+      },
+      "Content": {
+        "ObjectName": "Border BP_HUDMobile_EditControls_C:WidgetTree.ElementControlsBorder",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.48"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_2",
+    "Properties": {
+      "Padding": {
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.113"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.89"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_2",
+    "Properties": {
+      "Padding": {
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.113"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.87"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_4",
+    "Properties": {
+      "Size": {
+        "Value": 0.5
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Top": 2.0,
+        "Right": 5.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.114"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_EditControls_C:WidgetTree.TextBlock_397",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.105"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_4",
+    "Properties": {
+      "Size": {
+        "Value": 0.5
+      },
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0,
+        "Bottom": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_HUDMobile_EditControls_C:WidgetTree.VerticalBox_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.114"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_8",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.92"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "CancelButton_1",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 0,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/OutOfGame/MainMenu/Settings/UI_Settings_Strings.UI_Settings_Strings",
+            "Key": "ButtonText_Cancel"
+          }
+        },
+        "Texture2DProperties": {
+          "IconTexture": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_10.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.93"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "Preset_1",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 0,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/InGame/HUD/Mobile/Strings/UI_Mobile_Settings_Strings.UI_Mobile_Settings_Strings",
+            "Key": "Simple_Short"
+          }
+        },
+        "Texture2DProperties": {
+          "IconTexture": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_2.SizeBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.94"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "ResetToDefault_1",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 0,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.4
+        },
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D TX_Icon_Ability_Lob_Throw",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/AbiltyContainer/Prototype/Assets/TX_Icon_Ability_Lob_Throw.0"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_8.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.98"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "SaveButton_1",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 0,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/UI_Common_Strings.UI_Common_Strings",
+            "Key": "ButtonText_OK"
+          }
+        },
+        "Texture2DProperties": {
+          "IconTexture": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_4.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.95"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IconButton_Settings_C",
+    "Name": "TestButton",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IconButton_Settings_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Custom",
+      "ForwardingInputChannel": 0,
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.0
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "Namespace": "",
+            "Key": "1E2E575A495403843B2BEF9B55013043",
+            "SourceString": "GO",
+            "LocalizedString": "GO"
+          }
+        },
+        "Texture2DProperties": {
+          "IconTexture": null
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_HUDMobile_EditControls_C:WidgetTree.SizeBox_6.SizeBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.96"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_HUDMobile_EditControls_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_EditControls_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_EditControls.53"
+      }
+    }
+  }
+]

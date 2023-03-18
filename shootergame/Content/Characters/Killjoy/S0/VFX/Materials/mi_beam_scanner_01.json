@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_beam_scanner_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_beam_scanner_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_beam_scanner_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseParticleAlpha",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "6FCC41E0-4D50E17A-1290A6BA-D0D97311"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_gradient_rgb_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_rgb_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_sqare_softEdges_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_sqare_softEdges_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_scanLines_gradient_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+        }
+      ]
+    }
+  }
+]

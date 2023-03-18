@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_tracer_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithBeamTrails": true,
+      "SortPriorityOffset": 100,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "AAA861DB-439AA3E3-0871A4A1-951C3C7B",
+      "CachedExpressionData": {
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D GradientDouble_TEX",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/GradientDouble_TEX.0"
+          },
+          {
+            "ObjectName": "Texture2D Gradient4px_Grayscale",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/Gradient4px_Grayscale.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "18C25EA2-4D044A4B-B6DDE98F-CAB8F4ED",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotateNegative90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotateNegative90.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

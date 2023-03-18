@@ -1,0 +1,476 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_detain_stickLightning_01",
+    "Properties": {
+      "Normal": {
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "None",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionParticleColor_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAdd_5",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "TwoSided": true,
+      "NumCustomizedUVs": 5,
+      "bUsedWithParticleSprites": true,
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "338564DA-41CBE946-24EDCEB4-FA467B61",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              402025038970658399,
+              5789066654111099247,
+              6891911069698789374,
+              10130409509433432841,
+              10365776952601423206,
+              10886977420789633686,
+              13470332256475161931,
+              13574984594942950721,
+              15094462015619893236
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Scale_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Scale_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Columns",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Rows",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FadeDistance",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FresnelEmissive",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "MoveSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Width",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FresnelOpacity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "D9ACEF76-4D8B6B11-885A8A91-7D940CC6",
+              "15F3922A-42DECC95-7B3092B0-CFDDEE08",
+              "CC73E099-49B5F0B6-7E267CAD-E1D1EC5B",
+              "FEEC539A-4475BBF7-691260BB-10BC2BF4",
+              "38574D41-48DBB83A-F71C0287-5E5EB08D",
+              "450D3666-4099CF1C-E151C9A8-8F48F64D",
+              "A3CF94A1-496B0AF5-3F64E488-D72BAEAD",
+              "CB9A1051-460C6073-BC33A0BF-7681FBD8",
+              "438E473F-4AEF2FF8-E1C4A1B7-F0A02914"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              720161557229175350,
+              1013933738983223466
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "InnerColor",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EdgeColor",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "5254224B-4023803C-30E4D998-9C025074",
+              "2238F348-4FD15706-E29B1198-F51DF20A"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              12703368360429714951
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "SpriteSheet",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "4882401E-43520B97-09C669BA-E74ECD16"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            1.0,
+            1.0,
+            3.0,
+            3.0,
+            100.0,
+            0.5,
+            3.0,
+            40.0,
+            1.507643
+          ],
+          "VectorValues": [
+            {
+              "R": 50.0,
+              "G": 0.0,
+              "B": 3.466225,
+              "A": 1.0,
+              "Hex": "FFFF00FF"
+            },
+            {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 1.0,
+              "Hex": "FFBCBCBC"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D Lightning_3",
+              "ObjectPath": "ShooterGame/Content/Characters/Hunter/S0/VFX/Textures/Lightning_3.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D ring_glow",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow.0"
+          },
+          null,
+          {
+            "ObjectName": "Texture2D DefaultDiffuse",
+            "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+          },
+          {
+            "ObjectName": "Texture2D DebugNumberStrip",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+          },
+          {
+            "ObjectName": "Texture2D DebugNumberPeriod",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+          },
+          {
+            "ObjectName": "Texture2D flipbook",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+          },
+          {
+            "ObjectName": "Texture2D Lightning_3",
+            "ObjectPath": "ShooterGame/Content/Characters/Hunter/S0/VFX/Textures/Lightning_3.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "B982D54D-4A34B104-CA3F64B8-881F35B6",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate90.0"
+            }
+          },
+          {
+            "StateId": "A9CC16D5-4B375243-36F3CF86-3EF27E55",
+            "Function": {
+              "ObjectName": "MaterialFunction TextureCropping",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.0"
+            }
+          },
+          {
+            "StateId": "E47E7D6B-466F913C-C1497584-EDB1DBD6",
+            "Function": {
+              "ObjectName": "MaterialFunction ComputeMipLevel",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.0"
+            }
+          },
+          {
+            "StateId": "2DA7361E-4ADEEDBC-9E251392-08DB9B40",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugScalarValues",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.0"
+            }
+          },
+          {
+            "StateId": "A9CC16D5-4B375243-36F3CF86-3EF27E55",
+            "Function": {
+              "ObjectName": "MaterialFunction TextureCropping",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.0"
+            }
+          },
+          {
+            "StateId": "E47E7D6B-466F913C-C1497584-EDB1DBD6",
+            "Function": {
+              "ObjectName": "MaterialFunction ComputeMipLevel",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.0"
+            }
+          },
+          {
+            "StateId": "2DA7361E-4ADEEDBC-9E251392-08DB9B40",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugScalarValues",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.0"
+            }
+          },
+          {
+            "StateId": "A9CC16D5-4B375243-36F3CF86-3EF27E55",
+            "Function": {
+              "ObjectName": "MaterialFunction TextureCropping",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "BBE5CE17-42600C40-DF0A77AF-DB6EC5B4",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugFloat2Values",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat2Values.0"
+            }
+          },
+          {
+            "StateId": "CEA19503-4AFB6DD7-0ED556A0-0EFCD46F",
+            "Function": {
+              "ObjectName": "MaterialFunction FlipBook",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "2C0AFCEF-4B67951F-85943A89-8827DBDF",
+            "Function": {
+              "ObjectName": "MaterialFunction TangentBasis",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/TangentBasis.0"
+            }
+          },
+          {
+            "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+            "Function": {
+              "ObjectName": "MaterialFunction BlendAngleCorrectedNormals",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "ECE951FC-4C7C5272-6BF3A8A4-4A98443F",
+            "Function": {
+              "ObjectName": "MaterialFunction SplineThicken",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Random",
+          "Stretch",
+          "Width",
+          "AnimationPhase"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

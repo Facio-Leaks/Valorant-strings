@@ -1,0 +1,3336 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_10"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_17"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_21"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_3"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_6"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_10",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_turret_materialize_02:ParticleModuleRequired_10",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.34"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_turret_materialize_02:ParticleModuleLifetime_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.22"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_turret_materialize_02:ParticleModuleSize_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.39"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_turret_materialize_02:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.14"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity ps_turret_materialize_02:ParticleModuleVelocity_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.54"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_turret_materialize_02:ParticleModuleLocation_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.25"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_turret_materialize_02:ParticleModuleMeshRotation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.26"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_turret_materialize_02:ParticleModuleSizeMultiplyLife_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.43"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotationRateOverLife ps_turret_materialize_02:ParticleModuleMeshRotationRateOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.30"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_turret_materialize_02:ParticleModuleParameterDynamic_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.32"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_turret_materialize_02:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.11"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_turret_materialize_02:ParticleModuleTypeDataMesh_9",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.53"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_turret_materialize_02:ParticleModuleSpawn_10",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.45"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_11",
+    "Properties": {
+      "bEnabled": false,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_turret_materialize_02:ParticleModuleRequired_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.38"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_turret_materialize_02:ParticleModuleLifetime_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_turret_materialize_02:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.42"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_turret_materialize_02:ParticleModuleColorOverLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_turret_materialize_02:ParticleModuleSizeMultiplyLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.44"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_turret_materialize_02:ParticleModuleParameterDynamic_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.33"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_turret_materialize_02:ParticleModuleLocation_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.24"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_turret_materialize_02:ParticleModuleMeshRotation_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.29"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_turret_materialize_02:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.10"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_turret_materialize_02:ParticleModuleTypeDataMesh_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.52"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_turret_materialize_02:ParticleModuleSpawn_6",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.49"
+      },
+      "PeakActiveParticles": 1
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_17",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_turret_materialize_02:ParticleModuleRequired_17",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.35"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_turret_materialize_02:ParticleModuleLifetime_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_turret_materialize_02:ParticleModuleSize_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.41"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_turret_materialize_02:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.14"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity ps_turret_materialize_02:ParticleModuleVelocity_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.55"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_turret_materialize_02:ParticleModuleLocation_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.25"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_turret_materialize_02:ParticleModuleMeshRotation_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.27"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_turret_materialize_02:ParticleModuleSizeMultiplyLife_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.43"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotationRateOverLife ps_turret_materialize_02:ParticleModuleMeshRotationRateOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.31"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_turret_materialize_02:ParticleModuleParameterDynamic_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.32"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_turret_materialize_02:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.11"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_turret_materialize_02:ParticleModuleTypeDataMesh_14",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.50"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_turret_materialize_02:ParticleModuleSpawn_17",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.46"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_5",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_turret_materialize_02:ParticleModuleRequired_21",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.36"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_turret_materialize_02:ParticleModuleLifetime_19",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_turret_materialize_02:ParticleModuleSize_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.40"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_turret_materialize_02:ParticleModuleColorOverLife_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_turret_materialize_02:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.23"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_turret_materialize_02:ParticleModuleCameraOffset_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.12"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_turret_materialize_02:ParticleModuleSpawn_21",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.47"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_8",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_turret_materialize_02:ParticleModuleRequired_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.37"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_turret_materialize_02:ParticleModuleLifetime_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_turret_materialize_02:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.42"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_turret_materialize_02:ParticleModuleColorOverLife_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.15"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_turret_materialize_02:ParticleModuleSizeMultiplyLife_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.44"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_turret_materialize_02:ParticleModuleParameterDynamic_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.33"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_turret_materialize_02:ParticleModuleLocation_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.24"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_turret_materialize_02:ParticleModuleMeshRotation_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.28"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_turret_materialize_02:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.17"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_turret_materialize_02:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.10"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_turret_materialize_02:ParticleModuleTypeDataMesh_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.51"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_turret_materialize_02:ParticleModuleSpawn_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.48"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_1",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_4",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 150.0,
+        "MaxValue": 150.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            150.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_17",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 15.0,
+        "MaxValueVec": {
+          "X": 2.0,
+          "Y": 2.0,
+          "Z": 15.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            2.0,
+            2.0,
+            15.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 0.218397,
+          "Y": 0.0,
+          "Z": 0.433764
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 0.538772,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 423.33334,
+          "Values": [
+            10.0,
+            0.0,
+            0.433764,
+            9.884469,
+            0.0063634487,
+            1.6097431,
+            9.768938,
+            0.012726897,
+            2.7857223,
+            9.653408,
+            0.019090345,
+            3.9617014,
+            9.537877,
+            0.025453795,
+            5.1376805,
+            9.422346,
+            0.031817243,
+            6.3136597,
+            9.306815,
+            0.03818069,
+            7.489639,
+            9.191285,
+            0.044544138,
+            8.665619,
+            9.075754,
+            0.05090759,
+            9.841598,
+            8.960223,
+            0.057271037,
+            11.017577,
+            8.844692,
+            0.063634485,
+            12.193556,
+            8.729162,
+            0.06999794,
+            13.369535,
+            8.613631,
+            0.07636138,
+            14.545514,
+            8.4981,
+            0.08272483,
+            15.721494,
+            8.382569,
+            0.089088276,
+            16.897472,
+            8.267039,
+            0.09545173,
+            18.07345,
+            8.151508,
+            0.10181518,
+            19.24943,
+            8.035977,
+            0.10817863,
+            20.425411,
+            7.9204464,
+            0.114542075,
+            21.601389,
+            7.8049164,
+            0.12090552,
+            22.777367,
+            7.6893854,
+            0.12726897,
+            23.953346,
+            7.5738544,
+            0.13363242,
+            25.129326,
+            7.4583235,
+            0.13999587,
+            26.305305,
+            7.342793,
+            0.14635931,
+            27.481283,
+            7.2272625,
+            0.15272276,
+            28.657263,
+            7.1117315,
+            0.15908623,
+            29.833244,
+            6.9962006,
+            0.16544966,
+            31.009222,
+            6.88067,
+            0.17181312,
+            32.185204,
+            6.7651396,
+            0.17817655,
+            33.361183,
+            6.6496086,
+            0.18454002,
+            34.537163,
+            6.5340776,
+            0.19090346,
+            35.71314,
+            6.418547,
+            0.19726689,
+            36.88912,
+            6.303016,
+            0.20363036,
+            38.065098,
+            6.1874857,
+            0.20999381,
+            39.241077,
+            6.0719547,
+            0.21635726,
+            40.41706,
+            5.956424,
+            0.2227207,
+            41.593037,
+            5.8408933,
+            0.22908415,
+            42.769016,
+            5.7253623,
+            0.2354476,
+            43.944996,
+            5.6098323,
+            0.24181104,
+            45.12097,
+            5.4943013,
+            0.24817449,
+            46.29695,
+            5.3787704,
+            0.25453794,
+            47.47293,
+            5.2632394,
+            0.2609014,
+            48.648914,
+            5.147709,
+            0.26726484,
+            49.82489,
+            5.032178,
+            0.2736283,
+            51.00087,
+            4.9166474,
+            0.27999175,
+            52.17685,
+            4.801117,
+            0.28635517,
+            53.35283,
+            4.685586,
+            0.29271862,
+            54.528805,
+            4.5700555,
+            0.29908207,
+            55.704784,
+            4.4545245,
+            0.30544552,
+            56.880764,
+            4.3389935,
+            0.311809,
+            58.056747,
+            4.2234626,
+            0.31817245,
+            59.232727,
+            4.1079326,
+            0.32453585,
+            60.4087,
+            3.9924011,
+            0.33089933,
+            61.584682,
+            3.876871,
+            0.33726275,
+            62.76066,
+            3.7613401,
+            0.34362623,
+            63.93664,
+            3.6458092,
+            0.34998968,
+            65.11262,
+            3.5302787,
+            0.3563531,
+            66.2886,
+            3.4147477,
+            0.36271656,
+            67.46458,
+            3.2992167,
+            0.36908004,
+            68.64056,
+            3.1836858,
+            0.3754435,
+            69.816536,
+            3.0681558,
+            0.3818069,
+            70.99251,
+            2.9526253,
+            0.38817033,
+            72.16849,
+            2.8370943,
+            0.39453378,
+            73.34447,
+            2.7215633,
+            0.40089726,
+            74.520454,
+            2.6060324,
+            0.40726072,
+            75.69643,
+            2.4905019,
+            0.41362417,
+            76.872406,
+            2.374971,
+            0.41998762,
+            78.048386,
+            2.25944,
+            0.42635107,
+            79.22437,
+            2.143909,
+            0.43271452,
+            80.40035,
+            2.028379,
+            0.43907794,
+            81.576324,
+            1.9128485,
+            0.4454414,
+            82.752304,
+            1.7973175,
+            0.45180485,
+            83.92828,
+            1.6817865,
+            0.4581683,
+            85.10426,
+            1.5662556,
+            0.46453175,
+            86.28024,
+            1.4507246,
+            0.4708952,
+            87.45622,
+            1.3351946,
+            0.47725865,
+            88.6322,
+            1.2196646,
+            0.48362207,
+            89.808174,
+            1.1041327,
+            0.48998553,
+            90.98416,
+            0.98860264,
+            0.49634898,
+            92.16013,
+            0.8730717,
+            0.5027124,
+            93.33611,
+            0.7575407,
+            0.5090759,
+            94.51209,
+            0.64200974,
+            0.51543933,
+            95.68808,
+            0.52647877,
+            0.5218028,
+            96.86406,
+            0.41094875,
+            0.52816623,
+            98.04004,
+            0.2954178,
+            0.5345297,
+            99.21601,
+            0.22124039,
+            0.5367229,
+            99.22048,
+            0.22977065,
+            0.53057563,
+            96.8819,
+            0.2383009,
+            0.52442837,
+            94.54331,
+            0.24683116,
+            0.5182811,
+            92.20473,
+            0.2553614,
+            0.5121339,
+            89.86614,
+            0.26389167,
+            0.50598663,
+            87.52756,
+            0.27242193,
+            0.49983934,
+            85.18898,
+            0.28095213,
+            0.4936921,
+            82.8504,
+            0.28948238,
+            0.48754483,
+            80.511826,
+            0.29801264,
+            0.48139757,
+            78.17323,
+            0.3065429,
+            0.4752503,
+            75.834656,
+            0.31507316,
+            0.46910307,
+            73.49607,
+            0.32360342,
+            0.4629558,
+            71.157486,
+            0.33213368,
+            0.45680854,
+            68.8189,
+            0.34066394,
+            0.45066127,
+            66.480316,
+            0.3491942,
+            0.444514,
+            64.14173,
+            0.3577244,
+            0.43836677,
+            61.80316,
+            0.36625466,
+            0.4322195,
+            59.464577,
+            0.37478492,
+            0.42607224,
+            57.12599,
+            0.38331518,
+            0.41992497,
+            54.787407,
+            0.39184543,
+            0.4137777,
+            52.448822,
+            0.40037563,
+            0.4076305,
+            50.110252,
+            0.40890592,
+            0.40148318,
+            47.771656,
+            0.41743615,
+            0.39533597,
+            45.433086,
+            0.42596644,
+            0.38918865,
+            43.094486,
+            0.43449667,
+            0.38304144,
+            40.755917,
+            0.44302696,
+            0.37689412,
+            38.417316,
+            0.45155716,
+            0.3707469,
+            36.078747,
+            0.46008736,
+            0.3645997,
+            33.74018,
+            0.46861768,
+            0.35845238,
+            31.40158,
+            0.47714788,
+            0.35230517,
+            29.063011,
+            0.4856782,
+            0.34615785,
+            26.724419,
+            0.4942084,
+            0.34001064,
+            24.385841,
+            0.5027387,
+            0.33386332,
+            22.047249,
+            0.5112689,
+            0.3277161,
+            19.70868,
+            0.5197991,
+            0.32156888,
+            17.37011,
+            0.52832943,
+            0.31542158,
+            15.031509,
+            0.53685963,
+            0.30927435,
+            12.69294,
+            0.54538995,
+            0.30312705,
+            10.35434,
+            0.55392015,
+            0.2969798,
+            8.01577,
+            0.56245047,
+            0.29083252,
+            5.67717,
+            0.57098067,
+            0.28468528,
+            3.3386002,
+            0.579511,
+            0.278538,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.6666666,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_4",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 3.0,
+          "Z": 1.378173
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 3.0,
+          "Z": 1.378173
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            3.0,
+            1.378173
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            0.0,
+            0.057142857,
+            0.11428572,
+            0.17142859,
+            0.17142856,
+            0.1142857,
+            0.057142816,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 0.218368,
+        "MaxValue": 1.5,
+        "MinValueVec": {
+          "X": 0.218368,
+          "Y": 0.538775,
+          "Z": 1.5
+        },
+        "MaxValueVec": {
+          "X": 0.218368,
+          "Y": 0.538775,
+          "Z": 1.5
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.218368,
+            0.538775,
+            1.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.06666667,
+            0.13333334,
+            0.2,
+            0.26666668,
+            0.33333334,
+            0.4,
+            0.4666667,
+            0.46666664,
+            0.39999995,
+            0.3333333,
+            0.26666662,
+            0.19999997,
+            0.13333328,
+            0.06666664,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            10.0,
+            10.0,
+            100.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.7,
+        "MaxValue": 0.7,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.7
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_16",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_19",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_8",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_9",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -110.0,
+        "MinValueVec": {
+          "X": -20.0,
+          "Y": 0.0,
+          "Z": -110.0
+        },
+        "MaxValueVec": {
+          "X": -20.0,
+          "Y": 0.0,
+          "Z": -110.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -20.0,
+            0.0,
+            -110.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_9",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_2",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 0.35,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.35
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.35
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.35
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_5",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.2,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.2
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.2
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_8",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_9",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": -0.25,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": -0.25,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotationRateOverLife",
+    "Name": "ParticleModuleMeshRotationRateOverLife_2",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "RotRate": {
+        "MaxValue": 2.0,
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 2.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 635.0,
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9989078,
+            0.0,
+            0.0,
+            1.99669,
+            0.0,
+            0.0,
+            1.9937878,
+            0.0,
+            0.0,
+            1.990212,
+            0.0,
+            0.0,
+            1.9859741,
+            0.0,
+            0.0,
+            1.9810854,
+            0.0,
+            0.0,
+            1.9755572,
+            0.0,
+            0.0,
+            1.9694008,
+            0.0,
+            0.0,
+            1.9626273,
+            0.0,
+            0.0,
+            1.9552482,
+            0.0,
+            0.0,
+            1.9472747,
+            0.0,
+            0.0,
+            1.938718,
+            0.0,
+            0.0,
+            1.9295895,
+            0.0,
+            0.0,
+            1.9199005,
+            0.0,
+            0.0,
+            1.9096621,
+            0.0,
+            0.0,
+            1.8988858,
+            0.0,
+            0.0,
+            1.8875829,
+            0.0,
+            0.0,
+            1.8757644,
+            0.0,
+            0.0,
+            1.8634417,
+            0.0,
+            0.0,
+            1.8506262,
+            0.0,
+            0.0,
+            1.837329,
+            0.0,
+            0.0,
+            1.8235618,
+            0.0,
+            0.0,
+            1.8093352,
+            0.0,
+            0.0,
+            1.794661,
+            0.0,
+            0.0,
+            1.7795504,
+            0.0,
+            0.0,
+            1.7640146,
+            0.0,
+            0.0,
+            1.7480649,
+            0.0,
+            0.0,
+            1.7317126,
+            0.0,
+            0.0,
+            1.7149689,
+            0.0,
+            0.0,
+            1.6978452,
+            0.0,
+            0.0,
+            1.6803528,
+            0.0,
+            0.0,
+            1.6625029,
+            0.0,
+            0.0,
+            1.6443067,
+            0.0,
+            0.0,
+            1.6257755,
+            0.0,
+            0.0,
+            1.606921,
+            0.0,
+            0.0,
+            1.5877537,
+            0.0,
+            0.0,
+            1.5682855,
+            0.0,
+            0.0,
+            1.5485277,
+            0.0,
+            0.0,
+            1.528491,
+            0.0,
+            0.0,
+            1.5081874,
+            0.0,
+            0.0,
+            1.4876277,
+            0.0,
+            0.0,
+            1.4668233,
+            0.0,
+            0.0,
+            1.4457855,
+            0.0,
+            0.0,
+            1.4245257,
+            0.0,
+            0.0,
+            1.4030552,
+            0.0,
+            0.0,
+            1.381385,
+            0.0,
+            0.0,
+            1.3595263,
+            0.0,
+            0.0,
+            1.3374909,
+            0.0,
+            0.0,
+            1.3152899,
+            0.0,
+            0.0,
+            1.2929342,
+            0.0,
+            0.0,
+            1.2704353,
+            0.0,
+            0.0,
+            1.247805,
+            0.0,
+            0.0,
+            1.2250539,
+            0.0,
+            0.0,
+            1.2021935,
+            0.0,
+            0.0,
+            1.1792349,
+            0.0,
+            0.0,
+            1.1561898,
+            0.0,
+            0.0,
+            1.1330694,
+            0.0,
+            0.0,
+            1.1098846,
+            0.0,
+            0.0,
+            1.0866469,
+            0.0,
+            0.0,
+            1.0633677,
+            0.0,
+            0.0,
+            1.0400584,
+            0.0,
+            0.0,
+            1.0167296,
+            0.0,
+            0.0,
+            0.9933931,
+            0.0,
+            0.0,
+            0.97006065,
+            0.0,
+            0.0,
+            0.9467426,
+            0.0,
+            0.0,
+            0.92345065,
+            0.0,
+            0.0,
+            0.90019614,
+            0.0,
+            0.0,
+            0.8769903,
+            0.0,
+            0.0,
+            0.8538444,
+            0.0,
+            0.0,
+            0.83076954,
+            0.0,
+            0.0,
+            0.8077772,
+            0.0,
+            0.0,
+            0.784879,
+            0.0,
+            0.0,
+            0.76208556,
+            0.0,
+            0.0,
+            0.73940855,
+            0.0,
+            0.0,
+            0.7168593,
+            0.0,
+            0.0,
+            0.6944488,
+            0.0,
+            0.0,
+            0.6721888,
+            0.0,
+            0.0,
+            0.65008974,
+            0.0,
+            0.0,
+            0.6281639,
+            0.0,
+            0.0,
+            0.6064217,
+            0.0,
+            0.0,
+            0.58487517,
+            0.0,
+            0.0,
+            0.5635351,
+            0.0,
+            0.0,
+            0.5424128,
+            0.0,
+            0.0,
+            0.5215197,
+            0.0,
+            0.0,
+            0.5008671,
+            0.0,
+            0.0,
+            0.48046634,
+            0.0,
+            0.0,
+            0.4603286,
+            0.0,
+            0.0,
+            0.4404649,
+            0.0,
+            0.0,
+            0.42088717,
+            0.0,
+            0.0,
+            0.4016061,
+            0.0,
+            0.0,
+            0.38263288,
+            0.0,
+            0.0,
+            0.36397946,
+            0.0,
+            0.0,
+            0.3456566,
+            0.0,
+            0.0,
+            0.32767567,
+            0.0,
+            0.0,
+            0.31004798,
+            0.0,
+            0.0,
+            0.292785,
+            0.0,
+            0.0,
+            0.27589804,
+            0.0,
+            0.0,
+            0.25939772,
+            0.0,
+            0.0,
+            0.24329591,
+            0.0,
+            0.0,
+            0.22760405,
+            0.0,
+            0.0,
+            0.2123329,
+            0.0,
+            0.0,
+            0.19749382,
+            0.0,
+            0.0,
+            0.18309881,
+            0.0,
+            0.0,
+            0.1691583,
+            0.0,
+            0.0,
+            0.15568392,
+            0.0,
+            0.0,
+            0.14268683,
+            0.0,
+            0.0,
+            0.13017818,
+            0.0,
+            0.0,
+            0.118169844,
+            0.0,
+            0.0,
+            0.10667276,
+            0.0,
+            0.0,
+            0.09569756,
+            0.0,
+            0.0,
+            0.08525663,
+            0.0,
+            0.0,
+            0.07536063,
+            0.0,
+            0.0,
+            0.066021204,
+            0.0,
+            0.0,
+            0.057249244,
+            0.0,
+            0.0,
+            0.04905595,
+            0.0,
+            0.0,
+            0.04145338,
+            0.0,
+            0.0,
+            0.034451768,
+            0.0,
+            0.0,
+            0.028063212,
+            0.0,
+            0.0,
+            0.022298615,
+            0.0,
+            0.0,
+            0.017169394,
+            0.0,
+            0.0,
+            0.012686453,
+            0.0,
+            0.0,
+            0.008861439,
+            0.0,
+            0.0,
+            0.00570573,
+            0.0,
+            0.0,
+            0.0032304756,
+            0.0,
+            0.0,
+            0.0014466085,
+            0.0,
+            0.0,
+            0.00036646047,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotationRateOverLife",
+    "Name": "ParticleModuleMeshRotationRateOverLife_3",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "RotRate": {
+        "MaxValue": 5.0,
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1270.0,
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4.999896,
+            0.0,
+            0.0,
+            4.998342,
+            0.0,
+            0.0,
+            4.9949484,
+            0.0,
+            0.0,
+            4.989744,
+            0.0,
+            0.0,
+            4.9827595,
+            0.0,
+            0.0,
+            4.974024,
+            0.0,
+            0.0,
+            4.9635673,
+            0.0,
+            0.0,
+            4.9514194,
+            0.0,
+            0.0,
+            4.93761,
+            0.0,
+            0.0,
+            4.9221697,
+            0.0,
+            0.0,
+            4.9051266,
+            0.0,
+            0.0,
+            4.8865113,
+            0.0,
+            0.0,
+            4.8663535,
+            0.0,
+            0.0,
+            4.844683,
+            0.0,
+            0.0,
+            4.82153,
+            0.0,
+            0.0,
+            4.7969236,
+            0.0,
+            0.0,
+            4.7708936,
+            0.0,
+            0.0,
+            4.74347,
+            0.0,
+            0.0,
+            4.7146826,
+            0.0,
+            0.0,
+            4.684561,
+            0.0,
+            0.0,
+            4.653135,
+            0.0,
+            0.0,
+            4.6204343,
+            0.0,
+            0.0,
+            4.5864887,
+            0.0,
+            0.0,
+            4.551328,
+            0.0,
+            0.0,
+            4.5149817,
+            0.0,
+            0.0,
+            4.4774804,
+            0.0,
+            0.0,
+            4.438853,
+            0.0,
+            0.0,
+            4.399129,
+            0.0,
+            0.0,
+            4.3583393,
+            0.0,
+            0.0,
+            4.316513,
+            0.0,
+            0.0,
+            4.2736797,
+            0.0,
+            0.0,
+            4.2298694,
+            0.0,
+            0.0,
+            4.1851115,
+            0.0,
+            0.0,
+            4.1394362,
+            0.0,
+            0.0,
+            4.0928736,
+            0.0,
+            0.0,
+            4.045452,
+            0.0,
+            0.0,
+            3.9972029,
+            0.0,
+            0.0,
+            3.948155,
+            0.0,
+            0.0,
+            3.8983383,
+            0.0,
+            0.0,
+            3.847783,
+            0.0,
+            0.0,
+            3.796518,
+            0.0,
+            0.0,
+            3.7445736,
+            0.0,
+            0.0,
+            3.6919796,
+            0.0,
+            0.0,
+            3.6387658,
+            0.0,
+            0.0,
+            3.5849617,
+            0.0,
+            0.0,
+            3.5305972,
+            0.0,
+            0.0,
+            3.4757013,
+            0.0,
+            0.0,
+            3.4203053,
+            0.0,
+            0.0,
+            3.364438,
+            0.0,
+            0.0,
+            3.3081293,
+            0.0,
+            0.0,
+            3.2514086,
+            0.0,
+            0.0,
+            3.1943061,
+            0.0,
+            0.0,
+            3.1368518,
+            0.0,
+            0.0,
+            3.0790746,
+            0.0,
+            0.0,
+            3.0210052,
+            0.0,
+            0.0,
+            2.9626727,
+            0.0,
+            0.0,
+            2.904107,
+            0.0,
+            0.0,
+            2.8453383,
+            0.0,
+            0.0,
+            2.7863955,
+            0.0,
+            0.0,
+            2.7273095,
+            0.0,
+            0.0,
+            2.6681092,
+            0.0,
+            0.0,
+            2.608824,
+            0.0,
+            0.0,
+            2.5494847,
+            0.0,
+            0.0,
+            2.4901211,
+            0.0,
+            0.0,
+            2.430762,
+            0.0,
+            0.0,
+            2.371437,
+            0.0,
+            0.0,
+            2.3121767,
+            0.0,
+            0.0,
+            2.2530115,
+            0.0,
+            0.0,
+            2.1939695,
+            0.0,
+            0.0,
+            2.1350818,
+            0.0,
+            0.0,
+            2.0763774,
+            0.0,
+            0.0,
+            2.0178862,
+            0.0,
+            0.0,
+            1.959638,
+            0.0,
+            0.0,
+            1.9016626,
+            0.0,
+            0.0,
+            1.8439895,
+            0.0,
+            0.0,
+            1.7866483,
+            0.0,
+            0.0,
+            1.7296702,
+            0.0,
+            0.0,
+            1.6730833,
+            0.0,
+            0.0,
+            1.6169184,
+            0.0,
+            0.0,
+            1.561204,
+            0.0,
+            0.0,
+            1.5059719,
+            0.0,
+            0.0,
+            1.4512497,
+            0.0,
+            0.0,
+            1.3970679,
+            0.0,
+            0.0,
+            1.3434565,
+            0.0,
+            0.0,
+            1.2904459,
+            0.0,
+            0.0,
+            1.2380648,
+            0.0,
+            0.0,
+            1.1863432,
+            0.0,
+            0.0,
+            1.1353109,
+            0.0,
+            0.0,
+            1.0849986,
+            0.0,
+            0.0,
+            1.035435,
+            0.0,
+            0.0,
+            0.9866488,
+            0.0,
+            0.0,
+            0.9386718,
+            0.0,
+            0.0,
+            0.8915332,
+            0.0,
+            0.0,
+            0.8452618,
+            0.0,
+            0.0,
+            0.79988927,
+            0.0,
+            0.0,
+            0.7554433,
+            0.0,
+            0.0,
+            0.71195483,
+            0.0,
+            0.0,
+            0.66945374,
+            0.0,
+            0.0,
+            0.6279683,
+            0.0,
+            0.0,
+            0.58753073,
+            0.0,
+            0.0,
+            0.5481678,
+            0.0,
+            0.0,
+            0.5099118,
+            0.0,
+            0.0,
+            0.4727918,
+            0.0,
+            0.0,
+            0.43683708,
+            0.0,
+            0.0,
+            0.40207684,
+            0.0,
+            0.0,
+            0.36854267,
+            0.0,
+            0.0,
+            0.33626378,
+            0.0,
+            0.0,
+            0.30526817,
+            0.0,
+            0.0,
+            0.27558744,
+            0.0,
+            0.0,
+            0.2472502,
+            0.0,
+            0.0,
+            0.22028685,
+            0.0,
+            0.0,
+            0.19472718,
+            0.0,
+            0.0,
+            0.17060101,
+            0.0,
+            0.0,
+            0.14793873,
+            0.0,
+            0.0,
+            0.12676835,
+            0.0,
+            0.0,
+            0.10712147,
+            0.0,
+            0.0,
+            0.0890249,
+            0.0,
+            0.0,
+            0.07251263,
+            0.0,
+            0.0,
+            0.05761087,
+            0.0,
+            0.0,
+            0.04435122,
+            0.0,
+            0.0,
+            0.03276348,
+            0.0,
+            0.0,
+            0.022876263,
+            0.0,
+            0.0,
+            0.014719963,
+            0.0,
+            0.0,
+            0.008324981,
+            0.0,
+            0.0,
+            0.0037193298,
+            0.0,
+            0.0,
+            0.00093460083,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_5",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Random",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Width",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 10.0,
+            "MaxValue": 10.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                10.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "SpriteFrames",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.9000001,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 3.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                0.5200291,
+                0.8100093,
+                0.9
+              ],
+              "Op": 1,
+              "EntryCount": 4,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Foe",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "ScrollClamp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -0.75,
+            "MaxValue": -0.75,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -0.75
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "WPO",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 1.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.5,
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_orbit_27",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_orbit_27.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_turret_materialize_02:ParticleModuleRequired_10.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_17",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_orbit_27",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_orbit_27.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_turret_materialize_02:ParticleModuleRequired_17.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_21",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_04",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_04.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.75,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_turret_materialize_02:ParticleModuleRequired_21.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_turret_materialize_02:ParticleModuleRequired_3.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.3"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_smokeMaterialize_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_smokeMaterialize_01.0"
+      },
+      "EmitterOrigin": {
+        "X": 21.905973,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_turret_materialize_02:ParticleModuleRequired_6.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.4"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            3.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_14",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 120.0,
+        "MinValueVec": {
+          "X": 75.0,
+          "Y": 120.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 75.0,
+          "Y": 120.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            75.0,
+            120.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_17",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 3.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            3.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_7",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 7.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 7.0,
+          "Z": 7.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 7.0,
+          "Z": 7.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            7.0,
+            7.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_12",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.5,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 3.0,
+          "Values": [
+            0.5,
+            0.5,
+            0.5,
+            0.6296365,
+            0.6296365,
+            0.6296365,
+            0.87036353,
+            0.87036353,
+            0.87036353,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 4,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.5,
+        "MaxValueVec": {
+          "X": 1.5,
+          "Y": 1.2,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.0,
+            1.0,
+            0.23266406,
+            0.05847391,
+            1.0,
+            0.49183875,
+            0.21051535,
+            1.0,
+            0.757647,
+            0.42244244,
+            1.0,
+            1.0101105,
+            0.65990514,
+            1.0,
+            1.2291709,
+            0.88882214,
+            1.0,
+            1.3949564,
+            1.0751153,
+            1.0,
+            1.4873772,
+            1.1845591,
+            1.0,
+            1.4666667,
+            1.1866666,
+            0.9333333,
+            1.4,
+            1.1600001,
+            0.7999999,
+            1.3333334,
+            1.1333333,
+            0.6666666,
+            1.2666667,
+            1.1066667,
+            0.53333324,
+            1.1999999,
+            1.08,
+            0.39999995,
+            1.1333332,
+            1.0533333,
+            0.26666656,
+            1.0666666,
+            1.0266668,
+            0.13333328,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        },
+        {
+          "Count": 0,
+          "CountLow": -1,
+          "Time": 0.1
+        },
+        {
+          "Count": 0,
+          "CountLow": -1,
+          "Time": 0.2
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_17",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        },
+        {
+          "Count": 0,
+          "CountLow": -1,
+          "Time": 0.1
+        },
+        {
+          "Count": 0,
+          "CountLow": -1,
+          "Time": 0.2
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_21",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_3",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_14",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_orbit_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_orbit_03.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_5",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_in_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_in_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_6",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_tip_out_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_tip_out_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_9",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_orbit_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_orbit_03.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_4",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartVelocity": {
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_5",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "StartVelocity": {
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_10",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_turret_materialize_02:ParticleSpriteEmitter_10.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.5"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_11",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "EmitterName": "centerSmoke_Out",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_turret_materialize_02:ParticleSpriteEmitter_11.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.6"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_17",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_turret_materialize_02:ParticleSpriteEmitter_17.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.7"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_turret_materialize_02:ParticleSpriteEmitter_5.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.8"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_8",
+    "Outer": "ps_turret_materialize_02",
+    "Properties": {
+      "EmitterName": "centerSmoke_In",
+      "bUseLegacySpawningBehavior": true,
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_turret_materialize_02:ParticleSpriteEmitter_8.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.9"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_turret_materialize_02",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_turret_materialize_02:ParticleSpriteEmitter_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.58"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_turret_materialize_02:ParticleSpriteEmitter_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.56"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_turret_materialize_02:ParticleSpriteEmitter_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.60"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_turret_materialize_02:ParticleSpriteEmitter_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.57"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_turret_materialize_02:ParticleSpriteEmitter_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_turret_materialize_02.59"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

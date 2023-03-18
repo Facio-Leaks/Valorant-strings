@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_ribbonTrail_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_ribbonTrail_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_ribbonTrail_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "TrailTexture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_gradient_09",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_09.0"
+          },
+          "ExpressionGUID": "98695CDE-4BEA9ABB-61D30EBC-DB477C6D"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Rotate90",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "8E8AC70B-4F716D65-402CE69C-CBAECA74"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_scanLines_gradient_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_triangle_09",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_triangle_09.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gradient_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Textures/tex_gradient_02.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gradient_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_trail_07",
+          "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Textures/tex_trail_07.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_gradient_02"
+        }
+      ]
+    }
+  }
+]

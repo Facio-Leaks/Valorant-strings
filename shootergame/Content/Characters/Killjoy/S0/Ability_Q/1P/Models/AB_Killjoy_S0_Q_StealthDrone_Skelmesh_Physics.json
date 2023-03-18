@@ -1,0 +1,427 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.6"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.7"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.8"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.9"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.10"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:SkeletalBodySetup_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.11"
+        }
+      ],
+      "ConstraintSetup": [
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:PhysicsConstraintTemplate_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.1"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:PhysicsConstraintTemplate_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.2"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:PhysicsConstraintTemplate_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.3"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:PhysicsConstraintTemplate_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.4"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics:PhysicsConstraintTemplate_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics.5"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_0",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "L_FrontKnee",
+        "ConstraintBone1": "L_FrontKnee",
+        "ConstraintBone2": "Pelvis",
+        "Pos2": {
+          "X": 15.119159,
+          "Y": -2.9166818,
+          "Z": 15.178207
+        },
+        "PriAxis2": {
+          "X": 0.4530133,
+          "Y": 0.7658709,
+          "Z": 0.456312
+        },
+        "SecAxis2": {
+          "X": -0.5395844,
+          "Y": 0.6429943,
+          "Z": -0.54351354
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_1",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "L_BackKnee",
+        "ConstraintBone1": "L_BackKnee",
+        "ConstraintBone2": "Pelvis",
+        "Pos2": {
+          "X": 15.1192,
+          "Y": -2.9167166,
+          "Z": -15.1782
+        },
+        "PriAxis2": {
+          "X": 0.45300925,
+          "Y": 0.7658727,
+          "Z": -0.45631313
+        },
+        "SecAxis2": {
+          "X": -0.53958464,
+          "Y": 0.6429922,
+          "Z": 0.5435158
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_2",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "R_FrontKnee",
+        "ConstraintBone1": "R_FrontKnee",
+        "ConstraintBone2": "Pelvis",
+        "Pos2": {
+          "X": -15.119198,
+          "Y": -2.916729,
+          "Z": 15.178197
+        },
+        "PriAxis2": {
+          "X": 0.4530089,
+          "Y": -0.7658731,
+          "Z": -0.4563127
+        },
+        "SecAxis2": {
+          "X": -0.5395889,
+          "Y": -0.6429918,
+          "Z": 0.5435121
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_3",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "R_BackKnee",
+        "ConstraintBone1": "R_BackKnee",
+        "ConstraintBone2": "Pelvis",
+        "Pos2": {
+          "X": -15.1192,
+          "Y": -2.916717,
+          "Z": -15.1782
+        },
+        "PriAxis2": {
+          "X": 0.45300925,
+          "Y": -0.7658727,
+          "Z": 0.45631313
+        },
+        "SecAxis2": {
+          "X": -0.53958464,
+          "Y": -0.64299226,
+          "Z": -0.5435158
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_4",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "Head",
+        "ConstraintBone1": "Head",
+        "ConstraintBone2": "Pelvis",
+        "Pos2": {
+          "X": 0.0,
+          "Y": -13.84674,
+          "Z": -0.13023281
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "ACM_Limited",
+            "Swing2Motion": "ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -8.940697E-08,
+              "Y": -0.46655747,
+              "Z": 0.009645018
+            },
+            "Rotation": {
+              "Pitch": -0.39338472,
+              "Yaw": -89.99999,
+              "Roll": -89.7026
+            },
+            "Radius": 19.138699,
+            "Length": 19.139147,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "Pelvis",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "3DB3B8114D229AB50BBEA7896F603CA4"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 8.24476,
+              "Y": 1.5242124,
+              "Z": -0.0021276474
+            },
+            "Rotation": {
+              "Pitch": 0.7583012,
+              "Yaw": -77.62332,
+              "Roll": -89.68673
+            },
+            "Radius": 6.8892035,
+            "Length": 14.2073345,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "L_FrontKnee",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "174AAC9B426C609593BCB8A3BC2D7281"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 8.24477,
+              "Y": 1.5242243,
+              "Z": 0.0021247864
+            },
+            "Rotation": {
+              "Pitch": -6.830189E-06,
+              "Yaw": 102.369774,
+              "Roll": -89.98303
+            },
+            "Radius": 6.8892055,
+            "Length": 14.207332,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "L_BackKnee",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "73C3088042080085CA76CDB493CB04F8"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -8.244788,
+              "Y": -1.5242336,
+              "Z": 0.0021333694
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -77.63025,
+              "Roll": -89.98296
+            },
+            "Radius": 6.8891983,
+            "Length": 14.207331,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "R_FrontKnee",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "18077EB343B103E4AB4EB89AFAF8A3CE"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_4",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -8.24477,
+              "Y": -1.5242267,
+              "Z": -0.0021276474
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 102.36979,
+              "Roll": -89.98305
+            },
+            "Radius": 6.889204,
+            "Length": 14.2073345,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "R_BackKnee",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "58EBA588468924C692D24F9F6A234375"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_5",
+    "Outer": "AB_Killjoy_S0_Q_StealthDrone_Skelmesh_Physics",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -0.0070034266,
+              "Y": -1.4209069,
+              "Z": -0.25145826
+            },
+            "Rotation": {
+              "Pitch": 32.9779,
+              "Yaw": -89.999985,
+              "Roll": -89.25475
+            },
+            "Radius": 12.233412,
+            "Length": 15.892019,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "Head",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "499D54B140C2A26B1EF498A23D3F689F"
+  }
+]

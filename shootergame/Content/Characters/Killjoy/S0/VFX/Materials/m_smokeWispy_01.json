@@ -1,0 +1,274 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_smokeWispy_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionStaticSwitchParameter_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_1",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "TwoSided": true,
+      "bUsedWithParticleSprites": true,
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "6C57095E-452799D6-F3312181-931D031F",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              2165837269424751326,
+              4565788137902780934,
+              5059818699634581208,
+              5452066194376880517,
+              13574984594942950721,
+              15192504204354909591,
+              18087327993561066283
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "TextureAVScoll",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TextureAUScoll",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TextureAVtile",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TextureAUtile",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Width",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TextureVOffset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TextureAUOffset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "936B2A5B-4320EFC9-A4753F91-8F9E2881",
+              "71EA955D-43106817-59C49CB0-2C07CFCC",
+              "A8906E9A-47C46E86-22DBF59C-B8AE3C4E",
+              "97AB6DFF-46D919D7-B224D3AF-345CD572",
+              "1AFAA304-4AE64B30-984E3DAE-7F0F6762",
+              "60AC49BE-40B52646-BFC022A9-D0A3014C",
+              "02135AFB-4AF239CB-6F881991-18899030"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_smoke_03",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_smoke_03.0"
+          },
+          {
+            "ObjectName": "Texture2D back_power_mask",
+            "ObjectPath": "ShooterGame/Content/Characters/Wraith/S0/VFX/Textures/back_power_mask.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "2C0AFCEF-4B67951F-85943A89-8827DBDF",
+            "Function": {
+              "ObjectName": "MaterialFunction TangentBasis",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/TangentBasis.0"
+            }
+          },
+          {
+            "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+            "Function": {
+              "ObjectName": "MaterialFunction BlendAngleCorrectedNormals",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat3Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction Transform3x3Matrix",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SafeNormalize",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction CreateThirdOrthogonalVector",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "ECE951FC-4C7C5272-6BF3A8A4-4A98443F",
+            "Function": {
+              "ObjectName": "MaterialFunction SplineThicken",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.0"
+            }
+          },
+          {
+            "StateId": "D6FCC70C-4180123A-7F2348B8-31B424B1",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate180",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate180.0"
+            }
+          },
+          {
+            "StateId": "84F64225-4CBFFAAA-B6939BBC-0E261684",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction_02",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction_02.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Random",
+          "Width",
+          "OffsetRand",
+          "AlphaErosion"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_fakeDecal_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_fakeDecal_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_fakeDecal_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Columns",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "4D0016B0-453CCF73-7E12D891-AB429B7D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fade_Distance_MAX",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 100.0,
+          "ExpressionGUID": "27EBFC88-4B19ACFF-7FD936B4-1F20F73A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Opacity_Add",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.05,
+          "ExpressionGUID": "ED9438F3-4B5181F1-C197908D-28DA98A6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Opacity_Multiply",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "AFE5FE34-45717499-7B7ADFB2-21388A93"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rows",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "0DAE31D6-4CD7E2B9-66A03DA6-49334E72"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberStrip",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberPeriod",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+        },
+        {
+          "ObjectName": "Texture2D flipbook",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_lightning_sheet_04",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_lightning_sheet_04.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_lightning_sheet_04"
+        }
+      ]
+    }
+  }
+]

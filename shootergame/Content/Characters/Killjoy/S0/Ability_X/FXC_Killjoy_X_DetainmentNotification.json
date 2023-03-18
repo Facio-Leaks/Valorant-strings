@@ -1,0 +1,414 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_X_DetainmentNotification",
+    "Outer": "FXC_Killjoy_X_DetainmentNotification_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_StartTime",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_StopEffectType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EStopEffectType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_DetainmentNotification_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Widget_Killjoy_X_DetainmentNotification.5"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_AddToPlayerScreen_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_UsingTouchInput_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetEffectData_Int32_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_DetainmentNotification_Alt_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Killjoy/KilljoyMobileFXC/Widget_Killjoy_X_DetainmentNotification_Alt.5"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetEffectData_Int32_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_AddToPlayerScreen_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "StopEffect",
+    "Outer": "FXC_Killjoy_X_DetainmentNotification_C",
+    "SuperStruct": {
+      "ObjectName": "Function EffectContainer:StopEffect",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "StopEffectType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EStopEffectType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "StartEffect",
+    "Outer": "FXC_Killjoy_X_DetainmentNotification_C",
+    "SuperStruct": {
+      "ObjectName": "Function EffectContainer:StartEffect",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_X_DetainmentNotification_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_X_DetainmentNotification_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:ExecuteUbergraph_FXC_Killjoy_X_DetainmentNotification",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.2"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:StopEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:ExecuteUbergraph_FXC_Killjoy_X_DetainmentNotification",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DetainmentWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_DetainmentNotification_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Widget_Killjoy_X_DetainmentNotification.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DetainmentWidgetAlt",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass Widget_Killjoy_X_DetainmentNotification_Alt_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Killjoy/KilljoyMobileFXC/Widget_Killjoy_X_DetainmentNotification_Alt.5"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_X_DetainmentNotification": {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:ExecuteUbergraph_FXC_Killjoy_X_DetainmentNotification",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.0"
+      },
+      "StopEffect": {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:StopEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.1"
+      },
+      "StartEffect": {
+        "ObjectName": "Function FXC_Killjoy_X_DetainmentNotification_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.2"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_X_DetainmentNotification_C Default__FXC_Killjoy_X_DetainmentNotification_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.4"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_X_DetainmentNotification_C",
+    "Name": "Default__FXC_Killjoy_X_DetainmentNotification_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "InitialLifeSpan": 8.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_DetainmentNotification_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_X_DetainmentNotification_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.5"
+      },
+      "VariableGuid": "704CB169-4531E1FA-25207E84-AD2BE40B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_X_DetainmentNotification_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_DetainmentNotification_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_DetainmentNotification_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_X_DetainmentNotification_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_DetainmentNotification.6"
+      }
+    }
+  }
+]

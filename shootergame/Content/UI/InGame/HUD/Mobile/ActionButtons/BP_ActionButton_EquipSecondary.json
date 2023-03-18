@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_EquipSecondary_C",
+    "Super": "BP_ActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_EquipSecondary_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_EquipSecondary.2"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_EquipSecondary_C Default__BP_ActionButton_EquipSecondary_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_EquipSecondary.1"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_EquipSecondary_C",
+    "Name": "Default__BP_ActionButton_EquipSecondary_C",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "ButtonSize": "EAresIconButtonSize::Small",
+      "ActionMappingName": "Activate_Secondary",
+      "TouchWidgetDefaultProperties": {
+        "TextProperties": {
+          "ButtonText": {
+            "CultureInvariantString": "2"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_EquipSecondary_C"
+  }
+]

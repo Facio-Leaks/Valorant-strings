@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic_Montage",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic_Montage",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.3333334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic.0"
+          }
+        },
+        {
+          "SectionName": "loop",
+          "NextSectionName": "loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic_Montage",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.3333334,
+          "SegmentLength": 0.033333335,
+          "LinkValue": 1.3333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Grenade_IdlePose_Cosmetic",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_IdlePose_Cosmetic.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_Equip_Cosmetic.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.3333334,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Grenade_IdlePose_Cosmetic",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Grenade_IdlePose_Cosmetic.0"
+                },
+                "StartPos": 1.3333334,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.033333335,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 1.3666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton FP_Killjoy_S0_Skelmesh_Skeleton",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/1P/Models/FP_Killjoy_S0_Skelmesh_Skeleton.0"
+      }
+    },
+    "SkeletonGuid": "8643EFA4-41BE15EA-A34DACB4-BB58D90E"
+  }
+]

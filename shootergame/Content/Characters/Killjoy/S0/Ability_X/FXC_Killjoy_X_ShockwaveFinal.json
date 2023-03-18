@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_X_ShockwaveFinal",
+    "Outer": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "SuperStruct": {
+      "ObjectName": "Function Actor:ReceiveBeginPlay",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_X_ShockwaveFinal_C:ExecuteUbergraph_FXC_Killjoy_X_ShockwaveFinal",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_X_ShockwaveFinal_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_ShockwaveFinal_C:ExecuteUbergraph_FXC_Killjoy_X_ShockwaveFinal",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_Team",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_X_ShockwaveFinal": {
+        "ObjectName": "Function FXC_Killjoy_X_ShockwaveFinal_C:ExecuteUbergraph_FXC_Killjoy_X_ShockwaveFinal",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function FXC_Killjoy_X_ShockwaveFinal_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.1"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_X_ShockwaveFinal_C Default__FXC_Killjoy_X_ShockwaveFinal_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.3"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "Name": "Default__FXC_Killjoy_X_ShockwaveFinal_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "InitialLifeSpan": 1.5
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_Team_C",
+    "Name": "Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_Team_C",
+    "Properties": {
+      "EnemyTemplate": {
+        "ObjectName": "ParticleSystem ps_ultimate_domeEnd_foe_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_domeEnd_foe_01.75"
+      },
+      "AllyTemplate": {
+        "ObjectName": "ParticleSystem ps_ultimate_domeEnd_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_domeEnd_01.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_ShockwaveFinal_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_X_ShockwaveFinal_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.5"
+      },
+      "VariableGuid": "64B72463-4F6C71F3-FDD6E89F-BF4A2E10",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_Team_C FXC_Killjoy_X_ShockwaveFinal_C:Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.4"
+      },
+      "VariableGuid": "5EC87400-4405FD11-377F43B6-B5A8EB16",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_Team"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_X_ShockwaveFinal_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.6"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_X_ShockwaveFinal_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinal.6"
+      }
+    }
+  }
+]

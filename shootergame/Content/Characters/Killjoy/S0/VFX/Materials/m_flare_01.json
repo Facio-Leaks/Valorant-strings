@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_flare_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionDepthFade_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Additive",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithParticleSprites": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "15F4CB97-4F33D1D8-96C36DBF-0DB1D77B",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              10365776952601423206,
+              10628276332662589303
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "FadeDistance",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GradientMul",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "FF65E2F4-4E354C83-8F08D5BD-51ED86E3",
+              "A2865BA7-454BCC4D-1F133285-17520664"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              3249159075977804866,
+              13888317273510649121
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "RandomColor2",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "RandomColor1",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "AFEFF8A5-406E36CC-765024B5-B838D795",
+              "AFFE87D2-4775223E-AD53EB98-C483D6DB"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              14244823414855202744
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Gradient",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "AB824C82-4F41022C-BF6DB08C-BDBF3205"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            100.0,
+            1.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.43,
+              "G": 1.0,
+              "B": 0.97934,
+              "A": 0.0,
+              "Hex": "AFFFFD"
+            },
+            {
+              "R": 1.0,
+              "G": 0.686752,
+              "B": 0.495,
+              "A": 0.0,
+              "Hex": "FFD8BB"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D tex_gradient_13",
+              "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_gradient_13.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_gradient_13",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_gradient_13.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_14",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_14.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+            "Function": {
+              "ObjectName": "MaterialFunction LinearGradient",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+            }
+          },
+          {
+            "StateId": "F40196D8-4B8ED2DE-2CF9FB95-93702989",
+            "Function": {
+              "ObjectName": "MaterialFunction ParticleTime",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/ParticleTime.0"
+            }
+          },
+          {
+            "StateId": "9232E533-44B98B93-0EB938BD-B45F23B2",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

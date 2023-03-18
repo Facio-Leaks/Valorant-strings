@@ -1,0 +1,4834 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Projectile_Killjoy_4_RemoteBees_MultiDetonate",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_1",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnGamePhaseChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_ActivatingActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayContinuousEffect_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_UsableComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UsableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_User_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524290,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlledOrSpectated_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_2",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPawnViewLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAlive_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasSamePlayerInstigator_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_User_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_User_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_Selected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Lerp_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_User",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsAud_Base_Pawn_VOComponent_Provider_Interface",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass AudBasePawnVOComponentProviderInterface_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/AudBasePawnVOComponentProviderInterface.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAudBasePawnVOComponent_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass AudBasePawnVOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/AudBasePawnVOComponent.173"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsKIlljoy_VOComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass KIlljoyVOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/CharacterVOComponents/KIlljoyVOComponent.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnStopSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnTeleportedSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Normal_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Transform",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_3",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Rotator",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct Transform",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnTeleportedSignature__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMaterial_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ShowAllyInformation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Lerp_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Vector_Up_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_ImpactResult",
+        "Flags": 1,
+        "ElementSize": 148,
+        "PropertyFlags": 549755813890,
+        "Struct": {
+          "ObjectName": "ScriptStruct HitResult",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_ImpactVelocity",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotFromXZ_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Rotator",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnGameObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class GameObject",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Rotator",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_UseEnemyColoring_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Component_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class StealthComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class StealthComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInstigator_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Pawn",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetGamePhaseName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Square_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_DistanceSquared_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetGamePhaseName_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_NewGamePhase",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_RoundNumberEnded",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetGamePhaseName_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FindFirstComponentInOwnershipChain_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class EquipmentChargeComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RegainCharges_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetGamePhaseName_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_4",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_4",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Response",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 2,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_RoundPersistence_K2Node_ComponentBoundEvent_2_PreDestroy__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_Damageable_K2Node_ComponentBoundEvent_1_OnDeathSignature__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Response",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 150,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "OnGamePhaseChanged_Event_0",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewGamePhase",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "RoundNumberEnded",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Stealth_K2Node_ComponentBoundEvent_12_OnStealthChangedSignature__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class StealthComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Stealth_K2Node_ComponentBoundEvent_11_OnStealthChangedSignature__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class StealthComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__GrenadeBounce_K2Node_ComponentBoundEvent_9_OnProjectileBounceDelegate__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ImpactResult",
+        "Flags": 1,
+        "ElementSize": 148,
+        "PropertyFlags": 549890032022,
+        "Struct": {
+          "ObjectName": "ScriptStruct HitResult",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ImpactVelocity",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 138412032
+  },
+  {
+    "Type": "Function",
+    "Name": "ClientExplode",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201343040
+  },
+  {
+    "Type": "Function",
+    "Name": "OnProjectileTeleported",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateVelocityFacing",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Usable_K2Node_ComponentBoundEvent_5_UsableComponentUseSuccessful__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "User",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSelected",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Selected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Usable_K2Node_ComponentBoundEvent_7_UsableComponentCurrentUsable__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "User",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Usable_K2Node_ComponentBoundEvent_6_UsableComponentCurrentUsable__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "User",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Usable_K2Node_ComponentBoundEvent_3_UsableComponentCanUseSignature__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "UsableComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class UsableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "User",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524438,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Arm Grenade",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStopEvent_Event_1",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveDestroyed",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "SuperStruct": {
+      "ObjectName": "Function Actor:ReceiveDestroyed",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Super": "ReceiveBeginPlay",
+    "SuperStruct": {
+      "ObjectName": "Function Projectile_BaseGrenade_C:ReceiveBeginPlay",
+      "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.3"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActivatingActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "FadeInTimeline__UpdateFunc",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "FadeInTimeline__FinishedFunc",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "DissolveTimeline__UpdateFunc",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "DissolveTimeline__FinishedFunc",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_IsArmed",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateIconVisibility",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateUsableState",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "InGamePhase",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresGamePhase",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "L_IsStartPhase",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_3",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable_1",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_3",
+        "Flags": 1,
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "FreeCooldownSlot",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Destroyed",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Player_State",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSpawnedCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstEquippableFromSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAbility_Base",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/Ability_Base.39"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayerBotShouldTarget",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlayerBot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CanBeTargeted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetVelocity_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_DistanceSquared_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Square_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "GetTargetingPosition",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "NewParam",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 384,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Super": "Projectile_BaseGrenade_C",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.46"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DissolveTimeline_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.89"
+        },
+        {
+          "ObjectName": "TimelineTemplate Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FadeInTimeline_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.90"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.81"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.55"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Projectile_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass Projectile_BaseGrenade_C",
+      "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.5"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GetTargetingPosition",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.29"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:PlayerBotShouldTarget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.28"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FreeCooldownSlot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.27"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateUsableState",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.26"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateIconVisibility",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.25"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnRep_IsArmed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.24"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DissolveTimeline__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.23"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DissolveTimeline__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.22"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FadeInTimeline__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.21"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FadeInTimeline__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.20"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.19"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.18"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ReceiveDestroyed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.17"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnStopEvent_Event_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.16"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Event Arm Grenade",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.15"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_3_UsableComponentCanUseSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.14"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_6_UsableComponentCurrentUsable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.13"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_7_UsableComponentCurrentUsable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.12"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SetSelected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.11"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_5_UsableComponentUseSuccessful__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.10"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateVelocityFacing",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.9"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnProjectileTeleported",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.8"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ClientExplode",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.7"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__GrenadeBounce_K2Node_ComponentBoundEvent_9_OnProjectileBounceDelegate__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.6"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Stealth_K2Node_ComponentBoundEvent_11_OnStealthChangedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.5"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Stealth_K2Node_ComponentBoundEvent_12_OnStealthChangedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.4"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnGamePhaseChanged_Event_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.3"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_Damageable_K2Node_ComponentBoundEvent_1_OnDeathSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.2"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_RoundPersistence_K2Node_ComponentBoundEvent_2_PreDestroy__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.1"
+      },
+      {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Projectile_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_ApplySelfBuffs",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ChildDamageSection",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class ChildDamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Damageable",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class DamageableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresAbilitySystem",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AresAbilitySystemComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingTargetPoint",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingTargetPoint",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingPointsTarget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingPointsTargetComponent",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIPerceptionStimuliSource",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AIPerceptionStimuliSourceComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WallPenetrationNonParticipant",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass WallPenetrationNonParticipant_C",
+          "ObjectPath": "ShooterGame/Content/Equippables/Guns/_Core/WallPenetration/WallPenetrationNonParticipant.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_InWorldIcon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_InWorldIcon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shared/Icons/Comp_InWorldIcon.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Projectile_CosmeticHideForDuration",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticHideForDuration_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticHideForDuration.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Stealth",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class StealthComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Projectile_CosmeticRotationFollowsVelocity",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticRotationFollowsVelocity_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticRotationFollowsVelocity.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InvisMesh",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SkeletalMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Projectile_CosmeticProjectileOffset",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticProjectileOffset_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticProjectileOffset.15"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GrenadeMesh",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SkeletalMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActorVisibility",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class ActorVisibilityComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Usable",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class UsableComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HitSphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FeedbackSphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActivatableActorComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass ActivatableActorComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/States/ActivatableActorComponent.8"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "FadeInTimeline_OpacityPercent_D41A941448FD915BFCBBBB9DA44B4010",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "FadeInTimeline__Direction_D41A941448FD915BFCBBBB9DA44B4010",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FadeInTimeline",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DissolveTimeline_Size_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DissolveTimeline_Opacity_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DissolveTimeline_Dissolve_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "DissolveTimeline__Direction_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DissolveTimeline",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Grenade_Projectile_Loop",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "Class AresAudioComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "FlyingEffect",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "PersistentEffect",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ArmedEffect",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ArmingDelay",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsArmed",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65573,
+        "RepIndex": 9,
+        "BlueprintReplicationCondition": "COND_InitialOnly",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Velocity Facing",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "VelocityFacingUpdateTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DamageZone",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class GameObject",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "ExplosionFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DissolveTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "HasBeenActivated",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ExplosionSpawnDelay",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DestroyedFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "PickUpDistanceSquared",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "PickUpDistance",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsUsable",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OwningPlayerState",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 67589,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerState",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Projectile_Killjoy_4_RemoteBees_MultiDetonate": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Projectile_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.0"
+      },
+      "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_RoundPersistence_K2Node_ComponentBoundEvent_2_PreDestroy__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_RoundPersistence_K2Node_ComponentBoundEvent_2_PreDestroy__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.1"
+      },
+      "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_Damageable_K2Node_ComponentBoundEvent_1_OnDeathSignature__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_Damageable_K2Node_ComponentBoundEvent_1_OnDeathSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.2"
+      },
+      "OnGamePhaseChanged_Event_0": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnGamePhaseChanged_Event_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.3"
+      },
+      "BndEvt__Stealth_K2Node_ComponentBoundEvent_12_OnStealthChangedSignature__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Stealth_K2Node_ComponentBoundEvent_12_OnStealthChangedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.4"
+      },
+      "BndEvt__Stealth_K2Node_ComponentBoundEvent_11_OnStealthChangedSignature__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Stealth_K2Node_ComponentBoundEvent_11_OnStealthChangedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.5"
+      },
+      "BndEvt__GrenadeBounce_K2Node_ComponentBoundEvent_9_OnProjectileBounceDelegate__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__GrenadeBounce_K2Node_ComponentBoundEvent_9_OnProjectileBounceDelegate__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.6"
+      },
+      "ClientExplode": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ClientExplode",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.7"
+      },
+      "OnProjectileTeleported": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnProjectileTeleported",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.8"
+      },
+      "UpdateVelocityFacing": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateVelocityFacing",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.9"
+      },
+      "BndEvt__Usable_K2Node_ComponentBoundEvent_5_UsableComponentUseSuccessful__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_5_UsableComponentUseSuccessful__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.10"
+      },
+      "SetSelected": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SetSelected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.11"
+      },
+      "BndEvt__Usable_K2Node_ComponentBoundEvent_7_UsableComponentCurrentUsable__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_7_UsableComponentCurrentUsable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.12"
+      },
+      "BndEvt__Usable_K2Node_ComponentBoundEvent_6_UsableComponentCurrentUsable__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_6_UsableComponentCurrentUsable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.13"
+      },
+      "BndEvt__Usable_K2Node_ComponentBoundEvent_3_UsableComponentCanUseSignature__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__Usable_K2Node_ComponentBoundEvent_3_UsableComponentCanUseSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.14"
+      },
+      "Event Arm Grenade": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Event Arm Grenade",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.15"
+      },
+      "OnStopEvent_Event_1": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnStopEvent_Event_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.16"
+      },
+      "ReceiveDestroyed": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ReceiveDestroyed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.17"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.18"
+      },
+      "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.19"
+      },
+      "FadeInTimeline__UpdateFunc": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FadeInTimeline__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.20"
+      },
+      "FadeInTimeline__FinishedFunc": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FadeInTimeline__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.21"
+      },
+      "DissolveTimeline__UpdateFunc": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DissolveTimeline__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.22"
+      },
+      "DissolveTimeline__FinishedFunc": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DissolveTimeline__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.23"
+      },
+      "OnRep_IsArmed": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:OnRep_IsArmed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.24"
+      },
+      "UpdateIconVisibility": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateIconVisibility",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.25"
+      },
+      "UpdateUsableState": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:UpdateUsableState",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.26"
+      },
+      "FreeCooldownSlot": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FreeCooldownSlot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.27"
+      },
+      "PlayerBotShouldTarget": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:PlayerBotShouldTarget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.28"
+      },
+      "GetTargetingPosition": {
+        "ObjectName": "Function Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GetTargetingPosition",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.29"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass IConditionalPlayerBotTarget_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/AI/PlayerProxyBot/IConditionalPlayerBotTarget.2"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C Default__Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.31"
+    }
+  },
+  {
+    "Type": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Name": "Default__Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Projectile_BaseGrenade_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FlyingEffect": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "PersistentEffect": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "ArmedEffect": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "ArmingDelay": 0.2,
+      "Velocity Facing": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "VelocityFacingUpdateTimer": {
+        "Handle": 0
+      },
+      "DamageZone": {
+        "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_4_BeeSwarm_Damage_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/GameObject_Killjoy_4_BeeSwarm_Damage.9"
+      },
+      "ExplosionFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_Explode_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Explode.2"
+      },
+      "DissolveTime": 0.7,
+      "ExplosionSpawnDelay": 0.4,
+      "DestroyedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_Trap_Destroyed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Trap_Destroyed.0"
+      },
+      "PickUpDistance": 400.0,
+      "IsUsable": true,
+      "ProjectileStopAction": "EProjectileStopAction::Idle",
+      "Tags": [
+        "TakeAOEDamage"
+      ]
+    }
+  },
+  {
+    "Type": "ActivatableActorComponent_C",
+    "Name": "ActivatableActorComponent_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__ActivatableActorComponent_C"
+  },
+  {
+    "Type": "ActorVisibilityComponent",
+    "Name": "ActorVisibility_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "EnemyVisibility": "EEnemyVisibilityOption::Never"
+    }
+  },
+  {
+    "Type": "AimToolingPointsTargetComponent",
+    "Name": "PMAimToolingPointsTarget_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "CenterTargetPointName": "CenterPoint"
+    }
+  },
+  {
+    "Type": "AimToolingTargetPoint",
+    "Name": "PMAimToolingTargetPoint_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "TargetPoint": {
+        "TargetPointName": "CenterPoint"
+      }
+    }
+  },
+  {
+    "Type": "AIPerceptionStimuliSourceComponent",
+    "Name": "AIPerceptionStimuliSource_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "bAutoRegisterAsSource": true,
+      "RegisterAsSourceForSenses": [
+        {
+          "ObjectName": "Class AISense_Hearing",
+          "ObjectPath": "/Script/AIModule"
+        },
+        {
+          "ObjectName": "Class AISense_Sight",
+          "ObjectPath": "/Script/AIModule"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AresAbilitySystemComponent",
+    "Name": "AresAbilitySystem_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "DefaultStartingData": [
+        {
+          "Attributes": {
+            "ObjectName": "Class AresAttributeSet",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "DefaultStartingTable": {
+            "ObjectName": "DataTable DefaultAttributeValues",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/DefaultAttributeValues.0"
+          }
+        }
+      ],
+      "ReplicatedPredictionKeyMap": {
+        "PredictionKeys": [
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 1,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 2,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 3,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 4,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 5,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 6,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 7,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 8,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 9,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 10,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 11,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 12,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 13,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 14,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 15,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 16,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 17,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 18,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 19,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 20,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 21,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 22,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 23,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 24,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 25,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 26,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 27,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 28,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 29,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 30,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 31,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 32,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          }
+        ],
+        "ArrayReplicationKey": 32
+      }
+    }
+  },
+  {
+    "Type": "AresTrailComponent",
+    "Name": "GrenadeTrail_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "GrenadeTrail_GEN_VARIABLE",
+    "Properties": {
+      "TrailBeamParticleTemplate": {
+        "ObjectName": "ParticleSystem Grenade_Trail_Through_Walls_VFX",
+        "ObjectPath": "ShooterGame/Content/VFX/ParticleSystems/Grenade_Trail_Through_Walls_VFX.14"
+      }
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 30.0,
+        "Y": 30.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Hud_Icons_Minimap_Killjoy_Nanostorm",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_Killjoy_Nanostorm.0"
+        }
+      },
+      "StartActive": false,
+      "bMoves": true,
+      "RotationSpace": "EAresMinimapRotationSpace::AMRS_ConstantMinimap",
+      "SizeSpace": "EAresMinimapSizeSpace::AMSS_Screen"
+    }
+  },
+  {
+    "Type": "ChildDamageSectionComponent",
+    "Name": "ChildDamageSection_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "Life": 20.0,
+      "MaximumLife": 20.0
+    }
+  },
+  {
+    "Type": "Comp_ApplySelfBuffs_C",
+    "Name": "Comp_ApplySelfBuffs_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Comp_ApplySelfBuffs_C",
+    "Properties": {
+      "Buffs": [
+        {
+          "ObjectName": "BlueprintGeneratedClass Buff_Global_NoAllyDamage_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Buffs/Buff_Global_NoAllyDamage.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Comp_InWorldIcon_C",
+    "Name": "Comp_InWorldIcon_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Comp_InWorldIcon_C",
+    "Properties": {
+      "BaseTexture": {
+        "ObjectName": "Texture2D TX_Hud_Icons_Minimap_Killjoy_Nanostorm",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_Killjoy_Nanostorm.0"
+      },
+      "HighlightedTexture": {
+        "ObjectName": "Texture2D TX_Hud_Icons_Minimap_Killjoy_Nanostorm_Active",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_Killjoy_Nanostorm_Active.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -25.0
+      }
+    }
+  },
+  {
+    "Type": "Comp_Projectile_CosmeticHideForDuration_C",
+    "Name": "Comp_Projectile_CosmeticHideForDuration_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Comp_Projectile_CosmeticHideForDuration_C",
+    "Properties": {
+      "HideTime1P": 0.05
+    }
+  },
+  {
+    "Type": "Comp_Projectile_CosmeticProjectileOffset_C",
+    "Name": "Comp_Projectile_CosmeticProjectileOffset_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Comp_Projectile_CosmeticProjectileOffset_C",
+    "Properties": {
+      "LerpTime1P": 0.5,
+      "1P_SocketName": "R_WeaponPointSocket",
+      "SnapToProjectileOnBounce": true,
+      "LerpCurve3P": {
+        "ObjectName": "CurveFloat FloatCurve_CosmeticOffset_GrenadeDefault",
+        "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/FloatCurve_CosmeticOffset_GrenadeDefault.0"
+      },
+      "LerpCurve1P": {
+        "ObjectName": "CurveFloat FloatCurve_CosmeticOffset_GrenadeDefault",
+        "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/FloatCurve_CosmeticOffset_GrenadeDefault.0"
+      }
+    }
+  },
+  {
+    "Type": "Comp_Projectile_CosmeticRotationFollowsVelocity_C",
+    "Name": "Comp_Projectile_CosmeticRotationFollowsVelocity_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Comp_Projectile_CosmeticRotationFollowsVelocity_C",
+    "Properties": {
+      "UseRotationFromX": true
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "RoundPersistence",
+          "DelegatePropertyName": "AuthOnPreDestroy",
+          "FunctionNameToBind": "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_RoundPersistence_K2Node_ComponentBoundEvent_2_PreDestroy__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Damageable",
+          "DelegatePropertyName": "OnDeath",
+          "FunctionNameToBind": "BndEvt__Projectile_Killjoy_4_RemoteBees_MultiDetonate_Damageable_K2Node_ComponentBoundEvent_1_OnDeathSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Stealth",
+          "DelegatePropertyName": "OnViewerLeaveStealthRange",
+          "FunctionNameToBind": "BndEvt__Stealth_K2Node_ComponentBoundEvent_12_OnStealthChangedSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Stealth",
+          "DelegatePropertyName": "OnViewerEnterStealthRange",
+          "FunctionNameToBind": "BndEvt__Stealth_K2Node_ComponentBoundEvent_11_OnStealthChangedSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "GrenadeBounce",
+          "DelegatePropertyName": "OnProjectileBounce",
+          "FunctionNameToBind": "BndEvt__GrenadeBounce_K2Node_ComponentBoundEvent_9_OnProjectileBounceDelegate__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Usable",
+          "DelegatePropertyName": "OnUseSuccessful",
+          "FunctionNameToBind": "BndEvt__Usable_K2Node_ComponentBoundEvent_5_UsableComponentUseSuccessful__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Usable",
+          "DelegatePropertyName": "OnStopBeingLocalTargettedUsable",
+          "FunctionNameToBind": "BndEvt__Usable_K2Node_ComponentBoundEvent_7_UsableComponentCurrentUsable__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Usable",
+          "DelegatePropertyName": "OnBecomeLocalTargettedUsable",
+          "FunctionNameToBind": "BndEvt__Usable_K2Node_ComponentBoundEvent_6_UsableComponentCurrentUsable__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Usable",
+          "DelegatePropertyName": "OnCanUse",
+          "FunctionNameToBind": "BndEvt__Usable_K2Node_ComponentBoundEvent_3_UsableComponentCanUseSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ActivatableActorComponent",
+          "DelegatePropertyName": "AuthActivated",
+          "FunctionNameToBind": "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_2",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.033368237,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7,
+            "Value": 1.0,
+            "ArriveTangent": 3.391983,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 3.0512636,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_3",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.97150505,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.971505,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.4,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DamageableComponent",
+    "Name": "Damageable_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C"
+  },
+  {
+    "Type": "EffectManagerComponent",
+    "Name": "EffectManager",
+    "Outer": "Default__Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "EffectManager"
+  },
+  {
+    "Type": "GrenadeAudioComponent_C",
+    "Name": "GrenadeAudioComponent_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "GrenadeAudioComponent_GEN_VARIABLE",
+    "Properties": {
+      "ProjectileStartEvent": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Nanoswarm_Projectile",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Killjoy_Abil_Nanoswarm_Projectile.1"
+      },
+      "ProjectileStopEvent": {
+        "ObjectName": "AkAudioEvent Stop_Killjoy_Abil_Nanoswarm_Projectile",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Stop_Killjoy_Abil_Nanoswarm_Projectile.1"
+      },
+      "ProjectileLandAtLocation": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Nanoswarm_Projectile_Land",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Killjoy_Abil_Nanoswarm_Projectile_Land.1"
+      },
+      "BounceEvent": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Nanoswarm_Projectile_Bounce",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Killjoy_Abil_Nanoswarm_Projectile_Bounce.1"
+      },
+      "BouncePawnEvent": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Nanoswarm_Projectile_Bounce",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Swarm/Play_Killjoy_Abil_Nanoswarm_Projectile_Bounce.1"
+      }
+    }
+  },
+  {
+    "Type": "GrenadeCosmeticSpin_C",
+    "Name": "GrenadeCosmeticSpin_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "GrenadeCosmeticSpin_GEN_VARIABLE",
+    "Properties": {
+      "Grenade Rotation Speed": {
+        "Pitch": -0.5,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ReturnToDefaultOnStop": true,
+      "TimeToReturn": 0.001
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SkeletalMeshComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ProjectileSkel_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.84"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseAbility_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseAbility.4"
+            },
+            "SCSVariableName": "ProjectileSkel",
+            "AssociatedGuid": "FFA14226-48F5B412-D860FEAF-5D1FD9A4"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class AresTrailComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AresTrailComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GrenadeTrail_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.38"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseGrenade_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.5"
+            },
+            "SCSVariableName": "GrenadeTrail",
+            "AssociatedGuid": "BBD49C02-4D01023F-3579BC8E-78A2BC7B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass GrenadeAudioComponent_C",
+            "ObjectPath": "ShooterGame/Content/Abilities/GrenadeAudioComponent.6"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "GrenadeAudioComponent_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GrenadeAudioComponent_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.53"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseGrenade_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.5"
+            },
+            "SCSVariableName": "GrenadeAudioComponent",
+            "AssociatedGuid": "37AEFBA2-4C6F777F-E92F69B2-29512447"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SphereComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SphereComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Collision_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.85"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseAbility_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseAbility.4"
+            },
+            "SCSVariableName": "Collision",
+            "AssociatedGuid": "B3E8AEE9-449D1937-44FA608D-BDCFB414"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ProjectileBounceComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ProjectileBounceComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GrenadeBounce_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.56"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseGrenade_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.5"
+            },
+            "SCSVariableName": "GrenadeBounce",
+            "AssociatedGuid": "3DB50773-432A5217-839036BE-9471D9BD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass GrenadeCosmeticSpin_C",
+            "ObjectPath": "ShooterGame/Content/Abilities/GrenadeCosmeticSpin.3"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "GrenadeCosmeticSpin_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GrenadeCosmeticSpin_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.54"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseGrenade_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseGrenade.5"
+            },
+            "SCSVariableName": "GrenadeCosmeticSpin",
+            "AssociatedGuid": "EBCA5766-4543E257-34B9E2A2-FBE394F3"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class RoundPersistenceComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "RoundPersistenceComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:RoundPersistence_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.57"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Projectile_BaseAbility_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Projectile_BaseAbility.4"
+            },
+            "SCSVariableName": "RoundPersistence",
+            "AssociatedGuid": "6A83EE88-47D7B265-7DA3B6A1-5D536DE9"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ProjectileBounceComponent",
+    "Name": "GrenadeBounce_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "GrenadeBounce_GEN_VARIABLE",
+    "Properties": {
+      "BounceVelocityProjectileStopThreshold": 99999.0
+    }
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "RoundPersistence_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "RoundPersistence_GEN_VARIABLE",
+    "Properties": {
+      "GameplayPersistenceBehavior": "EGameplayPersistenceBehavior::Destroy"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.58"
+      },
+      "VariableGuid": "68D9A803-485A92A9-BDE20D8F-5D599E17",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SkeletalMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:InvisMesh_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.83"
+      },
+      "VariableGuid": "5CAC4214-4C81E48A-45EE36BA-A0730E0F",
+      "InternalVariableName": "InvisMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:BaseMinimapComponent_Parent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.39"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "VariableGuid": "D298CA43-4C27B0C3-1F370CBC-AB8658C2",
+      "InternalVariableName": "BaseMinimapComponent_Parent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class UsableComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "UsableComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Usable_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.91"
+      },
+      "VariableGuid": "76E2C441-4B8C1DA2-D7EA439A-589DFE23",
+      "InternalVariableName": "Usable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ActorVisibilityComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActorVisibilityComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ActorVisibility_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.33"
+      },
+      "VariableGuid": "F2282570-43E8547F-8D5482AF-649DACF3",
+      "InternalVariableName": "ActorVisibility"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticProjectileOffset_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticProjectileOffset.15"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Projectile_CosmeticProjectileOffset_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Comp_Projectile_CosmeticProjectileOffset_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.44"
+      },
+      "VariableGuid": "10C03E4A-4754C9A7-D499DCA9-5E8968E0",
+      "InternalVariableName": "Comp_Projectile_CosmeticProjectileOffset"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass WallPenetrationNonParticipant_C",
+        "ObjectPath": "ShooterGame/Content/Equippables/Guns/_Core/WallPenetration/WallPenetrationNonParticipant.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WallPenetrationNonParticipant_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:WallPenetrationNonParticipant_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.92"
+      },
+      "VariableGuid": "3E8ED145-4CCA34EE-F1574393-2A81735D",
+      "InternalVariableName": "WallPenetrationNonParticipant"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_InWorldIcon_C",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/Shared/Icons/Comp_InWorldIcon.14"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_InWorldIcon_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Comp_InWorldIcon_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.42"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "VariableGuid": "A30D3945-4C56C9F8-821979A8-7E1B6882",
+      "InternalVariableName": "Comp_InWorldIcon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingPointsTargetComponent",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingPointsTargetComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:PMAimToolingPointsTarget_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.34"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.68"
+        }
+      ],
+      "VariableGuid": "4213F6A6-40D0B720-8134F992-A54EBC8A",
+      "InternalVariableName": "PMAimToolingPointsTarget"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingTargetPoint",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingTargetPoint Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:PMAimToolingTargetPoint_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.35"
+      },
+      "VariableGuid": "A74BD2A2-42FD358C-B7ADB893-956B5DC7",
+      "InternalVariableName": "PMAimToolingTargetPoint"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AIPerceptionStimuliSourceComponent",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIPerceptionStimuliSourceComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:AIPerceptionStimuliSource_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.36"
+      },
+      "VariableGuid": "23E1B119-4A4566C7-8A5E8499-E00B482C",
+      "InternalVariableName": "AIPerceptionStimuliSource"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AresAbilitySystemComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AresAbilitySystemComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:AresAbilitySystem_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.37"
+      },
+      "VariableGuid": "A5765036-4A0D3327-9C91D4A5-17E27492",
+      "InternalVariableName": "AresAbilitySystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:HitSphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.87"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "VariableGuid": "758210DB-4C132B7C-177AF686-A7655A6F",
+      "InternalVariableName": "HitSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class DamageableComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DamageableComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Damageable_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.51"
+      },
+      "VariableGuid": "79D344AE-46A4A3A1-30B155AC-41149D18",
+      "InternalVariableName": "Damageable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ChildDamageSectionComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildDamageSectionComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ChildDamageSection_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.40"
+      },
+      "VariableGuid": "229568F6-4503E08D-E1B5EFA1-D5151C92",
+      "InternalVariableName": "ChildDamageSection"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticRotationFollowsVelocity_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticRotationFollowsVelocity.6"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Projectile_CosmeticRotationFollowsVelocity_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Comp_Projectile_CosmeticRotationFollowsVelocity_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.45"
+      },
+      "VariableGuid": "5D96814C-49E5FC02-545C8CA5-B6E81FFD",
+      "InternalVariableName": "Comp_Projectile_CosmeticRotationFollowsVelocity"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class StealthComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StealthComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Stealth_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.88"
+      },
+      "VariableGuid": "E9DFAD9A-4CF1DB9C-540B0893-476EE34C",
+      "InternalVariableName": "Stealth"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SkeletalMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:GrenadeMesh_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.82"
+      },
+      "ParentComponentOrVariableName": "ProjectileSkel",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.60"
+        }
+      ],
+      "VariableGuid": "2BB09323-4999CB3D-AEA71DB3-9E40A4B7",
+      "InternalVariableName": "GrenadeMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_ApplySelfBuffs_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Comp_ApplySelfBuffs_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.41"
+      },
+      "VariableGuid": "96E17064-4B9B145F-28F5DEBB-9ECFAA87",
+      "InternalVariableName": "Comp_ApplySelfBuffs"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass ActivatableActorComponent_C",
+        "ObjectPath": "ShooterGame/Content/Characters/States/ActivatableActorComponent.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActivatableActorComponent_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:ActivatableActorComponent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.32"
+      },
+      "VariableGuid": "A0AA887A-45F8B919-1E6491A9-6C6D803B",
+      "InternalVariableName": "ActivatableActorComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Projectile_CosmeticHideForDuration_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Global/Projectiles/Cosmetics/Comp_Projectile_CosmeticHideForDuration.7"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Projectile_CosmeticHideForDuration_C Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:Comp_Projectile_CosmeticHideForDuration_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.43"
+      },
+      "VariableGuid": "A375B54F-4253542A-1A077490-9B7DE737",
+      "InternalVariableName": "Comp_Projectile_CosmeticHideForDuration"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:FeedbackSphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.86"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "ParentComponentOwnerClassName": "Projectile_BaseAbility_C",
+      "VariableGuid": "178488EF-445012D5-F4F0919E-F1CB70B8",
+      "InternalVariableName": "FeedbackSphere"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.78"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.80"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.71"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.62"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.63"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.76"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.64"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.74"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.75"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.61"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.79"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_15",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.66"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.65"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.69"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.67"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_19",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.70"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_20",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.72"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_21",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.73"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.77"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.78"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.80"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.71"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.62"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.63"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.76"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.64"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.60"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.74"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.75"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.61"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.79"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_15",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.66"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.65"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.69"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.67"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.68"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_19",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.70"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_20",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.72"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_21",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.73"
+        },
+        {
+          "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.77"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.59"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "GrenadeMesh_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_4_Skelmesh_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Skelmesh_AnimGraph.2"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class ClothingSimulationFactoryNv",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_4_Swarm_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Swarm_Skelmesh.0"
+      },
+      "bEnableUpdateRateOptimizations": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant mi_killjoyGrenade_overlay_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_killjoyGrenade_overlay_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 7.6293945E-06,
+        "Z": -7.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "InvisMesh_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_4_Skelmesh_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Skelmesh_AnimGraph.2"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class ClothingSimulationFactoryNv",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_4_Swarm_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Swarm_Skelmesh.0"
+      },
+      "bEnableUpdateRateOptimizations": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant mi_holo_04",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_holo_04.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "ProjectileSkel_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "ProjectileSkel_GEN_VARIABLE",
+    "Properties": {
+      "SkeletalMesh": null
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Collision_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Collision_GEN_VARIABLE",
+    "Properties": {
+      "SphereRadius": 0.0,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "FeedbackSphere_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "SphereRadius": 400.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "HitSphere_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "SphereRadius": 20.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bAimingShape": true,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "Stealth_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "StealthRange": 350.0,
+      "WhileVisibleEffect": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_Projectile_Revealed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Projectile_Revealed.0"
+      },
+      "RevealedEffect": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_Projectile_Revealed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Projectile_Revealed.0"
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "DissolveTimeline_Template",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:CurveFloat_1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.48"
+          },
+          "PropertyName": "DissolveTimeline_Dissolve_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+          "TrackName": "Dissolve",
+          "bIsExternalCurve": false
+        },
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:CurveFloat_0",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.47"
+          },
+          "PropertyName": "DissolveTimeline_Opacity_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+          "TrackName": "Opacity",
+          "bIsExternalCurve": false
+        },
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:CurveFloat_3",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.50"
+          },
+          "PropertyName": "DissolveTimeline_Size_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+          "TrackName": "Size",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "4F4F1BC0-471B5CD8-D05900A6-C0EBA8DA",
+      "VariableName": "DissolveTimeline",
+      "DirectionPropertyName": "DissolveTimeline__Direction_4F4F1BC0471B5CD8D05900A6C0EBA8DA",
+      "UpdateFunctionName": "DissolveTimeline__UpdateFunc",
+      "FinishedFunctionName": "DissolveTimeline__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "FadeInTimeline_Template",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "TimelineLength": 0.7,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat Projectile_Killjoy_4_RemoteBees_MultiDetonate_C:CurveFloat_2",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.49"
+          },
+          "PropertyName": "FadeInTimeline_OpacityPercent_D41A941448FD915BFCBBBB9DA44B4010",
+          "TrackName": "OpacityPercent",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "D41A9414-48FD915B-FCBBBB9D-A44B4010",
+      "VariableName": "FadeInTimeline",
+      "DirectionPropertyName": "FadeInTimeline__Direction_D41A941448FD915BFCBBBB9DA44B4010",
+      "UpdateFunctionName": "FadeInTimeline__UpdateFunc",
+      "FinishedFunctionName": "FadeInTimeline__FinishedFunc"
+    }
+  },
+  {
+    "Type": "UsableComponent",
+    "Name": "Usable_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "ScoringBonus": -1.5,
+      "UseDistance": 5000000.0,
+      "bRequireLineOfSight": false,
+      "PitchClampWhileUsing": 10.5,
+      "YawClampWhileUsing": 10.5,
+      "AdditionalScoringYaw": 15.0,
+      "AdditionalScoringPitch": 15.0,
+      "UseMessageText": {
+        "TableId": "/Game/Characters/Global/StringTables/Characters_Global_Strings.Characters_Global_Strings",
+        "Key": "Prompt_Press"
+      },
+      "UseMessage2Text": {
+        "TableId": "/Game/Characters/Gumshoe/Gumshoe_Strings.Gumshoe_Strings",
+        "Key": "GrenadeAbility_Detonate"
+      },
+      "PreventUsingAttribute": {
+        "AttributeName": "PreventUsingAbilities",
+        "Attribute": {
+          "Path": [
+            "PreventUsingAbilities"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class AresAttributeSet",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class AresAttributeSet",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    }
+  },
+  {
+    "Type": "WallPenetrationNonParticipant_C",
+    "Name": "WallPenetrationNonParticipant_GEN_VARIABLE",
+    "Outer": "Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__WallPenetrationNonParticipant_C"
+  }
+]

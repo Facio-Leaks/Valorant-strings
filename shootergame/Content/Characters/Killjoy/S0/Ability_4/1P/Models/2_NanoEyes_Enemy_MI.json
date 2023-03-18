@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "2_NanoEyes_Enemy_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material 0_GenericA01_MAT",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/0_GenericA01_MAT.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Base_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "7FBE837B-4CF9F71C-BF41C5A8-5FE8FA9B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_OffsetV",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.67,
+          "ExpressionGUID": "4C4BEA60-4B7A24A8-FB364097-08E34274"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Rotate",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "1A4F0F8C-453C3DBF-C9458F82-94FBA85E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ScaleU",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "031AC2A3-4344D02D-0832A9A5-719322F1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ScaleV",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.5,
+          "ExpressionGUID": "4579E7DC-48EEDA99-65D78782-7BDE0C68"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Diffuse_ColorMult",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "FF7C7C7C"
+          },
+          "ExpressionGUID": "EB9BBCC5-4F524276-9C7CA19D-4A013B74"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ColorMult",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "50F1FF08-43240B0A-6F030F80-0A58AA5B"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Diffuse_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D 00_White_DIFF",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/00_White_DIFF.0"
+          },
+          "ExpressionGUID": "CACC09D4-4329D2A5-EF99369A-30B44562"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D NanoStormBot_Enemy_TEX",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/VFX/Textures/NanoStormBot_Enemy_TEX.0"
+          },
+          "ExpressionGUID": "F0B7BC09-43F39496-62DDE08C-EA4485E6"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ShadingModel": true,
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Emissive_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00DB2655-440AD6D5-C6C6B7A0-97F16CB0"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D XClouds_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/Old/XClouds_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D UberNormal_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/UVdist/UberNormal_TEX.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D LUT_FireSmokeRainbow_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/ColorGradient/LUT_FireSmokeRainbow_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D FlowMap_1_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/UVdist/FlowMap_1_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D EdgesSoft_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/NoiseDissolve/EdgesSoft_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D LUT_Base_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/LUT_Base_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D SmokeSphere_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/SmokeSphere_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D Good64x64TilingNoiseHighFreq",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        }
+      ]
+    }
+  }
+]

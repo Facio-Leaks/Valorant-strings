@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_radialGradient_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/m_radialGradient_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Density",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "41C7C8ED-4649B309-3766F9AC-D0E88BF6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radius",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "2944BC46-44DA9A1D-23A845A3-560B1B87"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Texture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_gradient_19",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_19.0"
+          },
+          "ExpressionGUID": "763D65E7-48145847-82729BAD-AAA5821F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_gradient_13",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_gradient_13.0"
+        }
+      ]
+    }
+  }
+]

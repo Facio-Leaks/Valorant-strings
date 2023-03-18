@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_vatSoft_turret_02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_vatSoft_turret_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_vatSoft_turret_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Number Of Frames",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 15.0,
+          "ExpressionGUID": "5CB44C73-4FCF91A0-AEB4CFBE-909B1377"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Position Min",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -31.88295,
+          "ExpressionGUID": "44549BF6-4FA9F6AF-FBE461A2-651C1408"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Position Max",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 83.0877,
+          "ExpressionGUID": "05E1E85F-452F1146-09E8038F-93A257F2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TextureSizeX",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1024.0,
+          "ExpressionGUID": "BB2667D4-4B7E28B9-53E8768A-781214C7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TextureSizeY",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 135.0,
+          "ExpressionGUID": "ADF1F9CA-45DA4D03-58494E8C-BBDDBEED"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "PaddedSizeX",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1024.0,
+          "ExpressionGUID": "B85491B0-433EB6B4-2A12FB98-AE4C6912"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "PaddedSizeY",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 256.0,
+          "ExpressionGUID": "83FEA7E6-48709E42-3B769985-0B27D0EF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Speed (S)",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.32,
+          "ExpressionGUID": "7D53A027-469CC535-93DEC4AD-F84B61F9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ForceDepthPrepass": true,
+        "bForceDepthPrepass": true,
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "useParticleColor",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7589BCCD-4E394AEA-B546FFB5-BE72030F"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Lerp Frames",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C2CF5FF2-44E2EF14-D22F01AD-47C1EFBF"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Normalize Data",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "1541689B-4B93895B-26916088-38138428"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Pack Normal",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "892473E9-4E0686DA-0EED60B6-D42239C4"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D Black",
+          "ObjectPath": "Engine/Content/EngineResources/Black.0"
+        },
+        {
+          "ObjectName": "Texture2D WhiteSquareTexture",
+          "ObjectPath": "Engine/Content/EngineResources/WhiteSquareTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D T_Default_Normal",
+          "ObjectPath": "Engine/Content/EngineMaterials/T_Default_Normal.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_vat_turret_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_vat_turret_02.0"
+        }
+      ]
+    }
+  }
+]

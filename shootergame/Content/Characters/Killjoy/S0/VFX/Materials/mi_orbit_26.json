@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_orbit_26",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_orbit_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_orbit_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "SpriteSheet",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_smoke_sheet_10",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_smoke_sheet_10.0"
+          },
+          "ExpressionGUID": "C446AF3C-4FF56D11-807DF8BA-4F1163F6"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_TwoSided": true,
+        "TwoSided": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "AlphaParticleColor",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "E12A40FF-4F4680B0-4D45EBB6-6F7C7303"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "TexCoord",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4AE54CA7-43C67E96-B9775380-54FFEBA9"
+          }
+        ],
+        "StaticComponentMaskParameters": [
+          {
+            "R": true,
+            "G": false,
+            "B": false,
+            "A": false,
+            "ParameterInfo": {
+              "Name": "ChannelAlpha",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "E95A6C0B-4B864B35-C82ED897-11C3A7C2"
+          },
+          {
+            "R": false,
+            "G": false,
+            "B": false,
+            "A": true,
+            "ParameterInfo": {
+              "Name": "ChannelColor",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A2703742-4177E022-3CD8B1A4-E2FFDD02"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberStrip",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberPeriod",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+        },
+        {
+          "ObjectName": "Texture2D flipbook",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_scanLines_gradient_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_smoke_sheet_10"
+        }
+      ]
+    }
+  }
+]

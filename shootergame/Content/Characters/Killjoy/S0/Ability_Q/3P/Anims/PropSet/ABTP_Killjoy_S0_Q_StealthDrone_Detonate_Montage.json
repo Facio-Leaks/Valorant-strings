@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "ABTP_Killjoy_S0_Q_StealthDrone_Detonate_Montage",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.066
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage ABTP_Killjoy_S0_Q_StealthDrone_Detonate_Montage",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/PropSet/ABTP_Killjoy_S0_Q_StealthDrone_Detonate_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.8666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence ABTP_Killjoy_S0_Q_StealthDrone_Detonate",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/PropSet/ABTP_Killjoy_S0_Q_StealthDrone_Detonate.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence ABTP_Killjoy_S0_Q_StealthDrone_Detonate",
+                  "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/PropSet/ABTP_Killjoy_S0_Q_StealthDrone_Detonate.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 0.8666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton AB_Killjoy_S0_Q_Skelmesh_Skeleton",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_Skelmesh_Skeleton.0"
+      }
+    },
+    "SkeletonGuid": "A7AF0749-478E7E9D-10CCC690-41336668"
+  }
+]

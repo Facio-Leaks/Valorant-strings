@@ -1,0 +1,563 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_Q_AlarmBot_Disabled",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_StartTime",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsPawn_Killjoy_Q_Stealth_Alarmbot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Pawn_Killjoy_Q_StealthAlarmbot_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.29"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AnimInstance",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAB_Killjoy_S0_Q_Skelmesh_Skeleton_Anim_Blueprint",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_Q_Skelmesh_Skeleton_AnimBlueprint_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_Skelmesh_Skeleton_AnimBlueprint.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "StartEffect",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Super": "StartEffect",
+    "SuperStruct": {
+      "ObjectName": "Function FXC_GameObject_Disabled_C:StartEffect",
+      "ObjectPath": "ShooterGame/Content/Characters/Global/FXC/FXC_GameObject_Disabled.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Super": "FXC_GameObject_Disabled_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.17"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler FXC_Killjoy_Q_AlarmBot_Disabled_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_Q_AlarmBot_Disabled_C:ExecuteUbergraph_FXC_Killjoy_Q_AlarmBot_Disabled",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass FXC_GameObject_Disabled_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Global/FXC/FXC_GameObject_Disabled.5"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_Q_AlarmBot_Disabled_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_Q_AlarmBot_Disabled_C:ExecuteUbergraph_FXC_Killjoy_Q_AlarmBot_Disabled",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_Team1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_ShooterCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_Team",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioBasic",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_PlayAnimation_ShooterCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlarmbotIdleMontage",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class AnimMontage",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_Q_AlarmBot_Disabled": {
+        "ObjectName": "Function FXC_Killjoy_Q_AlarmBot_Disabled_C:ExecuteUbergraph_FXC_Killjoy_Q_AlarmBot_Disabled",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.0"
+      },
+      "StartEffect": {
+        "ObjectName": "Function FXC_Killjoy_Q_AlarmBot_Disabled_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.1"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_Q_AlarmBot_Disabled_C Default__FXC_Killjoy_Q_AlarmBot_Disabled_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.3"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Name": "Default__FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__FXC_GameObject_Disabled_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AlarmbotIdleMontage": {
+        "ObjectName": "AnimMontage ABTP_Killjoy_S0_Q_StealthDrone_Idle_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/PropSet/ABTP_Killjoy_S0_Q_StealthDrone_Idle_Montage.0"
+      },
+      "UpdateOpacity": true,
+      "bCosmeticEffect": false
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioBasic_C",
+    "Name": "Comp_FXC_AudioBasic_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__Comp_FXC_AudioBasic_C",
+    "Properties": {
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_Abil_Alarmbot_RangeDeactivated",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/Alarmbot/Play_Killjoy_Abil_Alarmbot_RangeDeactivated.1"
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Name": "Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Properties": {
+      "3P_Animation": {
+        "ObjectName": "AnimMontage ABTP_Killjoy_S0_Q_StealthDrone_Deactivate_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/3P/Anims/ABTP_Killjoy_S0_Q_StealthDrone_Deactivate_Montage.0"
+      },
+      "StopAnimBlendOutTime": 0.2
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Name": "Comp_FXC_SpawnParticle_ShooterCharacter_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Properties": {
+      "EmitterTemplate3P": {
+        "ObjectName": "ParticleSystem ps_alarmBot_deactivating_pupil",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating_pupil.38"
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_Team_C",
+    "Name": "Comp_FXC_SpawnParticle_Team1_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_Team_C",
+    "Properties": {
+      "EnemyTemplate": {
+        "ObjectName": "ParticleSystem ps_alarmbot_deactivated1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmbot_deactivated1.55"
+      },
+      "AllyTemplate": {
+        "ObjectName": "ParticleSystem ps_alarmbot_deactivated1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmbot_deactivated1.55"
+      },
+      "StopEmitterOnEffectStop": true
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_Team_C",
+    "Name": "Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_Team_C",
+    "Properties": {
+      "EnemyTemplate": {
+        "ObjectName": "ParticleSystem ps_alarmBot_deactivating",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.58"
+      },
+      "AllyTemplate": {
+        "ObjectName": "ParticleSystem ps_alarmBot_deactivating",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.58"
+      },
+      "StopEmitterOnEffectStop": true
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_Q_AlarmBot_Disabled_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.10"
+      },
+      "VariableGuid": "6626AC14-40BF6E9E-F120D289-1BB5003B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_PlayAnimation_ShooterCharacter_C FXC_Killjoy_Q_AlarmBot_Disabled_C:Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.5"
+      },
+      "VariableGuid": "16732384-4E13F0F6-D90B5C8F-B74360F3",
+      "InternalVariableName": "Comp_FXC_PlayAnimation_ShooterCharacter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioBasic_C FXC_Killjoy_Q_AlarmBot_Disabled_C:Comp_FXC_AudioBasic_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.4"
+      },
+      "VariableGuid": "CA74E40B-41A28D55-8AF51782-FABC4E0C",
+      "InternalVariableName": "Comp_FXC_AudioBasic"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_Team_C FXC_Killjoy_Q_AlarmBot_Disabled_C:Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.8"
+      },
+      "VariableGuid": "3D0BB81E-46A00CFF-F45C2E99-ADCA45A2",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_Team"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_Team_C FXC_Killjoy_Q_AlarmBot_Disabled_C:Comp_FXC_SpawnParticle_Team1_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.7"
+      },
+      "VariableGuid": "476C3DC8-497AD3D1-0C077A8B-2534F321",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_Team1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_ShooterCharacter_C FXC_Killjoy_Q_AlarmBot_Disabled_C:Comp_FXC_SpawnParticle_ShooterCharacter_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.6"
+      },
+      "VariableGuid": "27150EDF-4489920A-07AE7481-331EFFC3",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_ShooterCharacter"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_Q_AlarmBot_Disabled_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.12"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.13"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.14"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.16"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.12"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.13"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.14"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.16"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_Q_AlarmBot_Disabled_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.11"
+      }
+    }
+  }
+]

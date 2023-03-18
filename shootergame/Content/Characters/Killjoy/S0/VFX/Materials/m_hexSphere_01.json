@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_hexSphere_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_10",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_13",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "TwoSided": true,
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "E519B646-46F37DA0-E208FAA1-0B0919DA",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              3775951208358729996
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Emissive",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "FD61ACCC-40870DCA-691603B2-A0AADB3F"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              12279385124011487613,
+              18289761425181753721
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Fresnel Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "A1927AAE-44E390F5-96FCD4B5-76159319",
+              "11BE43A1-4EB6109B-422E9F8D-396BE5DF"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            2.0
+          ],
+          "VectorValues": [
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FFFF0000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF0000FF"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_hexSphere_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_hexSphere_01.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_noise_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_noise_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "AA1F88A6-4565610A-6BD022A3-745B5EE3",
+            "Function": {
+              "ObjectName": "MaterialFunction NearCameraFade",
+              "ObjectPath": "ShooterGame/Content/VFX/Old/NearCameraFade.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "WPO",
+          "Fresnel",
+          "NoiseSpeed",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

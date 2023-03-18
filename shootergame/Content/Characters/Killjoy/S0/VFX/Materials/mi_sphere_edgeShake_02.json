@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_sphere_edgeShake_02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_sphere_edgeShake_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_sphere_edgeShake_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Gradient",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          },
+          "ExpressionGUID": "8FBF30AA-41B2F6CC-9A6FCA8C-BBE0CBF1"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_noise_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_noise_01.0"
+        },
+        {
+          "ObjectName": "Texture2D T_Perlin_Noise_M_Grayscale",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/NoiseDissolve/T_Perlin_Noise_M_Grayscale.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gradient_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_17.0"
+        }
+      ]
+    }
+  }
+]

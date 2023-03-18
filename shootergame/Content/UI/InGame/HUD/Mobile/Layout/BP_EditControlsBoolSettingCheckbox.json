@@ -1,0 +1,792 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnCheckStateChanged__DelegateSignature",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bNewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_EditControlsBoolSettingCheckbox",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnCheckBoxComponentStateChanged__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Destruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnabledStateChanged",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "NewState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Init",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InTouchWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "InWidgetLayoutSettingName",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDefaultValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "LabelText",
+        "Flags": 1,
+        "ElementSize": 24,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShowTooltip",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_OutValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolLayoutSetting_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetIsChecked",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bInIsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_EditControlsBoolSettingCheckbox_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_EditControlsBoolSettingCheckbox_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:ExecuteUbergraph_BP_EditControlsBoolSettingCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:SetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.6"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Init",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.5"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.4"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:OnEnabledStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.3"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.2"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:ExecuteUbergraph_BP_EditControlsBoolSettingCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.1"
+      },
+      {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:OnCheckStateChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Checkbox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CheckBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TouchToolTip_Widget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_TouchTooltipWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_TouchTooltipWidget.6"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "WidgetLayoutSettingName",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "Enum": {
+          "ObjectName": "Enum EWidgetLayoutSettingName",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TouchWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnCheckStateChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:OnCheckStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnCheckStateChanged__DelegateSignature": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:OnCheckStateChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.0"
+      },
+      "ExecuteUbergraph_BP_EditControlsBoolSettingCheckbox": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:ExecuteUbergraph_BP_EditControlsBoolSettingCheckbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.1"
+      },
+      "Destruct": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Destruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.2"
+      },
+      "OnEnabledStateChanged": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:OnEnabledStateChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.3"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.4"
+      },
+      "Init": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:Init",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.5"
+      },
+      "SetIsChecked": {
+        "ObjectName": "Function BP_EditControlsBoolSettingCheckbox_C:SetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.6"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EditControlsBoolSettingCheckbox_C Default__BP_EditControlsBoolSettingCheckbox_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.8"
+    }
+  },
+  {
+    "Type": "BP_EditControlsBoolSettingCheckbox_C",
+    "Name": "Default__BP_EditControlsBoolSettingCheckbox_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "BP_TouchTooltipWidget_C",
+    "Name": "TouchToolTip_Widget",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_TouchTooltipWidget_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.14"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 10.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CheckBox",
+    "Name": "Checkbox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "CheckedState": "ECheckBoxState::Checked",
+      "WidgetStyle": {
+        "UncheckedImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.1,
+            "Top": 0.1,
+            "Right": 0.1,
+            "Bottom": 0.1
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Unchecked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Unchecked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "UncheckedHoveredImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.1,
+            "Top": 0.1,
+            "Right": 0.1,
+            "Bottom": 0.1
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Unchecked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Unchecked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "UncheckedPressedImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/CheckBox_Checked_Hovered.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedHoveredImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "CheckedPressedImage": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.4,
+            "Right": 0.4,
+            "Bottom": 0.4
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D ActionButton_Checked",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/CheckBox_Checked_Hovered.png",
+          "DrawAs": "ESlateBrushDrawType::Box"
+        }
+      },
+      "IsFocusable": false,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.12"
+      },
+      "Tag": "CheckBox_247"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_36",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.12"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.13"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.15"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_36",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.11"
+      },
+      "Content": {
+        "ObjectName": "CheckBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.Checkbox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.10"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_36",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_EditControlsBoolSettingCheckbox_C:WidgetTree.TextBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.17"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_36",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.11"
+      },
+      "Content": {
+        "ObjectName": "BP_TouchTooltipWidget_C BP_EditControlsBoolSettingCheckbox_C:WidgetTree.TouchToolTip_Widget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.9"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": "HorizontalBox_36",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.11"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_EditControlsBoolSettingCheckbox_C:WidgetTree.Spacer_158",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.16"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_158",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 5.0,
+        "Y": 45.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.15"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Aim Pass-Through"
+      },
+      "Font": {
+        "Size": 18
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.13"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_EditControlsBoolSettingCheckbox_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox BP_EditControlsBoolSettingCheckbox_C:WidgetTree.HorizontalBox_36",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_EditControlsBoolSettingCheckbox.11"
+      }
+    }
+  }
+]

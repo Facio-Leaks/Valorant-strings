@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "AB_Killjoy_S0_UltBomb_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant TP_Base_V5_S0_MI",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/TP_Base_V5_S0_MI.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Intensity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "338B43AF-40B3AB64-CD013084-94A48236"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Blend Intensity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "CD307C1D-4969BE36-D5B46399-B1241142"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive Brightness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "6E089258-4ABD3F81-9768338D-9C9C6305"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Albedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D AB_Killjoy_S0_X_Ult_DF",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Materials/AB_Killjoy_S0_X_Ult_DF.0"
+          },
+          "ExpressionGUID": "5AA25B08-47574523-BC889EA3-4CEF4320"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MRAE",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D AB_Killjoy_S0_X_Ult_MRAE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Materials/AB_Killjoy_S0_X_Ult_MRAE.0"
+          },
+          "ExpressionGUID": "3A9C0951-4F82CB6B-E4FF008A-A8F56259"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D AB_Killjoy_S0_X_Ult_NM",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Materials/AB_Killjoy_S0_X_Ult_NM.0"
+          },
+          "ExpressionGUID": "E17DE11A-473F2E0F-B447B083-A33C1286"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bUseAres3PClipping": true,
+        "ShadingModel": "MSM_AresCharacter",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D generic_diff",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/generic_diff.0"
+        },
+        {
+          "ObjectName": "Texture2D generic_MRAE",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/generic_MRAE.0"
+        },
+        {
+          "ObjectName": "Texture2D flatnormal",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatnormal.0"
+        },
+        {
+          "ObjectName": "Texture2D flatwhite_linear_grayscale",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatwhite_linear_grayscale.0"
+        },
+        {
+          "ObjectName": "Texture2D TP_Core_CombinedFalloffGradients_Skin",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/TP_Core_CombinedFalloffGradients_Skin.0"
+        }
+      ]
+    }
+  }
+]

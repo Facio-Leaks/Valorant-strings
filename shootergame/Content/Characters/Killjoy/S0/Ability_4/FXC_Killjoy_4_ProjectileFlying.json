@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_4_ProjectileFlying_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_Team",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_4_ProjectileFlying_C Default__FXC_Killjoy_4_ProjectileFlying_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.1"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_4_ProjectileFlying_C",
+    "Name": "Default__FXC_Killjoy_4_ProjectileFlying_C",
+    "Properties": {
+      "bObeyOwnerHidden": false
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_Team_C",
+    "Name": "Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_ProjectileFlying_C",
+    "Template": "Default__Comp_FXC_SpawnParticle_Team_C",
+    "Properties": {
+      "EnemyTemplate": {
+        "ObjectName": "ParticleSystem ps_ribbonTrail_foe_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ribbonTrail_foe_01.60"
+      },
+      "AllyTemplate": {
+        "ObjectName": "ParticleSystem ps_ribbonTrail_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ribbonTrail_01.60"
+      },
+      "StopEmitterOnEffectStop": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_4_ProjectileFlying_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_4_ProjectileFlying_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.3"
+      },
+      "VariableGuid": "1257EB7F-42657486-E741A3A6-92159790",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_Team_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_Team.5"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_Team_C FXC_Killjoy_4_ProjectileFlying_C:Comp_FXC_SpawnParticle_Team_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.2"
+      },
+      "VariableGuid": "8102BD46-44EE7CF9-879584A9-E70DF943",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_Team"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_4_ProjectileFlying_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.4"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.4"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_4_ProjectileFlying_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_ProjectileFlying.4"
+      }
+    }
+  }
+]

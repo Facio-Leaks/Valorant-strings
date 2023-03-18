@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "AB_Killjoy_S0_StealthDrone_Glass_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material 3P_Weapon_Glass_Mat",
+        "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/3P_Weapon_Glass_Mat.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "brightness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.6,
+          "ExpressionGUID": "C7090F1B-41AACDDB-C250B4B5-4B4CB710"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Glass Opacity Solo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "50BE59FA-43BC48A5-D5058990-650D27E0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Glass Tint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.795194,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FF00E7FF"
+          },
+          "ExpressionGUID": "A825D52E-4219E760-7CF0CD84-0F5642BE"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "HDRI",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "TextureCube Ares_HDRI_FirstPersonGlass",
+            "ObjectPath": "ShooterGame/Content/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.0"
+          },
+          "ExpressionGUID": "BD136A75-4232DBFE-79426BAB-8FF8794C"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_UseAres3PClipping": true,
+        "bUseAres3PClipping": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_AresCharacter",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "TextureCube Ares_HDRI_FirstPersonGlass",
+          "ObjectPath": "ShooterGame/Content/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.0"
+        }
+      ]
+    }
+  }
+]

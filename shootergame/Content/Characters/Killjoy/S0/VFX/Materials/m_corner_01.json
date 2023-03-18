@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_corner_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "7D4401EB-4A8008EA-0AE3B89A-27A9D699",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              12279385124011487613
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "78DCD63B-4141CAC0-D32816AF-F8F77063"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "VectorValues": [
+            {
+              "R": 0.175,
+              "G": 15.0,
+              "B": 14.184971,
+              "A": 1.0,
+              "Hex": "FF74FFFF"
+            }
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

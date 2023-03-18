@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TouchWheelSegment_Ping_Watching",
+    "Outer": "BP_TouchWheelSegment_Ping_Watching_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Touch_Wheel_Menu_Ping",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_TouchWheelMenu_Ping_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/BP_TouchWheelMenu_Ping.6"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "DoWork",
+    "Outer": "BP_TouchWheelSegment_Ping_Watching_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelSegment:DoWork",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_TouchWheelSegment_Ping_Watching_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_TouchWheelSegment_Ping_Watching_C:ExecuteUbergraph_BP_TouchWheelSegment_Ping_Watching",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWheelSegment",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_Ping_Watching_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.1"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_Ping_Watching_C:ExecuteUbergraph_BP_TouchWheelSegment_Ping_Watching",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TouchWheelSegment_Ping_Watching": {
+        "ObjectName": "Function BP_TouchWheelSegment_Ping_Watching_C:ExecuteUbergraph_BP_TouchWheelSegment_Ping_Watching",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.0"
+      },
+      "DoWork": {
+        "ObjectName": "Function BP_TouchWheelSegment_Ping_Watching_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.1"
+      }
+    },
+    "ClassFlags": 264208,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TouchWheelSegment_Ping_Watching_C Default__BP_TouchWheelSegment_Ping_Watching_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_Ping_Watching.3"
+    }
+  },
+  {
+    "Type": "BP_TouchWheelSegment_Ping_Watching_C",
+    "Name": "Default__BP_TouchWheelSegment_Ping_Watching_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SegmentText": {
+        "TableId": "/Game/UI/InGame/QuickComms/UI_NonVerbalComm_Strings.UI_NonVerbalComm_Strings",
+        "Key": "Comm_Watching"
+      },
+      "SegmentIconTexture": {
+        "ObjectName": "Texture2D UI_Hud_Icons_WatchingArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/Shared/Icons/PingWheel/UI_Hud_Icons_WatchingArea.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,4727 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnSmartTap__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSmartSwipe__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHoldReleased__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAimPassthroughWaitOver__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSmartDisengage__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresActionButton",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHighlightToggled__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Highlighted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZoneHighlightToggled__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Highlighted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnArrowVisibilityChanged__DelegateSignature",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsVisible",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SkipAnimation",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ComboActionButton_Base",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningUserWidget_OwningUserWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningUserWidget_OwningUserWidget_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_5",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SwipeType_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_4",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningUserWidget_OwningUserWidget_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_InvalidateTimerHandle_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetSwipedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_3",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_2",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.5"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_6",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData_1",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresActionButtonReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_9",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchWidgetSwipedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_10",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_7",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsSizeBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_11",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnTouchModeChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TouchInfo_3",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TouchInfo_2",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TouchInfo_1",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningUserWidget_OwningUserWidget_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTouchComponent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_12",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchComponentPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_Vector2DVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_VSize2DSquared_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_8",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899907366912,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_13",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_14",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleHighlightOff",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZoneMoveEvent_ActOnRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "FAresTouchTrackingData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205520896
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:HandleTouchRelease",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchMove",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:HandleTouchMove",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchExit",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:HandleTouchExit",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchEnter",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:HandleTouchEnter",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeEvent_ActOnRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZoneReleaseEvent_ActOnRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZonePressEvent_ActOnRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "RegularButtonRelease",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "RegularButtonTap",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "Super": "OnInitialized",
+    "SuperStruct": {
+      "ObjectName": "Function BP_AresIconButton_Base_C:OnInitialized",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.1"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "DoubleTapFinishedEvent",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "HoldTimePassed",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZoneReleasedEvent",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeEvent",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "SwipeDelayOver",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSwipeZonePressEvent",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchData",
+        "Flags": 1,
+        "ElementSize": 168,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchTrackingData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHeightScale",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Scale Y",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetWidthScale",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Scale X",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetVerticalOrientation",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Flipped",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EVerticalAlignment",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EVerticalAlignment",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EVerticalAlignment",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBackgroundBottomPadding",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "In Padding Bottom",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Margin",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct Margin",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsOverlaySlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class OverlaySlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetIconPadding",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "PaddingPercent",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateChildSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateChildSize",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SlotAsVerticalBoxSlot_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBoxSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSwipeArrowScale",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleHighlight",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Highlighted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSwipeHeightScale",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "New Scale",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Icon Scale",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "New Scale",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetComboButtons",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "JumpButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CrouchButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.6"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.6"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateSwipeZoneVisibility",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "TouchMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateArrowVisibility",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsVisible",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SkipAnimation",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTouchPress",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWidget:HandleTouchPress",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TouchInfo",
+        "Flags": 1,
+        "ElementSize": 136,
+        "PropertyFlags": 134218134,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresTouchEventInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Get_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HandleTouchPress_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetTouchMode_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchMode",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningUserWidget_OwningUserWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class UserWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAres_Touch_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HandleTouchPress_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 206047232
+  },
+  {
+    "Type": "Function",
+    "Name": "Confirm On Delay",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "KeepHighlighted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ComboActionButton_Base_C",
+    "Super": "BP_AresIconButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ComboActionButton_Base_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.113"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ExecuteUbergraph_BP_ComboActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_AresIconButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_AresIconButton_Base.13"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:Confirm On Delay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.41"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchPress",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.40"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateArrowVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.39"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateSwipeZoneVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.38"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetComboButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.37"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:Set Icon Scale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.36"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetSwipeHeightScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.35"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ToggleHighlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.34"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateSwipeArrowScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.33"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetIconPadding",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.32"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetBackgroundBottomPadding",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.31"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetVerticalOrientation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.30"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetWidthScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.29"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetHeightScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.28"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.27"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZonePressEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.26"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SwipeDelayOver",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.25"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.24"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneReleasedEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.23"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HoldTimePassed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.22"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:DoubleTapFinishedEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.21"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.20"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:RegularButtonTap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.19"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:RegularButtonRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.18"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZonePressEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.17"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneReleaseEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.16"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.15"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchEnter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.14"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchExit",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.13"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchMove",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.12"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.11"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneMoveEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.10"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ToggleHighlightOff",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.9"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ExecuteUbergraph_BP_ComboActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.8"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnArrowVisibilityChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.7"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneHighlightToggled__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.6"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnHighlightToggled__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.5"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartDisengage__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.4"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnAimPassthroughWaitOver__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.3"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnHoldReleased__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.2"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartSwipe__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartTap__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BackgroundContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CAW_SwipeOverlay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_CAW_SwipeOverlay_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeOverlay.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CAW_SwipeZone",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_CAW_SwipeZone_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CustomAbilityWidgets/BP_CAW_SwipeZone.4"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeightSizeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconButtonSpacer_Bottom",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Spacer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconButtonSpacer_Top",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Spacer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconScaleBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class ScaleBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconSpacer_Bottom",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Spacer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconSpacer_Top",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Spacer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Mid",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MidBG",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Image_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.34"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SwipeOverlayspacer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Spacer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SwipeSizeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TopBG",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Image_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.34"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TopBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class HorizontalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TouchBounds_Mid",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_TouchBounds_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_TouchBounds.3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TouchBounds_Top1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_TouchBounds_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_TouchBounds.3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TouchBounds_Top2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_TouchBounds_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_TouchBounds.3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "VerticalBox_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class VerticalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_CTA",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_CTA_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_CTA.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_Icon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Icon_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Icon.3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_IBC_Lock",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Lock_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Lock.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidgetParts",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidthSizeBox",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "HeightScale",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "WidthScale",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FlipVertical",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "BackgroundBottomPadding",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "IconBottonPadding",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TapSwipeDelayTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Swiped",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSmartTap",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartTap__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSmartSwipe",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartSwipe__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.1"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "SwipeType",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresTouchSwipeType",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "PressStarted",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "LongPressTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnHoldReleased",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnHoldReleased__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsLongPress",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SwipeTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DoubleTapTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DoubleTapTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "DoubleTapStarted",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TempSwipeTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnAimPassthroughWaitOver",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnAimPassthroughWaitOver__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.3"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSmartDisengage",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartDisengage__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.4"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SwipeArrowDefaultScale",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnHighlightToggled",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "JumpComboButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CrouchComboButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ComboActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.42"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SwipeZoneHeightScale",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DefaultSwipeZoneSize",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSwipeVisible",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsButtonVisible",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShouldActOnPress",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSwipeZoneHighlightToggled",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneHighlightToggled__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.6"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnArrowVisibilityChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_ComboActionButton_Base_C:OnArrowVisibilityChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SwipeZonePressInvalidatedWithMove",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SwipeZonePressInvalidationDistanceSquared",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "HighlightConfirmationTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ConfirmationColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EngagedColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnSmartTap__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartTap__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.0"
+      },
+      "OnSmartSwipe__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartSwipe__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.1"
+      },
+      "OnHoldReleased__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnHoldReleased__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.2"
+      },
+      "OnAimPassthroughWaitOver__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnAimPassthroughWaitOver__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.3"
+      },
+      "OnSmartDisengage__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSmartDisengage__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.4"
+      },
+      "OnHighlightToggled__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnHighlightToggled__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.5"
+      },
+      "OnSwipeZoneHighlightToggled__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneHighlightToggled__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.6"
+      },
+      "OnArrowVisibilityChanged__DelegateSignature": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnArrowVisibilityChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.7"
+      },
+      "ExecuteUbergraph_BP_ComboActionButton_Base": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ExecuteUbergraph_BP_ComboActionButton_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.8"
+      },
+      "ToggleHighlightOff": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ToggleHighlightOff",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.9"
+      },
+      "OnSwipeZoneMoveEvent_ActOnRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneMoveEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.10"
+      },
+      "HandleTouchRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.11"
+      },
+      "HandleTouchMove": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchMove",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.12"
+      },
+      "HandleTouchExit": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchExit",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.13"
+      },
+      "HandleTouchEnter": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchEnter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.14"
+      },
+      "OnSwipeEvent_ActOnRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.15"
+      },
+      "OnSwipeZoneReleaseEvent_ActOnRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneReleaseEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.16"
+      },
+      "OnSwipeZonePressEvent_ActOnRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZonePressEvent_ActOnRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.17"
+      },
+      "RegularButtonRelease": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:RegularButtonRelease",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.18"
+      },
+      "RegularButtonTap": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:RegularButtonTap",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.19"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.20"
+      },
+      "DoubleTapFinishedEvent": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:DoubleTapFinishedEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.21"
+      },
+      "HoldTimePassed": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HoldTimePassed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.22"
+      },
+      "OnSwipeZoneReleasedEvent": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZoneReleasedEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.23"
+      },
+      "OnSwipeEvent": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.24"
+      },
+      "SwipeDelayOver": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SwipeDelayOver",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.25"
+      },
+      "OnSwipeZonePressEvent": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:OnSwipeZonePressEvent",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.26"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.27"
+      },
+      "SetHeightScale": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetHeightScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.28"
+      },
+      "SetWidthScale": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetWidthScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.29"
+      },
+      "SetVerticalOrientation": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetVerticalOrientation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.30"
+      },
+      "SetBackgroundBottomPadding": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetBackgroundBottomPadding",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.31"
+      },
+      "SetIconPadding": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetIconPadding",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.32"
+      },
+      "UpdateSwipeArrowScale": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateSwipeArrowScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.33"
+      },
+      "ToggleHighlight": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:ToggleHighlight",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.34"
+      },
+      "SetSwipeHeightScale": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetSwipeHeightScale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.35"
+      },
+      "Set Icon Scale": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:Set Icon Scale",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.36"
+      },
+      "SetComboButtons": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:SetComboButtons",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.37"
+      },
+      "UpdateSwipeZoneVisibility": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateSwipeZoneVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.38"
+      },
+      "UpdateArrowVisibility": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:UpdateArrowVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.39"
+      },
+      "HandleTouchPress": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:HandleTouchPress",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.40"
+      },
+      "Confirm On Delay": {
+        "ObjectName": "Function BP_ComboActionButton_Base_C:Confirm On Delay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.41"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ComboActionButton_Base_C Default__BP_ComboActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.43"
+    }
+  },
+  {
+    "Type": "BP_ComboActionButton_Base_C",
+    "Name": "Default__BP_ComboActionButton_Base_C",
+    "Template": "Default__BP_AresIconButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HeightScale": 1.0,
+      "WidthScale": 1.0,
+      "BackgroundBottomPadding": 1.0,
+      "IconBottonPadding": 0.2,
+      "TapSwipeDelayTime": 0.09,
+      "LongPressTime": 0.3,
+      "SwipeTimer": {
+        "Handle": 0
+      },
+      "DoubleTapTime": 0.1,
+      "DoubleTapTimer": {
+        "Handle": 0
+      },
+      "TempSwipeTime": 0.09,
+      "SwipeArrowDefaultScale": 2.0,
+      "DefaultSwipeZoneSize": 75.0,
+      "IsSwipeVisible": true,
+      "IsButtonVisible": true,
+      "SwipeZonePressInvalidationDistanceSquared": 225.0,
+      "HighlightConfirmationTime": 0.1,
+      "ConfirmationColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFFF00"
+      },
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFFFF"
+      },
+      "SwipeOptions": 3,
+      "EditTouchMode": "EAresTouchWidgetMode::Visible",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "IconScale": 0.55
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "IconTexture": null
+        }
+      }
+    }
+  },
+  {
+    "Type": "BP_CAW_SwipeOverlay_C",
+    "Name": "BP_CAW_SwipeOverlay",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_CAW_SwipeOverlay_C",
+    "Properties": {
+      "bUseUpArrow": true,
+      "TopNudge": {
+        "X": -70.5,
+        "Y": -27.0
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.83"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 2.0,
+          "Y": 2.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "BP_CAW_SwipeZone_C",
+    "Name": "BP_CAW_SwipeZone",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_CAW_SwipeZone_C",
+    "Properties": {
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.SwipeSizeBox.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.84"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.50"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.48"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_4.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.68"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TopBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.53"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.51"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.52"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.54"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.71"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_1",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.46"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_TouchBounds_C BP_ComboActionButton_Base_C:WidgetTree.TouchBounds_Mid",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.110"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_1",
+    "Properties": {
+      "Size": {
+        "Value": 0.1,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.46"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.Spacer_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.93"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_1",
+    "Properties": {
+      "Size": {
+        "Value": 0.1,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.46"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.Spacer_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.91"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "TopBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.5,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.TopBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.47"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_TouchBounds_C BP_ComboActionButton_Base_C:WidgetTree.TouchBounds_Top1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.111"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "TopBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.5,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.TopBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.47"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_TouchBounds_C BP_ComboActionButton_Base_C:WidgetTree.TouchBounds_Top2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.112"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "TopBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.1,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.TopBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.47"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.Spacer_182",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.92"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "TopBox",
+    "Properties": {
+      "Size": {
+        "Value": 0.1,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.TopBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.47"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.Spacer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.90"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Bottom",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Bottom.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.99"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "IconContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.65"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.63"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_ComboActionButton_Base_C:WidgetTree.IconScaleBox.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.77"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Mid",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Mid.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.98"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.67"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_4",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_4.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.68"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_4.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HeightSizeBox.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.82"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Top",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.71"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.70"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.73"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.97"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "WidgetParts",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.WidgetParts.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.74"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.WidgetParts.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.WidthSizeBox.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.85"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Bottom",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Bottom",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.55"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.SwipeSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.80"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "IconContainer",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": -10.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.IconContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.56"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Lock_C BP_ComboActionButton_Base_C:WidgetTree.WBP_IBC_Lock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.109"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "IconContainer",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.IconContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.56"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_CTA_C BP_ComboActionButton_Base_C:WidgetTree.WBP_IBC_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.105"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "IconContainer",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.IconContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.56"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Icon_C BP_ComboActionButton_Base_C:WidgetTree.WBP_IBC_Icon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.106"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Mid",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Mid",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.57"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.HeightSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.78"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.58"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.WidthSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.81"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_4",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Overlay_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.59"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.46"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_4",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Overlay_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.59"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Image_C BP_ComboActionButton_Base_C:WidgetTree.MidBG",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.107"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Top",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.60"
+      },
+      "Content": {
+        "ObjectName": "WBP_IBC_Image_C BP_ComboActionButton_Base_C:WidgetTree.TopBG",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.108"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Top",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.60"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_ComboActionButton_Base_C:WidgetTree.TopBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.47"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Top",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.60"
+      },
+      "Content": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.79"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "Top",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.60"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.SwipeOverlayspacer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.94"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "WidgetParts",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.WidgetParts",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.61"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.95"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "WidgetParts",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.WidgetParts",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.61"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "IconScaleBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_ComboActionButton_Base_C:WidgetTree.IconScaleBox.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.77"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.101"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "IconScaleBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox BP_ComboActionButton_Base_C:WidgetTree.IconScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.76"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.IconContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.56"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "HeightSizeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HeightOverride": 100.86391,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HeightSizeBox.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Mid.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.66"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.SizeBox_0.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.72"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SwipeSizeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "HeightOverride": 75.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.SwipeSizeBox.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.84"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Bottom.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.62"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "WidthSizeBox",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 129.02626,
+      "HeightOverride": 500.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot BP_ComboActionButton_Base_C:WidgetTree.WidthSizeBox.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.67"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "HeightSizeBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.HeightSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.78"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Overlay_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.59"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.SizeBox_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.79"
+      },
+      "Content": {
+        "ObjectName": "BP_CAW_SwipeOverlay_C BP_ComboActionButton_Base_C:WidgetTree.BP_CAW_SwipeOverlay",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.44"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SwipeSizeBox",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.SwipeSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.80"
+      },
+      "Content": {
+        "ObjectName": "BP_CAW_SwipeZone_C BP_ComboActionButton_Base_C:WidgetTree.BP_CAW_SwipeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.45"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "WidthSizeBox",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "SizeBox BP_ComboActionButton_Base_C:WidgetTree.WidthSizeBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.81"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.WidgetParts",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.61"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "IconButtonSpacer_Bottom",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 30.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.104"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "IconButtonSpacer_Top",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 30.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.103"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "IconSpacer_Bottom",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.100"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "IconSpacer_Top",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.102"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.54"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.50"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_182",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.53"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.49"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "SwipeOverlayspacer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 20.0
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.73"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "BackgroundContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.97"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.98"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer.VerticalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.99"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.WidgetParts.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.74"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.103"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.102"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.101"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.100"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_7",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.104"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.WidgetParts.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.75"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "BackgroundContainer",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.95"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.60"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "BackgroundContainer",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.95"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Mid",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.57"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "BackgroundContainer",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.BackgroundContainer",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.95"
+      },
+      "Content": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Bottom",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.55"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_1",
+    "Properties": {
+      "Size": {
+        "Value": 0.175,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.IconSpacer_Bottom",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.88"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_1",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_ComboActionButton_Base_C:WidgetTree.IconScaleBox",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.76"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": "VerticalBox_1",
+    "Properties": {
+      "Size": {
+        "Value": 0.175,
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.IconSpacer_Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.89"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": "VerticalBox_1",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.IconButtonSpacer_Top",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.87"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": "VerticalBox_1",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox BP_ComboActionButton_Base_C:WidgetTree.VerticalBox_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.96"
+      },
+      "Content": {
+        "ObjectName": "Spacer BP_ComboActionButton_Base_C:WidgetTree.IconButtonSpacer_Bottom",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.86"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_CTA_C",
+    "Name": "WBP_IBC_CTA",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_CTA_C",
+    "Properties": {
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.64"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 2.6,
+          "Y": 2.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Icon_C",
+    "Name": "WBP_IBC_Icon",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Icon_C",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D Icon_Jump",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_Jump.0"
+      },
+      "ImageMaterial": {
+        "ObjectName": "Material M_HUDMobile_IconAlpha",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/M_HUDMobile_IconAlpha.0"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.65"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Image_C",
+    "Name": "MidBG",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Image_C",
+    "Properties": {
+      "DefaultColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.25,
+        "Hex": "3F000000"
+      },
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 0.854993,
+        "B": 0.0,
+        "A": 0.247059,
+        "Hex": "3FFFEE00"
+      },
+      "CrossedOutColor": {
+        "R": 0.87451,
+        "G": 0.105882,
+        "B": 0.094118,
+        "A": 0.25,
+        "Hex": "3FF15B56"
+      },
+      "EditColor": {
+        "R": 0.807843,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.5,
+        "Hex": "7FE9EB96"
+      },
+      "DisabledColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.1,
+        "Hex": "19000000"
+      },
+      "ImageTexture": {
+        "ObjectName": "Texture2D TX_UI_HUDHexMid",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/TX_UI_HUDHexMid.0"
+      },
+      "ImageMaterial": {
+        "ObjectName": "MaterialInstanceConstant MI_UI_HUDButtonBG",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/MI_UI_HUDButtonBG.0"
+      },
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Overlay_4.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.69"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Image_C",
+    "Name": "TopBG",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Image_C",
+    "Properties": {
+      "DefaultColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.25,
+        "Hex": "3F000000"
+      },
+      "EngagedColor": {
+        "R": 1.0,
+        "G": 0.854993,
+        "B": 0.0,
+        "A": 0.247059,
+        "Hex": "3FFFEE00"
+      },
+      "CrossedOutColor": {
+        "R": 0.87451,
+        "G": 0.105882,
+        "B": 0.094118,
+        "A": 0.25,
+        "Hex": "3FF15B56"
+      },
+      "EditColor": {
+        "R": 0.807843,
+        "G": 0.831373,
+        "B": 0.305882,
+        "A": 0.5,
+        "Hex": "7FE9EB96"
+      },
+      "DisabledColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.1,
+        "Hex": "19000000"
+      },
+      "ImageTexture": {
+        "ObjectName": "Texture2D TX_UI_HUDHexTop",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Textures/TX_UI_HUDHexTop.0"
+      },
+      "ImageMaterial": {
+        "ObjectName": "Material M_UI_HUDButtonBG",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/M_UI_HUDButtonBG.0"
+      },
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.Top.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.70"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_Lock_C",
+    "Name": "WBP_IBC_Lock",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_Lock_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ComboActionButton_Base_C:WidgetTree.IconContainer.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.63"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_TouchBounds_C",
+    "Name": "TouchBounds_Mid",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_TouchBounds_C",
+    "Properties": {
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.48"
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_TouchBounds_C",
+    "Name": "TouchBounds_Top1",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_TouchBounds_C",
+    "Properties": {
+      "BoundsShape": "EAresTouchBoundsShape::Triangle",
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.51"
+      },
+      "RenderTransform": {
+        "Angle": 180.0
+      }
+    }
+  },
+  {
+    "Type": "WBP_IBC_TouchBounds_C",
+    "Name": "TouchBounds_Top2",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_IBC_TouchBounds_C",
+    "Properties": {
+      "BoundsShape": "EAresTouchBoundsShape::Triangle",
+      "SizeMap": null,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ComboActionButton_Base_C:WidgetTree.TopBox.HorizontalBoxSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.52"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.0,
+          "Y": -1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ComboActionButton_Base_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_ComboActionButton_Base_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ComboActionButton_Base.58"
+      }
+    }
+  }
+]

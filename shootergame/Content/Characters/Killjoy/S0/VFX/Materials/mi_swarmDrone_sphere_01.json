@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_swarmDrone_sphere_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_swarmDrone_sphere_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_swarmDrone_sphere_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Fake Roughness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "99AE8297-4D8663EC-B12DBD93-A62682B8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fake Specular",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "1D3419FD-44164310-D0ED60B5-A1B468B8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "GlowExponent",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "C2FDB234-4E9B7674-0422F89A-275AD80B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "GlowBaseReflect",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 10.0,
+          "ExpressionGUID": "AEC37761-4ECC7290-5BE56CB5-2E61DAF4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FadeViewAngle",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "FD5CE18F-49D28557-1EB39788-0D20DACD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "GlowColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.04,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FF0038FF"
+          },
+          "ExpressionGUID": "1EED4F32-40F6A839-6933B3BE-B11C7F5E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "BlendMode": "BLEND_Masked",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "TextureCube Ares_HDRI_FirstPerson",
+          "ObjectPath": "ShooterGame/Content/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPerson.0"
+        },
+        {
+          "ObjectName": "Texture2D flatnormal",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatnormal.0"
+        }
+      ]
+    }
+  }
+]

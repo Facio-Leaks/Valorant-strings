@@ -1,0 +1,589 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ActionButton_MissionSettings",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsChildOfClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameState_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class GameStateBase",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_MissionModule_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_PracticeModule_Parent_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.28"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooting_Range_Game_State",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass ShootingRangeGameState_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/ShootingRangeGameState.14"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_MissionModule",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_PracticeModule_Parent_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.28"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAresClientGameInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresClientGameInstance",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Entry_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMenuStackManager_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackManager",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Entry",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function ShootingRangeGameState_C:OnEnteredMissionArea__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/ShootingRangeGameState.0"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function ShootingRangeGameState_C:OnExitedMissionArea__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/ShootingRangeGameState.1"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnMenuStackManagerMenuOpen__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnMenuStackManagerMenuClose__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalCharacter_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsOverlappingActor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInitialized",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "Super": "OnInitialized",
+    "SuperStruct": {
+      "ObjectName": "Function BP_ActionButton_Base_C:OnInitialized",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.2"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "OnModuleEndReset",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnModuleBeginReset",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnModuleBegin",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMenuClosed",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Entry",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMenuOpened",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Entry",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class MenuStackEntry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnExitedMissionArea",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MissionModule",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_PracticeModule_Parent_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.28"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnteredMissionArea",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MissionModule",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_PracticeModule_Parent_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.28"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BindCurrentModuleEvents",
+    "Outer": "BP_ActionButton_MissionSettings_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Bind",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function GameObject_PracticeModule_Parent_C:OnPractiveModuleEndReset__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.3"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function GameObject_PracticeModule_Parent_C:OnPracticeModuleReset__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.4"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function GameObject_PracticeModule_Parent_C:OnPracticeModuleBegin__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.2"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_MissionSettings_C",
+    "Super": "BP_ActionButton_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_MissionSettings_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.12"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:ExecuteUbergraph_BP_ActionButton_MissionSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:BindCurrentModuleEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.9"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnEnteredMissionArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.8"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnExitedMissionArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.7"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnMenuOpened",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.6"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnMenuClosed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.5"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleBegin",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.4"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleBeginReset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.3"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleEndReset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.2"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.1"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:ExecuteUbergraph_BP_ActionButton_MissionSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentModule",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 67589,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_PracticeModule_Parent_C",
+          "ObjectPath": "ShooterGame/Content/GameModes/ShootingRange/GameObject_PracticeModule_Parent.28"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsPlayingModule",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ActionButton_MissionSettings": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:ExecuteUbergraph_BP_ActionButton_MissionSettings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.0"
+      },
+      "OnInitialized": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnInitialized",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.1"
+      },
+      "OnModuleEndReset": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleEndReset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.2"
+      },
+      "OnModuleBeginReset": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleBeginReset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.3"
+      },
+      "OnModuleBegin": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnModuleBegin",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.4"
+      },
+      "OnMenuClosed": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnMenuClosed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.5"
+      },
+      "OnMenuOpened": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnMenuOpened",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.6"
+      },
+      "OnExitedMissionArea": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnExitedMissionArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.7"
+      },
+      "OnEnteredMissionArea": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:OnEnteredMissionArea",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.8"
+      },
+      "BindCurrentModuleEvents": {
+        "ObjectName": "Function BP_ActionButton_MissionSettings_C:BindCurrentModuleEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.9"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_MissionSettings_C Default__BP_ActionButton_MissionSettings_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_MissionSettings.11"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_MissionSettings_C",
+    "Name": "Default__BP_ActionButton_MissionSettings_C",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ButtonSize": "EAresIconButtonSize::Small",
+      "ActionMappingName": "ToggleMissionSettings",
+      "InternalVisibilityState": "EWidgetVisibilityState::Hidden",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {},
+        "TextProperties": {},
+        "Texture2DProperties": {
+          "IconTexture": {
+            "ObjectName": "Texture2D Icon_Settings",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_Settings.0"
+          }
+        },
+        "MaterialInterfaceProperties": {}
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_MissionSettings_C"
+  }
+]

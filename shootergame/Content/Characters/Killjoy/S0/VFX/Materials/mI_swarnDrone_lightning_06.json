@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mI_swarnDrone_lightning_06",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_swarnDrone_lightning_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_swarnDrone_lightning_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "PlayRange",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.02,
+          "ExpressionGUID": "A2EFE283-4903CA0B-9A9C7581-8992400F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Scale_U",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.6,
+          "ExpressionGUID": "CD5E0136-479DF105-F8171D90-274C4A2D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Scale_V",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "44F409DB-455FCEA9-7E44A6A4-19DD6370"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Timeout",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.75,
+          "ExpressionGUID": "082FEC0D-42B08F14-78CFE5B4-DD9FD1DF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_TwoSided": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberStrip",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberPeriod",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+        },
+        {
+          "ObjectName": "Texture2D flipbook",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D Lightning_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Hunter/S0/VFX/Textures/Lightning_3.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "Lightning_3"
+        }
+      ]
+    }
+  }
+]

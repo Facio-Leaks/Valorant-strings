@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_beam_scanner_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_5",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Additive",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "53707AFF-4A960DE3-69C25A93-B314FCE9",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              550450417793930403,
+              4396861509040269384,
+              7067216279999608106,
+              9707820536219090259,
+              13255022601869508066,
+              15339169281881175492
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "DepthFade",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "AngleFade",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "DepthPower",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "DepthGlowDist",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EdgeGradientPower",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "DepthIntersectBrightness",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "5B79E875-484EA1BA-73EA7E9C-2CE251C8",
+              "00CF80F3-48B6A092-9F62C1B3-31249DB0",
+              "BDF2E941-4C915EC1-BAF95B99-DF130217",
+              "FD60C1D1-49C5BA29-035D3094-2BECC616",
+              "B278ADBE-4E5ED346-5CA2FEAC-91F3E821",
+              "FB0E5207-496BFAA4-7DBCB9A4-683C2984"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            5.0,
+            1.0,
+            0.0005,
+            12.0,
+            2.5,
+            100.0
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_gradient_rgb_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_rgb_01.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_sqare_softEdges_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_sqare_softEdges_01.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "FC5000CA-4D8CA069-2B6968BF-9ED68904",
+            "Function": {
+              "ObjectName": "MaterialFunction DeriveHDRfromLDR",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/DeriveHDRfromLDR.0"
+            }
+          },
+          {
+            "StateId": "B2D4EA75-49B4C3CB-8D0B7EBB-3CBFA823",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_fadeOnViewAngle_01",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/mf_fadeOnViewAngle_01.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Random",
+          "Intensity",
+          "Time",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_genericDiscPan_05",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_genericDiscPan_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_genericDiscPan_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "TexGradient_01",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D ring_glow",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow.0"
+          },
+          "ExpressionGUID": "65786C18-42A14DBD-C67473AE-1FFB57BA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TexPattern",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_scifi_rgb_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_scifi_rgb_01.0"
+          },
+          "ExpressionGUID": "B624CB08-483A5D32-47093FB2-95F5239A"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "AddTexturePattern",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7338B8CE-4EFBE431-10C732B1-E7671F31"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_gradient_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_10.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_scifi_rgb_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_scifi_rgb_01.0"
+        },
+        {
+          "ObjectName": "Texture2D ring_glow_top",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow_top.0"
+        }
+      ]
+    }
+  }
+]

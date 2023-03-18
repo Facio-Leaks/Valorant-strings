@@ -1,0 +1,1818 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_CTA_Joystick",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ParentTouchWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_HUDMobile_Joystick_Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_JoystickWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_HUDMobile_JoystickWidget.78"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_AbsoluteWidgetLocation_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:WalkRunStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsSprintOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_InitialTouchLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_IsInZone",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_Confirm_KnifeSprintCTA_Confirm",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_AbsoluteWidgetLocation_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_CallToActionState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_AbsoluteWidgetLocation_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "BindWidgetCallToActionEvents",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201459720
+  },
+  {
+    "Type": "Function",
+    "Name": "SetWidgetCallToActionState",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CallToActionState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201459720
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTASprint_InZoneChanged",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InitialTouchLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsInZone",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTASprint_SprintLockChanged",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSprintOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTASneak_WalkReleased",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTASneak_WalkPressed",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "SetParentTouchWidget",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParentTouchWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201459712
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTA_JoystickReleased",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "On_CTA_JoystickPressed",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AbsoluteWidgetLocation",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCTAState_Move",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CTAState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCTAState_Walk",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CTAState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDeadZoneThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDeadZoneThreshold_OutValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCTAState_Run",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CTAState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetRunCTA_RunCTA",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetRunCTA_RunCTA_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetRunCTA_RunCTA_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCTAState_SprintLock",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "CTAState",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EWidgetCallToActionState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_KnifeSprintCTA",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_Confirm_KnifeSprintCTA_Confirm",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_Confirm_KnifeSprintCTA_Confirm_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_KnifeSprintCTA_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetKnifeSprintCTA_KnifeSprintCTA_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSprintLockThreshold_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BindCTAEvents_Move",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchJoystickReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchJoystickPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterMovementWidget_CharacterMovementWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_TouchJoystick_CharacterMovement_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_TouchJoystick_CharacterMovement.17"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BindCTAEvents_Walk",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchJoystickPressedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresTouchJoystickReleasedDelegate__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:WalkRunStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterMovementWidget_CharacterMovementWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_TouchJoystick_CharacterMovement_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_TouchJoystick_CharacterMovement.17"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BindCTAEvents_Run",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:WalkRunStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.6"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "BindCTAEvents_SprintLock",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bBindEvents",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_UIBindings_C:WithinSprintZoneChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_UIBindings.12"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUDMobile_HUDMobile_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass FirstPersonHUDMobile_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/FirstPersonHUDMobile.65"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function HUDMobile_GameplayBindings_C:SprintStateChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HUDMobile_GameplayBindings.7"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetWalkThreshold",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "OutValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetDeadZoneThreshold",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "OutValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDeadZoneThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSprintLockThreshold",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 1408
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Get_Sprint_Lock_Threshold_Distance_KnifeSprintThreshold",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetRunCTA",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "RunCTA",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetKnifeSprintCTA",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "KnifeSprintCTA",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetKnifeSprintCTA_Confirm",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "KnifeSprintCTA_Confirm",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "cb_CTASneak_Running",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsRunning",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetWalkThreshold_OutValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "cb_CTARun_Running",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsRunning",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetParentTouchWidget",
+    "Outer": "WBP_CTA_Joystick_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Result",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 1547831296
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_CTA_Joystick_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_CTA_Joystick_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.42"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:ExecuteUbergraph_WBP_CTA_Joystick",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetParentTouchWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.26"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:cb_CTARun_Running",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.25"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:cb_CTASneak_Running",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.24"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetKnifeSprintCTA_Confirm",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.23"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetKnifeSprintCTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.22"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetRunCTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.21"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetSprintLockThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.20"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetDeadZoneThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.19"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetWalkThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.18"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_SprintLock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.17"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Run",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.16"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Walk",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.15"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Move",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.14"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_SprintLock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.13"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Run",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.12"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Walk",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.11"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Move",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.10"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTA_JoystickPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.9"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTA_JoystickReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.8"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetParentTouchWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.7"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASneak_WalkPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.6"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASneak_WalkReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.5"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASprint_SprintLockChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.4"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASprint_InZoneChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.3"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetWidgetCallToActionState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.2"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindWidgetCallToActionEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.1"
+      },
+      {
+        "ObjectName": "Function WBP_CTA_Joystick_C:ExecuteUbergraph_WBP_CTA_Joystick",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CTA_WalkRun",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_CTA_WalkRun_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_CTA_WalkRun.5"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox_CTA",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox_CTA_WalkRun",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SizeBox_SwipeArrow",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SizeBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_CTA_PulsingCircle",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_Pulsing_CTA_Circle_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_SwipeUpArrow",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass WBP_SwipeUpArrow_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_SwipeUpArrow.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParentJoystickWidget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_JoystickWidget_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Movement/BP_HUDMobile_JoystickWidget.78"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "WalkRunCTAScaleFactor",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "SprintCTADistanceFactor",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CTAType",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum E_CTA_Joystick_Type",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/E_CTA_Joystick_Type.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_CTA_Joystick": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:ExecuteUbergraph_WBP_CTA_Joystick",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.0"
+      },
+      "BindWidgetCallToActionEvents": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindWidgetCallToActionEvents",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.1"
+      },
+      "SetWidgetCallToActionState": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetWidgetCallToActionState",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.2"
+      },
+      "On_CTASprint_InZoneChanged": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASprint_InZoneChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.3"
+      },
+      "On_CTASprint_SprintLockChanged": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASprint_SprintLockChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.4"
+      },
+      "On_CTASneak_WalkReleased": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASneak_WalkReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.5"
+      },
+      "On_CTASneak_WalkPressed": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTASneak_WalkPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.6"
+      },
+      "SetParentTouchWidget": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetParentTouchWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.7"
+      },
+      "On_CTA_JoystickReleased": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTA_JoystickReleased",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.8"
+      },
+      "On_CTA_JoystickPressed": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:On_CTA_JoystickPressed",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.9"
+      },
+      "SetCTAState_Move": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Move",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.10"
+      },
+      "SetCTAState_Walk": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Walk",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.11"
+      },
+      "SetCTAState_Run": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_Run",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.12"
+      },
+      "SetCTAState_SprintLock": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:SetCTAState_SprintLock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.13"
+      },
+      "BindCTAEvents_Move": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Move",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.14"
+      },
+      "BindCTAEvents_Walk": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Walk",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.15"
+      },
+      "BindCTAEvents_Run": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_Run",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.16"
+      },
+      "BindCTAEvents_SprintLock": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:BindCTAEvents_SprintLock",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.17"
+      },
+      "GetWalkThreshold": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetWalkThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.18"
+      },
+      "GetDeadZoneThreshold": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetDeadZoneThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.19"
+      },
+      "GetSprintLockThreshold": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetSprintLockThreshold",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.20"
+      },
+      "GetRunCTA": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetRunCTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.21"
+      },
+      "GetKnifeSprintCTA": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetKnifeSprintCTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.22"
+      },
+      "GetKnifeSprintCTA_Confirm": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetKnifeSprintCTA_Confirm",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.23"
+      },
+      "cb_CTASneak_Running": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:cb_CTASneak_Running",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.24"
+      },
+      "cb_CTARun_Running": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:cb_CTARun_Running",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.25"
+      },
+      "GetParentTouchWidget": {
+        "ObjectName": "Function WBP_CTA_Joystick_C:GetParentTouchWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.26"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class AresTouchWidgetComponentInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      },
+      {
+        "Class": {
+          "ObjectName": "Class AresTouchWidgetCTAInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_CTA_Joystick_C Default__WBP_CTA_Joystick_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.28"
+    }
+  },
+  {
+    "Type": "WBP_CTA_Joystick_C",
+    "Name": "Default__WBP_CTA_Joystick_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WalkRunCTAScaleFactor": 0.85,
+      "SprintCTADistanceFactor": 3.0,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "BP_CTA_WalkRun_C",
+    "Name": "BP_CTA_WalkRun",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_CTA_WalkRun_C",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.8,
+        "Hex": "CCFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA_WalkRun.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.38"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_13",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.31"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.32"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_13",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay WBP_CTA_Joystick_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.30"
+      },
+      "Content": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_13",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay WBP_CTA_Joystick_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.30"
+      },
+      "Content": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.34"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_13",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay WBP_CTA_Joystick_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.30"
+      },
+      "Content": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_SwipeArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.36"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_CTA",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 74.85714,
+      "HeightOverride": 74.85714,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA.SizeBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.32"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_CTA_WalkRun",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 131.42857,
+      "HeightOverride": 131.42857,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA_WalkRun.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.31"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_SwipeArrow",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "WidthOverride": 74.85714,
+      "HeightOverride": 74.85714,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_SwipeArrow.SizeBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CTA_Joystick_C:WidgetTree.Overlay_13.OverlaySlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.33"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_2",
+    "Outer": "SizeBox_CTA",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.34"
+      },
+      "Content": {
+        "ObjectName": "WBP_Pulsing_CTA_Circle_C WBP_CTA_Joystick_C:WidgetTree.WBP_CTA_PulsingCircle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.40"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_CTA_WalkRun",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.35"
+      },
+      "Content": {
+        "ObjectName": "BP_CTA_WalkRun_C WBP_CTA_Joystick_C:WidgetTree.BP_CTA_WalkRun",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.29"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_SwipeArrow",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox WBP_CTA_Joystick_C:WidgetTree.SizeBox_SwipeArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.36"
+      },
+      "Content": {
+        "ObjectName": "WBP_SwipeUpArrow_C WBP_CTA_Joystick_C:WidgetTree.WBP_SwipeUpArrow",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.41"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Pulsing_CTA_Circle_C",
+    "Name": "WBP_CTA_PulsingCircle",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_CTA.SizeBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.37"
+      }
+    }
+  },
+  {
+    "Type": "WBP_SwipeUpArrow_C",
+    "Name": "WBP_SwipeUpArrow",
+    "Outer": "WidgetTree",
+    "Template": "Default__WBP_SwipeUpArrow_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot WBP_CTA_Joystick_C:WidgetTree.SizeBox_SwipeArrow.SizeBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.39"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_CTA_Joystick_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay WBP_CTA_Joystick_C:WidgetTree.Overlay_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_CTA_Joystick.30"
+      }
+    }
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_icons_02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_icons_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_icons_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Icon_U_Tile",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "DFD68940-4E3DC9A9-CE6AA2B1-F3E45A1F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Icon_V_Tile",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 50.0,
+          "ExpressionGUID": "0DFEE679-48B29D8A-52ECC487-D4AAA8DA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Speed",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "ABF7A94A-4E2FFC68-E9C718A8-28A3F5C9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "UOffset_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "0D554FBB-4A16282C-DFA0D18D-3AC97695"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "UScoll_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "AA7BEFC2-47FAB910-A8D647BD-B4D8FBF7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Utile_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "BD4C25C8-4CE56D0C-2DA17E8F-A9035596"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "VOffset_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "F78648D1-4A7F8709-81FD1597-F62FC33D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "VScoll_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "089CDB25-4A7A36C1-1E5540BC-73EE9CCC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Vtile_AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "5062EB14-433E2D7E-997D39B4-C630F23A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "FrameEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 75.0,
+            "G": 0.0,
+            "B": 65.95648,
+            "A": 1.0,
+            "Hex": "FFFF00FF"
+          },
+          "ExpressionGUID": "656D6416-4201055B-3E0908B4-B25355FD"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "AlphaGrad",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          },
+          "ExpressionGUID": "E686EEBF-41125C41-AC014E88-8CC50765"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "IconHolo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_audioWave_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_audioWave_01.0"
+          },
+          "ExpressionGUID": "26E29C9D-415F7E1B-48FB33AA-BBF2DAE6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Texture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_alarmBot_iconMask_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_alarmBot_iconMask_01.0"
+          },
+          "ExpressionGUID": "328200C7-460EC0D9-AE923285-B7A2DE62"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_scanLines_gradient_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_turret_icon_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_turret_icon_01.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_turret_iconMask_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_turret_iconMask_01.0"
+        }
+      ]
+    }
+  }
+]

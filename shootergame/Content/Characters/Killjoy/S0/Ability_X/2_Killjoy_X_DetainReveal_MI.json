@@ -1,0 +1,324 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "2_Killjoy_X_DetainReveal_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material 0_MultiRimTrans_MAT",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/0_MultiRimTrans_MAT.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Base_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "7385CD07-48B3D6BA-0E2572A2-AD59BE80"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_ColorMult",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "EBE57B68-452D1630-CF95CE91-327CAFC5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.1,
+          "ExpressionGUID": "03E8CD9D-4EECC5C6-3069A49B-0BB4670A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Dissolve_Opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.207412,
+          "ExpressionGUID": "C731E59A-46BE6FC3-1BAFD2B4-1B996AF8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "InnerEdgeThickness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.108257,
+          "ExpressionGUID": "485FAEF5-4B5FE449-D48C559C-BDDE6D04"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OuterEdgeThickness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.371182,
+          "ExpressionGUID": "AC9C28F9-4B8BE617-AEE3C497-298361A6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rim_Fresnel",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "4A062756-4A55F7BE-F76440AA-A71D3FA8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rim_Multiply",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "B3DE8001-4F5A1239-E8859C85-5F4C50F3"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rim_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "3C0327A6-49ABCFAC-DC005D95-A67E384C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OcclusionDepth",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "AA3E4887-4279313F-2BE25297-962A76CD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OcclusionDepth_BehindWall",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "EB35C56D-4E0F5D7B-A39F0DA2-466582BB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OcclusionState",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "15AC7B7F-46EDAEB4-149E108F-85D52844"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "SilohuetteColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "5044F06D-43EF1801-22346AA8-BC98EDA9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CenterEdgeColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.776042,
+            "G": 0.650164,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFE4D300"
+          },
+          "ExpressionGUID": "F3A24CD0-40D547EE-97CAF3B1-65E369E1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "InnerEdgeColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 30.0,
+            "G": 20.413887,
+            "B": 0.950945,
+            "A": 1.0,
+            "Hex": "FFFFFFFA"
+          },
+          "ExpressionGUID": "0FCC43BC-45DF2C4C-895301A3-F4757977"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OuterEdgeColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 30.0,
+            "G": 14.872437,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFFFF00"
+          },
+          "ExpressionGUID": "D1F68536-4CDE9EE8-6C97ADB7-DD23876E"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D DefaultDiffuse",
+            "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+          },
+          "ExpressionGUID": "8724FC2C-4D6CB95D-41C150A8-1FEAF30A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D Noise_TEX",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/Old/Noise_TEX.0"
+          },
+          "ExpressionGUID": "D6665B6F-486B1E2B-807A2483-5CA6F71D"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "StaticMeshAlpha_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "AE95A913-410D7B16-F5D74288-E49E9395"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "StaticMeshColor_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "0CD78E8B-4F567882-FCF100B8-1562865F"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Emissive_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C878E503-40A64B5F-B0FD0EBE-9AF6F134"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Alpha_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5FC16CF0-48FAB2AA-B2C70499-C269FD4F"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Cull_InnerTriangles",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "9C550674-4B67AA46-A581AAB1-C6D74B5A"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Alpha_Dissolve_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "FE0BF5B5-49E141E9-609C7688-6143E8AF"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Rim_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "B8E81195-4D3D5763-68B6AC9A-0953B088"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Rim_aToggleReverse",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "BFBCEB0A-47CD25C7-60DB33AD-35C25B54"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D T_Clouds_01",
+          "ObjectPath": "ShooterGame/Content/Effects/Textures/Smoke/T_Clouds_01.0"
+        },
+        {
+          "ObjectName": "Texture2D 00_White_DIFF",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/00_White_DIFF.0"
+        }
+      ]
+    }
+  }
+]

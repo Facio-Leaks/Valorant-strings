@@ -1,0 +1,198 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Killjoy_UIData_C",
+    "SuperStruct": {
+      "ObjectName": "Class CharacterUIData",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ClassFlags": 8653328,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Killjoy_UIData_C Default__Killjoy_UIData_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_UIData.1"
+    }
+  },
+  {
+    "Type": "Killjoy_UIData_C",
+    "Name": "Default__Killjoy_UIData_C",
+    "Properties": {
+      "Description": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Description"
+      },
+      "DisplayIconSmall": {
+        "ObjectName": "Texture2D TX_Character_Thumb_Killjoy",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Icons/Character/Thumbnails/TX_Character_Thumb_Killjoy.0"
+      },
+      "KillfeedPortrait": {
+        "ObjectName": "Texture2D TX_Killfeed_Killjoy2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/KillCallout/KillFeed_Assists/Textures/CharacterPortraits/TX_Killfeed_Killjoy2.0"
+      },
+      "PortraitRenderTransform": {
+        "Translation": {
+          "X": -10.0,
+          "Y": -36.0
+        },
+        "Scale": {
+          "X": 1.54,
+          "Y": 1.54
+        }
+      },
+      "Abilities": {
+        "ECharacterAbilitySlot::Grenade": {
+          "ObjectName": "CharacterAbilityUIData Default__Killjoy_UIData_C:CharacterAbilityUIData_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_UIData.2"
+        },
+        "ECharacterAbilitySlot::Ability1": {
+          "ObjectName": "CharacterAbilityUIData Default__Killjoy_UIData_C:CharacterAbilityUIData_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_UIData.3"
+        },
+        "ECharacterAbilitySlot::Ability2": {
+          "ObjectName": "CharacterAbilityUIData Default__Killjoy_UIData_C:CharacterAbilityUIData_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_UIData.4"
+        },
+        "ECharacterAbilitySlot::Ultimate": {
+          "ObjectName": "CharacterAbilityUIData Default__Killjoy_UIData_C:CharacterAbilityUIData_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_UIData.5"
+        }
+      },
+      "CharacterTags": [
+        {
+          "TableId": "/Game/Characters/Global/StringTables/CharacterTag_Strings.CharacterTag_Strings",
+          "Key": "Tag_DefensiveLockdown"
+        },
+        {
+          "TableId": "/Game/Characters/Global/StringTables/CharacterTag_Strings.CharacterTag_Strings",
+          "Key": "Tag_AreaDamage"
+        }
+      ],
+      "WwiseStateName": "Killjoy",
+      "PickMeVOEvent": {
+        "ObjectName": "AkAudioEvent Play_VO_Killjoy_PickMe",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/Play_VO_Killjoy_PickMe.0"
+      },
+      "BackgroundGradientColor1": {
+        "R": 1.0,
+        "G": 0.547883,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFC400"
+      },
+      "BackgroundGradientColor2": {
+        "R": 0.48,
+        "G": 0.19643,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFB87B00"
+      },
+      "BackgroundGradientColor3": {
+        "R": 0.05353,
+        "G": 0.040912,
+        "B": 0.08022,
+        "A": 1.0,
+        "Hex": "FF413950"
+      },
+      "BackgroundGradientColor4": {
+        "R": 0.12,
+        "G": 0.05796,
+        "B": 0.0072,
+        "A": 1.0,
+        "Hex": "FF614414"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "DisplayName"
+      },
+      "DisplayNameAllCaps": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "DisplayName_AllCaps"
+      },
+      "DisplayIcon": {
+        "ObjectName": "Texture2D TX_Character_Thumb_Killjoy",
+        "ObjectPath": "ShooterGame/Content/UI/Shared/Icons/Character/Thumbnails/TX_Character_Thumb_Killjoy.0"
+      }
+    }
+  },
+  {
+    "Type": "CharacterAbilityUIData",
+    "Name": "CharacterAbilityUIData_0",
+    "Outer": "Default__Killjoy_UIData_C",
+    "Properties": {
+      "Description": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "GrenadeAbility_Description"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "GrenadeAbility_DisplayName"
+      },
+      "DisplayIcon": {
+        "ObjectName": "Texture2D TX_KJ_Bees",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/TX_KJ_Bees.0"
+      }
+    }
+  },
+  {
+    "Type": "CharacterAbilityUIData",
+    "Name": "CharacterAbilityUIData_1",
+    "Outer": "Default__Killjoy_UIData_C",
+    "Properties": {
+      "Description": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ability1_Description"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ability1_DisplayName"
+      },
+      "DisplayIcon": {
+        "ObjectName": "Texture2D TX_KJ_Alarm",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/TX_KJ_Alarm.0"
+      }
+    }
+  },
+  {
+    "Type": "CharacterAbilityUIData",
+    "Name": "CharacterAbilityUIData_2",
+    "Outer": "Default__Killjoy_UIData_C",
+    "Properties": {
+      "Description": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ability2_Description"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ability2_DisplayName"
+      },
+      "DisplayIcon": {
+        "ObjectName": "Texture2D tx_KJ_turret",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/tx_KJ_turret.0"
+      }
+    }
+  },
+  {
+    "Type": "CharacterAbilityUIData",
+    "Name": "CharacterAbilityUIData_3",
+    "Outer": "Default__Killjoy_UIData_C",
+    "Properties": {
+      "Description": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ultimate_Description"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Characters/Killjoy/Killjoy_Strings.Killjoy_Strings",
+        "Key": "Ultimate_DisplayName"
+      },
+      "DisplayIcon": {
+        "ObjectName": "Texture2D TX_KJ_Lockdown",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/TX_KJ_Lockdown.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,4170 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Pulsing_CTA_Circle",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCancelAnimFinished",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnConfirmAnimFinished",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleCircularPulseAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ToggleOn",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayConfirmAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Loop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_SelectInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopConfirmAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayCircularPulseAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "StopCircularPulseAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayCancelAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction WidgetAnimationDynamicEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class UMGSequencePlayer",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAnimationPlaying_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopCancelAnimation",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopAllCTAAnimations",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_Pulsing_CTA_Circle_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.75"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation WBP_Pulsing_CTA_Circle_C:CircularPulse_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.73"
+        },
+        {
+          "ObjectName": "WidgetAnimation WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.74"
+        },
+        {
+          "ObjectName": "WidgetAnimation WBP_Pulsing_CTA_Circle_C:Cancel_INST",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.72"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:ExecuteUbergraph_WBP_Pulsing_CTA_Circle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopAllCTAAnimations",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.10"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopCancelAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.9"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayCancelAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.8"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.7"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.6"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopConfirmAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.5"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayConfirmAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.4"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:ToggleCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.3"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:OnConfirmAnimFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.2"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:OnCancelAnimFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.1"
+      },
+      {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:ExecuteUbergraph_WBP_Pulsing_CTA_Circle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Cancel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConfirmInput",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CircularPulse",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 2147491860,
+        "PropertyClass": {
+          "ObjectName": "Class WidgetAnimation",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CTA_Halo",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CTA_Halo_Cancel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CTA_Halo_Confirm",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CTA_Halo_Confirm_2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bPulseEnabled",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bPulseQueued",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "AlternateSpeed_LoopingConfirm",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Pulsing_CTA_Circle": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:ExecuteUbergraph_WBP_Pulsing_CTA_Circle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.0"
+      },
+      "OnCancelAnimFinished": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:OnCancelAnimFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.1"
+      },
+      "OnConfirmAnimFinished": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:OnConfirmAnimFinished",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.2"
+      },
+      "ToggleCircularPulseAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:ToggleCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.3"
+      },
+      "PlayConfirmAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayConfirmAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.4"
+      },
+      "StopConfirmAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopConfirmAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.5"
+      },
+      "PlayCircularPulseAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.6"
+      },
+      "StopCircularPulseAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopCircularPulseAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.7"
+      },
+      "PlayCancelAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:PlayCancelAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.8"
+      },
+      "StopCancelAnimation": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopCancelAnimation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.9"
+      },
+      "StopAllCTAAnimations": {
+        "ObjectName": "Function WBP_Pulsing_CTA_Circle_C:StopAllCTAAnimations",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.10"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Pulsing_CTA_Circle_C Default__WBP_Pulsing_CTA_Circle_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.12"
+    }
+  },
+  {
+    "Type": "WBP_Pulsing_CTA_Circle_C",
+    "Name": "Default__WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AlternateSpeed_LoopingConfirm": 0.5,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CTA_Halo",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 148.0,
+          "Y": 148.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D CTA_Halo",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/CTA_Halo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.945098,
+        "G": 0.580392,
+        "B": 0.078431,
+        "A": 1.0,
+        "Hex": "FFF9C94F"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.68"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CTA_Halo_Cancel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 148.0,
+          "Y": 148.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D CTA_Halo",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/CTA_Halo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.945098,
+        "G": 0.017806,
+        "B": 0.074251,
+        "A": 1.0,
+        "Hex": "FFF9244D"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.69"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CTA_Halo_Confirm",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 148.0,
+          "Y": 148.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D CTA_Halo",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/CTA_Halo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.249697,
+        "G": 0.945098,
+        "B": 0.131548,
+        "A": 1.0,
+        "Hex": "FF89F965"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.70"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CTA_Halo_Confirm_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 148.0,
+          "Y": 148.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D CTA_Halo",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/CTA_Halo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.249697,
+        "G": 0.945098,
+        "B": 0.131548,
+        "A": 1.0,
+        "Hex": "FF89F965"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.71"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Cancel",
+    "Outer": "Cancel_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "038F2A99-4B25BD2E-60C17DAF-B42E2154",
+          "Name": "CTA_Halo_Cancel",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "038F2A99-4B25BD2E-60C17DAF-B42E2154",
+          "BindingName": "CTA_Halo_Cancel",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.24"
+            },
+            {
+              "ObjectName": "MovieSceneByteTrack WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieSceneByteTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.54"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "0BA7E78B-4CF7F348-F40DC6B5-3AA5E51F"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "CircularPulse",
+    "Outer": "CircularPulse_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "Name": "CTA_Halo",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "BindingName": "Outline2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.25"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.64"
+            },
+            {
+              "ObjectName": "MovieSceneByteTrack WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneByteTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.55"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -1
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "9055A359-4BBEC92A-605ECEB2-4DE0882F"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "ConfirmInput",
+    "Outer": "ConfirmInput_INST",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "Name": "CTA_Halo",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "201D1D14-4A58E2DF-2BB3C0A0-5D217D08",
+          "Name": "CTA_Halo_Confirm_2",
+          "PossessedObjectClass": {
+            "ObjectName": "Class Image",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "BindingName": "Outline2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.26"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.66"
+            },
+            {
+              "ObjectName": "MovieSceneByteTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.56"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "201D1D14-4A58E2DF-2BB3C0A0-5D217D08",
+          "BindingName": "CTA_Halo_Confirm_2",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.65"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.27"
+            },
+            {
+              "ObjectName": "MovieSceneByteTrack WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_1",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.57"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "AAC3C2C9-4B4B9F00-64A97A8D-9AFD2D6F"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_0",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1000
+          },
+          {
+            "Value": 9000
+          },
+          {
+            "Value": 18000
+          },
+          {
+            "Value": 27000
+          },
+          {
+            "Value": 39000
+          },
+          {
+            "Value": 51000
+          },
+          {
+            "Value": 57000
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0022222223,
+              "LeaveTangent": 0.0022222223,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 20.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -15.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 12.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -5.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1000
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.15,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1000
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.15,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.28"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.29"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "642609EB-4DDE09A5-DACA9A89-2D591020"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_0",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 33000
+          },
+          {
+            "Value": 57000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": -0.0001,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.35,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 33000
+          },
+          {
+            "Value": 57000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": -0.0001,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.35,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.32"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.33"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -1
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "100F48DF-4E5ADEB3-CB957BA0-DF97F062"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_0",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 3000
+          },
+          {
+            "Value": 26250
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.9,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 3000
+          },
+          {
+            "Value": 26250
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.9,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.38"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.39"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "C481875D-403087F8-79369992-7F459004"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_1",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 42875
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.9,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.7,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 42875
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.9,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.7,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.40"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.41"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "9B5D13F5-4F67B66F-2072DEA7-29B7B231"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Outer": "Cancel",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.20"
+        }
+      ],
+      "EvaluationFieldGuid": "ED4C5201-4E0F234A-99436981-98CCD05E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "ED4C5201-4E0F234A-99436981-98CCD05E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Outer": "CircularPulse",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.21"
+        }
+      ],
+      "EvaluationFieldGuid": "35180CEA-49374134-8D73C38B-FB4EAB6B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -1
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "35180CEA-49374134-8D73C38B-FB4EAB6B"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.22"
+        }
+      ],
+      "EvaluationFieldGuid": "AD7CAC99-40C917B2-3F086AAC-C1B7E9AE",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "AD7CAC99-40C917B2-3F086AAC-C1B7E9AE"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.23"
+        }
+      ],
+      "EvaluationFieldGuid": "B32BBEFC-4F9767AC-929A71AC-AA82852F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.23"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B32BBEFC-4F9767AC-929A71AC-AA82852F"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneByteSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0"
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Outer": "MovieSceneByteTrack_0",
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1000
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          1,
+          3,
+          1
+        ],
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.30"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.31"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "F904E400-4978FE9A-2D63A981-44C9A88E"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Outer": "MovieSceneByteTrack_0",
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1000
+          },
+          {
+            "Value": 59000
+          },
+          {
+            "Value": 60000
+          }
+        ],
+        "Values": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.34"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.35"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "2082FFEC-4B876130-E8D8B189-0AFEA8B8"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Outer": "MovieSceneByteTrack_0",
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1562
+          },
+          {
+            "Value": 31250
+          },
+          {
+            "Value": 42000
+          }
+        ],
+        "Values": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.42"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.43"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "68D10D0B-4CB8E2D0-97BBF198-3E869014"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Outer": "MovieSceneByteTrack_1",
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 1562
+          },
+          {
+            "Value": 42000
+          },
+          {
+            "Value": 42875
+          }
+        ],
+        "Values": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_1.MovieSceneByteSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.44"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_1.MovieSceneByteSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.45"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "2B188F6C-45A304EA-6D5DFB99-9EFDB900"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Outer": "Cancel",
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum ESlateVisibility",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.50"
+        }
+      ],
+      "EvaluationFieldGuid": "7FB250DA-4C2D0439-D0A06AAE-A64BBC69",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.50"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "7FB250DA-4C2D0439-D0A06AAE-A64BBC69"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Outer": "CircularPulse",
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum ESlateVisibility",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.51"
+        }
+      ],
+      "EvaluationFieldGuid": "78FB3563-4A659553-730A8580-E83779B9",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.51"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "78FB3563-4A659553-730A8580-E83779B9"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum ESlateVisibility",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.52"
+        }
+      ],
+      "EvaluationFieldGuid": "132FF529-4BECF758-EBA1B58B-3C8944A3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_0.MovieSceneByteSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.52"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "132FF529-4BECF758-EBA1B58B-3C8944A3"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_1",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Enum ESlateVisibility",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_1.MovieSceneByteSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.53"
+        }
+      ],
+      "EvaluationFieldGuid": "B3BCC13C-4B035338-D190EA8D-22F5AC74",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneByteTrack_1.MovieSceneByteSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.53"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B3BCC13C-4B035338-D190EA8D-22F5AC74"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "Cancel_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "038F2A99-4B25BD2E-60C17DAF-B42E2154"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 60000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "7B3890AA-4F6874DF-4B0BE195-1E804BB1",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "CircularPulse_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -1
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.61"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "40EC5C96-4CF22C90-23697FA9-528178A6"
+          },
+          {
+            "ObjectBindingID": "40EC5C96-4CF22C90-23697FA9-528178A6"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 60000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "64C8E9B9-4FF9FE3D-769509B5-E7C75725",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "ConfirmInput_INST",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": null,
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": null
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 43000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.63"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.62"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0",
+                "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.23"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "40EC5C96-4CF22C90-23697FA9-528178A6"
+          },
+          {
+            "ObjectBindingID": "40EC5C96-4CF22C90-23697FA9-528178A6"
+          },
+          {
+            "ObjectBindingID": "201D1D14-4A58E2DF-2BB3C0A0-5D217D08"
+          },
+          {
+            "ObjectBindingID": "201D1D14-4A58E2DF-2BB3C0A0-5D217D08"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 43000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "83CD4150-45E13AD6-42836D9F-1EAD250B",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 30000
+          },
+          {
+            "Value": 33000
+          },
+          {
+            "Value": 57000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": -0.00015,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 6.1E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 5.6E-05,
+              "LeaveTangent": 5.6E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": -3.8E-05,
+              "LeaveTangent": -3.8E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.36"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.37"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -1
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "705B8509-4023BA7C-14E9EF9C-940615B1"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          },
+          {
+            "Value": 19687
+          },
+          {
+            "Value": 42876
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": -0.00015,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.46"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.47"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "F823BA17-40CA63F9-9A747991-4AAA549D"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 3000
+          },
+          {
+            "Value": 26250
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": -0.00015,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 5.6E-05,
+              "LeaveTangent": 5.6E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.48"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.49"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 43000
+            }
+          }
+        }
+      },
+      "Signature": "82DC680F-42F4544E-30F23CBE-4315CA18"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "CircularPulse",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.61"
+        }
+      ],
+      "EvaluationFieldGuid": "BCD2E3D4-4507C963-C24070B1-B2A16534",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.61"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -1
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BCD2E3D4-4507C963-C24070B1-B2A16534"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.62"
+        }
+      ],
+      "EvaluationFieldGuid": "75227C93-4571BB74-831F2999-994CCFE3",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_0.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.62"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "75227C93-4571BB74-831F2999-994CCFE3"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "ConfirmInput",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.63"
+        }
+      ],
+      "EvaluationFieldGuid": "3E62ABFC-44559291-C9BA36B8-524EF814",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput.MovieSceneFloatTrack_1.MovieSceneFloatSection_0",
+              "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.63"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 43000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3E62ABFC-44559291-C9BA36B8-524EF814"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.68"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.69"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.70"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0.OverlaySlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.71"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.67"
+      },
+      "Content": {
+        "ObjectName": "Image WBP_Pulsing_CTA_Circle_C:WidgetTree.CTA_Halo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.13"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.67"
+      },
+      "Content": {
+        "ObjectName": "Image WBP_Pulsing_CTA_Circle_C:WidgetTree.CTA_Halo_Cancel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.14"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.67"
+      },
+      "Content": {
+        "ObjectName": "Image WBP_Pulsing_CTA_Circle_C:WidgetTree.CTA_Halo_Confirm",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.15"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.67"
+      },
+      "Content": {
+        "ObjectName": "Image WBP_Pulsing_CTA_Circle_C:WidgetTree.CTA_Halo_Confirm_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.16"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Cancel_INST",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene WBP_Pulsing_CTA_Circle_C:Cancel_INST.Cancel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.17"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CTA_Halo_Cancel",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "038F2A99-4B25BD2E-60C17DAF-B42E2154",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Cancel",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData WBP_Pulsing_CTA_Circle_C:Cancel_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.58"
+      },
+      "Signature": "7B3890AA-4F6874DF-4B0BE195-1E804BB1"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "CircularPulse_INST",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CircularPulse",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.18"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CTA_Halo",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "CircularPulse",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData WBP_Pulsing_CTA_Circle_C:CircularPulse_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.59"
+      },
+      "Signature": "64C8E9B9-4FF9FE3D-769509B5-E7C75725"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "ConfirmInput_INST",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.ConfirmInput",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.19"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CTA_Halo_Confirm",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "40EC5C96-4CF22C90-23697FA9-528178A6",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "LargeArrow",
+          "SlotWidgetName": "OverlaySlot_1",
+          "AnimationGuid": "C54FBD2B-48E0C924-6AA72B88-0D7C5A5A",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "LargeArrow",
+          "SlotWidgetName": "OverlaySlot_1",
+          "AnimationGuid": "F6E0B1CB-4CE0B8E9-880C1789-D1BA8F7C",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "LargeArrow",
+          "SlotWidgetName": "OverlaySlot_1",
+          "AnimationGuid": "C5A1BA10-41D79FC7-D0028485-F6CD1CFB",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "CTA_Halo_Confirm_2",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "201D1D14-4A58E2DF-2BB3C0A0-5D217D08",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "ConfirmInput",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData WBP_Pulsing_CTA_Circle_C:ConfirmInput_INST.CompiledData",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.60"
+      },
+      "Signature": "83CD4150-45E13AD6-42836D9F-1EAD250B"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Pulsing_CTA_Circle_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay WBP_Pulsing_CTA_Circle_C:WidgetTree.Overlay_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CTA/WBP_Pulsing_CTA_Circle.67"
+      }
+    }
+  }
+]

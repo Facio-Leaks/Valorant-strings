@@ -1,0 +1,930 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnThrow__DelegateSignature",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Ability_Killjoy_4_RemoteBees_MultiDetonate",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_ThrowState_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ProjectileThrowStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_ThrowState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ProjectileThrowStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "MulticastOnThrow",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "FunctionFlags": 201343168
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__UnderhandThrowState_K2Node_ComponentBoundEvent_2_OnThrow__DelegateSignature",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrowState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class ProjectileThrowStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__OverhandThrowState_K2Node_ComponentBoundEvent_0_OnThrow__DelegateSignature",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrowState",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class ProjectileThrowStateComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Super": "Ability_Grenade_Base_C",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding Ability_Killjoy_4_RemoteBees_MultiDetonate_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.9"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.29"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler Ability_Killjoy_4_RemoteBees_MultiDetonate_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Ability_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass Ability_Grenade_Base_C",
+      "ObjectPath": "ShooterGame/Content/Abilities/Ability_Grenade_Base.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__OverhandThrowState_K2Node_ComponentBoundEvent_0_OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.4"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__UnderhandThrowState_K2Node_ComponentBoundEvent_2_OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.3"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:MulticastOnThrow",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.2"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Ability_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.1"
+      },
+      {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EquipmentCharge",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class EquipmentChargeComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnThrow",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OnThrow__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnThrow__DelegateSignature": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.0"
+      },
+      "ExecuteUbergraph_Ability_Killjoy_4_RemoteBees_MultiDetonate": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:ExecuteUbergraph_Ability_Killjoy_4_RemoteBees_MultiDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.1"
+      },
+      "MulticastOnThrow": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:MulticastOnThrow",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.2"
+      },
+      "BndEvt__UnderhandThrowState_K2Node_ComponentBoundEvent_2_OnThrow__DelegateSignature": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__UnderhandThrowState_K2Node_ComponentBoundEvent_2_OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.3"
+      },
+      "BndEvt__OverhandThrowState_K2Node_ComponentBoundEvent_0_OnThrow__DelegateSignature": {
+        "ObjectName": "Function Ability_Killjoy_4_RemoteBees_MultiDetonate_C:BndEvt__OverhandThrowState_K2Node_ComponentBoundEvent_0_OnThrow__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.4"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.6"
+    }
+  },
+  {
+    "Type": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Name": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Default__Ability_Grenade_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FXC_EquippedSettings": {
+        "EffectType": {
+          "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_Equip_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_Equip.5"
+        }
+      },
+      "CharacterAnims1P": {
+        "Class /Script/ShooterGame.IdleBaseAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Grenade_IdlePose.FP_Killjoy_S0_4_Grenade_IdlePose",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.IdleAdditiveAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.FP_Killjoy_S0_4_Swarm_Idle",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.LookAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_AimOffset.FP_Killjoy_S0_4_Swarm_AimOffset",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchIdleAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.FP_Killjoy_S0_4_Swarm_Idle",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.RunAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Run.FP_Killjoy_S0_4_Swarm_Run",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.StandUpAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_StandUp.FP_Killjoy_S0_4_Swarm_StandUp",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_CrouchIn.FP_Killjoy_S0_4_Swarm_CrouchIn",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.CrouchWalkAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.FP_Killjoy_S0_4_Swarm_Walk",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.WalkAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.FP_Killjoy_S0_4_Swarm_Walk",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.JumpAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Jump.FP_Killjoy_S0_4_Swarm_Jump",
+          "SubPathString": ""
+        },
+        "Class /Script/ShooterGame.JumpLandAnimSlot1P": {
+          "AssetPathName": "/Game/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_JumpLand.FP_Killjoy_S0_4_Swarm_JumpLand",
+          "SubPathString": ""
+        }
+      },
+      "CharacterAnimsUpperBody3P": {
+        "Class /Script/ShooterGame.CrouchUpperBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_4_IdlePose_UB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_IdlePose_UB.0"
+        },
+        "Class /Script/ShooterGame.IdleBaseUpperBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_4_IdlePose_UB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_IdlePose_UB.0"
+        },
+        "Class /Script/ShooterGame.IdleUpperBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_4_Swarm_Idle_UB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Swarm_Idle_UB.0"
+        }
+      },
+      "CharacterAnimsLowerBody3P": {
+        "Class /Script/ShooterGame.IdleLowerBody3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_4_Swarm_Idle_LB",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/3P/Anims/TP_Killjoy_S0_4_Swarm_Idle_LB.0"
+        },
+        "0": null
+      },
+      "PrimaryAimSpring1PStiffness": 300.0,
+      "PrimaryAimSpring1PDampening": 0.75,
+      "CachedCharacterAnimationAssetMap": {
+        "Class /Script/ShooterGame.IdleBaseAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Grenade_IdlePose",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Grenade_IdlePose.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Grenade_IdlePose",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Grenade_IdlePose.0"
+          }
+        },
+        "Class /Script/ShooterGame.IdleAdditiveAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Idle",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Idle",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.0"
+          }
+        },
+        "Class /Script/ShooterGame.LookAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AimOffsetBlendSpace FP_Killjoy_S0_4_Swarm_AimOffset",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_AimOffset.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AimOffsetBlendSpace FP_Killjoy_S0_4_Swarm_AimOffset",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_AimOffset.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchIdleAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Idle",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Idle",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Idle.0"
+          }
+        },
+        "Class /Script/ShooterGame.RunAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Run",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Run.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Run",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Run.0"
+          }
+        },
+        "Class /Script/ShooterGame.StandUpAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_StandUp",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_StandUp.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_StandUp",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_StandUp.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_CrouchIn",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_CrouchIn.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_CrouchIn",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_CrouchIn.0"
+          }
+        },
+        "Class /Script/ShooterGame.CrouchWalkAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.0"
+          }
+        },
+        "Class /Script/ShooterGame.WalkAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Walk",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Walk.0"
+          }
+        },
+        "Class /Script/ShooterGame.JumpAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Jump",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Jump.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_Jump",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_Jump.0"
+          }
+        },
+        "Class /Script/ShooterGame.JumpLandAnimSlot1P": {
+          "LoadedAltModeAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_JumpLand",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_JumpLand.0"
+          },
+          "LoadedDefaultAsset": {
+            "ObjectName": "AnimSequence FP_Killjoy_S0_4_Swarm_JumpLand",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Anims/FP_Killjoy_S0_4_Swarm_JumpLand.0"
+          }
+        }
+      },
+      "EquippableAttachPoint1P": "R_WeaponPointSocket",
+      "EquippableAttachPoint3P": "R_WeaponPointSocket",
+      "MySceneRoot": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.25"
+      },
+      "MyRoot3P": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.26"
+      },
+      "Mesh1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.30"
+      },
+      "OutlineComponent1P": {
+        "ObjectName": "AresOutlineComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OutlineComponent1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.7"
+      },
+      "Mesh3P": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.31"
+      },
+      "OutlineComponent3P": {
+        "ObjectName": "AresOutlineComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OutlineComponent3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.8"
+      },
+      "EquippableStateMachine": {
+        "ObjectName": "EquippableStateMachineComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquippableStateMachine",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.13"
+      },
+      "EquippableFogOfWar": {
+        "ObjectName": "EquippableFogOfWarComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquippableFogOfWarComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.12"
+      },
+      "EquippableEventComponent": {
+        "ObjectName": "EquippableEventEquippableComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquippableEventComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.11"
+      },
+      "Meshes": [
+        {
+          "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh1P",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.30"
+        },
+        {
+          "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh3P",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.31"
+        }
+      ],
+      "InventoryIcon": {
+        "ObjectName": "Texture2D TX_KJ_Bees",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/ShippingIcons/Killjoy/TX_KJ_Bees.0"
+      },
+      "Persistence": {
+        "ObjectName": "RoundPersistenceComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:Persistence",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.23"
+      },
+      "ReplicationSleepComponent": {
+        "ObjectName": "ReplicationSleepComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:ReplicationSleep",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.25"
+      }
+    }
+  },
+  {
+    "Type": "AresOutlineComponent",
+    "Name": "OutlineComponent1P",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "OutlineComponent1P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.30"
+      }
+    }
+  },
+  {
+    "Type": "AresOutlineComponent",
+    "Name": "OutlineComponent3P",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "OutlineComponent3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:WeaponMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.31"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "UnderhandThrowState",
+          "DelegatePropertyName": "OnThrow",
+          "FunctionNameToBind": "BndEvt__UnderhandThrowState_K2Node_ComponentBoundEvent_2_OnThrow__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "OverhandThrowState",
+          "DelegatePropertyName": "OnThrow",
+          "FunctionNameToBind": "BndEvt__OverhandThrowState_K2Node_ComponentBoundEvent_0_OnThrow__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EquipmentChargeComponent",
+    "Name": "EquipmentCharge_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "Cost": 200,
+      "DesignPlaytestCost": 200,
+      "MaxCharges": 2,
+      "ShopImage": {
+        "ObjectName": "Texture2D TX_Hud_Icons_Abilities_Gumshoe1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/NormalNew/TX_Hud_Icons_Abilities_Gumshoe1.0"
+      },
+      "PipCost": 2
+    }
+  },
+  {
+    "Type": "EquippableEventEquippableComponent",
+    "Name": "EquippableEventComponent",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "EquippableEventComponent"
+  },
+  {
+    "Type": "EquippableFogOfWarComponent",
+    "Name": "EquippableFogOfWarComponent",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "EquippableFogOfWarComponent",
+    "Properties": {
+      "DebugComponent": {
+        "ObjectName": "FogOfWarDebugComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquippableFogOfWarComponent.FogOfWarDebugComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.14"
+      }
+    }
+  },
+  {
+    "Type": "EquippableStateMachineComponent",
+    "Name": "EquippableStateMachine",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "EquippableStateMachine",
+    "Properties": {
+      "OnStateChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "EquippableStateMachineComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquippableStateMachine",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.13"
+            },
+            "FunctionName": "HandleStateChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "FogOfWarDebugComponent",
+    "Name": "FogOfWarDebugComponent",
+    "Outer": "EquippableFogOfWarComponent",
+    "Template": "FogOfWarDebugComponent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ProjectileThrowStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ProjectileThrowStateComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:UnderhandThrowState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.19"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Grenade_Base_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Ability_Grenade_Base.3"
+            },
+            "SCSVariableName": "UnderhandThrowState",
+            "AssociatedGuid": "34A07610-4CB3B325-3B52F3A6-3A73C3A3"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ProjectileThrowStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ProjectileThrowStateComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OverhandThrowState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Grenade_Base_C",
+              "ObjectPath": "ShooterGame/Content/Abilities/Ability_Grenade_Base.3"
+            },
+            "SCSVariableName": "OverhandThrowState",
+            "AssociatedGuid": "1DCE1E26-4FD77B1C-6F7C079B-4FAE9B6C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class TimedStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TimedStateComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:UnequipDelayState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.33"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Equipped_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/Ability_Equipped_Base.4"
+            },
+            "SCSVariableName": "UnequipDelayState",
+            "AssociatedGuid": "836B0BEF-4A45C6E5-BE284DB6-431E96E9"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class TimedStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TimedStateComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquipDelayState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass Ability_Equipped_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/Ability_Equipped_Base.4"
+            },
+            "SCSVariableName": "EquipDelayState",
+            "AssociatedGuid": "64AC8CA7-45121880-AD4D5090-A073FB79"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NetworkedRandomNumberGeneratorComponent",
+    "Name": "NetworkedRandomNumberGeneratorComponent",
+    "Outer": "OverhandThrowState_GEN_VARIABLE",
+    "Template": "NetworkedRandomNumberGeneratorComponent"
+  },
+  {
+    "Type": "NetworkedRandomNumberGeneratorComponent",
+    "Name": "NetworkedRandomNumberGeneratorComponent",
+    "Outer": "UnderhandThrowState_GEN_VARIABLE",
+    "Template": "NetworkedRandomNumberGeneratorComponent"
+  },
+  {
+    "Type": "ProjectileThrowStateComponent",
+    "Name": "OverhandThrowState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "OverhandThrowState_GEN_VARIABLE",
+    "Properties": {
+      "ProjectileTuning": {
+        "ProjectileClass": {
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.30"
+          }
+        }
+      },
+      "NetworkedRandomNumberGeneratorComponent": {
+        "ObjectName": "NetworkedRandomNumberGeneratorComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:OverhandThrowState_GEN_VARIABLE.NetworkedRandomNumberGeneratorComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.16"
+      },
+      "StateEffects": [
+        {
+          "Effect": {
+            "EffectType": {
+              "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_OverhandThrow_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_OverhandThrow.2"
+            },
+            "AttachOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "AttachRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "AttachSocket": "None"
+          },
+          "bStopEffectOnStateEnd": false,
+          "bStopEffectOnStateInterrupt": false,
+          "bOwnerEffectOnly": false,
+          "Context": "EStateContext::TriggeringState",
+          "MovementSync": "EMovementSync::None"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ProjectileThrowStateComponent",
+    "Name": "UnderhandThrowState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "UnderhandThrowState_GEN_VARIABLE",
+    "Properties": {
+      "ProjectileTuning": {
+        "ProjectileClass": {
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass Projectile_Killjoy_4_RemoteBees_MultiDetonate_C",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Projectile_Killjoy_4_RemoteBees_MultiDetonate.30"
+          }
+        }
+      },
+      "NetworkedRandomNumberGeneratorComponent": {
+        "ObjectName": "NetworkedRandomNumberGeneratorComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:UnderhandThrowState_GEN_VARIABLE.NetworkedRandomNumberGeneratorComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.17"
+      },
+      "StateEffects": [
+        {
+          "Effect": {
+            "EffectType": {
+              "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_4_UnderhandThrow_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/FXC_Killjoy_4_UnderhandThrow.0"
+            },
+            "AttachOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "AttachRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "AttachSocket": "None"
+          },
+          "bStopEffectOnStateEnd": false,
+          "bStopEffectOnStateInterrupt": false,
+          "bOwnerEffectOnly": false,
+          "Context": "EStateContext::TriggeringState",
+          "MovementSync": "EMovementSync::None"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PurchasedItemComponent",
+    "Name": "PurchasedItemComponent",
+    "Outer": "EquipmentCharge_GEN_VARIABLE"
+  },
+  {
+    "Type": "ReplicationSleepComponent",
+    "Name": "ReplicationSleep",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "ReplicationSleep"
+  },
+  {
+    "Type": "RespondToEventStateComponent",
+    "Name": "InactiveState",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "InactiveState"
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "Persistence",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "Persistence"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "SceneRoot"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot3P",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "SceneRoot3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.25"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.24"
+      },
+      "VariableGuid": "2B5AFEB7-44FD0574-C0A8A9B5-63A17772",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class EquipmentChargeComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "EquipmentChargeComponent Ability_Killjoy_4_RemoteBees_MultiDetonate_C:EquipmentCharge_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.10"
+      },
+      "VariableGuid": "39A4F82C-454EC8C2-0D01B18F-66D27A78",
+      "InternalVariableName": "EquipmentCharge"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.27"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponMesh1P",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "WeaponMesh1P",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_4_Skelmesh_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Skelmesh_AnimGraph.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_4_Swarm_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Swarm_Skelmesh.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.25"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponMesh3P",
+    "Outer": "Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "WeaponMesh3P",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_4_Skelmesh_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Skelmesh_AnimGraph.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_4_Swarm_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/Models/AB_Killjoy_S0_4_Swarm_Skelmesh.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__Ability_Killjoy_4_RemoteBees_MultiDetonate_C:SceneRoot3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.26"
+      }
+    }
+  },
+  {
+    "Type": "TimedStateComponent",
+    "Name": "EquipDelayState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "EquipDelayState_GEN_VARIABLE",
+    "Properties": {
+      "TimerLength": 0.74
+    }
+  },
+  {
+    "Type": "TimedStateComponent",
+    "Name": "UnequipDelayState_GEN_VARIABLE",
+    "Outer": "Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+    "Template": "UnequipDelayState_GEN_VARIABLE",
+    "Properties": {
+      "TimerLength": 0.7
+    }
+  }
+]

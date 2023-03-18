@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_orbit_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_orbit_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_orbit_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Columns",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "3BDF0C84-44DBF360-802AD8B5-040ABE38"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Erode",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.314286,
+          "ExpressionGUID": "7077224D-464D0F13-BC124A8B-AF35A892"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rows",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "1AFA2C60-4663C978-B19464B4-E8D39C3D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Width",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "A242DD6B-481D620B-CD5435A3-CEC8D19E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "SpriteSheet",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D Lightning_3",
+            "ObjectPath": "ShooterGame/Content/Characters/Hunter/S0/VFX/Textures/Lightning_3.0"
+          },
+          "ExpressionGUID": "C446AF3C-4FF56D11-807DF8BA-4F1163F6"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "AlphaErosion",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D8C0B5ED-477FEB09-50E019AC-75175751"
+          }
+        ],
+        "StaticComponentMaskParameters": [
+          {
+            "R": true,
+            "G": false,
+            "B": false,
+            "A": false,
+            "ParameterInfo": {
+              "Name": "ChannelColor",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A2703742-4177E022-3CD8B1A4-E2FFDD02"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberStrip",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.0"
+        },
+        {
+          "ObjectName": "Texture2D DebugNumberPeriod",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.0"
+        },
+        {
+          "ObjectName": "Texture2D flipbook",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_scanLines_gradient_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+        }
+      ]
+    }
+  }
+]

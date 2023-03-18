@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_beam_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithBeamTrails": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "5156E2DA-4DA363C8-E9DB0C89-623959A6",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              328527026556487717
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "GlowDistance",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "13BA4D6C-4C6581E6-11A1378D-FA0C204D"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            -50.0
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D ring_glow",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "B982D54D-4A34B104-CA3F64B8-881F35B6",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate90.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "B982D54D-4A34B104-CA3F64B8-881F35B6",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate90.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

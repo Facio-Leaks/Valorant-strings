@@ -1,0 +1,625 @@
+[
+  {
+    "Type": "Function",
+    "Name": "Initialize",
+    "Outer": "BP_FiringOptionsCategoryButton_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponGrid",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsWeaponCustomizationGrid_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponCustomizationGrid.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButton",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CustomizationScreen",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_FireButtonCustomizationScreen_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_FireButtonCustomizationScreen.25"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnButtonClickedEvent__DelegateSignature",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "ClickHandler",
+    "Outer": "BP_FiringOptionsCategoryButton_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateStyle",
+    "Outer": "BP_FiringOptionsCategoryButton_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Selected",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 768,
+        "Struct": {
+          "ObjectName": "ScriptStruct ButtonStyle",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FiringOptionsCategoryButton_C",
+    "SuperStruct": {
+      "ObjectName": "Class Button",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:UpdateStyle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.2"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:ClickHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.1"
+      },
+      {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:Initialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Category",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 5,
+        "Enum": {
+          "ObjectName": "Enum EEquippableCategory",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponGrid",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_FiringOptionsWeaponCustomizationGrid_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsWeaponCustomizationGrid.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButton",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_PrimaryFire_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_PrimaryFire.41"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DefaultStyle",
+        "Flags": 2097153,
+        "ElementSize": 768,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct ButtonStyle",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SelectedStyle",
+        "Flags": 2097153,
+        "ElementSize": 768,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct ButtonStyle",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireButtonCustomizationScreen",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 589829,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_FireButtonCustomizationScreen_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDMobile_FireButtonCustomizationScreen.25"
+        }
+      }
+    ],
+    "FuncMap": {
+      "Initialize": {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:Initialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.0"
+      },
+      "ClickHandler": {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:ClickHandler",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.1"
+      },
+      "UpdateStyle": {
+        "ObjectName": "Function BP_FiringOptionsCategoryButton_C:UpdateStyle",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.2"
+      }
+    },
+    "ClassFlags": 10749968,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FiringOptionsCategoryButton_C Default__BP_FiringOptionsCategoryButton_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_FiringOptionsCategoryButton.4"
+    }
+  },
+  {
+    "Type": "BP_FiringOptionsCategoryButton_C",
+    "Name": "Default__BP_FiringOptionsCategoryButton_C",
+    "Properties": {
+      "DefaultStyle": {
+        "Normal": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.027321,
+              "G": 0.107023,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF2E5CFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Hovered": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.019382,
+              "G": 0.076185,
+              "B": 0.708376,
+              "A": 1.0,
+              "Hex": "FF264EDB"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Pressed": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.42869,
+              "G": 0.533276,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFAFC1FF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button_Pressed.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Disabled": {
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "NormalPadding": {
+          "Left": 2.0,
+          "Top": 2.0,
+          "Right": 2.0,
+          "Bottom": 2.0
+        },
+        "PressedPadding": {
+          "Left": 2.0,
+          "Top": 3.0,
+          "Right": 2.0,
+          "Bottom": 1.0
+        },
+        "PressedSlateSound": {
+          "ResourceObject": null
+        },
+        "HoveredSlateSound": {
+          "ResourceObject": null
+        }
+      },
+      "SelectedStyle": {
+        "Normal": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.42869,
+              "G": 0.533276,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFAFC1FF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Hovered": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.42869,
+              "G": 0.533276,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFAFC1FF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Pressed": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.019382,
+              "G": 0.076185,
+              "B": 0.708376,
+              "A": 1.0,
+              "Hex": "FF264EDB"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button_Hovered.png",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Box",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "bIsDynamicallyLoaded": false
+        },
+        "Disabled": {
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "NormalPadding": {
+          "Left": 2.0,
+          "Top": 2.0,
+          "Right": 2.0,
+          "Bottom": 2.0
+        },
+        "PressedPadding": {
+          "Left": 2.0,
+          "Top": 3.0,
+          "Right": 2.0,
+          "Bottom": 1.0
+        },
+        "PressedSlateSound": {
+          "ResourceObject": null
+        },
+        "HoveredSlateSound": {
+          "ResourceObject": null
+        }
+      },
+      "WidgetStyle": {
+        "Normal": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.027321,
+              "G": 0.107023,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FF2E5CFF"
+            }
+          }
+        },
+        "Hovered": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.019382,
+              "G": 0.076185,
+              "B": 0.708376,
+              "A": 1.0,
+              "Hex": "FF264EDB"
+            }
+          }
+        },
+        "Pressed": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.42869,
+              "G": 0.533276,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFAFC1FF"
+            }
+          }
+        }
+      }
+    }
+  }
+]

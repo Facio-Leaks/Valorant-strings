@@ -1,0 +1,1030 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_X_Equip_",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function Ability_Killjoy_X_Bomb_C:OnCast__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Ability_Killjoy_X_Bomb.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_StartTime",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAbility_Killjoy_X_Bomb",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Ability_Killjoy_X_Bomb.6"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAbility_Killjoy_X_Bomb_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Ability_Killjoy_X_Bomb.6"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleCast",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "StartEffect",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "SuperStruct": {
+      "ObjectName": "Function EffectContainer:StartEffect",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__UpdateFunc",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__FinishedFunc",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate FXC_Killjoy_X_Equip__C:Timeline_0_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.30"
+        },
+        {
+          "ObjectName": "TimelineTemplate FXC_Killjoy_X_Equip__C:Timeline_1_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.31"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.29"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:ExecuteUbergraph_FXC_Killjoy_X_Equip_",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class EffectContainer",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_0__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.6"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_0__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.5"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_1__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.4"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_1__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.3"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.2"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:HandleCast",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:ExecuteUbergraph_FXC_Killjoy_X_Equip_",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_HUD_Ability_InputPrompt",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_HUD_Ability_InputPrompt_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Comp_FXC_HUD_Ability_InputPrompt.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_KilljoyGloves",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_KilljoyGloves_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Gloves/Comp_FXC_KilljoyGloves.4"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_SpawnParticle_ShooterCharacter_Bracelet",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_AudioBasic",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+          "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_PlayAnimation_Equippable",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_Equippable_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_Equippable.17"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_FXC_PlayAnimation_ShooterCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_1_Dissolve_A1EA7AA640907A5A17CFD3BC2F70F7AB",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_1__Direction_A1EA7AA640907A5A17CFD3BC2F70F7AB",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_NewTrack_0_ABAB06564BFB346FC9FC1589EB9B1CB0",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_ABAB06564BFB346FC9FC1589EB9B1CB0",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BombMI",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_X_Equip_": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:ExecuteUbergraph_FXC_Killjoy_X_Equip_",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.0"
+      },
+      "HandleCast": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:HandleCast",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.1"
+      },
+      "StartEffect": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.2"
+      },
+      "Timeline_1__UpdateFunc": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_1__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.3"
+      },
+      "Timeline_1__FinishedFunc": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_1__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.4"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_0__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.5"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function FXC_Killjoy_X_Equip__C:Timeline_0__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.6"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_X_Equip__C Default__FXC_Killjoy_X_Equip__C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.8"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_X_Equip__C",
+    "Name": "Default__FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Comp_FXC_AudioBasic_C",
+    "Name": "Comp_FXC_AudioBasic_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_AudioBasic_C",
+    "Properties": {
+      "PlayOnStart": {
+        "ObjectName": "AkAudioEvent Play_Killjoy_AbilX_Lockdown_Equip",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Abilities/LockDown/Play_Killjoy_AbilX_Lockdown_Equip.1"
+      },
+      "AddTailForSound": false
+    }
+  },
+  {
+    "Type": "Comp_FXC_HUD_Ability_InputPrompt_C",
+    "Name": "Comp_FXC_HUD_Ability_InputPrompt_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_HUD_Ability_InputPrompt_C",
+    "Properties": {
+      "ButtonPrompts": [
+        {
+          "MounseInput_2_88A0D62A4694903C7842EBB3A9E63237": "Enum_AbilityInputs::NewEnumerator0",
+          "BindingName_21_5FDFA94A44D999FD54DF0E8583A3D472": "None",
+          "InputImage_8_8BF21A634BDA5BE54D8999AF5C2425C1": {
+            "ObjectName": "Texture2D TX_Hud_Icons_InputPrompt_Location",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Assets/NormalNew/TX_Hud_Icons_InputPrompt_Location.0"
+          },
+          "InputColor_15_8EBFC16C4DBCCC83C733C6B336DFEB4F": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ImageColor_16_6F9B48764FEFC256F724ED90C5D24EE8": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Comp_FXC_KilljoyGloves_C",
+    "Name": "Comp_FXC_KilljoyGloves_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_KilljoyGloves_C"
+  },
+  {
+    "Type": "Comp_FXC_PlayAnimation_Equippable_C",
+    "Name": "Comp_FXC_PlayAnimation_Equippable_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_PlayAnimation_Equippable_C",
+    "Properties": {
+      "1P_Animation": {
+        "ObjectName": "AnimMontage AB_Killjoy_S0_X_Bomb_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Anims/AB_Killjoy_S0_X_Bomb_Equip_Montage.0"
+      },
+      "3P_Animation": {
+        "ObjectName": "AnimMontage ABTP_Killjoy_S0_X_Bomb_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/3P/Anims/ABTP_Killjoy_S0_X_Bomb_Equip_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Name": "Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_PlayAnimation_ShooterCharacter_C",
+    "Properties": {
+      "1P_Animation": {
+        "ObjectName": "AnimMontage FP_Killjoy_S0_X_Bomb_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Anims/FP_Killjoy_S0_X_Bomb_Equip_Montage.0"
+      },
+      "3P_Animation": {
+        "ObjectName": "AnimMontage TP_Killjoy_S0_X_Equip_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/3P/Anims/TP_Killjoy_S0_X_Equip_Montage.0"
+      },
+      "3P_Cosmetic_Animation": {
+        "ObjectName": "AnimMontage TP_Killjoy_S0_X_Bomb_Equip_Cosmetic_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/3P/Anims/TP_Killjoy_S0_X_Bomb_Equip_Cosmetic_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Name": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard1_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Properties": {
+      "EmitterTemplate1P": {
+        "ObjectName": "ParticleSystem ps_ultimate_materialize_1P_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_ultimate_materialize_1P_01.22"
+      },
+      "AttachPoint1P": "Root",
+      "AttachToCosmeticMesh": true
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Name": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Properties": {
+      "EmitterTemplate1P": {
+        "ObjectName": "ParticleSystem ps_card_ultimate_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_card_ultimate_01.11"
+      },
+      "AttachPoint1P": "BraceletD",
+      "AttachToCosmeticMesh": true
+    }
+  },
+  {
+    "Type": "Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Name": "Comp_FXC_SpawnParticle_ShooterCharacter_Bracelet_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Template": "Default__Comp_FXC_SpawnParticle_ShooterCharacter_C",
+    "Properties": {
+      "EmitterTemplate1P": {
+        "ObjectName": "ParticleSystem ps_bracelet_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_bracelet_01.29"
+      },
+      "AttachPoint1P": "Bracelet",
+      "EmitterTemplate3P": {
+        "ObjectName": "ParticleSystem ps_bracelet_3P_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_bracelet_3P_01.58"
+      },
+      "AttachPoint3P": "Bracelet",
+      "AttachToCosmeticMesh": true
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -3.4930122,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_X_Equip__C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_X_Equip__C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.19"
+      },
+      "VariableGuid": "7DFB8C56-4154717E-6AC7D692-A9D823A3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter.16"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_PlayAnimation_ShooterCharacter_C FXC_Killjoy_X_Equip__C:Comp_FXC_PlayAnimation_ShooterCharacter_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.13"
+      },
+      "VariableGuid": "D3178AA2-47606F74-ACE7C5BE-8D11F942",
+      "InternalVariableName": "Comp_FXC_PlayAnimation_ShooterCharacter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_AudioBasic_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Core/Comp_FXC_AudioBasic.18"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_AudioBasic_C FXC_Killjoy_X_Equip__C:Comp_FXC_AudioBasic_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.9"
+      },
+      "VariableGuid": "DF27BA33-4BB3BF98-C52CD8B7-2FF11E0A",
+      "InternalVariableName": "Comp_FXC_AudioBasic"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_ShooterCharacter_C FXC_Killjoy_X_Equip__C:Comp_FXC_SpawnParticle_ShooterCharacter_Bracelet_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.16"
+      },
+      "VariableGuid": "5BF054E5-4213CA80-79A0478A-7BB1FACD",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_ShooterCharacter_Bracelet"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_PlayAnimation_Equippable_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_PlayAnimation_Equippable.17"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_PlayAnimation_Equippable_C FXC_Killjoy_X_Equip__C:Comp_FXC_PlayAnimation_Equippable_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.12"
+      },
+      "VariableGuid": "91C5FE66-465DE89A-A33F3DA2-0D43DF8C",
+      "InternalVariableName": "Comp_FXC_PlayAnimation_Equippable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_ShooterCharacter_C FXC_Killjoy_X_Equip__C:Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.15"
+      },
+      "VariableGuid": "86C1520B-4E1E835F-1FA31C9A-C144C4D7",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_KilljoyGloves_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Gloves/Comp_FXC_KilljoyGloves.4"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_KilljoyGloves_C FXC_Killjoy_X_Equip__C:Comp_FXC_KilljoyGloves_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.11"
+      },
+      "VariableGuid": "63A8225D-4EFF45DD-D7EF3EBA-C2489A88",
+      "InternalVariableName": "Comp_FXC_KilljoyGloves"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_SpawnParticle_ShooterCharacter_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter.23"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_SpawnParticle_ShooterCharacter_C FXC_Killjoy_X_Equip__C:Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard1_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.14"
+      },
+      "VariableGuid": "DC3BC737-47737564-90B60590-1170361E",
+      "InternalVariableName": "Comp_FXC_SpawnParticle_ShooterCharacter1_BraceletCard1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_FXC_HUD_Ability_InputPrompt_C",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Comp_FXC_HUD_Ability_InputPrompt.11"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_FXC_HUD_Ability_InputPrompt_C FXC_Killjoy_X_Equip__C:Comp_FXC_HUD_Ability_InputPrompt_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.10"
+      },
+      "VariableGuid": "2C72A3A3-403390A7-997B1682-10ED3403",
+      "InternalVariableName": "Comp_FXC_HUD_Ability_InputPrompt"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.20"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.21"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.24"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.22"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.23"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.25"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.26"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.27"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.20"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.21"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.24"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.22"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.23"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.25"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.26"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.27"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_X_Equip__C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.20"
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "TimelineLength": 0.7,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_Killjoy_X_Equip__C:CurveFloat_0",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.17"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_ABAB06564BFB346FC9FC1589EB9B1CB0",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "ABAB0656-4BFB346F-C9FC1589-EB9B1CB0",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_ABAB06564BFB346FC9FC1589EB9B1CB0",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_1_Template",
+    "Outer": "FXC_Killjoy_X_Equip__C",
+    "Properties": {
+      "TimelineLength": 0.7,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_Killjoy_X_Equip__C:CurveFloat_1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Equip_.18"
+          },
+          "PropertyName": "Timeline_1_Dissolve_A1EA7AA640907A5A17CFD3BC2F70F7AB",
+          "TrackName": "Dissolve",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "A1EA7AA6-40907A5A-17CFD3BC-2F70F7AB",
+      "VariableName": "Timeline_1",
+      "DirectionPropertyName": "Timeline_1__Direction_A1EA7AA640907A5A17CFD3BC2F70F7AB",
+      "UpdateFunctionName": "Timeline_1__UpdateFunc",
+      "FinishedFunctionName": "Timeline_1__FinishedFunc"
+    }
+  }
+]

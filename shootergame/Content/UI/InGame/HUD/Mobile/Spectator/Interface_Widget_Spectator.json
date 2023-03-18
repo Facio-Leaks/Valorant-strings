@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "Function",
+    "Name": "StartWidgetForSpectator",
+    "Outer": "Interface_Widget_Spectator_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidgetCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidgetEquippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Parent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class PanelWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopWidgetForSpectator",
+    "Outer": "Interface_Widget_Spectator_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WidgetCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ForceStop",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Interface_Widget_Spectator_C",
+    "SuperStruct": {
+      "ObjectName": "Class Interface",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Interface_Widget_Spectator_C:StopWidgetForSpectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.1"
+      },
+      {
+        "ObjectName": "Function Interface_Widget_Spectator_C:StartWidgetForSpectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.0"
+      }
+    ],
+    "FuncMap": {
+      "StartWidgetForSpectator": {
+        "ObjectName": "Function Interface_Widget_Spectator_C:StartWidgetForSpectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.0"
+      },
+      "StopWidgetForSpectator": {
+        "ObjectName": "Function Interface_Widget_Spectator_C:StopWidgetForSpectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.1"
+      }
+    },
+    "ClassFlags": 278544,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Interface_Widget_Spectator_C Default__Interface_Widget_Spectator_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.3"
+    }
+  },
+  {
+    "Type": "Interface_Widget_Spectator_C",
+    "Name": "Default__Interface_Widget_Spectator_C"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_killjoyGloves_overlay_01",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_killjoyGloves_overlay_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_killjoyGloves_overlay_01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Dynamic Shadow Intensity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "57DA54AA-4F199C00-262DDD8B-76B7C3E4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Combined Falloff Gradient",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D FP_Core_CombinedFalloffGradients_Skin",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/1P/1P_Material/FP_Core_CombinedFalloffGradients_Skin.0"
+          },
+          "ExpressionGUID": "71A68280-4E0092E3-C504E1A5-65E3EF68"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_AresFirstPerson",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D generic_diff",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/generic_diff.0"
+        },
+        {
+          "ObjectName": "Texture2D generic_MRAE",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/generic_MRAE.0"
+        },
+        {
+          "ObjectName": "Texture2D flatnormal",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatnormal.0"
+        },
+        {
+          "ObjectName": "Texture2D flatwhite_linear_grayscale",
+          "ObjectPath": "ShooterGame/Content/Equippables/_Core/Materials/Textures/flatwhite_linear_grayscale.0"
+        },
+        {
+          "ObjectName": "Texture2D TP_Core_CombinedFalloffGradients_Skin",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/TP_Core_CombinedFalloffGradients_Skin.0"
+        },
+        {
+          "ObjectName": "Texture2D FP_Core_CombinedFalloffGradients_Skin",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/1P/1P_Material/FP_Core_CombinedFalloffGradients_Skin.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gloveMask_01",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gloveMask_01.0"
+        },
+        {
+          "ObjectName": "Texture2D ring_glow_top",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow_top.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_gloveMask_01"
+        }
+      ]
+    }
+  }
+]

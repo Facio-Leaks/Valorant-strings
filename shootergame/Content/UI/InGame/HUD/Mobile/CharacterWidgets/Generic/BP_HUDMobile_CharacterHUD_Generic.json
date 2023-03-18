@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "Function",
+    "Name": "GetRoot",
+    "Outer": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Super": "GetRoot",
+    "SuperStruct": {
+      "ObjectName": "Function BP_HUDMobile_CharacterHUD_Base_C:GetRoot",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.12"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Root",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class PanelWidget",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetRootCanvasPanel",
+    "Outer": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Super": "GetRootCanvasPanel",
+    "SuperStruct": {
+      "ObjectName": "Function BP_HUDMobile_CharacterHUD_Base_C:GetRootCanvasPanel",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.24"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "RootCanvasPanel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "GetSafeZoneCanvasPanel",
+    "Outer": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Super": "GetSafeZoneCanvasPanel",
+    "SuperStruct": {
+      "ObjectName": "Function BP_HUDMobile_CharacterHUD_Base_C:GetSafeZoneCanvasPanel",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.25"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SafeZoneCanvasPanel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524672,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Super": "BP_HUDMobile_CharacterHUD_Base_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.12"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_CharacterHUD_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_HUDMobile_CharacterHUD_Base.99"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetSafeZoneCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.2"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetRootCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.1"
+      },
+      {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Root",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SafeZone",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class SafeZone",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SafeZoneCanvasPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "GetRoot": {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.0"
+      },
+      "GetRootCanvasPanel": {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetRootCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.1"
+      },
+      "GetSafeZoneCanvasPanel": {
+        "ObjectName": "Function BP_HUDMobile_CharacterHUD_Generic_C:GetSafeZoneCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.2"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HUDMobile_CharacterHUD_Generic_C Default__BP_HUDMobile_CharacterHUD_Generic_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.4"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Name": "Default__BP_HUDMobile_CharacterHUD_Generic_C",
+    "Template": "Default__BP_HUDMobile_CharacterHUD_Base_C"
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Root",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.Root.CanvasPanelSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.7"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "SafeZoneCanvasPanel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZoneCanvasPanel.CanvasPanelSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.8"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SafeZoneSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZone.SafeZoneSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.10"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.5"
+      },
+      "Content": {
+        "ObjectName": "SafeZone BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.9"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "SafeZoneCanvasPanel",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 253.66666,
+          "Top": 167.62962,
+          "Right": 194.84253,
+          "Bottom": 39.259277
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZoneCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.6"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.TextBlock_169",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.11"
+      }
+    }
+  },
+  {
+    "Type": "SafeZone",
+    "Name": "SafeZone",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SafeZoneSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZone.SafeZoneSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.10"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.Root.CanvasPanelSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.7"
+      }
+    }
+  },
+  {
+    "Type": "SafeZoneSlot",
+    "Name": "SafeZoneSlot_0",
+    "Outer": "SafeZone",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SafeZone BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZone",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.9"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZoneCanvasPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.6"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_169",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "GENERIC HUD"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.SafeZoneCanvasPanel.CanvasPanelSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.8"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_HUDMobile_CharacterHUD_Generic_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_HUDMobile_CharacterHUD_Generic_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/Generic/BP_HUDMobile_CharacterHUD_Generic.5"
+      }
+    }
+  }
+]

@@ -1,0 +1,2167 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_0"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_1"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_3"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_4"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_5"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Outer": "ParticleModuleSpawn_5",
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.31"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.34"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_CSbracelet_01:ParticleModuleColorOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_CSbracelet_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.21"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_CSbracelet_01:ParticleModuleParameterDynamic_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.26"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.45"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.38"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_2",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.28"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.34"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_CSbracelet_01:ParticleModuleColorOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_CSbracelet_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.23"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_CSbracelet_01:ParticleModuleParameterDynamic_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.26"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.44"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.37"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_3",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.29"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.33"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_CSbracelet_01:ParticleModuleColor_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.22"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_CSbracelet_01:ParticleModuleColorScaleOverLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.17"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.42"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.39"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_4",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.30"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.33"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_CSbracelet_01:ParticleModuleColor_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.14"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.22"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_CSbracelet_01:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.16"
+        }
+      ],
+      "ModulePendingDelete": {
+        "ObjectName": "ParticleModuleSizeScale ps_CSbracelet_01:ParticleModuleSizeScale_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.35"
+      },
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.43"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.40"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_5",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.27"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.34"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_CSbracelet_01:ParticleModuleColorOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_CSbracelet_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.24"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_CSbracelet_01:ParticleModuleParameterDynamic_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.26"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.46"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.36"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_6",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_CSbracelet_01:ParticleModuleRequired_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.32"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_CSbracelet_01:ParticleModuleLifetime_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_CSbracelet_01:ParticleModuleSize_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.34"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_CSbracelet_01:ParticleModuleColorOverLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_CSbracelet_01:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_CSbracelet_01:ParticleModuleLocation_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.25"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_CSbracelet_01:ParticleModuleParameterDynamic_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.26"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_CSbracelet_01:ParticleModuleTypeDataMesh_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.47"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_CSbracelet_01:ParticleModuleSpawn_5",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.41"
+      },
+      "PeakActiveParticles": 21
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.3,
+        "MaxValue": 0.3,
+        "MinValueVec": {
+          "X": 0.3,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 0.3,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.3,
+        "MaxValue": 0.3,
+        "MinValueVec": {
+          "X": 0.3,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 0.3,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.6,
+        "MaxValue": 0.6,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.6
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 100.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            100.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            3.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.13333334,
+            0.26666668,
+            0.4,
+            0.53333336,
+            0.6666667,
+            0.8,
+            0.9333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.7999999,
+            0.5333331,
+            0.26666656,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            0.0,
+            0.13333334,
+            0.26666668,
+            0.4,
+            0.53333336,
+            0.6666667,
+            0.8,
+            0.9333334,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.7999999,
+            0.5333331,
+            0.26666656,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MaxValue": 100.0,
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 1.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 127.0,
+          "Values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.1417387,
+            0.98425126,
+            2.559125,
+            2.5590606,
+            0.8267711,
+            18.149664,
+            3.9763823,
+            0.6692909,
+            33.740204,
+            5.393704,
+            0.51181066,
+            49.330746,
+            6.8110256,
+            0.35433048,
+            64.92128,
+            8.228348,
+            0.19685024,
+            80.511826,
+            9.64567,
+            0.03937006,
+            96.10236,
+            9.76378,
+            0.0,
+            97.637794,
+            9.448819,
+            0.0,
+            94.48819,
+            9.133859,
+            0.0,
+            91.338585,
+            8.818898,
+            0.0,
+            88.18898,
+            8.503938,
+            0.0,
+            85.039375,
+            8.188977,
+            0.0,
+            81.88977,
+            7.874017,
+            0.0,
+            78.740166,
+            7.5590563,
+            0.0,
+            75.59056,
+            7.244096,
+            0.0,
+            72.440956,
+            6.929133,
+            0.0,
+            69.29133,
+            6.6141725,
+            0.0,
+            66.14172,
+            6.299212,
+            0.0,
+            62.99212,
+            5.9842515,
+            0.0,
+            59.842514,
+            5.669291,
+            0.0,
+            56.69291,
+            5.3543305,
+            0.0,
+            53.543304,
+            5.03937,
+            0.0,
+            50.3937,
+            4.7244096,
+            0.0,
+            47.244095,
+            4.409449,
+            0.0,
+            44.09449,
+            4.0944886,
+            0.0,
+            40.944885,
+            3.7795281,
+            0.0,
+            37.79528,
+            3.4645677,
+            0.0,
+            34.645676,
+            3.1496072,
+            0.0,
+            31.49607,
+            2.8346467,
+            0.0,
+            28.346466,
+            2.5196862,
+            0.0,
+            25.196861,
+            2.2047234,
+            0.0,
+            22.047234,
+            1.8897629,
+            0.0,
+            18.897629,
+            1.5748024,
+            0.0,
+            15.748024,
+            1.2598419,
+            0.0,
+            12.598419,
+            0.94488144,
+            0.0,
+            9.448814,
+            0.62992096,
+            0.0,
+            6.2992096,
+            0.31496048,
+            0.0,
+            3.1496048,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.666668,
+          "TimeBias": 0.85,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            2.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_4",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            2.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -6.0,
+        "MaxValue": 3.5,
+        "MinValueVec": {
+          "X": 3.5,
+          "Y": -6.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.5,
+          "Y": -6.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.5,
+            -6.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 3.5,
+        "MinValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.5,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 6.0,
+        "MinValueVec": {
+          "X": 3.5,
+          "Y": 6.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.5,
+          "Y": 6.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.5,
+            6.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_6",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 6.0,
+        "MinValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": 6.0
+        },
+        "MaxValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": 6.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.5,
+            0.0,
+            6.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_8",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -6.0,
+        "MaxValue": 3.5,
+        "MinValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": -6.0
+        },
+        "MaxValueVec": {
+          "X": 3.5,
+          "Y": 0.0,
+          "Z": -6.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            3.5,
+            0.0,
+            -6.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Lerp",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.5,
+            "MaxValue": 0.5,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.5
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param2",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_icons_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_icons_03.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 2.0,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_0.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_icons_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_icons_01.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_1.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_CSbracelet_05",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_CSbracelet_05.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.2"
+        }
+      },
+      "bDelayFirstLoopOnly": true,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_CSbracelet_04",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_CSbracelet_04.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_3.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.3"
+        }
+      },
+      "bDelayFirstLoopOnly": true,
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_4",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_icons_02",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_icons_02.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_4.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.4"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_5",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_icons_04",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_icons_04.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleRequired_5.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.5"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.8,
+        "MaxValue": 0.8,
+        "MinValueVec": {
+          "X": 0.8,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.8,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_5",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.6,
+        "MaxValue": 0.6,
+        "MinValueVec": {
+          "X": 0.6,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.6,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeScale",
+    "Name": "ParticleModuleSizeScale_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "SizeScale": {
+        "MinValue": 1.1,
+        "MaxValue": 1.1,
+        "MinValueVec": {
+          "X": 1.1,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.1,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.1,
+            1.1,
+            1.1
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_5",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Rate": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_CSbracelet_01:ParticleModuleSpawn_5.BurstScaleDistribution",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.6"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_0",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_braceletSides_02",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_braceletSides_02.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_bracelet_02",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_bracelet_02.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_card_chicken_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_card_chicken_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MinValue": -90.0,
+        "MinValueVec": {
+          "X": -90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -90.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_card_chicken_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_card_chicken_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MaxValue": 90.0,
+        "MinValueVec": {
+          "X": 90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_4",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_card_chicken_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_card_chicken_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MaxValue": 180.0,
+        "MinValueVec": {
+          "X": 180.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 180.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            180.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_5",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_card_chicken_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_card_chicken_01.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MaxValue": 180.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 180.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 180.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_1.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.7"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_2",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_2.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.8"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_3.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.9"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_4",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_4.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.10"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_5.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.11"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_6",
+    "Outer": "ps_CSbracelet_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_CSbracelet_01:ParticleSpriteEmitter_6.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.12"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_CSbracelet_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.50"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.51"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.48"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.49"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.52"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_CSbracelet_01:ParticleSpriteEmitter_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_CSbracelet_01.53"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

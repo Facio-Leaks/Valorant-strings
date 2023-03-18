@@ -1,0 +1,5110 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Pawn_Killjoy_Q_StealthAlarmbot",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_1",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_True_if_break_was_hit_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Killer",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_6",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_6",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInstigator_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Pawn",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Rotator",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAIController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AIController",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAIController_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AIController",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAIPerceptionComponent_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AIPerceptionComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetCurrentlyPerceivedActors_OutActors",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetCurrentlyPerceivedActors_OutActors",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class Actor",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetObjectAlliance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresAlliance",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBlackboard_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class BlackboardComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetValueAsObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsController_Killjoy_Q_Alarmbot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Controller_Killjoy_Q_Alarmbot_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Controller_Killjoy_Q_Alarmbot.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsTargetValid_IsValid",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsBeingDestroyed_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayContinuousEffect_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayContinuousEffect_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresAlliance",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInterface",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_ActivatingActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Player_State",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSpawnedCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass KIlljoyVOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/CharacterVOComponents/KIlljoyVOComponent.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsAud_Base_Pawn_VOComponent_Provider_Interface",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass AudBasePawnVOComponentProviderInterface_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/AudBasePawnVOComponentProviderInterface.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAudBasePawnVOComponent_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass AudBasePawnVOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/AudBasePawnVOComponent.173"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsKIlljoy_VOComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass KIlljoyVOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/CharacterVOComponents/KIlljoyVOComponent.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class Actor",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_FindRadialShooterCharacters_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_FindRadialShooterCharacters_ReturnValue",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class ShooterCharacter",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateAndApplyBuff_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct ActiveGameplayEffectHandle",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ShooterCharacterIsIntangible_IsIntangible",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_7",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_7",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_8",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_8",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsController_Killjoy_Q_Alarmbot_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Controller_Killjoy_Q_Alarmbot_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Controller_Killjoy_Q_Alarmbot.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_6",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_Distance2D_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetColor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetFloatValue_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_LinearColor",
+        "Flags": 1,
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetBoolAttribute_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBlackboard_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class BlackboardComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AIPerceptionComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_9",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_9",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AIPerceptionComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_7",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Player_State_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_7",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSpawnedCharacter_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstEquippableFromSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAbility_Killjoy_Recallable_Deployable_Base",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_8",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_2_OnEnable__DelegateSignature",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_1_OnDisable__DelegateSignature",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Minimap Alpha",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Deployed",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActivatingActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "ListenForBlackboardChange",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Unburrow",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Detection Dropped",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Detected",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Start Burrowing",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveDestroyed",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "SuperStruct": {
+      "ObjectName": "Function Actor:ReceiveDestroyed",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Burrowed",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Finish Explosion",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Start Explosion",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Break Target Search",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshTeamColors",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Find Target",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Super": "ReceiveBeginPlay",
+    "SuperStruct": {
+      "ObjectName": "Function BasePawn_C:ReceiveBeginPlay",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.12"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "AuthOnDeath",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Super": "AuthOnDeath",
+    "SuperStruct": {
+      "ObjectName": "Function BasePawn_C:AuthOnDeath",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Killer",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134350852
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDisabled",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDetected",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "IsTargetValid",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "TargetActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsValid",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCloseEnoughToActorToDetonate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class Actor",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LineTraceSingle_OutHit",
+        "Flags": 1,
+        "ElementSize": 148,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "ScriptStruct HitResult",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LineTraceSingle_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResult_bBlockingHit",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResult_bInitialOverlap",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakHitResult_Time",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakHitResult_Distance",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_Location",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_ImpactPoint",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_Normal",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_ImpactNormal",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_PhysMat",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PhysicalMaterial",
+          "ObjectPath": "/Script/PhysicsCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_HitActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_HitComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PrimitiveComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_BreakHitResult_HitBoneName",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakHitResult_HitItem",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakHitResult_FaceIndex",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_TraceStart",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_TraceEnd",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "CanPickup",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class InteractableUserComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsAlive_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasSamePlayerInstigator_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "ReplenishCharge",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Reclaimed",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Player_State",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterPlayerState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSpawnedCharacter_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstEquippableFromSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAbility_Killjoy_Recallable_Deployable_Base",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Recallable_Deployable_Base_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/RecallableAbilityBase/Ability_Killjoy_Recallable_Deployable_Base.8"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_IsBurrowed",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateAndApplyBuff_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct ActiveGameplayEffectHandle",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209715200
+  },
+  {
+    "Type": "Function",
+    "Name": "IsCloseEnoughToActorToDetonate",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899906842772,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetScaledCapsuleHalfHeight_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_Distance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDistanceTo_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayerBotShouldTarget",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlayerBot",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CanBeTargeted",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Vector_DistanceSquared_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Square_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "GetTargetingPosition",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "NewParam",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 384,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Super": "BasePawn_C",
+    "Properties": {
+      "NumReplicatedProperties": 2,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding Pawn_Killjoy_Q_StealthAlarmbot_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.53"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.88"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler Pawn_Killjoy_Q_StealthAlarmbot_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.61"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ExecuteUbergraph_Pawn_Killjoy_Q_StealthAlarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:GetTargetingPosition",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.28"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:PlayerBotShouldTarget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.27"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:IsCloseEnoughToActorToDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.26"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnRep_IsBurrowed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.25"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReplenishCharge",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.24"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:CanPickup",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.23"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:IsTargetValid",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.22"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnDetected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.21"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnDisabled",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.20"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:AuthOnDeath",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.19"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.18"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Find Target",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.17"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:RefreshTeamColors",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.16"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Break Target Search",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.15"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Start Explosion",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.14"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Finish Explosion",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.13"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Burrowed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.12"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReceiveDestroyed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.11"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Start Burrowing",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.10"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Detected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.9"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Detection Dropped",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.8"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Unburrow",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.7"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ListenForBlackboardChange",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.6"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.5"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Deployed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.4"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Update Minimap Alpha",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.3"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_1_OnDisable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.2"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_2_OnEnable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.1"
+      },
+      {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ExecuteUbergraph_Pawn_Killjoy_Q_StealthAlarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_ApplySelfBuffs",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StealthOverlapSphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingTargetPoint",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingTargetPoint",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingPointsTarget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingPointsTargetComponent",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_GameObject_DisableHandler",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_GameObject_DisableHandler_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_GameObject_DisableHandler.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_GameObject_DisableOwnerDistance",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_GameObject_DisableOwnerRange_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_GameObject_DisableOwnerRange.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_DistanceRequirement",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_Circle",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Actor_MultiTargetHandler_FXC_Radius_Ally",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_MultiTargetHandler_FXC_Radius.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DetectEnemySphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Actor_MultiTargetHandler_FXC_Radius",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_MultiTargetHandler_FXC_Radius.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActivatableActorComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass ActivatableActorComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/States/ActivatableActorComponent.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Footsteps",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 1125917087236100,
+        "PropertyClass": {
+          "ObjectName": "Class FootstepsComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DetonationDistance",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EnemySearchTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ExplodeDelay",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ExplosionForward",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ExplosionStartPos",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TeamMaterialIndexes",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65541,
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "TeamMaterialIndexes",
+          "Flags": 1,
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsBurrowed",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 4295032869,
+        "RepIndex": 35,
+        "RepNotifyFunc": "OnRep_IsBurrowed",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "BurrowTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "LastDetectionTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DetectionEffectThrottleTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconTexture",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DetectFXC",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "EquippableSlot",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShouldSpawnRepairable",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsArmed",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65573,
+        "RepIndex": 36,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BurrowedFXC",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BlackboardTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotDeployedFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotStealthFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotDetectFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotDetonateFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotJumpFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotDestroyedFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DebuffClass",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresGameplayBuff",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BurrowTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BotBurrowFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Killjoy Range Curve",
+        "Flags": 2097153,
+        "ElementSize": 136,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct ExplicitFloatCurve",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Minimap Update Timer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OwningPlayerState",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 67589,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerState",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "VisibleTargetBlackboardName",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "HiddenTargetBlackboard",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "StealthBuffHandle",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct ActiveGameplayEffectHandle",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Pawn_Killjoy_Q_StealthAlarmbot": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ExecuteUbergraph_Pawn_Killjoy_Q_StealthAlarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.0"
+      },
+      "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_2_OnEnable__DelegateSignature": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_2_OnEnable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.1"
+      },
+      "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_1_OnDisable__DelegateSignature": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_1_OnDisable__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.2"
+      },
+      "Update Minimap Alpha": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Update Minimap Alpha",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.3"
+      },
+      "Event Deployed": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Deployed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.4"
+      },
+      "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.5"
+      },
+      "ListenForBlackboardChange": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ListenForBlackboardChange",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.6"
+      },
+      "Event Unburrow": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Unburrow",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.7"
+      },
+      "Event Detection Dropped": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Detection Dropped",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.8"
+      },
+      "Event Detected": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Detected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.9"
+      },
+      "Event Start Burrowing": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Start Burrowing",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.10"
+      },
+      "ReceiveDestroyed": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReceiveDestroyed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.11"
+      },
+      "Event Burrowed": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Burrowed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.12"
+      },
+      "Event Finish Explosion": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Finish Explosion",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.13"
+      },
+      "Event Start Explosion": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Start Explosion",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.14"
+      },
+      "Event Break Target Search": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Break Target Search",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.15"
+      },
+      "RefreshTeamColors": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:RefreshTeamColors",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.16"
+      },
+      "Event Find Target": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:Event Find Target",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.17"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.18"
+      },
+      "AuthOnDeath": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:AuthOnDeath",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.19"
+      },
+      "OnDisabled": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnDisabled",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.20"
+      },
+      "OnDetected": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnDetected",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.21"
+      },
+      "IsTargetValid": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:IsTargetValid",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.22"
+      },
+      "CanPickup": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:CanPickup",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.23"
+      },
+      "ReplenishCharge": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:ReplenishCharge",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.24"
+      },
+      "OnRep_IsBurrowed": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:OnRep_IsBurrowed",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.25"
+      },
+      "IsCloseEnoughToActorToDetonate": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:IsCloseEnoughToActorToDetonate",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.26"
+      },
+      "PlayerBotShouldTarget": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:PlayerBotShouldTarget",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.27"
+      },
+      "GetTargetingPosition": {
+        "ObjectName": "Function Pawn_Killjoy_Q_StealthAlarmbot_C:GetTargetingPosition",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.28"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass OnDisabled_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/OnDisabled.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      },
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass OnDetected_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/OnDetected.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      },
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass IConditionalPlayerBotTarget_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/AI/PlayerProxyBot/IConditionalPlayerBotTarget.2"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Pawn_Killjoy_Q_StealthAlarmbot_C Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.30"
+    }
+  },
+  {
+    "Type": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Name": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__BasePawn_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DetonationDistance": 250.0,
+      "EnemySearchTimer": {
+        "Handle": 0
+      },
+      "ExplodeDelay": 0.65,
+      "ExplosionForward": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ExplosionStartPos": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "TeamMaterialIndexes": [
+        1,
+        4
+      ],
+      "BurrowTime": 1.5,
+      "LastDetectionTime": -999.0,
+      "DetectionEffectThrottleTime": 1.0,
+      "DetectFXC": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "EquippableSlot": "EAresItemSlot::Ability1",
+      "BurrowedFXC": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "BlackboardTimer": {
+        "Handle": 0
+      },
+      "BotDeployedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Deployed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_AlarmBot_Deployed.2"
+      },
+      "BotStealthFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_StealthArmed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthArmed.9"
+      },
+      "BotDetectFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Detect_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_AlarmBot_Detect.4"
+      },
+      "BotDetonateFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Explode_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_AlarmBot_Explode.0"
+      },
+      "BotJumpFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Jump_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_AlarmBot_Jump.2"
+      },
+      "BotDestroyedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_Alarmbot_Destroyed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_Alarmbot_Destroyed.2"
+      },
+      "DebuffClass": {
+        "ObjectName": "BlueprintGeneratedClass Buff_Killjoy_Q_Alarmbot_Fragile_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Buff_Killjoy_Q_Alarmbot_Fragile.0"
+      },
+      "BurrowTimer": {
+        "Handle": 0
+      },
+      "BotBurrowFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Burrow_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_AlarmBot_Burrow.2"
+      },
+      "Killjoy Range Curve": {
+        "Curve": {
+          "EditorCurveData": {
+            "Keys": [],
+            "DefaultValue": 3.4028235E+38,
+            "PreInfinityExtrap": "RCCE_Constant",
+            "PostInfinityExtrap": "RCCE_Constant",
+            "KeyHandlesToIndices": {}
+          },
+          "ExternalCurve": {
+            "ObjectName": "CurveFloat Killjoy_DeactivateRangeCurve",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_E/Killjoy_DeactivateRangeCurve.0"
+          }
+        }
+      },
+      "Minimap Update Timer": {
+        "Handle": 0
+      },
+      "VisibleTargetBlackboardName": "VisibleTarget",
+      "HiddenTargetBlackboard": "HiddenTarget",
+      "StealthBuffHandle": {
+        "Handle": -1,
+        "bPassedFiltersAndWasExecuted": false
+      },
+      "Persistence": {
+        "ObjectName": "RoundPersistenceComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:Persistence",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.66"
+      },
+      "AbilitiesAndBuffs": {
+        "ObjectName": "AresAbilitySystemComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:AbilitiesAndBuffsComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.36"
+      },
+      "AdditionalTickingComponentAllowlist": [
+        {
+          "AssetPathName": "/Game/Audio/Core/BaseAudioComponent.BaseAudioComponent_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Script/ShooterGame.UsableComponent",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Characters/Components/Comp_Actor_MultiTargetHandler_FXC_Radius.Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Characters/Components/Comp_GameObject_DisableOwnerRange.Comp_GameObject_DisableOwnerRange_C",
+          "SubPathString": ""
+        }
+      ],
+      "FogOfWarComponent": {
+        "ObjectName": "ShooterCharacterFogOfWarComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:FogOfWarComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.84"
+      },
+      "VisionComponent": {
+        "ObjectName": "ShooterCharacterVisionComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:VisionComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.87"
+      },
+      "CalloutRegionTrackingComponent": {
+        "ObjectName": "CalloutRegionTrackingComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CalloutRegionTracker",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.42"
+      },
+      "DynamicBlocking": {
+        "ObjectName": "DynamicBlockingComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:DynamicBlocking",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.55"
+      },
+      "InputStateComponent": {
+        "ObjectName": "AresInputStateComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:InputStateComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.37"
+      },
+      "NetworkStreamComponent": {
+        "ObjectName": "NetworkStreamComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:NetworkStreamComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.63"
+      },
+      "EquippableEventComponent": {
+        "ObjectName": "EquippableEventCharacterComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:EquippableEventComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.57"
+      },
+      "PlayspaceComponent": {
+        "ObjectName": "PlayspaceComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:PlayspaceComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.65"
+      },
+      "Inventory": {
+        "ObjectName": "AresInventory Default__Pawn_Killjoy_Q_StealthAlarmbot_C:InventoryComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.38"
+      },
+      "DamageHandler": {
+        "ObjectName": "DamageableComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:DamageHandlerComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.54"
+      },
+      "HitConfirmEvent": {
+        "ObjectName": "AkAudioEvent Play_Abil_Boomba_TinTank_Hit_Confirm",
+        "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Clay_SFX/Boomba/Play_Abil_Boomba_TinTank_Hit_Confirm.1"
+      },
+      "bCharacterMakesBloodSplatters": false,
+      "Mesh1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:PawnMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.92"
+      },
+      "MeshOverlay1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CosmeticCharacterMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.90"
+      },
+      "MeshCosmetic3P": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CosmeticCharacterMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.91"
+      },
+      "MeshMaterialManager": {
+        "ObjectName": "MeshMaterialManagerComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:MeshMaterialManagerComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.62"
+      },
+      "CorpseLifetime": 1.0,
+      "ForceModuleManager": {
+        "ObjectName": "ForceModuleManagerComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:ForceModuleManager",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.60"
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:StealthComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.96"
+      },
+      "CombatReportTrackingConfig": {
+        "ObjectName": "CombatReportTrackingConfigComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CombatReportConfigComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.47"
+      },
+      "FollowRecoilCameraComponent": {
+        "ObjectName": "CameraComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:FollowRecoilCameraComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.44"
+      },
+      "DeathCameraComponent": {
+        "ObjectName": "CameraComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:DeathCameraComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.43"
+      },
+      "ServerRewindComponent": {
+        "ObjectName": "ServerRewindComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:ServerRewindComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.83"
+      },
+      "TransformRewinderComponent": {
+        "ObjectName": "TransformRewinderComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:TransformRewinderComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.97"
+      },
+      "SkeletalPoseRewinderComponent": {
+        "ObjectName": "SkeletalPoseRewinderComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:SkeletalPoseRewinderComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.93"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CharacterMesh0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.89"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ShooterCharacterMovement Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CharMoveComp",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.85"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.45"
+      },
+      "AnimInstanceReplicationComponent": {
+        "ObjectName": "AnimInstanceReplicationComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:AnimInstanceReplicationComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.35"
+      },
+      "AutoPossessAI": "EAutoPossessAI::PlacedInWorldOrSpawned",
+      "AIControllerClass": {
+        "ObjectName": "BlueprintGeneratedClass Controller_Killjoy_Q_Alarmbot_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Controller_Killjoy_Q_Alarmbot.7"
+      },
+      "RootComponent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.45"
+      },
+      "Tags": [
+        "IgnoreDoorTriggers"
+      ]
+    }
+  },
+  {
+    "Type": "ActivatableActorComponent_C",
+    "Name": "ActivatableActorComponent_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__ActivatableActorComponent_C"
+  },
+  {
+    "Type": "AimToolingPointsTargetComponent",
+    "Name": "PMAimToolingPointsTarget_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "CenterTargetPointName": "CenterPoint"
+    }
+  },
+  {
+    "Type": "AimToolingTargetPoint",
+    "Name": "PMAimToolingTargetPoint_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "TargetPoint": {
+        "TargetPointName": "CenterPoint"
+      }
+    }
+  },
+  {
+    "Type": "AIPerceptionStimuliSourceComponent",
+    "Name": "AIPerceptionStimuliSource_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "AIPerceptionStimuliSource_GEN_VARIABLE",
+    "Properties": {
+      "StimulusSize": "EAISenseActorSize::AISize_Small"
+    }
+  },
+  {
+    "Type": "AnimInstanceReplicationComponent",
+    "Name": "AnimInstanceReplicationComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "AnimInstanceReplicationComponent"
+  },
+  {
+    "Type": "AresAbilitySystemComponent",
+    "Name": "AbilitiesAndBuffsComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "AbilitiesAndBuffsComponent",
+    "Properties": {
+      "ReplicatedPredictionKeyMap": {
+        "PredictionKeys": [
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 1,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 2,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 3,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 4,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 5,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 6,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 7,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 8,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 9,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 10,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 11,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 12,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 13,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 14,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 15,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 16,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 17,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 18,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 19,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 20,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 21,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 22,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 23,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 24,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 25,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 26,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 27,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 28,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 29,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 30,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 31,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 32,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AresInputStateComponent",
+    "Name": "InputStateComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "InputStateComponent"
+  },
+  {
+    "Type": "AresInventory",
+    "Name": "InventoryComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "InventoryComponent",
+    "Properties": {
+      "OnItemsChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Pawn_Killjoy_Q_StealthAlarmbot_C Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.30"
+            },
+            "FunctionName": "OnInventoryItemsChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_Circle_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 1100.0,
+        "Y": 1100.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.133333,
+            "G": 0.541176,
+            "B": 0.396078,
+            "A": 1.0,
+            "Hex": "FF66C3A9"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Sentinel_Minimap",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/3D/World/TX_Sentinel_Minimap.0"
+        }
+      },
+      "bMoves": true,
+      "Layer": "EAresMinimapLayer::AML_Targeting",
+      "RegisterOnMaps": [
+        "EAresMapIdentifier::Minimap",
+        "EAresMapIdentifier::Megamap"
+      ]
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_DistanceRequirement_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 8000.0,
+        "Y": 8000.0
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.2,
+        "Hex": "33FFFFFF"
+      },
+      "EnemyColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.14,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0068FF"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.133333,
+            "G": 0.541176,
+            "B": 0.396078,
+            "A": 1.0,
+            "Hex": "FF66C3A9"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Sentinel_Minimap",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/3D/World/TX_Sentinel_Minimap.0"
+        }
+      },
+      "bMoves": true,
+      "WidgetSize": {
+        "X": 8000.0,
+        "Y": 8000.0,
+        "Z": 0.0
+      },
+      "Layer": "EAresMinimapLayer::AML_Targeting"
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 30.0,
+        "Y": 30.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Hud_Icons_Minimap_Killjoy_Alarmbot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_Killjoy_Alarmbot.0"
+        }
+      },
+      "bMoves": true,
+      "RotationSpace": "EAresMinimapRotationSpace::AMRS_ConstantMinimap",
+      "SizeSpace": "EAresMinimapSizeSpace::AMSS_Screen"
+    }
+  },
+  {
+    "Type": "CalloutRegionTrackingComponent",
+    "Name": "CalloutRegionTracker",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CalloutRegionTracker"
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "DeathCameraComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "DeathCameraComponent",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.45"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "FollowRecoilCameraComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "FollowRecoilCameraComponent"
+  },
+  {
+    "Type": "CharacterCapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CollisionCylinder",
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0,
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "MassInKgOverride": 32.735306
+      }
+    }
+  },
+  {
+    "Type": "ChildDamageSectionComponent",
+    "Name": "HealthDamageSection_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "HealthDamageSection_GEN_VARIABLE",
+    "Properties": {
+      "Life": 50.0,
+      "MaximumLife": 50.0
+    }
+  },
+  {
+    "Type": "CombatReportTrackingConfigComponent",
+    "Name": "CombatReportConfigComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CombatReportConfigComponent"
+  },
+  {
+    "Type": "Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+    "Name": "Comp_Actor_MultiTargetHandler_FXC_Radius_Ally_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+    "Properties": {
+      "ApplicationRadius": 750.0,
+      "UseActorAsTarget": true,
+      "AppliedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_StealthRevealed_Ally_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthRevealed_Ally.6"
+      }
+    }
+  },
+  {
+    "Type": "Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+    "Name": "Comp_Actor_MultiTargetHandler_FXC_Radius_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+    "Properties": {
+      "ApplicationAlliance": "Alliance_Enemy",
+      "ApplicationRadius": 700.0,
+      "UseActorAsTarget": true,
+      "AppliedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_StealthRevealed_Enemy_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthRevealed_Enemy.12"
+      }
+    }
+  },
+  {
+    "Type": "Comp_ApplySelfBuffs_C",
+    "Name": "Comp_ApplySelfBuffs_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__Comp_ApplySelfBuffs_C",
+    "Properties": {
+      "Buffs": [
+        {
+          "ObjectName": "BlueprintGeneratedClass Buff_Global_NoAllyDamage_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Buffs/Buff_Global_NoAllyDamage.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Comp_GameObject_DisableHandler_C",
+    "Name": "Comp_GameObject_DisableHandler_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__Comp_GameObject_DisableHandler_C",
+    "Properties": {
+      "FXC_Enabled": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Enabled_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Enabled.2"
+      },
+      "FXC_Disabled": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_Q_AlarmBot_Disabled_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Prototype/FXC_Killjoy_Q_AlarmBot_Disabled.2"
+      }
+    }
+  },
+  {
+    "Type": "Comp_GameObject_DisableOwnerRange_C",
+    "Name": "Comp_GameObject_DisableOwnerDistance_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Default__Comp_GameObject_DisableOwnerRange_C",
+    "Properties": {
+      "Use2D_Distance": true,
+      "MaxDistanceBeforeDisable": 4000.0,
+      "DisableGracePeriod": 2.0,
+      "EnableGracePeriod": 1.0,
+      "FXC_DisablingTimer": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_DisableTimer_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_E/Prototype/FXC_Killjoy_DisableTimer.0"
+      },
+      "FXC_ID_EnablingTimer": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_EnableTimer_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_E/Prototype/FXC_Killjoy_EnableTimer.0"
+      },
+      "ObjectName": {
+        "Namespace": "",
+        "Key": "EC5D93984E77E66E79E637B3CA065A76",
+        "SourceString": "ALARMBOT",
+        "LocalizedString": "ALARMBOT"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Comp_GameObject_DisableHandler",
+          "DelegatePropertyName": "OnEnable",
+          "FunctionNameToBind": "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_2_OnEnable__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Comp_GameObject_DisableHandler",
+          "DelegatePropertyName": "OnDisable",
+          "FunctionNameToBind": "BndEvt__Comp_GameObject_DisableHandler_K2Node_ComponentBoundEvent_1_OnDisable__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ActivatableActorComponent",
+          "DelegatePropertyName": "AuthActivated",
+          "FunctionNameToBind": "BndEvt__ActivatableActorComponent_K2Node_ComponentBoundEvent_0_AuthActivated__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DamageableComponent",
+    "Name": "DamageHandlerComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "DamageHandlerComponent"
+  },
+  {
+    "Type": "DynamicBlockingComponent",
+    "Name": "DynamicBlocking",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "DynamicBlocking"
+  },
+  {
+    "Type": "EffectManagerComponent",
+    "Name": "EffectManager",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "EffectManager"
+  },
+  {
+    "Type": "EquippableEventCharacterComponent",
+    "Name": "EquippableEventComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "EquippableEventComponent"
+  },
+  {
+    "Type": "FogOfWarDebugComponent",
+    "Name": "FogOfWarDebugComponent",
+    "Outer": "FogOfWarComponent",
+    "Template": "FogOfWarDebugComponent"
+  },
+  {
+    "Type": "FootstepsComponent",
+    "Name": "Footsteps_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "RunFootstepEvents": [
+        {
+          "ObjectName": "AkAudioEvent Play_Silence",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/NoShip/Test_AudioForDesigners/Play_Silence.1"
+        }
+      ],
+      "RunFootstepFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Footstep_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_Footstep.0"
+      },
+      "JumpTakeOffFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_JumpLaunch_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_JumpLaunch.0"
+      },
+      "JumpLandingEvents": [
+        {
+          "ObjectName": "AkAudioEvent Play_Silence",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/NoShip/Test_AudioForDesigners/Play_Silence.1"
+        }
+      ],
+      "JumpLandingFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_JumpLand_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_JumpLand.0"
+      },
+      "JumpFallDistanceRequiredForLandingSound": 30.0
+    }
+  },
+  {
+    "Type": "ForceModuleManagerComponent",
+    "Name": "ForceModuleManager",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "ForceModuleManager"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ShooterCharacterVisibilityComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ShooterCharacterVisibilityComponent Pawn_Killjoy_Q_StealthAlarmbot_C:ShooterCharacterVisibility1_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.86"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "ShooterCharacterVisibility1",
+            "AssociatedGuid": "CFFDD180-4EFCC88B-CDAA739F-BE038FF5"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class AIPerceptionStimuliSourceComponent",
+            "ObjectPath": "/Script/AIModule"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AIPerceptionStimuliSourceComponent Pawn_Killjoy_Q_StealthAlarmbot_C:AIPerceptionStimuliSource_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.34"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "AIPerceptionStimuliSource",
+            "AssociatedGuid": "3DCCEEF3-4CAD63A4-6CCC889E-E5E35DB2"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ChildDamageSectionComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ChildDamageSectionComponent Pawn_Killjoy_Q_StealthAlarmbot_C:HealthDamageSection_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.46"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "HealthDamageSection",
+            "AssociatedGuid": "5DA96434-44DB55A5-F2474FB7-8FBE4537"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class ParticleSystemComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ParticleSystemComponent Pawn_Killjoy_Q_StealthAlarmbot_C:UD_FakeShadow_VFX_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.64"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "UD_FakeShadow_VFX",
+            "AssociatedGuid": "BE9234B3-404FE115-12DE2C8B-20109DD0"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MeshMaterialManagerComponent",
+    "Name": "MeshMaterialManagerComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "MeshMaterialManagerComponent"
+  },
+  {
+    "Type": "NetworkStreamComponent",
+    "Name": "NetworkStreamComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "NetworkStreamComponent"
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "UD_FakeShadow_VFX_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "UD_FakeShadow_VFX_GEN_VARIABLE",
+    "Properties": {
+      "Template": null
+    }
+  },
+  {
+    "Type": "PlayspaceComponent",
+    "Name": "PlayspaceComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "PlayspaceComponent"
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "Persistence",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "Persistence",
+    "Properties": {
+      "GameplayPersistenceBehavior": "EGameplayPersistenceBehavior::Destroy"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_8",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C Pawn_Killjoy_Q_StealthAlarmbot_C:BaseMinimapComponent_Parent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.41"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CE0D3028-4525D503-AD030CB3-E59CEC31",
+      "InternalVariableName": "BaseMinimapComponent_Parent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_MultiTargetHandler_FXC_Radius.9"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Actor_MultiTargetHandler_FXC_Radius_C Pawn_Killjoy_Q_StealthAlarmbot_C:Comp_Actor_MultiTargetHandler_FXC_Radius_Ally_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.48"
+      },
+      "VariableGuid": "D54028C6-47A211D9-610678BC-0B56196F",
+      "InternalVariableName": "Comp_Actor_MultiTargetHandler_FXC_Radius_Ally"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_GameObject_DisableHandler_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_GameObject_DisableHandler.7"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_GameObject_DisableHandler_C Pawn_Killjoy_Q_StealthAlarmbot_C:Comp_GameObject_DisableHandler_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.51"
+      },
+      "VariableGuid": "BBDFE99F-40DBA931-C9CFC2A9-2B0C37E2",
+      "InternalVariableName": "Comp_GameObject_DisableHandler"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingPointsTargetComponent",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingPointsTargetComponent Pawn_Killjoy_Q_StealthAlarmbot_C:PMAimToolingPointsTarget_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.32"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.72"
+        }
+      ],
+      "VariableGuid": "56F11D66-482419D4-B37B109C-EC0AB7B7",
+      "InternalVariableName": "PMAimToolingPointsTarget"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingTargetPoint",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingTargetPoint Pawn_Killjoy_Q_StealthAlarmbot_C:PMAimToolingTargetPoint_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.33"
+      },
+      "VariableGuid": "95C4E43A-4E696806-CD5D61AF-3529A529",
+      "InternalVariableName": "PMAimToolingTargetPoint"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent Pawn_Killjoy_Q_StealthAlarmbot_C:StealthOverlapSphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.95"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F5FAF516-4816A440-F8E46587-E9FA6FD6",
+      "InternalVariableName": "StealthOverlapSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_ApplySelfBuffs_C Pawn_Killjoy_Q_StealthAlarmbot_C:Comp_ApplySelfBuffs_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.50"
+      },
+      "VariableGuid": "B5413F1B-44ED01EC-59F39E86-A6D22B4F",
+      "InternalVariableName": "Comp_ApplySelfBuffs"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent Pawn_Killjoy_Q_StealthAlarmbot_C:DetectEnemySphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.94"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5757C35F-47D19743-D692EB98-9CFE8888",
+      "InternalVariableName": "DetectEnemySphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Actor_MultiTargetHandler_FXC_Radius_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_MultiTargetHandler_FXC_Radius.9"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Actor_MultiTargetHandler_FXC_Radius_C Pawn_Killjoy_Q_StealthAlarmbot_C:Comp_Actor_MultiTargetHandler_FXC_Radius_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.49"
+      },
+      "VariableGuid": "F31CF7E6-4887C4A2-07B54EAB-CC8FB0AC",
+      "InternalVariableName": "Comp_Actor_MultiTargetHandler_FXC_Radius"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C Pawn_Killjoy_Q_StealthAlarmbot_C:BaseMinimapComponent_Parent_Circle_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.39"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6B7F9229-4650A1B2-95C46986-25A1AFD7",
+      "InternalVariableName": "BaseMinimapComponent_Parent_Circle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C Pawn_Killjoy_Q_StealthAlarmbot_C:BaseMinimapComponent_Parent_DistanceRequirement_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.40"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9D27C454-44290670-20A14A8B-B7568BF1",
+      "InternalVariableName": "BaseMinimapComponent_Parent_DistanceRequirement"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass ActivatableActorComponent_C",
+        "ObjectPath": "ShooterGame/Content/Characters/States/ActivatableActorComponent.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActivatableActorComponent_C Pawn_Killjoy_Q_StealthAlarmbot_C:ActivatableActorComponent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.31"
+      },
+      "VariableGuid": "583E0D5B-429E42E5-3F317FAB-AD9BEDA5",
+      "InternalVariableName": "ActivatableActorComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_GameObject_DisableOwnerRange_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_GameObject_DisableOwnerRange.13"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_GameObject_DisableOwnerRange_C Pawn_Killjoy_Q_StealthAlarmbot_C:Comp_GameObject_DisableOwnerDistance_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.52"
+      },
+      "VariableGuid": "588FD028-43B3743A-9D64E594-6B6E9DC3",
+      "InternalVariableName": "Comp_GameObject_DisableOwnerDistance"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class FootstepsComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FootstepsComponent Pawn_Killjoy_Q_StealthAlarmbot_C:Footsteps_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.59"
+      },
+      "VariableGuid": "A3F91CD7-44E6699A-7D630EBF-890A14F6",
+      "InternalVariableName": "Footsteps"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_28",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent Pawn_Killjoy_Q_StealthAlarmbot_C:SceneComponent_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.67"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "ServerRewindComponent",
+    "Name": "ServerRewindComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "ServerRewindComponent"
+  },
+  {
+    "Type": "ShooterCharacterFogOfWarComponent",
+    "Name": "FogOfWarComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "FogOfWarComponent",
+    "Properties": {
+      "DebugComponent": {
+        "ObjectName": "FogOfWarDebugComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:FogOfWarComponent.FogOfWarDebugComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.58"
+      }
+    }
+  },
+  {
+    "Type": "ShooterCharacterMovement",
+    "Name": "CharMoveComp",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CharMoveComp",
+    "Properties": {
+      "MovementTuning": {
+        "BaseValues": {
+          "Accel": 1500.0,
+          "Friction": 1.0,
+          "FrictionMin": 1.0,
+          "BrakingFriction": 1.0,
+          "MaxSpeed": 1300.0
+        }
+      },
+      "MaxWalkSpeed": 5000.0,
+      "MaxCustomMovementSpeed": 5000.0,
+      "MaxAcceleration": 4500.0,
+      "RotationRate": {
+        "Pitch": 0.0,
+        "Yaw": 600.0,
+        "Roll": 0.0
+      },
+      "bOrientRotationToMovement": true
+    }
+  },
+  {
+    "Type": "ShooterCharacterVisibilityComponent",
+    "Name": "ShooterCharacterVisibility1_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "ShooterCharacterVisibility1_GEN_VARIABLE",
+    "Properties": {
+      "EnemyVisibility": "EEnemyVisibilityOption::Never"
+    }
+  },
+  {
+    "Type": "ShooterCharacterVisionComponent",
+    "Name": "VisionComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "VisionComponent"
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_28",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.81"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.79"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.76"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.75"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.68"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.69"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.77"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.78"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.80"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.70"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.71"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.73"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.74"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.81"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.79"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.76"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.75"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.68"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.69"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.77"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.78"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.80"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.70"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.71"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.72"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.73"
+        },
+        {
+          "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.74"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node Pawn_Killjoy_Q_StealthAlarmbot_C:SimpleConstructionScript_28.SCS_Node_9",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.82"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CharacterMesh0",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_Q_Skelmesh_Skeleton_AnimBlueprint_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_Skelmesh_Skeleton_AnimBlueprint.4"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence KillyjoySeeker_Burrow_Idle",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Animations/KillyjoySeeker_Burrow_Idle.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_Q_StealthDrone_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh.0"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "bGenerateOverlapEvents": true,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "MassInKgOverride": 55.690468
+      },
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.45"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CosmeticCharacterMesh1P",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CosmeticCharacterMesh1P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:PawnMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.92"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CosmeticCharacterMesh3P",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "CosmeticCharacterMesh3P",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CharacterMesh0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.89"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "PawnMesh1P",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "PawnMesh1P",
+    "Properties": {
+      "AnimClass": null,
+      "SkeletalMesh": null,
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Pawn_Killjoy_Q_StealthAlarmbot_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Pawn_Killjoy_Q_StealthAlarmbot.45"
+      },
+      "RelativeLocation": {
+        "X": -3.0000577,
+        "Y": 0.0014118241,
+        "Z": -105.3944
+      }
+    }
+  },
+  {
+    "Type": "SkeletalPoseRewinderComponent",
+    "Name": "SkeletalPoseRewinderComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "SkeletalPoseRewinderComponent"
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "DetectEnemySphere_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "SphereRadius": 550.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "NotDamageable"
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "StealthOverlapSphere_GEN_VARIABLE",
+    "Outer": "Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Properties": {
+      "SphereRadius": 700.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "StealthComponent",
+    "Properties": {
+      "StealthRange": 700.0
+    }
+  },
+  {
+    "Type": "TransformRewinderComponent",
+    "Name": "TransformRewinderComponent",
+    "Outer": "Default__Pawn_Killjoy_Q_StealthAlarmbot_C",
+    "Template": "TransformRewinderComponent"
+  }
+]

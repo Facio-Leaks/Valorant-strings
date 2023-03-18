@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WheelSegmentBorderWidget_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WheelSegmentBorderWidget_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_125",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WheelSegmentBorderWidget_C Default__WheelSegmentBorderWidget_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.1"
+    }
+  },
+  {
+    "Type": "WheelSegmentBorderWidget_C",
+    "Name": "Default__WheelSegmentBorderWidget_C",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1256",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot WheelSegmentBorderWidget_C:WidgetTree.CanvasPanel_1256.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1256",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel WheelSegmentBorderWidget_C:WidgetTree.CanvasPanel_1256",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.2"
+      },
+      "Content": {
+        "ObjectName": "Image WheelSegmentBorderWidget_C:WidgetTree.Image_125",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_125",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 620.0,
+          "Y": 310.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_CommsWheel_SegmentBorder",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/TX_UI_CommsWheel_SegmentBorder.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.5,
+        "Hex": "7FFFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot WheelSegmentBorderWidget_C:WidgetTree.CanvasPanel_1256.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WheelSegmentBorderWidget_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel WheelSegmentBorderWidget_C:WidgetTree.CanvasPanel_1256",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelSegmentBorderWidget.2"
+      }
+    }
+  }
+]

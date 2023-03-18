@@ -1,0 +1,4088 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnViewedCharacterChanged__DelegateSignature",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OldCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_SpectatorWidget",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Validate_Inventory_Validated",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Validate_Inventory_Validated_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_HUDModel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedHUDModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInventory_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresInventory",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_NewViewTarget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_NewPlayerViewTargetMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresPlayerViewTargetMode",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_DetermineViewedCharacter_ViewedCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnViewTargetChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnInventoryItemsChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalViewTarget_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnViewTargetChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_Event_Event_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "PropertyFlags": 2,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_Event_Event",
+        "Flags": 1,
+        "ElementSize": 20,
+        "PropertyFlags": 2,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "UnbindEventFromOwningCharacterChanged",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "Event",
+        "Flags": 1,
+        "ElementSize": 20,
+        "PropertyFlags": 134218134,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205654016
+  },
+  {
+    "Type": "Function",
+    "Name": "BindEventToOwningCharacterChanged",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "DelegateProperty",
+        "Name": "Event",
+        "Flags": 1,
+        "ElementSize": 20,
+        "PropertyFlags": 134218134,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresOwningCharacterChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205654016
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "BP_SpectatorWidget_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayerViewTargetModeChanged",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "NewPlayerViewTargetMode",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresPlayerViewTargetMode",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnViewTargetChanged",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewViewTarget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHUDModel",
+    "Outer": "BP_SpectatorWidget_C",
+    "SuperStruct": {
+      "ObjectName": "Function CoordinatedHUDElement:SetHUDModel",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "HUDModel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedHUDModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201459712
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Up Widgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "TryValidation",
+    "Outer": "BP_SpectatorWidget_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshAbilities",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "Validate Inventory",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Validated",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 384,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "AbilityButtons",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549755813893,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "AbilityButtons",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstItemFromSlot_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstItemFromSlot_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstItemFromSlot_Item_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstItemFromSlot_Item_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": 214040576
+  },
+  {
+    "Type": "Function",
+    "Name": "AddAbilityImage",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetObjectClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Conv_ClassToSoftClassReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEquippableUIData_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class BaseContentUIData",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsTexture_2D",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "GetFirstItemFromSlot",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Slot",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFirstItemFromSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresItem",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Player Info Visibility",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Hide",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EWidgetVisibilityState",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "CreateCharacterWidgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CharacterHUDSlot",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813893,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "SlotNameToWidgetInstance",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813893,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "SlotNameToWidgetInstance",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "ObjectProperty",
+          "Name": "SlotNameToWidgetInstance_Value",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharHUDTypesManager_Manager",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BP_CharacterHUD_Manager_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_CharacterHUD_Manager.1"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CallFunc_GetCharacterHUDTypes_CharacterHUDTypes",
+        "Flags": 1,
+        "ElementSize": 80,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetCharacterHUDTypes_CharacterHUDTypes",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetCharacterHUDTypes_CharacterHUDTypes_Value",
+          "Flags": 1,
+          "ElementSize": 176,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDType",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CharacterHUDType.0"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Keys_Keys",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_Map_Keys_Keys",
+          "Flags": 1,
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 176,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDType",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/CharacterHUDType.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_LoadClassAsset_Blocking_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "K2Node_ClassDynamicCast_AsTouch_HUDDefinition_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "BlueprintGeneratedClass TouchHUDDefinition_Default_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.7"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ClassDynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Contains_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class PlayerController",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass TouchHUDDefinition_Default_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/TouchHUDDefinition_Default.7"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetObjectClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Conv_ClassToSoftClassReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_SoftClassReference_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "CleanupCharacterWidgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Keys_Keys",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_Map_Keys_Keys",
+          "Flags": 1,
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "StartWidgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchName_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInventory_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresInventory",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetEquippables_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetEquippables_ReturnValue",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class AresEquippable",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetChargeWidget_ChargeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterAbilityWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetItemSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_StartWidget_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetChargeWidget_ChargeWidget_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterAbilityWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetChargeWidget_ChargeWidget_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterAbilityWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_StartWidget_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_StartWidget_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetChargeWidget_ChargeWidget_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterAbilityWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_StartWidget_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class PanelSlot",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "StartWidgets_Pandemic",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsInterface_Widget_Spectator",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass Interface_Widget_Spectator_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "Start Widgets Skye",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsInterface_Widget_Spectator",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass Interface_Widget_Spectator_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "StartWidgets_Astra",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsInterface_Widget_Spectator",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass Interface_Widget_Spectator_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "StartWidgets_Neon",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "Temp_name_Variable",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 2
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentEquippable_Equippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsInterface_Widget_Spectator",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass Interface_Widget_Spectator_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "StopWidgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetChargeWidget_ChargeWidget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CharacterAbilityWidget",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "StopCharacterWidgets",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Values_Values",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 549890031616,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_Map_Values_Values",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsInterface_Widget_Spectator",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass Interface_Widget_Spectator_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/Interface_Widget_Spectator.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateWidgetsLayout",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "MapProperty",
+        "Name": "SlotNameToWidgetInstance",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813893,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "SlotNameToWidgetInstance",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "ObjectProperty",
+          "Name": "SlotNameToWidgetInstance_Value",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "Class Widget",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NewLocalVar_0",
+        "Flags": 1,
+        "ElementSize": 216,
+        "PropertyFlags": 549755813893,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "LayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813893,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "LayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "LayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WidgetLayout",
+        "Flags": 1,
+        "ElementSize": 216,
+        "PropertyFlags": 549755813893,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CurrentSlotName",
+        "Flags": 1,
+        "ElementSize": 12,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "LayoutTables",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "LayoutTables",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class DataTable",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": 1,
+        "ElementSize": 216,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": 1,
+        "ElementSize": 88,
+        "PropertyFlags": 549755813888,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Keys_Keys",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_Map_Keys_Keys",
+          "Flags": 1,
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CallFunc_GetLayoutDataForPreset_OutLayoutData",
+        "Flags": 1,
+        "ElementSize": 80,
+        "PropertyFlags": 549755813888,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "CallFunc_GetLayoutDataForPreset_OutLayoutData",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetLayoutDataForPreset_OutLayoutData_Value",
+          "Flags": 1,
+          "ElementSize": 216,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterWidgetLayout",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/CharacterWidgetLayout.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Map_Length_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Map_Find_Value_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class Widget",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateHUDModel",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InHUDModel",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedHUDModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnPlayerViewTargetModeChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetInfo_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct ViewTargetInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "DetermineViewedCharacter",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InActor",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ViewedCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 384,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass PossessableActorComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/States/PossessableActorComponent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsShooter_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPossessionOwner_OwningShooterCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "Function",
+    "Name": "SetViewedCharacter",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OldCharacter",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 2053,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalPlayerController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetInfo_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct ViewTargetInfo",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "FetchOwningCharacter",
+    "Outer": "BP_SpectatorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1408,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 205654024
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_SpectatorWidget_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_SpectatorWidget_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.62"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_SpectatorWidget_C:ExecuteUbergraph_BP_SpectatorWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class CoordinatedHUDElement",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:FetchOwningCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.28"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:SetViewedCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.27"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:DetermineViewedCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.26"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:UpdateHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.25"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:UpdateWidgetsLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.24"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StopCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.23"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StopWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.22"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Neon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.21"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Astra",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.20"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:Start Widgets Skye",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.19"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Pandemic",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.18"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.17"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:CleanupCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.16"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:CreateCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.15"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:Update Player Info Visibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.14"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:GetFirstItemFromSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.13"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:AddAbilityImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.12"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:Validate Inventory",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.11"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:RefreshAbilities",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.10"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:TryValidation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.9"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:Set Up Widgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.8"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:SetHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.7"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:OnViewTargetChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.6"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:PlayerViewTargetModeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.5"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.4"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:BindEventToOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.3"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:UnbindEventFromOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.2"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:ExecuteUbergraph_BP_SpectatorWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.1"
+      },
+      {
+        "ObjectName": "Function BP_SpectatorWidget_C:OnViewedCharacterChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ability1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ability2",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AmmoHUDElement_Spectator",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_HUDMobile_AmmoCounter_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/BP_HUDMobile_AmmoCounter.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AudioVisualizer_Touch",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass AudioVisualizer_Touch_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/AudioVisualizer/AudioVisualizer_Touch.25"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_ActionButton_Scoreboard",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Scoreboard_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Scoreboard.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_ActionButton_Settings",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Settings_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Settings.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Grenade",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HealthArmor_Spectator",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_Mobile_HealthArmor_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_HealthArmor.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MiniMapPanel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Next",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Previous",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_Base.9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Root",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SafeZoneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class CanvasPanel",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpectatedPlayerInfo",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass SpectatorWidget_Touch_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/SpectatorWidget_Touch.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ultimate",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ViewedCharacter",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 67589,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Icon Material",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstance",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Ability Buttons",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 549755879429,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Ability Buttons",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyFlags": 524288,
+          "PropertyClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass BP_ActionButton_Ability_Base_C",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/CharacterWidgets/BP_ActionButton_Ability_Base.83"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ButtonStyle_Ability",
+        "Flags": 2097153,
+        "ElementSize": 36,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct AresIconButtonStyle",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CharacterRowName",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "CharacterWidgetMap",
+        "Flags": 2097153,
+        "ElementSize": 80,
+        "PropertyFlags": 549755879429,
+        "KeyProp": {
+          "Type": "NameProperty",
+          "Name": "CharacterWidgetMap",
+          "Flags": 1,
+          "ElementSize": 12
+        },
+        "ValueProp": {
+          "Type": "StructProperty",
+          "Name": "CharacterWidgetMap_Value",
+          "Flags": 1,
+          "ElementSize": 88,
+          "PropertyFlags": 549755813888,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct CharacterHUDSlot",
+            "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/CharacterHUDSlot.0"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HUDModel",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class CoordinatedHUDModel",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnViewedCharacterChanged",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_SpectatorWidget_C:OnViewedCharacterChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnViewedCharacterChanged__DelegateSignature": {
+        "ObjectName": "Function BP_SpectatorWidget_C:OnViewedCharacterChanged__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.0"
+      },
+      "ExecuteUbergraph_BP_SpectatorWidget": {
+        "ObjectName": "Function BP_SpectatorWidget_C:ExecuteUbergraph_BP_SpectatorWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.1"
+      },
+      "UnbindEventFromOwningCharacterChanged": {
+        "ObjectName": "Function BP_SpectatorWidget_C:UnbindEventFromOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.2"
+      },
+      "BindEventToOwningCharacterChanged": {
+        "ObjectName": "Function BP_SpectatorWidget_C:BindEventToOwningCharacterChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.3"
+      },
+      "Construct": {
+        "ObjectName": "Function BP_SpectatorWidget_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.4"
+      },
+      "PlayerViewTargetModeChanged": {
+        "ObjectName": "Function BP_SpectatorWidget_C:PlayerViewTargetModeChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.5"
+      },
+      "OnViewTargetChanged": {
+        "ObjectName": "Function BP_SpectatorWidget_C:OnViewTargetChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.6"
+      },
+      "SetHUDModel": {
+        "ObjectName": "Function BP_SpectatorWidget_C:SetHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.7"
+      },
+      "Set Up Widgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:Set Up Widgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.8"
+      },
+      "TryValidation": {
+        "ObjectName": "Function BP_SpectatorWidget_C:TryValidation",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.9"
+      },
+      "RefreshAbilities": {
+        "ObjectName": "Function BP_SpectatorWidget_C:RefreshAbilities",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.10"
+      },
+      "Validate Inventory": {
+        "ObjectName": "Function BP_SpectatorWidget_C:Validate Inventory",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.11"
+      },
+      "AddAbilityImage": {
+        "ObjectName": "Function BP_SpectatorWidget_C:AddAbilityImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.12"
+      },
+      "GetFirstItemFromSlot": {
+        "ObjectName": "Function BP_SpectatorWidget_C:GetFirstItemFromSlot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.13"
+      },
+      "Update Player Info Visibility": {
+        "ObjectName": "Function BP_SpectatorWidget_C:Update Player Info Visibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.14"
+      },
+      "CreateCharacterWidgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:CreateCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.15"
+      },
+      "CleanupCharacterWidgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:CleanupCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.16"
+      },
+      "StartWidgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.17"
+      },
+      "StartWidgets_Pandemic": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Pandemic",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.18"
+      },
+      "Start Widgets Skye": {
+        "ObjectName": "Function BP_SpectatorWidget_C:Start Widgets Skye",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.19"
+      },
+      "StartWidgets_Astra": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Astra",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.20"
+      },
+      "StartWidgets_Neon": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StartWidgets_Neon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.21"
+      },
+      "StopWidgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StopWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.22"
+      },
+      "StopCharacterWidgets": {
+        "ObjectName": "Function BP_SpectatorWidget_C:StopCharacterWidgets",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.23"
+      },
+      "UpdateWidgetsLayout": {
+        "ObjectName": "Function BP_SpectatorWidget_C:UpdateWidgetsLayout",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.24"
+      },
+      "UpdateHUDModel": {
+        "ObjectName": "Function BP_SpectatorWidget_C:UpdateHUDModel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.25"
+      },
+      "DetermineViewedCharacter": {
+        "ObjectName": "Function BP_SpectatorWidget_C:DetermineViewedCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.26"
+      },
+      "SetViewedCharacter": {
+        "ObjectName": "Function BP_SpectatorWidget_C:SetViewedCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.27"
+      },
+      "FetchOwningCharacter": {
+        "ObjectName": "Function BP_SpectatorWidget_C:FetchOwningCharacter",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.28"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class AresWidgetOwningCharacterInterface",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SpectatorWidget_C Default__BP_SpectatorWidget_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.30"
+    }
+  },
+  {
+    "Type": "BP_SpectatorWidget_C",
+    "Name": "Default__BP_SpectatorWidget_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Icon Material": {
+        "ObjectName": "MaterialInstanceConstant 2_UI_Ability_ULT",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/Shared/Materials/2_UI_Ability_ULT.0"
+      },
+      "ButtonStyle_Ability": {
+        "IconScale": 0.7,
+        "IconColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.8,
+          "Hex": "CCFFFFFF"
+        },
+        "ButtonColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFFFF"
+        }
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "AudioVisualizer_Touch_C",
+    "Name": "AudioVisualizer_Touch",
+    "Outer": "WidgetTree",
+    "Template": "Default__AudioVisualizer_Touch_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.54"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Ability_Base_C",
+    "Name": "Ability1",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "AbilitySlot": "EAresItemSlot::Ability1",
+      "ActionMappingName": "Activate_Ability1",
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "InternalEnabledState": "EWidgetEnabledState::Disabled",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_13",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.48"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Ability_Base_C",
+    "Name": "Ability2",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "AbilitySlot": "EAresItemSlot::Ability2",
+      "ActionMappingName": "Activate_Ability2",
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "InternalEnabledState": "EWidgetEnabledState::Disabled",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_19",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.53"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Ability_Base_C",
+    "Name": "Grenade",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "AbilitySlot": "EAresItemSlot::GrenadeAbility",
+      "ActionMappingName": "Activate_GrenadeAbility",
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "InternalEnabledState": "EWidgetEnabledState::Disabled",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_16",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.50"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Ability_Base_C",
+    "Name": "Ultimate",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Ability_Base_C",
+    "Properties": {
+      "bIsUlt": true,
+      "AbilitySlot": "EAresItemSlot::Ultimate",
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "InternalEnabledState": "EWidgetEnabledState::Disabled",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_15",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.49"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Base_C",
+    "Name": "Next",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "ActionMappingName": "PrimaryTrigger",
+      "ActivationMode": "EActionButtonActivationMode::ActivateOnEngage",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "ButtonTextRotationAngle": 0.0
+        },
+        "BoolProperties": {
+          "CrossedOut": false,
+          "Locked": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/UI_Common_Strings.UI_Common_Strings",
+            "Key": "Next"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": null,
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "IconMaterial": null,
+          "ButtonMaterial": {
+            "ObjectName": "Material M_UI_HUDButtonBG",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/M_UI_HUDButtonBG.0"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_18",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.52"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Base_C",
+    "Name": "Previous",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Base_C",
+    "Properties": {
+      "ActionMappingName": "SecondaryTrigger",
+      "ActivationMode": "EActionButtonActivationMode::ActivateOnEngage",
+      "TouchWidgetDefaultProperties": {
+        "FloatProperties": {
+          "ButtonTextRotationAngle": 0.0
+        },
+        "BoolProperties": {
+          "CrossedOut": false,
+          "Locked": false
+        },
+        "TextProperties": {
+          "ButtonText": {
+            "TableId": "/Game/UI/Screens/UI_Common_Strings.UI_Common_Strings",
+            "Key": "Previous"
+          }
+        },
+        "LinearColorProperties": null,
+        "Texture2DProperties": {
+          "ButtonTexture": null,
+          "IconTexture": null
+        },
+        "MaterialInterfaceProperties": {
+          "IconMaterial": null,
+          "ButtonMaterial": {
+            "ObjectName": "Material M_UI_HUDButtonBG",
+            "ObjectPath": "ShooterGame/Content/UI/Shared/Mobile/Materials/M_UI_HUDButtonBG.0"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_17",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.51"
+      }
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Scoreboard_C",
+    "Name": "BP_ActionButton_Scoreboard",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Scoreboard_C",
+    "Properties": {
+      "ActivationMode": "EActionButtonActivationMode::ActivateOnEngage",
+      "bIsDirty": false,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_10",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.47"
+      },
+      "Tag": "BP_ActionButton_Scoreboard"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_Settings_C",
+    "Name": "BP_ActionButton_Settings",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_ActionButton_Settings_C",
+    "Properties": {
+      "bIsDirty": false,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.46"
+      },
+      "Tag": "BP_ActionButton_Settings"
+    }
+  },
+  {
+    "Type": "BP_HUDMobile_AmmoCounter_C",
+    "Name": "AmmoHUDElement_Spectator",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_HUDMobile_AmmoCounter_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_4",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.56"
+      }
+    }
+  },
+  {
+    "Type": "BP_Mobile_HealthArmor_C",
+    "Name": "HealthArmor_Spectator",
+    "Outer": "WidgetTree",
+    "Template": "Default__BP_Mobile_HealthArmor_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_6",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.57"
+      },
+      "Tag": "BP_Mobile_HealthArmor"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "MiniMapPanel",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.55"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Root",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_17",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_18",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.52"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_10",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_19",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.53"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_13",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_16",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_15",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.49"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.54"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_4",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.56"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_6",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_7",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.58"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.46"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.55"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "SafeZoneRoot",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SafeZoneSlot BP_SpectatorWidget_C:WidgetTree.SafeZone_54.SafeZoneSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.60"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 190.0,
+          "Top": -34.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "SpectatorWidget_Touch_C BP_SpectatorWidget_C:WidgetTree.SpectatedPlayerInfo",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.61"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -70.0,
+          "Top": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.1,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.1,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Settings_C BP_SpectatorWidget_C:WidgetTree.BP_ActionButton_Settings",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.39"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 105.0,
+          "Top": -71.938416,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Scoreboard_C BP_SpectatorWidget_C:WidgetTree.BP_ActionButton_Scoreboard",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_13",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -42.0,
+          "Top": -11.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.8
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.8
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Ability_Base_C BP_SpectatorWidget_C:WidgetTree.Ability1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.32"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_15",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 126.0,
+          "Top": -11.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.8
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.8
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Ability_Base_C BP_SpectatorWidget_C:WidgetTree.Ultimate",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_16",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -126.0,
+          "Top": -11.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.8
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.8
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Ability_Base_C BP_SpectatorWidget_C:WidgetTree.Grenade",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.34"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_17",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 105.71429,
+          "Top": -159.65271
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Base_C BP_SpectatorWidget_C:WidgetTree.Previous",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_18",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 165.0,
+          "Top": -238.93842,
+          "Right": 152.0,
+          "Bottom": 152.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Base_C BP_SpectatorWidget_C:WidgetTree.Next",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 42.0,
+          "Top": -11.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.8
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.8
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_ActionButton_Ability_Base_C BP_SpectatorWidget_C:WidgetTree.Ability2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "AudioVisualizer_Touch_C BP_SpectatorWidget_C:WidgetTree.AudioVisualizer_Touch",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -85.0,
+          "Top": 53.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.1,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.1,
+            "Y": 0.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "ZOrder": -25,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.MiniMapPanel",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 166.0,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_HUDMobile_AmmoCounter_C BP_SpectatorWidget_C:WidgetTree.AmmoHUDElement_Spectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.40"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -93.06537,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "BP_Mobile_HealthArmor_C BP_SpectatorWidget_C:WidgetTree.HealthArmor_Spectator",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.41"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "Root",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      },
+      "Content": {
+        "ObjectName": "SafeZone BP_SpectatorWidget_C:WidgetTree.SafeZone_54",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.59"
+      }
+    }
+  },
+  {
+    "Type": "SafeZone",
+    "Name": "SafeZone_54",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SafeZoneSlot BP_SpectatorWidget_C:WidgetTree.SafeZone_54.SafeZoneSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_7",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.58"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "SafeZoneSlot",
+    "Name": "SafeZoneSlot_0",
+    "Outer": "SafeZone_54",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SafeZone BP_SpectatorWidget_C:WidgetTree.SafeZone_54",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.59"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.SafeZoneRoot",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.44"
+      }
+    }
+  },
+  {
+    "Type": "SpectatorWidget_Touch_C",
+    "Name": "SpectatedPlayerInfo",
+    "Outer": "WidgetTree",
+    "Template": "Default__SpectatorWidget_Touch_C",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_SpectatorWidget_C:WidgetTree.Root.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.45"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_SpectatorWidget_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_SpectatorWidget_C:WidgetTree.Root",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Spectator/BP_SpectatorWidget.43"
+      }
+    }
+  }
+]

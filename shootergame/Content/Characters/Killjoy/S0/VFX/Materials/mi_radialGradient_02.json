@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_radialGradient_02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/m_radialGradient_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Density",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "41C7C8ED-4649B309-3766F9AC-D0E88BF6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radius",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "2944BC46-44DA9A1D-23A845A3-560B1B87"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "DepthFade",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C58BDEB9-469AC09C-AF041480-A607681A"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_gradient_13",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_gradient_13.0"
+        }
+      ]
+    }
+  }
+]

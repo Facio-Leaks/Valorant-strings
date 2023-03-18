@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_simpleTexture_08",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_simpleTexture_01",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/m_simpleTexture_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Texture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_kill_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_kill_01.0"
+          },
+          "ExpressionGUID": "3658E5E0-4980C312-0147C698-079D09D0"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "BLEND_Masked",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticComponentMaskParameters": [
+          {
+            "R": true,
+            "G": false,
+            "B": false,
+            "A": false,
+            "ParameterInfo": {
+              "Name": "Cheannel",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C3A47F9A-47F74A91-22552BBC-346F1E3A"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_quads_01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_quads_01.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_flare_04",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_flare_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_flare_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "GradientMul",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "A2865BA7-454BCC4D-1F133285-17520664"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Gradient",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D tex_gradient_33",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_33.0"
+          },
+          "ExpressionGUID": "AB824C82-4F41022C-BF6DB08C-BDBF3205"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "CustomGradient",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "9953EE78-402AAE39-E4A8E4AD-8BF553CE"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "FadeBase",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "8EEEE241-438753F3-8D788B94-042DDEC9"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "LinearGradient",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F97A1374-4E675DF9-2AEBCF9F-8EB5D742"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D tex_gradient_13",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_gradient_13.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gradient_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+        },
+        {
+          "ObjectName": "Texture2D tex_gradient_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_14.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_genericDiscPan_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionParticleColor_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "1B38E667-47E6E3E3-456A7493-165D5AB9",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              2911984263075684948,
+              3326799838024196596,
+              4177275051305053978,
+              4732542797024334475,
+              4880989474815788045,
+              6372455732048017419,
+              9778313594319636207,
+              15041931129514051747
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "2_Scale_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "1_Offset_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "2_Scale_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "1_Scale_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "2_Offset_V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "2_Offset_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "1_Offset_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "1_Scale_U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "24816623-4D34FCF8-A7112E87-83A915FA",
+              "ADD4324D-4FA94920-75CFB888-59C789E4",
+              "899E19FC-40652AC6-D252E798-4E06FAF2",
+              "721DEF0F-4008194A-59B0E8BE-37CE4DAB",
+              "50E6FAF1-4B554C8D-E31EB2A5-FD696DCD",
+              "C4384B3B-465CAC35-A1DEC382-7FFD61E1",
+              "E87320C1-47826053-7B970D9C-B818C2F2",
+              "38732180-41D95EE2-28343D9D-254505B4"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              1236177048063781814,
+              7459167949306900653,
+              16401665610464870323
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "TexGradien_02",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TexPattern",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "TexGradient_01",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "A2297149-446B6015-CC336E99-3D1C02DB",
+              "B624CB08-483A5D32-47093FB2-95F5239A",
+              "65786C18-42A14DBD-C67473AE-1FFB57BA"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D ring_glow_top",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow_top.0"
+            },
+            {
+              "ObjectName": "Texture2D tex_scifi_rgb_01",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_scifi_rgb_01.0"
+            },
+            {
+              "ObjectName": "Texture2D tex_gradient_10",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_10.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_gradient_10",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_10.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_scifi_rgb_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_scifi_rgb_01.0"
+          },
+          {
+            "ObjectName": "Texture2D ring_glow_top",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/ring_glow_top.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          },
+          {
+            "StateId": "9015CFDC-49C515C3-74A69A86-9F6BD470",
+            "Function": {
+              "ObjectName": "MaterialFunction mf_uv_multiFunction",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/Functions/mf_uv_multiFunction.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Pan",
+          "Param2",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

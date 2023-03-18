@@ -1,0 +1,768 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ActionButton_CombatReport",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_MakeLiteralString_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_TextText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Is Checked",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bInIsChecked",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CachedBrushSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor",
+        "Flags": 1,
+        "ElementSize": 40,
+        "PropertyFlags": 1125899906842624,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor_1",
+        "Flags": 1,
+        "ElementSize": 40,
+        "PropertyFlags": 1125899906842624,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "ToggleIsChecked",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetIsChecked_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "GetIsChecked",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1408,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 474087424
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateIcon",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CachedBrushSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateImage",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Texture",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CachedBrushSize",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateText",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "ChildProperties": [
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_TextToUpper_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_ActionButton_CombatReport_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_ActionButton_CombatReport_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.23"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:ExecuteUbergraph_BP_ActionButton_CombatReport",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresActionButton",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.7"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.6"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateIcon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.5"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:GetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.4"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:ToggleIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.3"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:Set Is Checked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.2"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.1"
+      },
+      {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:ExecuteUbergraph_BP_ActionButton_CombatReport",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BG",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TabText",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextIcon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TX_Unchecked",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TX_Checked",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Texture2D",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "PageText",
+        "Flags": 2097153,
+        "ElementSize": 24,
+        "PropertyFlags": 5
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "PageIcon",
+        "Flags": 2097153,
+        "ElementSize": 24,
+        "PropertyFlags": 5
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ActionButton_CombatReport": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:ExecuteUbergraph_BP_ActionButton_CombatReport",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.0"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.1"
+      },
+      "Set Is Checked": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:Set Is Checked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.2"
+      },
+      "ToggleIsChecked": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:ToggleIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.3"
+      },
+      "GetIsChecked": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:GetIsChecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.4"
+      },
+      "UpdateIcon": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateIcon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.5"
+      },
+      "UpdateImage": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateImage",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.6"
+      },
+      "UpdateText": {
+        "ObjectName": "Function BP_ActionButton_CombatReport_C:UpdateText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.7"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ActionButton_CombatReport_C Default__BP_ActionButton_CombatReport_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.9"
+    }
+  },
+  {
+    "Type": "BP_ActionButton_CombatReport_C",
+    "Name": "Default__BP_ActionButton_CombatReport_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TX_Unchecked": {
+        "ObjectName": "Texture2D ActionButton_Unchecked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Unchecked.0"
+      },
+      "TX_Checked": {
+        "ObjectName": "Texture2D ActionButton_Checked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/ActionButton_Checked.0"
+      },
+      "PageIcon": {
+        "Namespace": "",
+        "Key": "2A0D810F4547762E72903A95F24E8012",
+        "SourceString": "D",
+        "LocalizedString": "D"
+      },
+      "ActivationMode": "EActionButtonActivationMode::ActiveWhileEngaged",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "AresTouchBounds",
+    "Name": "TouchBounds",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.16"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_124",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124.HorizontalBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.12"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124.HorizontalBoxSlot_2",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.13"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.ScaleBox_346.ScaleBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.20"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_124",
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_ActionButton_CombatReport_C:WidgetTree.TabText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.21"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_124",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock BP_ActionButton_CombatReport_C:WidgetTree.TextIcon",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.22"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BG",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.003922,
+            "G": 0.007843,
+            "B": 0.015686,
+            "A": 0.6,
+            "Hex": "990C1521"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_UI_Square",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/Shop/assets/TX_UI_Square.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_1",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.17"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_99",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.16"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_1",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.17"
+        },
+        {
+          "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_5",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.15"
+      },
+      "Content": {
+        "ObjectName": "AresTouchBounds BP_ActionButton_CombatReport_C:WidgetTree.TouchBounds",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.10"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.15"
+      },
+      "Content": {
+        "ObjectName": "Image BP_ActionButton_CombatReport_C:WidgetTree.BG",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.14"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_99",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.15"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox BP_ActionButton_CombatReport_C:WidgetTree.ScaleBox_346",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.19"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_346",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::ScaleToFitX",
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.ScaleBox_346.ScaleBoxSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99.OverlaySlot_5",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.18"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_346",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "ScaleBox BP_ActionButton_CombatReport_C:WidgetTree.ScaleBox_346",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.19"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.11"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TabText",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "974798A5421EFBE920EFF3A9D8ED7885",
+        "SourceString": "DAMAGE",
+        "LocalizedString": "DAMAGE"
+      },
+      "Font": {
+        "Size": 12
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124.HorizontalBoxSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.12"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextIcon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "A"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font FirstLight_Font",
+          "ObjectPath": "ShooterGame/Content/UI/Fonts/FinalFonts/FirstLight_Font.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot BP_ActionButton_CombatReport_C:WidgetTree.HorizontalBox_124.HorizontalBoxSlot_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.13"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_ActionButton_CombatReport_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay BP_ActionButton_CombatReport_C:WidgetTree.Overlay_99",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/ActionButtons/BP_ActionButton_CombatReport.15"
+      }
+    }
+  }
+]

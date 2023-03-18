@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_sphere_edgeShake_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionStaticSwitchParameter_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_5",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithMeshParticles": true,
+      "StateId": "8913281C-405C343F-747B54A7-CB267A6D",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              980791099378056437,
+              8247108425843077556,
+              9758753427914653887,
+              12275304978925975610,
+              12591867706654964566,
+              16894072245501207861,
+              17883871553375494185
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "EmissiveA Scale V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EmissiveA Scroll V",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EmissiveA Scale U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "AlphaShape_Multi",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EmissiveA Scroll Speed",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "EmissiveA Scroll U",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "AlphaShape_Power",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "B7A39A32-4FAFD466-898BBE98-003873D8",
+              "4CEE6A20-4C9E20B7-63D37886-C7E4704D",
+              "1990A8C6-4CAC3C21-F2105482-B48BB2EB",
+              "90EB32AE-4BAFEF99-33E69DB7-BB98D2FA",
+              "99F88237-488C1413-E8984584-3476259C",
+              "3A50E96C-4E5B7A39-CC5B32BD-E1BBD5DD",
+              "786E4CBA-487F91DC-CE5B1AAF-481F8835"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              6013788699251955524,
+              14244823414855202744
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "EmissiveA Texture",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Gradient",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "72E1B90F-47CB257E-D01FFD8A-C9376D37",
+              "8FBF30AA-41B2F6CC-9A6FCA8C-BBE0CBF1"
+            ],
+            "Overrides": [
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            3.0,
+            0.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D tex_noise_01",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_noise_01.0"
+            },
+            {
+              "ObjectName": "Texture2D tex_gradient_17",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_17.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_noise_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_noise_01.0"
+          },
+          {
+            "ObjectName": "Texture2D T_Perlin_Noise_M_Grayscale",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/NoiseDissolve/T_Perlin_Noise_M_Grayscale.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_17",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_17.0"
+          }
+        ],
+        "DynamicParameterNames": [
+          "VOffsetRandom",
+          "DissolveBirth",
+          "AlphaMaskScroll",
+          "UOffsetRandom"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_deactive_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionLinearInterpolate_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithParticleSprites": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "A78745D0-4EBD1910-AB026886-F4793941",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              16878851864963565636
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Tex",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "CA0D8158-443507B0-998FE7A0-67275E2B"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D tex_deactive_symbol_01",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_deactive_symbol_01.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_deactive_symbol_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_deactive_symbol_01.0"
+          }
+        ],
+        "DynamicParameterNames": [
+          "Param1",
+          "Param2",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

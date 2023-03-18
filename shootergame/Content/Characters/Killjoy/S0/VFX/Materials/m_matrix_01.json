@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_matrix_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_3",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Masked",
+      "bUsedWithMeshParticles": true,
+      "StateId": "765BF8A3-44C91600-52CDF082-3F0FA7BB",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              1806654340153603752,
+              8551544038357702616,
+              14725048992408533910
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "PowerWidth",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "PatternSpread",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Time",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "3D3A3C1C-43AA6DFF-1CE5D1BE-2C6A5FEC",
+              "7C3DD700-4506F3EB-D8688599-8CD6D6C6",
+              "9F45E193-43D1FD17-052EE385-9B7638CE"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            4.0,
+            40.0,
+            1.0
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_matrix_rgb_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_matrix_rgb_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+            "Function": {
+              "ObjectName": "MaterialFunction SmoothStep",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+            }
+          },
+          {
+            "StateId": "59444864-4EC2E098-30A8039D-35A6C7AA",
+            "Function": {
+              "ObjectName": "MaterialFunction DebugTimeSine",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Appear",
+          "Param2",
+          "Param3",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

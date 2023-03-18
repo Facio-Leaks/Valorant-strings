@@ -1,0 +1,924 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_Killjoy_Q_StealthAlarmbot_Targeting",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_VisibilityComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class VisibilityComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 2,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlledOrSpectated_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_PlacementIsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectVector_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectVector_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectVector_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectVector_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Super": "ReceiveTick",
+    "SuperStruct": {
+      "ObjectName": "Function FXC_PlacementTargeting_Parent_C:ReceiveTick",
+      "ObjectPath": "ShooterGame/Content/Characters/Global/Smoke/FXC_PlacementTargeting_Parent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ActorVisibility_K2Node_ComponentBoundEvent_1_CanBeSeenByCharacterOverride__DelegateSignature",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "VisibilityComponent",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class VisibilityComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Character",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 150,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterCharacter",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Super": "FXC_PlacementTargeting_Parent_C",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.10"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.22"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.11"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ExecuteUbergraph_FXC_Killjoy_Q_StealthAlarmbot_Targeting",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass FXC_PlacementTargeting_Parent_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Global/Smoke/FXC_PlacementTargeting_Parent.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:BndEvt__ActorVisibility_K2Node_ComponentBoundEvent_1_CanBeSeenByCharacterOverride__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.2"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ReceiveTick",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.1"
+      },
+      {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ExecuteUbergraph_FXC_Killjoy_Q_StealthAlarmbot_Targeting",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_Deactivation Range",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_Circle",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActorVisibility",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class ActorVisibilityComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class StaticMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActorMinimapDisplay",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class ActorMinimapDisplayComponentDeprecated",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParticleSystem",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "validHolo",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InvalidHolo",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "validCorner",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "invalidCorner",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "validDecal",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InvalidDecal",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "validCylinder",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InvalidCylinder",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "validGlow",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InvalidGlow",
+        "Flags": 2097153,
+        "ElementSize": 12,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_Killjoy_Q_StealthAlarmbot_Targeting": {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ExecuteUbergraph_FXC_Killjoy_Q_StealthAlarmbot_Targeting",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.0"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ReceiveTick",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.1"
+      },
+      "BndEvt__ActorVisibility_K2Node_ComponentBoundEvent_1_CanBeSeenByCharacterOverride__DelegateSignature": {
+        "ObjectName": "Function FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:BndEvt__ActorVisibility_K2Node_ComponentBoundEvent_1_CanBeSeenByCharacterOverride__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.2"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C Default__FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.4"
+    }
+  },
+  {
+    "Type": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Name": "Default__FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Template": "Default__FXC_PlacementTargeting_Parent_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "validHolo": {
+        "X": 50.0,
+        "Y": 0.0,
+        "Z": 3.466225
+      },
+      "InvalidHolo": {
+        "X": 50.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "validCorner": {
+        "X": 0.35,
+        "Y": 0.35,
+        "Z": 0.35
+      },
+      "invalidCorner": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "validDecal": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "InvalidDecal": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "validCylinder": {
+        "X": 0.0,
+        "Y": 5.0,
+        "Z": 4.316065
+      },
+      "InvalidCylinder": {
+        "X": 5.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "validGlow": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "InvalidGlow": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "AttachType": "EEffectAttachType::NotAttached",
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": true
+      }
+    }
+  },
+  {
+    "Type": "ActorMinimapDisplayComponentDeprecated",
+    "Name": "ActorMinimapDisplay_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C"
+  },
+  {
+    "Type": "ActorVisibilityComponent",
+    "Name": "ActorVisibility_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Properties": {
+      "EnemyVisibility": "EEnemyVisibilityOption::Never"
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_Circle_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 1100.0,
+        "Y": 1100.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D CircleIcon",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/3D/World/CircleIcon.0"
+        }
+      },
+      "bMoves": true,
+      "Layer": "EAresMinimapLayer::AML_Targeting"
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_Deactivation Range_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 8000.0,
+        "Y": 8000.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.132868,
+            "G": 0.545725,
+            "B": 0.396755,
+            "A": 1.0,
+            "Hex": "FF66C3A9"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Sentinel_Minimap",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/3D/World/TX_Sentinel_Minimap.0"
+        }
+      },
+      "bMoves": true,
+      "Layer": "EAresMinimapLayer::AML_Targeting",
+      "WidgetColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "WidgetBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.132868,
+            "G": 0.545725,
+            "B": 0.396755,
+            "A": 1.0,
+            "Hex": "FF66C3A9"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 30.0,
+        "Y": 30.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Hud_Icons_Minimap_Killjoy_Alarmbot",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_Killjoy_Alarmbot.0"
+        }
+      },
+      "bMoves": true,
+      "RotationSpace": "EAresMinimapRotationSpace::AMRS_ConstantMinimap",
+      "SizeSpace": "EAresMinimapSizeSpace::AMSS_Screen",
+      "Layer": "EAresMinimapLayer::AML_Targeting"
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "ActorVisibility",
+          "DelegatePropertyName": "CanBeSeenByCharacterOverride",
+          "FunctionNameToBind": "BndEvt__ActorVisibility_K2Node_ComponentBoundEvent_1_CanBeSeenByCharacterOverride__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C"
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem ps_stealthDrone_holo_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_stealthDrone_holo_01.226"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.13"
+      },
+      "VariableGuid": "6A8D5057-41C84222-B6F6B9A7-46054E62",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ParticleSystemComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ParticleSystem_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.12"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "31018D1B-49DABD2B-8A8BBF9B-6A2F057F",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ActorMinimapDisplayComponentDeprecated",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActorMinimapDisplayComponentDeprecated FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ActorMinimapDisplay_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.5"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "02B996D3-453DD25C-D3BC1D94-A146BC58",
+      "InternalVariableName": "ActorMinimapDisplay"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class StaticMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:Sphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.23"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "A195699A-44D26268-7099F8AE-4A9C330C",
+      "InternalVariableName": "Sphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ActorVisibilityComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActorVisibilityComponent FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:ActorVisibility_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.6"
+      },
+      "VariableGuid": "EE16F2B9-4C3CE79B-89048B97-86BB0468",
+      "InternalVariableName": "ActorVisibility"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:BaseMinimapComponent_Parent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.9"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "F1AEF17E-487ABCFF-FCC20695-BF456542",
+      "InternalVariableName": "BaseMinimapComponent_Parent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:BaseMinimapComponent_Parent_Circle_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.7"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "63776842-4A4FB89B-7B94DBBF-C842842E",
+      "InternalVariableName": "BaseMinimapComponent_Parent_Circle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:BaseMinimapComponent_Parent_Deactivation Range_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.8"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "FXC_PlacementTargeting_Parent_C",
+      "VariableGuid": "046FE26F-47A6B11D-9BB10E91-DF5870BF",
+      "InternalVariableName": "BaseMinimapComponent_Parent_Deactivation Range"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.15"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.16"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.17"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.18"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.19"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.20"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.15"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.16"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.17"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.18"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.19"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.20"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_Killjoy_Q_StealthAlarmbot_Targeting_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/FXC_Killjoy_Q_StealthAlarmbot_Targeting.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Sphere_GEN_VARIABLE",
+    "Outer": "FXC_Killjoy_Q_StealthAlarmbot_Targeting_C",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh geo_sphereOpt_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_sphereOpt_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant mi_cylinderFresnel_02",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_cylinderFresnel_02.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 27.5,
+        "Y": 27.5,
+        "Z": 27.5
+      },
+      "bVisible": false,
+      "bHiddenInGame": true
+    }
+  }
+]

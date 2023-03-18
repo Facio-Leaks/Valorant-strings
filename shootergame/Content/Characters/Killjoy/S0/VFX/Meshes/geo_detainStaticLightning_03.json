@@ -1,0 +1,276 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "geo_detainStaticLightning_03",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 67.56638,
+                "Y": 6.4336114,
+                "Z": 150.56639
+              },
+              {
+                "X": 67.56638,
+                "Y": -22.183605,
+                "Z": 150.56639
+              },
+              {
+                "X": 67.56638,
+                "Y": -22.183605,
+                "Z": 152.75
+              },
+              {
+                "X": 67.56638,
+                "Y": 6.433611,
+                "Z": 152.75
+              },
+              {
+                "X": 58.526684,
+                "Y": 12.000006,
+                "Z": 152.77667
+              },
+              {
+                "X": 61.999992,
+                "Y": 12.000004,
+                "Z": 152.77667
+              },
+              {
+                "X": 67.59375,
+                "Y": -22.473324,
+                "Z": 152.77667
+              },
+              {
+                "X": 58.526688,
+                "Y": -22.47333,
+                "Z": 152.77667
+              },
+              {
+                "X": 57.375,
+                "Y": -22.312515,
+                "Z": 141.77185
+              },
+              {
+                "X": 58.771843,
+                "Y": -22.312513,
+                "Z": 141.77185
+              },
+              {
+                "X": 58.771843,
+                "Y": 12.896833,
+                "Z": 141.77185
+              },
+              {
+                "X": 57.478115,
+                "Y": 12.896831,
+                "Z": 141.77185
+              },
+              {
+                "X": 52.937508,
+                "Y": 17.562508,
+                "Z": 147.1875
+              },
+              {
+                "X": 53.312496,
+                "Y": 17.93749,
+                "Z": 146.81252
+              },
+              {
+                "X": 56.0625,
+                "Y": 17.937494,
+                "Z": 146.81252
+              },
+              {
+                "X": 56.3688,
+                "Y": -23.493801,
+                "Z": 142.86879
+              },
+              {
+                "X": 60.81251,
+                "Y": -27.937511,
+                "Z": 147.3125
+              },
+              {
+                "X": 61.81248,
+                "Y": -27.93751,
+                "Z": 147.3125
+              },
+              {
+                "X": 63.06249,
+                "Y": -26.687504,
+                "Z": 146.0625
+              },
+              {
+                "X": 57.478104,
+                "Y": -22.396862,
+                "Z": 141.77185
+              },
+              {
+                "X": 52.869495,
+                "Y": 17.494495,
+                "Z": 146.36952
+              },
+              {
+                "X": 57.375,
+                "Y": 12.874981,
+                "Z": 141.75
+              },
+              {
+                "X": 59.9375,
+                "Y": 14.062497,
+                "Z": 142.93752
+              },
+              {
+                "X": 56.93751,
+                "Y": -24.062513,
+                "Z": 151.1875
+              },
+              {
+                "X": 67.24999,
+                "Y": -22.5,
+                "Z": 152.75
+              },
+              {
+                "X": 52.500008,
+                "Y": 17.125004,
+                "Z": 146.75
+              },
+              {
+                "X": 52.500008,
+                "Y": -19.625008,
+                "Z": 146.75
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": 52.500008,
+                "Y": -27.937511,
+                "Z": 141.75
+              },
+              "Max": {
+                "X": 67.59375,
+                "Y": 17.937494,
+                "Z": 152.77667
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Level",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "48283A7A4173162CC4E819A61F0C98E6",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 4975,
+        "SizeOnDisk": 4975,
+        "OffsetInFile": "0x6005"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "geo_detainStaticLightning_03",
+    "CookedFormatData": {}
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "geo_detainStaticLightning_03",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant mi_detain_stickLightning_01",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_detain_stickLightning_01.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 9.744676,
+            "LocalUVDensities": 9.742377,
+            "LocalUVDensities": 9.908139,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 9.908139,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 60.06069,
+          "Y": -4.988739,
+          "Z": 147.27426
+        },
+        "BoxExtent": {
+          "X": 7.405691,
+          "Y": 22.810507,
+          "Z": 5.402405
+        },
+        "SphereRadius": 23.77832
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup geo_detainStaticLightning_03:BodySetup_0",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_detainStaticLightning_03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision geo_detainStaticLightning_03:NavCollision_1",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_detainStaticLightning_03.1"
+    },
+    "LightingGuid": "D29BB6A2-44059150-4960BE9F-E6091986",
+    "RenderData": null
+  }
+]

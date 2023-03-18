@@ -1,0 +1,407 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_IBC_InstantCast",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction AresUIBoolChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ComponentInitialize",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "Super": "ComponentInitialize",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Image_C:ComponentInitialize",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.6"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "ComponentCleanup",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "Super": "ComponentCleanup",
+    "SuperStruct": {
+      "ObjectName": "Function WBP_IBC_Image_C:ComponentCleanup",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.5"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLockedChanged",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bLockedNew",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPropertyComponentOnScreen_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "SetLocked",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "NewValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLockedChanged_Internal",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "PropertyID",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bLockedOld",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bLockedNew",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201588736
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetLockedToDefault",
+    "Outer": "WBP_IBC_InstantCast_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPropertyRegistry_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresUIPropertyRegistry",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_IBC_InstantCast_C",
+    "Super": "WBP_IBC_Image_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_IBC_InstantCast_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.9"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ExecuteUbergraph_WBP_IBC_InstantCast",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass WBP_IBC_Image_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_Image.34"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ResetLockedToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.6"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:OnLockedChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.5"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:SetLocked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.4"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:OnLockedChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.3"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ComponentCleanup",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.2"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ComponentInitialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.1"
+      },
+      {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ExecuteUbergraph_WBP_IBC_InstantCast",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bLocked",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "LockedProperty",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 65557
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_IBC_InstantCast": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ExecuteUbergraph_WBP_IBC_InstantCast",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.0"
+      },
+      "ComponentInitialize": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ComponentInitialize",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.1"
+      },
+      "ComponentCleanup": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ComponentCleanup",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.2"
+      },
+      "OnLockedChanged": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:OnLockedChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.3"
+      },
+      "SetLocked": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:SetLocked",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.4"
+      },
+      "OnLockedChanged_Internal": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:OnLockedChanged_Internal",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.5"
+      },
+      "ResetLockedToDefault": {
+        "ObjectName": "Function WBP_IBC_InstantCast_C:ResetLockedToDefault",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.6"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_IBC_InstantCast_C Default__WBP_IBC_InstantCast_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Components/WBP_IBC_InstantCast.8"
+    }
+  },
+  {
+    "Type": "WBP_IBC_InstantCast_C",
+    "Name": "Default__WBP_IBC_InstantCast_C",
+    "Template": "Default__WBP_IBC_Image_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "LockedProperty": "Locked",
+      "ImageTexture": {
+        "ObjectName": "Texture2D Icon_InstantFire",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Textures/Icon_InstantFire.0"
+      },
+      "MaterialColorParam": "None",
+      "DefaultSize": {
+        "X": 32.0,
+        "Y": 32.0
+      },
+      "SizeMap": null
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_IBC_InstantCast_C"
+  }
+]

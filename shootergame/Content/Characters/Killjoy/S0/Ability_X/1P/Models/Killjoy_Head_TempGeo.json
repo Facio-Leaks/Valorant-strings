@@ -1,0 +1,320 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "Killjoy_Head_TempGeo",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 13.0625,
+                "Y": 5.16928,
+                "Z": -5.4375
+              },
+              {
+                "X": 13.0625,
+                "Y": -5.1692877,
+                "Z": -5.4375
+              },
+              {
+                "X": 13.0625,
+                "Y": -5.1692877,
+                "Z": 5.4375
+              },
+              {
+                "X": 13.0625,
+                "Y": 5.169278,
+                "Z": 5.4375
+              },
+              {
+                "X": -13.056765,
+                "Y": -5.17502,
+                "Z": -5.4432344
+              },
+              {
+                "X": -13.056765,
+                "Y": 5.1750145,
+                "Z": -5.4432344
+              },
+              {
+                "X": -13.056765,
+                "Y": 5.175014,
+                "Z": 5.4432344
+              },
+              {
+                "X": -13.056765,
+                "Y": -5.175021,
+                "Z": 5.4432344
+              },
+              {
+                "X": -5.169279,
+                "Y": 13.0625,
+                "Z": -5.4375
+              },
+              {
+                "X": 5.169278,
+                "Y": 13.0625,
+                "Z": -5.4375
+              },
+              {
+                "X": 5.169277,
+                "Y": 13.0625,
+                "Z": 5.4375
+              },
+              {
+                "X": -5.16928,
+                "Y": 13.0625,
+                "Z": 5.4375
+              },
+              {
+                "X": 5.177015,
+                "Y": -13.054773,
+                "Z": -5.4452252
+              },
+              {
+                "X": -5.1726246,
+                "Y": -13.059158,
+                "Z": -5.4408402
+              },
+              {
+                "X": -5.1769996,
+                "Y": -13.054784,
+                "Z": 5.4452143
+              },
+              {
+                "X": 5.1726174,
+                "Y": -13.05917,
+                "Z": 5.4408293
+              },
+              {
+                "X": -5.448973,
+                "Y": 5.406204,
+                "Z": 13.051025
+              },
+              {
+                "X": 5.4489737,
+                "Y": 5.4062047,
+                "Z": 13.051027
+              },
+              {
+                "X": 5.4489737,
+                "Y": -5.4062037,
+                "Z": 13.051027
+              },
+              {
+                "X": -5.4489737,
+                "Y": -5.406204,
+                "Z": 13.051026
+              },
+              {
+                "X": -5.4489737,
+                "Y": -5.406206,
+                "Z": -13.051025
+              },
+              {
+                "X": 5.448974,
+                "Y": -5.4062057,
+                "Z": -13.051026
+              },
+              {
+                "X": 5.4489737,
+                "Y": 5.4062047,
+                "Z": -13.051025
+              },
+              {
+                "X": -5.4489737,
+                "Y": 5.406203,
+                "Z": -13.051026
+              },
+              {
+                "X": 9.137274,
+                "Y": 9.094503,
+                "Z": 9.362727
+              },
+              {
+                "X": -9.137273,
+                "Y": 9.094505,
+                "Z": 9.362726
+              },
+              {
+                "X": 9.1372795,
+                "Y": -9.094511,
+                "Z": -9.362721
+              },
+              {
+                "X": -9.137276,
+                "Y": -9.094509,
+                "Z": -9.362723
+              },
+              {
+                "X": -9.137274,
+                "Y": 9.094504,
+                "Z": -9.362725
+              },
+              {
+                "X": 9.137273,
+                "Y": 9.094504,
+                "Z": -9.362726
+              },
+              {
+                "X": 9.137278,
+                "Y": -9.094509,
+                "Z": 9.362722
+              },
+              {
+                "X": -9.137275,
+                "Y": -9.094507,
+                "Z": 9.362724
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": -13.056765,
+                "Y": -13.05917,
+                "Z": -13.051026
+              },
+              "Max": {
+                "X": 13.0625,
+                "Y": 13.0625,
+                "Z": 13.051027
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Level",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "FE40CFA84DDA8873B2BC5594FE4BEF52",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 24915,
+        "SizeOnDisk": 24915,
+        "OffsetInFile": "0x102F8"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "Killjoy_Head_TempGeo",
+    "CookedFormatData": {}
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Killjoy_Head_TempGeo",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material lambert5",
+            "ObjectPath": "ShooterGame/Content/GameModes/Baserace/lambert5.0"
+          },
+          "MaterialSlotName": "lambert5",
+          "ImportedMaterialSlotName": "lambert5",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 48.41345,
+            "LocalUVDensities": 49.179535,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 49.179535,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket Killjoy_Head_TempGeo:StaticMeshSocket_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Killjoy_Head_TempGeo.3"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -9.536743E-07,
+          "Y": -2.861023E-06,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 12.951027,
+          "Y": 12.951442,
+          "Z": 12.951026
+        },
+        "SphereRadius": 12.951447
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup Killjoy_Head_TempGeo:BodySetup_0",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Killjoy_Head_TempGeo.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision Killjoy_Head_TempGeo:NavCollision_0",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/Killjoy_Head_TempGeo.1"
+    },
+    "LightingGuid": "5A80E5FB-421C7919-4152D19B-074810DB",
+    "RenderData": null
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Outer": "Killjoy_Head_TempGeo",
+    "Properties": {
+      "SocketName": "VFX_Socket",
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 270.0
+      }
+    }
+  }
+]

@@ -1,0 +1,2583 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnLastPulseWarning__DelegateSignature",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHasExploded__DelegateSignature",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "FunctionFlags": 202506240
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GameObject_Killjoy_X_Bomb",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "K2Node_ComponentBoundEvent_DamageTypeClass",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class DamageType",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Instigator",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_DamageCauser",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_1",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_2",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_3",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_4",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_4",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDedicatedServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "PropertyFlags": 2,
+        "Struct": {
+          "ObjectName": "ScriptStruct Transform",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899906842624,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass GameObject_Killjoy_X_Shockwave_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Shockwave.7"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayContinuousEffect_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsServer_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Response",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 2,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetEventInstigatorPawn_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Pawn",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetDamageTypeClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899906842626,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class DamageType",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction TimerDynamicDelegate__DelegateSignature",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsServer_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_5",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217730,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_5",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class PlayerController",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsServer_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_SetTeamFresnelOnMeshComp_DynamicMaterials",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_SetTeamFresnelOnMeshComp_DynamicMaterials",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class MaterialInstanceDynamic",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__HealthSection_K2Node_ComponentBoundEvent_0_OnSectionDestroyedSignature__DelegateSignature",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Component",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DamageTypeClass",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 1125899906842772,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class DamageType",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Instigator",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Controller",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DamageCauser",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__DamageHandler_K2Node_ComponentBoundEvent_2_OnDamagedSignature__DelegateSignature",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Response",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 150,
+        "PropertyClass": {
+          "ObjectName": "Class DamageResponse",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Start Windup",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "Event Finish Shockwave",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "SuperStruct": {
+      "ObjectName": "Function Actor:ReceiveBeginPlay",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "GetBombStatus",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CurrentTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "TotalTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 384
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FClamp_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": 205651968
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding GameObject_Killjoy_X_Bomb_C:ComponentDelegateBinding_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.20"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.48"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:ExecuteUbergraph_GameObject_Killjoy_X_Bomb",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class GameObject",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:GetBombStatus",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.8"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.7"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:Event Finish Shockwave",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.6"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:Event Start Windup",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.5"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:BndEvt__DamageHandler_K2Node_ComponentBoundEvent_2_OnDamagedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.4"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:BndEvt__HealthSection_K2Node_ComponentBoundEvent_0_OnSectionDestroyedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.3"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:ExecuteUbergraph_GameObject_Killjoy_X_Bomb",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.2"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnHasExploded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.1"
+      },
+      {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnLastPulseWarning__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AresAbilitySystem",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class AresAbilitySystemComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_ApplySelfBuffs",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIPerceptionStimuliSource",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class AIPerceptionStimuliSourceComponent",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingTargetPoint",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingTargetPoint",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PMAimToolingPointsTarget",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class AimToolingPointsTargetComponent",
+          "ObjectPath": "/Script/InputTooling"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Comp_Actor_SetInstigatorUltActive",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass Comp_Actor_SetInstigatorUltActive_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_SetInstigatorUltActive.3"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SageWallCollision",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sphere",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SkeletalMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_Area",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BaseMinimapComponent_Parent_Icon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+          "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GameObjectVisibility",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class GameObjectVisibilityComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefuseRing",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class StaticMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GameObjectMinimapDisplayAlly",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class GameObjectMinimapDisplayComponentDeprecated",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GameObjectMinimapDisplayEnemy",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class GameObjectMinimapDisplayComponentDeprecated",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BombRadius",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SphereComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AttachedFXC",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "WindupTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "ShockwaveDelay",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ShockStartFXC",
+        "Flags": 2097153,
+        "ElementSize": 32,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct EffectID",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "BombStartTime",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 65541
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnLastPulseWarning",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnLastPulseWarning__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnHasExploded",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 17592454545413,
+        "SignatureFunction": {
+          "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnHasExploded__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.1"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombActiveFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombSpawnFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombWindupFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombDetonateFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombHitReactFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "BombDestroyedFXC",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class EffectContainer",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActiveTimer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "Struct": {
+          "ObjectName": "ScriptStruct TimerHandle",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnLastPulseWarning__DelegateSignature": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnLastPulseWarning__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.0"
+      },
+      "OnHasExploded__DelegateSignature": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:OnHasExploded__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.1"
+      },
+      "ExecuteUbergraph_GameObject_Killjoy_X_Bomb": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:ExecuteUbergraph_GameObject_Killjoy_X_Bomb",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.2"
+      },
+      "BndEvt__HealthSection_K2Node_ComponentBoundEvent_0_OnSectionDestroyedSignature__DelegateSignature": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:BndEvt__HealthSection_K2Node_ComponentBoundEvent_0_OnSectionDestroyedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.3"
+      },
+      "BndEvt__DamageHandler_K2Node_ComponentBoundEvent_2_OnDamagedSignature__DelegateSignature": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:BndEvt__DamageHandler_K2Node_ComponentBoundEvent_2_OnDamagedSignature__DelegateSignature",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.4"
+      },
+      "Event Start Windup": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:Event Start Windup",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.5"
+      },
+      "Event Finish Shockwave": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:Event Finish Shockwave",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:ReceiveBeginPlay",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.7"
+      },
+      "GetBombStatus": {
+        "ObjectName": "Function GameObject_Killjoy_X_Bomb_C:GetBombStatus",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.8"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GameObject_Killjoy_X_Bomb_C Default__GameObject_Killjoy_X_Bomb_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.10"
+    }
+  },
+  {
+    "Type": "GameObject_Killjoy_X_Bomb_C",
+    "Name": "Default__GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AttachedFXC": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "WindupTime": 3.0,
+      "ShockwaveDelay": 13.0,
+      "ShockStartFXC": {
+        "SourceID": "None",
+        "EffectID": 0,
+        "bLocalEffect": false,
+        "bTransient": false
+      },
+      "BombStartTime": 1.0,
+      "BombActiveFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Bomb_Active_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Active.9"
+      },
+      "BombSpawnFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Bomb_Spawn_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Spawn.0"
+      },
+      "BombWindupFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Bomb_Windup_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Windup.2"
+      },
+      "BombDetonateFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Bomb_Detonate_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_Detonate.2"
+      },
+      "BombHitReactFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Bomb_HitReact_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Bomb_HitReact.2"
+      },
+      "BombDestroyedFXC": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_Destroyed_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_Destroyed.2"
+      },
+      "ActiveTimer": {
+        "Handle": 0
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent Default__GameObject_Killjoy_X_Bomb_C:GameObjectMesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.53"
+      },
+      "Persistence": {
+        "ObjectName": "RoundPersistenceComponent Default__GameObject_Killjoy_X_Bomb_C:Persistence",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.26"
+      },
+      "bPlayImpactEffects": true,
+      "DamageHandler": {
+        "ObjectName": "DamageableComponent Default__GameObject_Killjoy_X_Bomb_C:DamageHandlerComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.21"
+      },
+      "HealthSection": {
+        "ObjectName": "ChildDamageSectionComponent Default__GameObject_Killjoy_X_Bomb_C:HealthDamageSection",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent Default__GameObject_Killjoy_X_Bomb_C:TheScene",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.27"
+      },
+      "Tags": [
+        "TakeAOEDamage"
+      ]
+    }
+  },
+  {
+    "Type": "AimToolingPointsTargetComponent",
+    "Name": "PMAimToolingPointsTarget_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "CenterTargetPointName": "CenterPoint",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 35.0
+      }
+    }
+  },
+  {
+    "Type": "AimToolingTargetPoint",
+    "Name": "PMAimToolingTargetPoint_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "TargetPoint": {
+        "TargetPointName": "CenterPoint"
+      }
+    }
+  },
+  {
+    "Type": "AIPerceptionStimuliSourceComponent",
+    "Name": "AIPerceptionStimuliSource_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "bAutoRegisterAsSource": true,
+      "RegisterAsSourceForSenses": [
+        {
+          "ObjectName": "Class AISense_Hearing",
+          "ObjectPath": "/Script/AIModule"
+        },
+        {
+          "ObjectName": "Class AISense_Sight",
+          "ObjectPath": "/Script/AIModule"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AresAbilitySystemComponent",
+    "Name": "AresAbilitySystem_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "DefaultStartingData": [
+        {
+          "Attributes": {
+            "ObjectName": "Class AresAttributeSet",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "DefaultStartingTable": {
+            "ObjectName": "DataTable DefaultAttributeValues",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/DefaultAttributeValues.0"
+          }
+        }
+      ],
+      "ReplicatedPredictionKeyMap": {
+        "PredictionKeys": [
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 1,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 2,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 3,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 4,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 5,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 6,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 7,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 8,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 9,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 10,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 11,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 12,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 13,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 14,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 15,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 16,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 17,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 18,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 19,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 20,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 21,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 22,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 23,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 24,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 25,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 26,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 27,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 28,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 29,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 30,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 31,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 32,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          }
+        ],
+        "ArrayReplicationKey": 32
+      }
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_Area_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 6500.0,
+        "Y": 6500.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_CircleIconFilled256",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_CircleIconFilled256.0"
+        }
+      },
+      "EnemyIcon": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_CircleIconYellowFilled256",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_CircleIconYellowFilled256.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BaseMinimapComponent_Parent_C",
+    "Name": "BaseMinimapComponent_Parent_Icon_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Template": "Default__BaseMinimapComponent_Parent_C",
+    "Properties": {
+      "Size": {
+        "X": 25.0,
+        "Y": 25.0
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D TX_Hud_Icons_Minimap_LastPlayer",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Minimap/TX_Hud_Icons_Minimap_LastPlayer.0"
+        }
+      },
+      "RotationSpace": "EAresMinimapRotationSpace::AMRS_ConstantMinimap",
+      "SizeSpace": "EAresMinimapSizeSpace::AMSS_Screen"
+    }
+  },
+  {
+    "Type": "ChildDamageSectionComponent",
+    "Name": "HealthDamageSection",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "bCanBeDestroyed": true,
+      "Life": 200.0,
+      "MaximumLife": 200.0
+    }
+  },
+  {
+    "Type": "Comp_Actor_SetInstigatorUltActive_C",
+    "Name": "Comp_Actor_SetInstigatorUltActive_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Template": "Default__Comp_Actor_SetInstigatorUltActive_C"
+  },
+  {
+    "Type": "Comp_ApplySelfBuffs_C",
+    "Name": "Comp_ApplySelfBuffs_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Template": "Default__Comp_ApplySelfBuffs_C",
+    "Properties": {
+      "Buffs": [
+        {
+          "ObjectName": "BlueprintGeneratedClass Buff_Global_NoAllyDamage_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Global/Buffs/Buff_Global_NoAllyDamage.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "HealthSection",
+          "DelegatePropertyName": "AuthOnSectionDestroyed",
+          "FunctionNameToBind": "BndEvt__HealthSection_K2Node_ComponentBoundEvent_0_OnSectionDestroyedSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "DamageHandler",
+          "DelegatePropertyName": "OnDamaged",
+          "FunctionNameToBind": "BndEvt__DamageHandler_K2Node_ComponentBoundEvent_2_OnDamagedSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DamageableComponent",
+    "Name": "DamageHandlerComponent",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "EffectManagerComponent",
+    "Name": "EffectManager",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "GameObjectMinimapDisplayComponentDeprecated",
+    "Name": "GameObjectMinimapDisplayAlly_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "GameObjectMinimapDisplayComponentDeprecated",
+    "Name": "GameObjectMinimapDisplayEnemy_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "GameObjectVisibilityComponent",
+    "Name": "GameObjectVisibility_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "Persistence",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "PersistBehavior": "ERoundPersistenceBehavior::Destroy"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TheScene",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent GameObject_Killjoy_X_Bomb_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.28"
+      },
+      "VariableGuid": "DF6FF09E-490FC7BE-257774A2-29F4C51F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SkeletalMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent GameObject_Killjoy_X_Bomb_C:SkeletalMesh_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.49"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "24419F1B-40C6FF52-E023EEA8-23DCE9E8",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C GameObject_Killjoy_X_Bomb_C:BaseMinimapComponent_Parent_Area_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.15"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4CF6C2B2-43E78A36-08CC38A9-02D91858",
+      "InternalVariableName": "BaseMinimapComponent_Parent_Area"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingPointsTargetComponent",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingPointsTargetComponent GameObject_Killjoy_X_Bomb_C:PMAimToolingPointsTarget_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.11"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.34"
+        }
+      ],
+      "VariableGuid": "5CD5879E-40B8F8F4-FFF3DB82-976B629D",
+      "InternalVariableName": "PMAimToolingPointsTarget"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AimToolingTargetPoint",
+        "ObjectPath": "/Script/InputTooling"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AimToolingTargetPoint GameObject_Killjoy_X_Bomb_C:PMAimToolingTargetPoint_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.12"
+      },
+      "VariableGuid": "1003B65C-499DCAF5-7705558E-FE331D92",
+      "InternalVariableName": "PMAimToolingTargetPoint"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AIPerceptionStimuliSourceComponent",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIPerceptionStimuliSourceComponent GameObject_Killjoy_X_Bomb_C:AIPerceptionStimuliSource_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.13"
+      },
+      "VariableGuid": "CB21E1C4-4F70E2D5-D8A9F2B1-418161B9",
+      "InternalVariableName": "AIPerceptionStimuliSource"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_ApplySelfBuffs_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/Comp_ApplySelfBuffs.4"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_ApplySelfBuffs_C GameObject_Killjoy_X_Bomb_C:Comp_ApplySelfBuffs_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.19"
+      },
+      "VariableGuid": "BD55457C-4F55509C-292970A2-4E548B10",
+      "InternalVariableName": "Comp_ApplySelfBuffs"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class StaticMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent GameObject_Killjoy_X_Bomb_C:DefuseRing_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.54"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "99E55161-465A47F0-97A58AA6-1B12DE8E",
+      "InternalVariableName": "DefuseRing"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent GameObject_Killjoy_X_Bomb_C:Scene_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.29"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C7C65E99-4CB400A8-49602CB0-1AA2F43E",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class AresAbilitySystemComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AresAbilitySystemComponent GameObject_Killjoy_X_Bomb_C:AresAbilitySystem_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.14"
+      },
+      "VariableGuid": "DDB2278E-49D680E7-712AB995-9B2787D9",
+      "InternalVariableName": "AresAbilitySystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent GameObject_Killjoy_X_Bomb_C:BombRadius_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.50"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2F2E6FE5-43841F2C-E4E39B95-C714BC33",
+      "InternalVariableName": "BombRadius"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent GameObject_Killjoy_X_Bomb_C:Sphere_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.52"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BD6FBFC0-446C9044-F0305DA0-CD76B5E2",
+      "InternalVariableName": "Sphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class GameObjectVisibilityComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GameObjectVisibilityComponent GameObject_Killjoy_X_Bomb_C:GameObjectVisibility_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.25"
+      },
+      "VariableGuid": "8C0546B8-438B48A0-0099AD87-D272911F",
+      "InternalVariableName": "GameObjectVisibility"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SphereComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent GameObject_Killjoy_X_Bomb_C:SageWallCollision_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.51"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "52EE0B88-429C074D-1367A8B1-89F9CD04",
+      "InternalVariableName": "SageWallCollision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Comp_Actor_SetInstigatorUltActive_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Components/Comp_Actor_SetInstigatorUltActive.3"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "Comp_Actor_SetInstigatorUltActive_C GameObject_Killjoy_X_Bomb_C:Comp_Actor_SetInstigatorUltActive_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.18"
+      },
+      "VariableGuid": "B4831CF5-4F66AF30-FEEA3AA9-6EF27B74",
+      "InternalVariableName": "Comp_Actor_SetInstigatorUltActive"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass BaseMinimapComponent_Parent_C",
+        "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/BaseMinimapComponent_Parent.20"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BaseMinimapComponent_Parent_C GameObject_Killjoy_X_Bomb_C:BaseMinimapComponent_Parent_Icon_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.16"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "986D11D0-4686C04E-B5AF059F-46366CED",
+      "InternalVariableName": "BaseMinimapComponent_Parent_Icon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class GameObjectMinimapDisplayComponentDeprecated",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GameObjectMinimapDisplayComponentDeprecated GameObject_Killjoy_X_Bomb_C:GameObjectMinimapDisplayEnemy_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.24"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "788E05AE-4592E9DD-B48769AE-04557C0E",
+      "InternalVariableName": "GameObjectMinimapDisplayEnemy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class GameObjectMinimapDisplayComponentDeprecated",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GameObjectMinimapDisplayComponentDeprecated GameObject_Killjoy_X_Bomb_C:GameObjectMinimapDisplayAlly_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.23"
+      },
+      "ParentComponentOrVariableName": "TheScene",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1A04AD14-4FDB4D30-A9C648A9-18CBFBA2",
+      "InternalVariableName": "GameObjectMinimapDisplayAlly"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.40"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.46"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.47"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.37"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.38"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.42"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.45"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.32"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.31"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.41"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.43"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.44"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.33"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.35"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.36"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.39"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.40"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.46"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.47"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.37"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.38"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.42"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.45"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.32"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.31"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.41"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.43"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.44"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.33"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_12",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.34"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.35"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.36"
+        },
+        {
+          "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_18",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.39"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node GameObject_Killjoy_X_Bomb_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.30"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass AB_Killjoy_S0_X_Skelmesh_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Skelmesh_AnimGraph.2"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class ClothingSimulationFactoryNv",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_X_Bomb_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/1P/Models/AB_Killjoy_S0_X_Bomb_Skelmesh.0"
+      },
+      "bEnableUpdateRateOptimizations": true,
+      "bGenerateOverlapEvents": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_Destructible",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial M_Metal",
+          "ObjectPath": "ShooterGame/Content/Environment/PhysicalMaterials/M_Metal.0"
+        }
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "BombRadius_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "SphereRadius": 3250.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bAddToVisibleBounds": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SageWallCollision_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "SphereRadius": 1.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_Destructible",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 40.0
+      },
+      "ComponentTags": [
+        "DestroyWall"
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "SphereRadius": 16.0,
+      "AreaClass": {
+        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_Destructible",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pickup",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Targeting",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Sound",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EtherealProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 40.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "GameObjectMesh",
+    "Outer": "Default__GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent Default__GameObject_Killjoy_X_Bomb_C:TheScene",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/GameObject_Killjoy_X_Bomb.27"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DefuseRing_GEN_VARIABLE",
+    "Outer": "GameObject_Killjoy_X_Bomb_C",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh Shape_Cylinder",
+        "ObjectPath": "ShooterGame/Content/EditorShapes/Meshes/Shape_Cylinder.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant 2_RefractRing_MI",
+          "ObjectPath": "ShooterGame/Content/VFX/Materials/2_RefractRing_MI.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bApplyImpulseOnDamage": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 4.5,
+        "Y": 4.5,
+        "Z": 0.01
+      },
+      "bHiddenInGame": true
+    }
+  }
+]

@@ -1,0 +1,355 @@
+[
+  {
+    "Type": "AIService_FocusOnPerceivedTarget_C",
+    "Name": "AIService_FocusOnPerceivedTarget_C_3",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Template": "Default__AIService_FocusOnPerceivedTarget_C",
+    "Properties": {
+      "FocusObject": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "FallBackLocation": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence Behavior_Killjoy_Q_Alarmbot:BTComposite_Sequence_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.4"
+      }
+    }
+  },
+  {
+    "Type": "BehaviorTree",
+    "Name": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData Blackboard_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Blackboard_Killjoy_Q_Alarmbot.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_0",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait Behavior_Killjoy_Q_Alarmbot:BTTask_Wait_1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.9"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard Behavior_Killjoy_Q_Alarmbot:BTDecorator_Blackboard_1",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.5"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait Behavior_Killjoy_Q_Alarmbot:BTTask_Wait_3",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.10"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_8",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Sequence Behavior_Killjoy_Q_Alarmbot:BTComposite_Sequence_4",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.4"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_DoesPathExist Behavior_Killjoy_Q_Alarmbot:BTDecorator_DoesPathExist_4",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.7"
+            },
+            {
+              "ObjectName": "BTDecorator_Blackboard Behavior_Killjoy_Q_Alarmbot:BTDecorator_Blackboard_6",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.6"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_0",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.2"
+          },
+          "ChildTask": null,
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "Service_SelectVisibleTarget_C Behavior_Killjoy_Q_Alarmbot:SelectVisibleTarget_C_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.13"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Sequence",
+    "Name": "BTComposite_Sequence_4",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait Behavior_Killjoy_Q_Alarmbot:BTTask_Wait_5",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.12"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_MoveTo Behavior_Killjoy_Q_Alarmbot:BTTask_MoveTo_3",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.8"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait Behavior_Killjoy_Q_Alarmbot:BTTask_Wait_4",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.11"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "AIService_FocusOnPerceivedTarget_C Behavior_Killjoy_Q_Alarmbot:AIService_FocusOnPerceivedTarget_C_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.0"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_1",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "CachedDescription": "VisibleTarget is Is Set",
+      "BlackboardKey": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_6",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "CachedDescription": "VisibleTarget is Is Set",
+      "NotifyObserver": "EBTBlackboardRestart::ValueChange",
+      "BlackboardKey": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_DoesPathExist",
+    "Name": "BTDecorator_DoesPathExist_4",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "BlackboardKeyA": {},
+      "BlackboardKeyB": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_MoveTo",
+    "Name": "BTTask_MoveTo_3",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "AcceptableRadius": 200.0,
+      "bReachTestIncludesAgentRadius": false,
+      "bReachTestIncludesGoalRadius": false,
+      "bStopOnOverlapNeedsUpdate": false,
+      "BlackboardKey": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence Behavior_Killjoy_Q_Alarmbot:BTComposite_Sequence_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.4"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_1",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "WaitTime": 0.1,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_3",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_4",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "WaitTime": 0.5,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence Behavior_Killjoy_Q_Alarmbot:BTComposite_Sequence_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.4"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_5",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Properties": {
+      "WaitTime": 0.5,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence Behavior_Killjoy_Q_Alarmbot:BTComposite_Sequence_4",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.4"
+      }
+    }
+  },
+  {
+    "Type": "Service_SelectVisibleTarget_C",
+    "Name": "SelectVisibleTarget_C_3",
+    "Outer": "Behavior_Killjoy_Q_Alarmbot",
+    "Template": "Default__Service_SelectVisibleTarget_C",
+    "Properties": {
+      "VisibleTargetBlackboard": {
+        "SelectedKeyName": "VisibleTarget"
+      },
+      "HiddenTargetBlackboard": {
+        "SelectedKeyName": "HiddenTarget"
+      },
+      "TargetLocationBlackboard": {
+        "SelectedKeyName": "TargetLocation"
+      },
+      "TargetActorFilter": {
+        "IncludedClasses": [
+          {
+            "AssetPathName": "/Script/ShooterGame.ShooterCharacter",
+            "SubPathString": ""
+          }
+        ],
+        "ExcludedClasses": []
+      },
+      "Interval": 0.025,
+      "RandomDeviation": 0.0,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree Behavior_Killjoy_Q_Alarmbot",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.1"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector Behavior_Killjoy_Q_Alarmbot:BTComposite_Selector_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Behavior_Killjoy_Q_Alarmbot.3"
+      }
+    }
+  }
+]

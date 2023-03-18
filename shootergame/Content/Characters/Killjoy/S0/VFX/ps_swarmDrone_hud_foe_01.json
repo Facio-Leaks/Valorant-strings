@@ -1,0 +1,2189 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_17"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_21"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_2",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_swarmDrone_hud_foe_01:ParticleModuleRequired_17",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.24"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_swarmDrone_hud_foe_01:ParticleModuleLifetime_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.12"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_swarmDrone_hud_foe_01:ParticleModuleSize_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.29"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_swarmDrone_hud_foe_01:ParticleModuleColorOverLife_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_swarmDrone_hud_foe_01:ParticleModuleMeshRotation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotationRateOverLife ps_swarmDrone_hud_foe_01:ParticleModuleMeshRotationRateOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.21"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_swarmDrone_hud_foe_01:ParticleModuleParameterDynamic_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.23"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_swarmDrone_hud_foe_01:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.6"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveCylinder ps_swarmDrone_hud_foe_01:ParticleModuleLocationPrimitiveCylinder_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.16"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_swarmDrone_hud_foe_01:ParticleModuleTypeDataMesh_14",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.34"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_swarmDrone_hud_foe_01:ParticleModuleSpawn_17",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.30"
+      },
+      "PeakActiveParticles": 6
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_3",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_swarmDrone_hud_foe_01:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.25"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_swarmDrone_hud_foe_01:ParticleModuleLifetime_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.14"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_swarmDrone_hud_foe_01:ParticleModuleSize_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.27"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_swarmDrone_hud_foe_01:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.10"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotation ps_swarmDrone_hud_foe_01:ParticleModuleMeshRotation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleMeshRotationRateOverLife ps_swarmDrone_hud_foe_01:ParticleModuleMeshRotationRateOverLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.20"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic ps_swarmDrone_hud_foe_01:ParticleModuleParameterDynamic_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.22"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_swarmDrone_hud_foe_01:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.7"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveCylinder ps_swarmDrone_hud_foe_01:ParticleModuleLocationPrimitiveCylinder_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.17"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataMesh ps_swarmDrone_hud_foe_01:ParticleModuleTypeDataMesh_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.33"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_swarmDrone_hud_foe_01:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.31"
+      },
+      "PeakActiveParticles": 17
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_5",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_swarmDrone_hud_foe_01:ParticleModuleRequired_21",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.26"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_swarmDrone_hud_foe_01:ParticleModuleLifetime_19",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.13"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_swarmDrone_hud_foe_01:ParticleModuleSize_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.28"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_swarmDrone_hud_foe_01:ParticleModuleLocation_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_swarmDrone_hud_foe_01:ParticleModuleColorOverLife_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.9"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_swarmDrone_hud_foe_01:ParticleModuleCameraOffset_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.8"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_swarmDrone_hud_foe_01:ParticleModuleSpawn_21",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.32"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "CameraOffset": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_1",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "CameraOffset": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_3",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "CameraOffset": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_17",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 1000.0,
+        "MinValueVec": {
+          "X": 0.161458,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 1000.0,
+          "Y": 2.951184,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 158.75,
+          "Values": [
+            1000.0,
+            0.0,
+            0.0,
+            984.3566,
+            0.0,
+            0.15748031,
+            968.7132,
+            0.0,
+            0.31496063,
+            953.0698,
+            0.0,
+            0.47244096,
+            937.4264,
+            0.0,
+            0.62992126,
+            921.783,
+            0.0,
+            0.78740156,
+            906.13965,
+            0.0,
+            0.9448819,
+            890.4962,
+            0.0,
+            1.1023622,
+            874.85284,
+            0.0,
+            1.2598425,
+            859.2094,
+            0.0,
+            1.4173228,
+            843.56604,
+            0.0,
+            1.5748031,
+            827.9226,
+            0.0,
+            1.7322834,
+            812.27924,
+            0.0,
+            1.8897638,
+            796.63586,
+            0.0,
+            2.047244,
+            780.99243,
+            0.0,
+            2.2047243,
+            765.34906,
+            0.0,
+            2.3622046,
+            749.7056,
+            0.0,
+            2.519685,
+            734.06226,
+            0.0,
+            2.6771653,
+            718.4188,
+            0.0,
+            2.8346455,
+            702.77545,
+            0.0,
+            2.992126,
+            687.1321,
+            0.0,
+            3.1496062,
+            671.48865,
+            0.0,
+            3.3070865,
+            655.8453,
+            0.0,
+            3.4645667,
+            640.2019,
+            0.0,
+            3.6220474,
+            624.5585,
+            0.0,
+            3.7795277,
+            608.91504,
+            0.0,
+            3.937008,
+            593.2717,
+            0.0,
+            4.094488,
+            577.6283,
+            0.0,
+            4.2519684,
+            561.98486,
+            0.0,
+            4.4094486,
+            546.3415,
+            0.0,
+            4.566929,
+            530.6981,
+            0.0,
+            4.724409,
+            515.0547,
+            0.0,
+            4.88189,
+            499.4113,
+            0.0,
+            5.03937,
+            483.76788,
+            0.0,
+            5.1968503,
+            468.1245,
+            0.0,
+            5.3543305,
+            452.48114,
+            0.0,
+            5.511811,
+            436.8377,
+            0.0,
+            5.669291,
+            421.19434,
+            0.0,
+            5.8267713,
+            405.5509,
+            0.0,
+            5.984252,
+            389.90753,
+            0.0,
+            6.141732,
+            374.2641,
+            0.0,
+            6.2992125,
+            358.6208,
+            0.0,
+            6.456692,
+            342.97736,
+            0.0,
+            6.614173,
+            327.33386,
+            0.0,
+            6.771654,
+            311.69055,
+            0.0,
+            6.9291334,
+            296.04718,
+            0.0,
+            7.0866137,
+            280.40375,
+            0.0,
+            7.244095,
+            264.7603,
+            0.0,
+            7.401575,
+            249.11694,
+            0.0,
+            7.5590553,
+            233.47363,
+            0.0,
+            7.7165346,
+            217.83014,
+            0.0,
+            7.874016,
+            202.1867,
+            0.0,
+            8.031496,
+            186.5434,
+            0.0,
+            8.188976,
+            170.90002,
+            0.0,
+            8.346457,
+            155.25653,
+            0.0,
+            8.503937,
+            139.61316,
+            0.0,
+            8.661417,
+            123.96979,
+            0.0,
+            8.818897,
+            108.326416,
+            0.0,
+            8.9763775,
+            92.68298,
+            0.0,
+            9.133858,
+            77.03955,
+            0.0,
+            9.291339,
+            61.39624,
+            0.0,
+            9.448818,
+            45.752808,
+            0.0,
+            9.606298,
+            30.109375,
+            0.0,
+            9.76378,
+            14.466003,
+            0.0,
+            9.92126,
+            6.6795464,
+            0.030983487,
+            9.895014,
+            6.7500067,
+            0.09295047,
+            9.68504,
+            6.8204675,
+            0.15491773,
+            9.475066,
+            6.8909283,
+            0.216885,
+            9.265092,
+            6.9613886,
+            0.27885196,
+            9.055119,
+            7.031849,
+            0.34081894,
+            8.845145,
+            7.1023097,
+            0.40278623,
+            8.635171,
+            7.1727705,
+            0.46475348,
+            8.425197,
+            7.243231,
+            0.52672046,
+            8.215223,
+            7.313691,
+            0.5886875,
+            8.00525,
+            7.384152,
+            0.6506547,
+            7.7952757,
+            7.4546127,
+            0.712622,
+            7.5853014,
+            7.525073,
+            0.77458894,
+            7.375328,
+            7.5955334,
+            0.83655596,
+            7.1653547,
+            7.665994,
+            0.89852315,
+            6.9553804,
+            7.736455,
+            0.96049047,
+            6.745406,
+            7.8069153,
+            1.0224574,
+            6.5354333,
+            7.8773756,
+            1.0844245,
+            6.3254595,
+            7.947836,
+            1.1463914,
+            6.1154866,
+            8.018297,
+            1.208359,
+            5.9055114,
+            8.0887575,
+            1.270326,
+            5.695538,
+            8.159218,
+            1.3322929,
+            5.4855647,
+            8.229679,
+            1.3942605,
+            5.2755895,
+            8.300139,
+            1.4562274,
+            5.0656166,
+            8.3706,
+            1.5181944,
+            4.855643,
+            8.44106,
+            1.5801615,
+            4.6456695,
+            8.51152,
+            1.6421283,
+            4.4356966,
+            8.581982,
+            1.7040958,
+            4.2257214,
+            8.652442,
+            1.766063,
+            4.015748,
+            8.722902,
+            1.82803,
+            3.8057747,
+            8.793364,
+            1.8899975,
+            3.5957994,
+            8.863824,
+            1.9519644,
+            3.385826,
+            8.934284,
+            2.0139315,
+            3.1758528,
+            9.004745,
+            2.0758984,
+            2.9658794,
+            9.075205,
+            2.1378653,
+            2.7559066,
+            9.145666,
+            2.199833,
+            2.5459313,
+            9.216126,
+            2.2617998,
+            2.335958,
+            9.286587,
+            2.323767,
+            2.1259842,
+            9.357048,
+            2.3857346,
+            1.916009,
+            9.427508,
+            2.4477012,
+            1.7060366,
+            9.497969,
+            2.5096684,
+            1.4960632,
+            9.568429,
+            2.5716355,
+            1.286089,
+            9.638889,
+            2.6336024,
+            1.0761156,
+            9.709351,
+            2.69557,
+            0.86614037,
+            9.779811,
+            2.757537,
+            0.656168,
+            9.850271,
+            2.8195038,
+            0.44619465,
+            9.9207325,
+            2.8814714,
+            0.2362194,
+            9.991193,
+            2.9434385,
+            0.02624607,
+            9.457718,
+            2.78852,
+            0.0050376924,
+            8.837969,
+            2.6026192,
+            0.010795032,
+            8.21822,
+            2.4167185,
+            0.01655237,
+            7.598464,
+            2.230816,
+            0.022309765,
+            6.978715,
+            2.0449147,
+            0.028067106,
+            6.358966,
+            1.859014,
+            0.033824444,
+            5.739211,
+            1.6731113,
+            0.03958184,
+            5.119462,
+            1.4872105,
+            0.04533918,
+            4.499713,
+            1.3013096,
+            0.051096518,
+            3.8799639,
+            1.1154087,
+            0.056853857,
+            3.2602153,
+            0.929508,
+            0.06261119,
+            2.64046,
+            0.74360514,
+            0.06836859,
+            2.020711,
+            0.55770445,
+            0.07412593,
+            1.4009619,
+            0.37180352,
+            0.07988327,
+            0.7812071,
+            0.18590093,
+            0.08564066,
+            0.161458,
+            0.0,
+            0.091398
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_7",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 500.0,
+        "MinValueVec": {
+          "X": 0.161458,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 500.0,
+          "Y": 86.97909,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 158.75,
+          "Values": [
+            500.0,
+            86.97909,
+            0.0,
+            492.23062,
+            85.60934,
+            0.15748031,
+            484.46124,
+            84.239586,
+            0.31496063,
+            476.69186,
+            82.86984,
+            0.47244096,
+            468.9225,
+            81.50009,
+            0.62992126,
+            461.1531,
+            80.13034,
+            0.78740156,
+            453.38373,
+            78.76059,
+            0.9448819,
+            445.61432,
+            77.39084,
+            1.1023622,
+            437.84497,
+            76.021095,
+            1.2598425,
+            430.07556,
+            74.651344,
+            1.4173228,
+            422.30618,
+            73.28159,
+            1.5748031,
+            414.5368,
+            71.91184,
+            1.7322834,
+            406.76743,
+            70.5421,
+            1.8897638,
+            398.99805,
+            69.17235,
+            2.047244,
+            391.22867,
+            67.8026,
+            2.2047243,
+            383.4593,
+            66.432846,
+            2.3622046,
+            375.6899,
+            65.063095,
+            2.519685,
+            367.92053,
+            63.693348,
+            2.6771653,
+            360.15115,
+            62.3236,
+            2.8346455,
+            352.38177,
+            60.95385,
+            2.992126,
+            344.61237,
+            59.5841,
+            3.1496062,
+            336.84302,
+            58.21435,
+            3.3070865,
+            329.0736,
+            56.844604,
+            3.4645667,
+            321.30426,
+            55.474854,
+            3.6220474,
+            313.53485,
+            54.105103,
+            3.7795277,
+            305.7655,
+            52.73535,
+            3.937008,
+            297.9961,
+            51.365604,
+            4.094488,
+            290.2267,
+            49.995853,
+            4.2519684,
+            282.45734,
+            48.626106,
+            4.4094486,
+            274.68796,
+            47.256355,
+            4.566929,
+            266.91858,
+            45.88661,
+            4.724409,
+            259.14917,
+            44.516857,
+            4.88189,
+            251.37982,
+            43.147106,
+            5.03937,
+            243.61044,
+            41.77736,
+            5.1968503,
+            235.84106,
+            40.407608,
+            5.3543305,
+            228.07169,
+            39.03786,
+            5.511811,
+            220.3023,
+            37.66811,
+            5.669291,
+            212.53293,
+            36.298363,
+            5.8267713,
+            204.76352,
+            34.928608,
+            5.984252,
+            196.99414,
+            33.55886,
+            6.141732,
+            189.22476,
+            32.18911,
+            6.2992125,
+            181.45541,
+            30.819366,
+            6.456692,
+            173.686,
+            29.449615,
+            6.614173,
+            165.9166,
+            28.07986,
+            6.771654,
+            158.14725,
+            26.710117,
+            6.9291334,
+            150.37787,
+            25.340366,
+            7.0866137,
+            142.60849,
+            23.970615,
+            7.244095,
+            134.83911,
+            22.600868,
+            7.401575,
+            127.06973,
+            21.231117,
+            7.5590553,
+            119.300385,
+            19.861374,
+            7.7165346,
+            111.530975,
+            18.491615,
+            7.874016,
+            103.761566,
+            17.121864,
+            8.031496,
+            95.99222,
+            15.752121,
+            8.188976,
+            88.22284,
+            14.38237,
+            8.346457,
+            80.45343,
+            13.012619,
+            8.503937,
+            72.68405,
+            11.642868,
+            8.661417,
+            64.91467,
+            10.273125,
+            8.818897,
+            57.145325,
+            8.903374,
+            8.9763775,
+            49.375916,
+            7.5336227,
+            9.133858,
+            41.606506,
+            6.163872,
+            9.291339,
+            33.83716,
+            4.7941284,
+            9.448818,
+            26.06778,
+            3.4243774,
+            9.606298,
+            18.29837,
+            2.0546265,
+            9.76378,
+            10.528992,
+            0.6848755,
+            9.92126,
+            6.6795464,
+            0.030983487,
+            9.895014,
+            6.7500067,
+            0.09295047,
+            9.68504,
+            6.8204675,
+            0.15491773,
+            9.475066,
+            6.8909283,
+            0.216885,
+            9.265092,
+            6.9613886,
+            0.27885196,
+            9.055119,
+            7.031849,
+            0.34081894,
+            8.845145,
+            7.1023097,
+            0.40278623,
+            8.635171,
+            7.1727705,
+            0.46475348,
+            8.425197,
+            7.243231,
+            0.52672046,
+            8.215223,
+            7.313691,
+            0.5886875,
+            8.00525,
+            7.384152,
+            0.6506547,
+            7.7952757,
+            7.4546127,
+            0.712622,
+            7.5853014,
+            7.525073,
+            0.77458894,
+            7.375328,
+            7.5955334,
+            0.83655596,
+            7.1653547,
+            7.665994,
+            0.89852315,
+            6.9553804,
+            7.736455,
+            0.96049047,
+            6.745406,
+            7.8069153,
+            1.0224574,
+            6.5354333,
+            7.8773756,
+            1.0844245,
+            6.3254595,
+            7.947836,
+            1.1463914,
+            6.1154866,
+            8.018297,
+            1.208359,
+            5.9055114,
+            8.0887575,
+            1.270326,
+            5.695538,
+            8.159218,
+            1.3322929,
+            5.4855647,
+            8.229679,
+            1.3942605,
+            5.2755895,
+            8.300139,
+            1.4562274,
+            5.0656166,
+            8.3706,
+            1.5181944,
+            4.855643,
+            8.44106,
+            1.5801615,
+            4.6456695,
+            8.51152,
+            1.6421283,
+            4.4356966,
+            8.581982,
+            1.7040958,
+            4.2257214,
+            8.652442,
+            1.766063,
+            4.015748,
+            8.722902,
+            1.82803,
+            3.8057747,
+            8.793364,
+            1.8899975,
+            3.5957994,
+            8.863824,
+            1.9519644,
+            3.385826,
+            8.934284,
+            2.0139315,
+            3.1758528,
+            9.004745,
+            2.0758984,
+            2.9658794,
+            9.075205,
+            2.1378653,
+            2.7559066,
+            9.145666,
+            2.199833,
+            2.5459313,
+            9.216126,
+            2.2617998,
+            2.335958,
+            9.286587,
+            2.323767,
+            2.1259842,
+            9.357048,
+            2.3857346,
+            1.916009,
+            9.427508,
+            2.4477012,
+            1.7060366,
+            9.497969,
+            2.5096684,
+            1.4960632,
+            9.568429,
+            2.5716355,
+            1.286089,
+            9.638889,
+            2.6336024,
+            1.0761156,
+            9.709351,
+            2.69557,
+            0.86614037,
+            9.779811,
+            2.757537,
+            0.656168,
+            9.850271,
+            2.8195038,
+            0.44619465,
+            9.9207325,
+            2.8814714,
+            0.2362194,
+            9.991193,
+            2.9434385,
+            0.02624607,
+            9.457718,
+            2.78852,
+            0.0050376924,
+            8.837969,
+            2.6026192,
+            0.010795032,
+            8.21822,
+            2.4167185,
+            0.01655237,
+            7.598464,
+            2.230816,
+            0.022309765,
+            6.978715,
+            2.0449147,
+            0.028067106,
+            6.358966,
+            1.859014,
+            0.033824444,
+            5.739211,
+            1.6731113,
+            0.03958184,
+            5.119462,
+            1.4872105,
+            0.04533918,
+            4.499713,
+            1.3013096,
+            0.051096518,
+            3.8799639,
+            1.1154087,
+            0.056853857,
+            3.2602153,
+            0.929508,
+            0.06261119,
+            2.64046,
+            0.74360514,
+            0.06836859,
+            2.020711,
+            0.55770445,
+            0.07412593,
+            1.4009619,
+            0.37180352,
+            0.07988327,
+            0.7812071,
+            0.18590093,
+            0.08564066,
+            0.161458,
+            0.0,
+            0.091398
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_10",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.25,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.25,
+            0.5
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_19",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.7,
+        "MaxValue": 0.7,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.7
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_3",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.25,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.25,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_17",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveCylinder",
+    "Name": "ParticleModuleLocationPrimitiveCylinder_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartHeight": {
+        "MinValue": 35.0,
+        "MaxValue": 35.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            35.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "HeightAxis": "PMLPC_HEIGHTAXIS_X",
+      "SurfaceOnly": true,
+      "VelocityScale": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartLocation": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            100.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveCylinder",
+    "Name": "ParticleModuleLocationPrimitiveCylinder_2",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartHeight": {
+        "MinValue": 35.0,
+        "MaxValue": 35.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            35.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "HeightAxis": "PMLPC_HEIGHTAXIS_X",
+      "SurfaceOnly": true,
+      "VelocityScale": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartLocation": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            100.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotation",
+    "Name": "ParticleModuleMeshRotation_1",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotationRateOverLife",
+    "Name": "ParticleModuleMeshRotationRateOverLife_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "RotRate": {
+        "MinValue": -0.30129638,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.30129638
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleMeshRotationRateOverLife",
+    "Name": "ParticleModuleMeshRotationRateOverLife_3",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "RotRate": {
+        "MinValue": -0.30129638,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.30129638
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Random",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Width",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 10.0,
+            "MaxValue": 10.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                10.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "SpriteFrames",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_4",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Random",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Width",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 5.0,
+            "MaxValue": 5.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                5.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "SpriteFrames",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.9,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 1.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                0.9
+              ],
+              "Op": 1,
+              "EntryCount": 2,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_17",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_orbit_32",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_orbit_32.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_swarmDrone_hud_foe_01:ParticleModuleRequired_17.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.0"
+        }
+      },
+      "EmitterDelay": 0.15,
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_orbit_23",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_orbit_23.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_swarmDrone_hud_foe_01:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.1"
+        }
+      },
+      "EmitterDelay": 0.2,
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_21",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_02",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_02.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.75,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_swarmDrone_hud_foe_01:ParticleModuleRequired_21.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.01,
+        "MaxValue": 0.01,
+        "MinValueVec": {
+          "X": 0.01,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.01,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_14",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 200.0,
+        "MaxValue": 200.0,
+        "MinValueVec": {
+          "X": 200.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 200.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            200.0,
+            200.0,
+            200.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_17",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.05,
+        "MaxValue": 0.05,
+        "MinValueVec": {
+          "X": 0.05,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.05,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_17",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Rate": {
+        "MinValue": 7.0,
+        "MaxValue": 7.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            7.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Rate": {
+        "MinValue": 15.0,
+        "MaxValue": 15.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            15.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_21",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_0",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_spline_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_spline_03.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MinValue": -50.0,
+        "MinValueVec": {
+          "X": -50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataMesh",
+    "Name": "ParticleModuleTypeDataMesh_14",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh geo_spline_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_spline_03.2"
+      },
+      "bOverrideMaterial": true,
+      "RollPitchYawRange": {
+        "MinValue": -50.0,
+        "MinValueVec": {
+          "X": -50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": -50.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_2",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_2.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.3"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_3.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.4"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Outer": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_5.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.5"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_swarmDrone_hud_foe_01",
+    "Properties": {
+      "WarmupTime": 1.0,
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.35"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.36"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_swarmDrone_hud_foe_01:ParticleSpriteEmitter_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_swarmDrone_hud_foe_01.37"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

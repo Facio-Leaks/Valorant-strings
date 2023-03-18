@@ -1,0 +1,411 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Mobile_AmmoHUDElement_WeaponSwitcher",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetStowedGun_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnInventoryItemsChanged__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInventory_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresInventory",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetItemSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "OnItemsChanged",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStopWidget",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "SuperStruct": {
+      "ObjectName": "Function CharacterAbilityWidget:OnStopWidget",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "FunctionFlags": 134744072
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStartWidget",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "Super": "OnStartWidget",
+    "SuperStruct": {
+      "ObjectName": "Function AmmoHUDElement_Base_C:OnStartWidget",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/AmmoHUDElement_Base.6"
+    },
+    "FunctionFlags": 134744072
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleEquippableChanged",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "Super": "HandleEquippableChanged",
+    "SuperStruct": {
+      "ObjectName": "Function Mobile_AmmoHUDElement_CharacterHUD_C:HandleEquippableChanged",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_CharacterHUD.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InEquippable",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetItemSlot_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum EAresItemSlot",
+          "ObjectPath": "/Script/ShooterGame"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetStowedGun_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "Super": "Mobile_AmmoHUDElement_CharacterHUD_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree Mobile_AmmoHUDElement_WeaponSwitcher_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.7"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:ExecuteUbergraph_Mobile_AmmoHUDElement_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass Mobile_AmmoHUDElement_CharacterHUD_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_CharacterHUD.8"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:HandleEquippableChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.4"
+      },
+      {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnStartWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.3"
+      },
+      {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnStopWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.2"
+      },
+      {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnItemsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.1"
+      },
+      {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:ExecuteUbergraph_Mobile_AmmoHUDElement_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CachedEquippable",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 67589,
+        "PropertyClass": {
+          "ObjectName": "Class AresEquippable",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Mobile_AmmoHUDElement_WeaponSwitcher": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:ExecuteUbergraph_Mobile_AmmoHUDElement_WeaponSwitcher",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.0"
+      },
+      "OnItemsChanged": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnItemsChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.1"
+      },
+      "OnStopWidget": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnStopWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.2"
+      },
+      "OnStartWidget": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:OnStartWidget",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.3"
+      },
+      "HandleEquippableChanged": {
+        "ObjectName": "Function Mobile_AmmoHUDElement_WeaponSwitcher_C:HandleEquippableChanged",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.4"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Mobile_AmmoHUDElement_WeaponSwitcher_C Default__Mobile_AmmoHUDElement_WeaponSwitcher_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WeaponSwitcher/Mobile_AmmoHUDElement_WeaponSwitcher.6"
+    }
+  },
+  {
+    "Type": "Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "Name": "Default__Mobile_AmmoHUDElement_WeaponSwitcher_C",
+    "Template": "Default__Mobile_AmmoHUDElement_CharacterHUD_C",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "Mobile_AmmoHUDElement_WeaponSwitcher_C"
+  }
+]

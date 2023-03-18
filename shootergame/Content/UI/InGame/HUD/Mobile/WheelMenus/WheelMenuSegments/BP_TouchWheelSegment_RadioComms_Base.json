@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TouchWheelSegment_RadioComms_Base",
+    "Outer": "BP_TouchWheelSegment_RadioComms_Base_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLocalController_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AresPlayerController",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBase_Controller",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BaseController_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/BaseController.41"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass PlayerNonverbalChatComponent_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/PlayerNonverbalChatComponent.9"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "DoWork",
+    "Outer": "BP_TouchWheelSegment_RadioComms_Base_C",
+    "SuperStruct": {
+      "ObjectName": "Function AresTouchWheelSegment:DoWork",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelMenuContext",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524436,
+        "PropertyClass": {
+          "ObjectName": "Class AresTouchWheelMenu",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_TouchWheelSegment_RadioComms_Base_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:ExecuteUbergraph_BP_TouchWheelSegment_RadioComms_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWheelSegment",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.1"
+      },
+      {
+        "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:ExecuteUbergraph_BP_TouchWheelSegment_RadioComms_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CommType",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 65541,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum NonVerbalCommTypesEnum",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/QuickComms/NonVerbalCommTypesEnum.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TouchWheelSegment_RadioComms_Base": {
+        "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:ExecuteUbergraph_BP_TouchWheelSegment_RadioComms_Base",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.0"
+      },
+      "DoWork": {
+        "ObjectName": "Function BP_TouchWheelSegment_RadioComms_Base_C:DoWork",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.1"
+      }
+    },
+    "ClassFlags": 264208,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TouchWheelSegment_RadioComms_Base_C Default__BP_TouchWheelSegment_RadioComms_Base_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/WheelMenuSegments/BP_TouchWheelSegment_RadioComms_Base.3"
+    }
+  },
+  {
+    "Type": "BP_TouchWheelSegment_RadioComms_Base_C",
+    "Name": "Default__BP_TouchWheelSegment_RadioComms_Base_C",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

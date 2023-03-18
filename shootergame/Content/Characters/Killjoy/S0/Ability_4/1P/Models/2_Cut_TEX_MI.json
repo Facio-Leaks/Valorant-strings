@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "2_Cut_TEX_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material 0_DisableDepth_MAT",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/0_DisableDepth_MAT.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D Cut_TEX",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/VFX/Textures/Cut_TEX.0"
+          },
+          "ExpressionGUID": "D652180A-4DB27BEB-5036D69E-0B670FDB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D Cut_TEX",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/1P/VFX/Textures/Cut_TEX.0"
+          },
+          "ExpressionGUID": "BA70A781-4C5632DD-556A4EBB-321E225F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Emissive_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "DC6B1E69-45F2481F-52AB2B96-C440A6CD"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Alpha_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "529FDDB8-4D4D4FDE-EA84018D-1522BD72"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Alpha_Base_32Bit",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "0F2CC79B-4F451853-136171BB-55F157C7"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D FireCrawlA01",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/FireCrawlA01.0"
+        },
+        {
+          "ObjectName": "Texture2D T_Clouds_01",
+          "ObjectPath": "ShooterGame/Content/Effects/Textures/Smoke/T_Clouds_01.0"
+        },
+        {
+          "ObjectName": "Texture2D 00_White_DIFF",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/00_White_DIFF.0"
+        }
+      ]
+    }
+  }
+]

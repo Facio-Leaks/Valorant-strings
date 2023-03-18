@@ -1,0 +1,1124 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FXC_CharacterSelect_Killjoy",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_StartTime",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AnimInstance",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentActiveMontage_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class AnimMontage",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_7",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class ParticleSystemComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "StartEffect",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Super": "StartEffect",
+    "SuperStruct": {
+      "ObjectName": "Function FXC_CharacterSelect_Base_C:StartEffect",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Target",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Actor",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Context",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "PropertyClass": {
+          "ObjectName": "Class Object",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "StartTime",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstPerson",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350848
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__UpdateFunc",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__FinishedFunc",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FXC_CharacterSelect_Killjoy_C",
+    "Super": "FXC_CharacterSelect_Base_C",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate FXC_CharacterSelect_Killjoy_C:Timeline_0_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.26"
+        },
+        {
+          "ObjectName": "TimelineTemplate FXC_CharacterSelect_Killjoy_C:Timeline_1_Template",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.27"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.21"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler FXC_CharacterSelect_Killjoy_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:ExecuteUbergraph_FXC_CharacterSelect_Killjoy",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_0__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.5"
+      },
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_0__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.4"
+      },
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_1__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.3"
+      },
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_1__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.2"
+      },
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.1"
+      },
+      {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:ExecuteUbergraph_FXC_CharacterSelect_Killjoy",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlarmBot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SkeletalMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Turret",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SkeletalMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_1_Cast_2769522041B2F7911F5E9FBBF9EF8643",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_1__Direction_2769522041B2F7911F5E9FBBF9EF8643",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_1",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_FingerTip_005343E245DB3DF86193818A1299F233",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_Cast_005343E245DB3DF86193818A1299F233",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_TurretDissolve_005343E245DB3DF86193818A1299F233",
+        "Flags": 2097153,
+        "ElementSize": 4,
+        "PropertyFlags": 1125899906842624
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_005343E245DB3DF86193818A1299F233",
+        "Flags": 2097153,
+        "ElementSize": 1,
+        "PropertyFlags": 1125899906842624,
+        "Enum": {
+          "ObjectName": "Enum ETimelineDirection",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 524292,
+        "PropertyClass": {
+          "ObjectName": "Class TimelineComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FXC_CharacterSelect_Killjoy": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:ExecuteUbergraph_FXC_CharacterSelect_Killjoy",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.0"
+      },
+      "StartEffect": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:StartEffect",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.1"
+      },
+      "Timeline_1__UpdateFunc": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_1__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.2"
+      },
+      "Timeline_1__FinishedFunc": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_1__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.3"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_0__UpdateFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.4"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function FXC_CharacterSelect_Killjoy_C:Timeline_0__FinishedFunc",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.5"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FXC_CharacterSelect_Killjoy_C Default__FXC_CharacterSelect_Killjoy_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.7"
+    }
+  },
+  {
+    "Type": "FXC_CharacterSelect_Killjoy_C",
+    "Name": "Default__FXC_CharacterSelect_Killjoy_C",
+    "Template": "Default__FXC_CharacterSelect_Base_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage CS_Killjoy_S0_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/CS_Killjoy_S0_Montage.0"
+      },
+      "CameraMontageToPlay": {
+        "ObjectName": "AnimMontage ABCS_Killjoy_S0_Camera_Montage",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/ABCS_Killjoy_S0_Camera_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "CS_FakePointLight_C",
+    "Name": "CS_FakePointLight1_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Template": "CS_FakePointLight1_GEN_VARIABLE",
+    "Properties": {
+      "AttenuationRadius": 1000.0,
+      "Intensity": 0.75,
+      "LightColor": {
+        "B": 190,
+        "G": 243,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF3BE"
+      },
+      "RelativeLocation": {
+        "X": 586.09534,
+        "Y": 25.085022,
+        "Z": 324.97058
+      }
+    }
+  },
+  {
+    "Type": "CS_FakePointLight_C",
+    "Name": "CS_FakePointLight2_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Template": "CS_FakePointLight2_GEN_VARIABLE",
+    "Properties": {
+      "AttenuationRadius": 10000.0,
+      "Intensity": 3.0,
+      "LightColor": {
+        "B": 253,
+        "G": 255,
+        "R": 229,
+        "A": 255,
+        "Hex": "FFE5FFFD"
+      },
+      "RelativeLocation": {
+        "X": -325.96252,
+        "Y": 338.9082,
+        "Z": 239.18115
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.6,
+            "Value": 1.0,
+            "ArriveTangent": -1.9117569,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -1.9117559,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.00649698,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.006494082,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 20.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 21.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1_2",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_2",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "CS_DirectionalLight_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Template": "CS_DirectionalLight_GEN_VARIABLE",
+    "Properties": {
+      "ShadowBias": 1.56,
+      "RelativeLocation": {
+        "X": 256.98386,
+        "Y": 20.220219,
+        "Z": 244.84483
+      },
+      "RelativeRotation": {
+        "Pitch": 363.97308,
+        "Yaw": 163.04254,
+        "Roll": -18.978537
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SkeletalMeshComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent FXC_CharacterSelect_Killjoy_C:SkeletalMesh_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.24"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "SkeletalMesh",
+            "AssociatedGuid": "C8009835-44C44496-74A7ACB8-ECAD25EC"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SkeletalMeshComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent FXC_CharacterSelect_Killjoy_C:CameraRig_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.23"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "CameraRig",
+            "AssociatedGuid": "49A3916E-4B9ACF16-D8633096-CE4FE564"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class SceneComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent FXC_CharacterSelect_Killjoy_C:ICH-DefaultSceneRoot_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "DefaultSceneRoot",
+            "AssociatedGuid": "4968766B-4F25594C-C6C2D5B4-7F06A6F2"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass CS_FakePointLight_C",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/CS_FakePointLight.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "CS_FakePointLight_C FXC_CharacterSelect_Killjoy_C:CS_FakePointLight1_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "CS_FakePointLight1",
+            "AssociatedGuid": "6F2B3796-46AA8872-A27EC29F-E8FFD67C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass CS_FakePointLight_C",
+            "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Materials/CS_FakePointLight.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "CS_FakePointLight_C FXC_CharacterSelect_Killjoy_C:CS_FakePointLight2_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "CS_FakePointLight2",
+            "AssociatedGuid": "2742F7EE-4D43B74F-62201191-168C17ED"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class DirectionalLightComponent",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "DirectionalLightComponent FXC_CharacterSelect_Killjoy_C:CS_DirectionalLight_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass FXC_CharacterSelect_Base_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/FXC_CharacterSelect_Base.9"
+            },
+            "SCSVariableName": "CS_DirectionalLight",
+            "AssociatedGuid": "31A18134-4CDED48A-1CEBB48F-440E7FB6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "ICH-DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent FXC_CharacterSelect_Killjoy_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.16"
+      },
+      "VariableGuid": "8F3ACE1B-47BB78E4-E141928B-B6D0E969",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SkeletalMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent FXC_CharacterSelect_Killjoy_C:Turret_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.25"
+      },
+      "ParentComponentOrVariableName": "SkeletalMesh",
+      "ParentComponentOwnerClassName": "FXC_CharacterSelect_Base_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.20"
+        }
+      ],
+      "VariableGuid": "8ADBB398-48320DAF-0B4E3AB0-81A607AB",
+      "InternalVariableName": "Turret"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SkeletalMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent FXC_CharacterSelect_Killjoy_C:AlarmBot_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.22"
+      },
+      "VariableGuid": "50AE442D-45EEA836-591D94A5-B06B5040",
+      "InternalVariableName": "AlarmBot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.19"
+        },
+        {
+          "ObjectName": "SCS_Node FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0.SCS_Node_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node FXC_CharacterSelect_Killjoy_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.18"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "AlarmBot_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage ABCS_Killjoy_S0_Q_StealthDrone_Montage",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/ABCS_Killjoy_S0_Q_StealthDrone_Montage.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class ClothingSimulationFactoryNv",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh AB_Killjoy_S0_Q_StealthDrone_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/1P/Models/AB_Killjoy_S0_Q_StealthDrone_Skelmesh.0"
+      },
+      "bEnableUpdateRateOptimizations": true
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CameraRig_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Template": "CameraRig_GEN_VARIABLE",
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage ABCS_Killjoy_S0_Camera_Montage",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/ABCS_Killjoy_S0_Camera_Montage.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Template": "SkeletalMesh_GEN_VARIABLE",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass CS_Killjoy_S0_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Models/CS_Killjoy_S0_AnimGraph.3"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage CS_Killjoy_S0_Montage",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/CS_Killjoy_S0_Montage.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationBlueprint",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh CS_Killjoy_S0_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Models/CS_Killjoy_S0_Skelmesh.0"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant m_cs_glovesOverlay_01_Inst",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_cs_glovesOverlay_01_Inst.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant CS_Killjoy_S0_MI",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Materials/CS_Killjoy_S0_MI.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Turret_GEN_VARIABLE",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage ABCS_Killjoy_S0_E_Turret_Montage",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Anims/ABCS_Killjoy_S0_E_Turret_Montage.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class ClothingSimulationFactoryNv",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh ABCS_Killjoy_S0_E_Turret_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/CharSelect/Models/ABCS_Killjoy_S0_E_Turret_Skelmesh.0"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant AB_Killjoy_S0_E_Turret_MI",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_E/1P/Materials/AB_Killjoy_S0_E_Turret_MI.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "TimelineLength": 25.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_CharacterSelect_Killjoy_C:CurveFloat_0",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.10"
+          },
+          "PropertyName": "Timeline_0_TurretDissolve_005343E245DB3DF86193818A1299F233",
+          "TrackName": "TurretDissolve",
+          "bIsExternalCurve": false
+        },
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_CharacterSelect_Killjoy_C:CurveFloat_1",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.11"
+          },
+          "PropertyName": "Timeline_0_Cast_005343E245DB3DF86193818A1299F233",
+          "TrackName": "Cast",
+          "bIsExternalCurve": false
+        },
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_CharacterSelect_Killjoy_C:CurveFloat_2",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.13"
+          },
+          "PropertyName": "Timeline_0_FingerTip_005343E245DB3DF86193818A1299F233",
+          "TrackName": "FingerTip",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "005343E2-45DB3DF8-6193818A-1299F233",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_005343E245DB3DF86193818A1299F233",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_1_Template",
+    "Outer": "FXC_CharacterSelect_Killjoy_C",
+    "Properties": {
+      "TimelineLength": 10.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat FXC_CharacterSelect_Killjoy_C:CurveFloat_1_2",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/FXC_CharacterSelect_Killjoy.12"
+          },
+          "PropertyName": "Timeline_1_Cast_2769522041B2F7911F5E9FBBF9EF8643",
+          "TrackName": "Cast",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "27695220-41B2F791-1F5E9FBB-F9EF8643",
+      "VariableName": "Timeline_1",
+      "DirectionPropertyName": "Timeline_1__Direction_2769522041B2F7911F5E9FBBF9EF8643",
+      "UpdateFunctionName": "Timeline_1__UpdateFunc",
+      "FinishedFunctionName": "Timeline_1__FinishedFunc"
+    }
+  }
+]

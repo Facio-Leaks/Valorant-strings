@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Mobile_SpecialHealthHUDElement",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor",
+        "Flags": 1,
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct SlateColor",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnObject_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BP_Mobile_DamageSectionComponent_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.14"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "Function BP_Mobile_DamageSectionComponent_C:OnDamageSectionLifeValueChanged__DelegateSignature",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetShooterGameState_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class ShooterGameState",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction OnRoundEnd__DelegateSignature",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:Construct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "SuperStruct": {
+      "ObjectName": "Function UserWidget:PreConstruct",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 134350856
+  },
+  {
+    "Type": "Function",
+    "Name": "GetHealthValueText",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "TextProperty",
+        "Name": "ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24,
+        "PropertyFlags": 1408
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Damage Section to Display",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524293,
+        "PropertyClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetCachedLifeValue_CachedLifeValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FFloor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_IntToText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": 482476032
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateHealthValueTextAndVisibility",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Show",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum ESlateVisibility",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetHealthValueText_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": 209846272
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRoundEnd",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "RoundNumberEnded",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHealthValueUpdated",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "NewLifeValue",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 201850880
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Mobile_SpecialHealthHUDElement_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree Mobile_SpecialHealthHUDElement_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:ExecuteUbergraph_Mobile_SpecialHealthHUDElement",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:OnHealthValueUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.6"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:OnRoundEnd",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.5"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:UpdateHealthValueTextAndVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.4"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:GetHealthValueText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.3"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.2"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.1"
+      },
+      {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:ExecuteUbergraph_Mobile_SpecialHealthHUDElement",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899908947968,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HealthValueText",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class TextBlock",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MobileDamageSectionComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 65541,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass BP_Mobile_DamageSectionComponent_C",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/BP_Mobile_DamageSectionComponent.14"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "DamageSectionClass",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 5,
+        "PropertyClass": {
+          "ObjectName": "Class Class",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class DamageSectionComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "TextColor",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 5,
+        "Struct": {
+          "ObjectName": "ScriptStruct LinearColor",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Mobile_SpecialHealthHUDElement": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:ExecuteUbergraph_Mobile_SpecialHealthHUDElement",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.0"
+      },
+      "Construct": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:Construct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.1"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:PreConstruct",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.2"
+      },
+      "GetHealthValueText": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:GetHealthValueText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.3"
+      },
+      "UpdateHealthValueTextAndVisibility": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:UpdateHealthValueTextAndVisibility",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.4"
+      },
+      "OnRoundEnd": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:OnRoundEnd",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.5"
+      },
+      "OnHealthValueUpdated": {
+        "ObjectName": "Function Mobile_SpecialHealthHUDElement_C:OnHealthValueUpdated",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.6"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Mobile_SpecialHealthHUDElement_C Default__Mobile_SpecialHealthHUDElement_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.8"
+    }
+  },
+  {
+    "Type": "Mobile_SpecialHealthHUDElement_C",
+    "Name": "Default__Mobile_SpecialHealthHUDElement_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TextColor": {
+        "R": 0.984314,
+        "G": 0.031373,
+        "B": 0.941177,
+        "A": 1.0,
+        "Hex": "FFFE31F9"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "HealthValueText",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "100"
+      },
+      "Font": {
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "bApplyOutlineToDropShadows": true,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "TypefaceFontName": "Medium",
+        "Size": 18,
+        "Tracking": -2
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "MinDesiredWidth": 1.0,
+      "Justification": "ETextJustify::Center",
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "Mobile_SpecialHealthHUDElement_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "TextBlock Mobile_SpecialHealthHUDElement_C:WidgetTree.HealthValueText",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/HealthAndArmor/Mobile_SpecialHealthHUDElement.9"
+      }
+    }
+  }
+]

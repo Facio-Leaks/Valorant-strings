@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "BP_HUDWidget_EditControls_BG_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree BP_HUDWidget_EditControls_BG_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.7"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class AresTouchWidget",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_75",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HUDWidget_EditControls_BG_C Default__BP_HUDWidget_EditControls_BG_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.1"
+    }
+  },
+  {
+    "Type": "BP_HUDWidget_EditControls_BG_C",
+    "Name": "Default__BP_HUDWidget_EditControls_BG_C",
+    "Properties": {
+      "bVisibilityCustomizable": false,
+      "ForwardingInputChannel": 1,
+      "bRefreshOnTouchModeChanged": false,
+      "EditTouchMode": "EAresTouchWidgetMode::Interaction",
+      "TouchTrackingMode": "EAresTouchTrackingMode::Global",
+      "TouchWidgetProperties": null,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "BackgroundBlur",
+    "Name": "BackgroundBlur_9",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "bApplyAlphaToBlur": false,
+      "BlurStrength": 2.0,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.4"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.4"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_3",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.3"
+      },
+      "Content": {
+        "ObjectName": "BackgroundBlur BP_HUDWidget_EditControls_BG_C:WidgetTree.BackgroundBlur_9",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.2"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_2",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.3"
+      },
+      "Content": {
+        "ObjectName": "Image BP_HUDWidget_EditControls_BG_C:WidgetTree.Image_75",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.6"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_75",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_3",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.5"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "BP_HUDWidget_EditControls_BG_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel BP_HUDWidget_EditControls_BG_C:WidgetTree.CanvasPanel_2",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Layout/BP_HUDWidget_EditControls_BG.3"
+      }
+    }
+  }
+]

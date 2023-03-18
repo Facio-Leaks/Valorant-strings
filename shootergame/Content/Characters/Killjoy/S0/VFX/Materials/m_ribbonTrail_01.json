@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "Material",
+    "Name": "m_ribbonTrail_01",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionTextureSample_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithBeamTrails": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "0E9D5325-486936DB-CBD36DBC-6B1649E3",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              2293736583300076735
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "TrailTexture",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "98695CDE-4BEA9ABB-61D30EBC-DB477C6D"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D tex_trail_07",
+              "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Textures/tex_trail_07.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D tex_scanLines_gradient_01",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/tex_scanLines_gradient_01.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_triangle_09",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_triangle_09.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Textures/tex_gradient_02.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_gradient_02",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Textures/tex_gradient_02.0"
+          },
+          {
+            "ObjectName": "Texture2D tex_trail_07",
+            "ObjectPath": "ShooterGame/Content/Characters/Phoenix/S0/VFX/Textures/tex_trail_07.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "B982D54D-4A34B104-CA3F64B8-881F35B6",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotate90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotate90.0"
+            }
+          },
+          {
+            "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+            "Function": {
+              "ObjectName": "MaterialFunction LinearGradient",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+            }
+          },
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction ScreenAlignedPixelToPixelUVs",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction ScreenAlignedPixelToPixelUVs",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "18C25EA2-4D044A4B-B6DDE98F-CAB8F4ED",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotateNegative90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotateNegative90.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction BreakOutFloat2Components",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "18C25EA2-4D044A4B-B6DDE98F-CAB8F4ED",
+            "Function": {
+              "ObjectName": "MaterialFunction UVRotateNegative90",
+              "ObjectPath": "ShooterGame/Content/VFX/Materials/MaterialFunctions/UVRotateNegative90.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "tex_gradient_02"
+        }
+      ]
+    }
+  }
+]

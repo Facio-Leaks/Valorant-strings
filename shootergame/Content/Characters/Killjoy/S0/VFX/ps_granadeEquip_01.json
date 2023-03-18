@@ -1,0 +1,1001 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_16"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_19"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_11",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_granadeEquip_01:ParticleModuleRequired_16",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.14"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_granadeEquip_01:ParticleModuleLifetime_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.10"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_granadeEquip_01:ParticleModuleSize_16",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.16"
+        },
+        {
+          "ObjectName": "ParticleModuleColor ps_granadeEquip_01:ParticleModuleColor_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.5"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_granadeEquip_01:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.7"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_granadeEquip_01:ParticleModuleColorScaleOverLife_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.8"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_granadeEquip_01:ParticleModuleSizeMultiplyLife_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.18"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_granadeEquip_01:ParticleModuleLocation_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.13"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_granadeEquip_01:ParticleModuleSpawn_16",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.20"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_3",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_granadeEquip_01:ParticleModuleRequired_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.15"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_granadeEquip_01:ParticleModuleLifetime_17",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.11"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_granadeEquip_01:ParticleModuleSize_21",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.17"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_granadeEquip_01:ParticleModuleColorOverLife_14",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.6"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_granadeEquip_01:ParticleModuleSizeMultiplyLife_13",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.19"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_granadeEquip_01:ParticleModuleColorScaleOverLife_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.9"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_granadeEquip_01:ParticleModuleLocation_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.12"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_granadeEquip_01:ParticleModuleCameraOffset_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.4"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_granadeEquip_01:ParticleModuleSpawn_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.21"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_1",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_4",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "StartColor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_14",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            3.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.06,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 3.0,
+          "Values": [
+            0.0,
+            0.04,
+            0.039999995,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 4,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 3.0,
+          "Z": 1.736445
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            0.0,
+            3.0,
+            1.736445,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 157.5,
+          "Values": [
+            0.0,
+            0.05442177,
+            0.10884354,
+            0.16326532,
+            0.21768709,
+            0.27210885,
+            0.32653064,
+            0.3809524,
+            0.43537417,
+            0.48979592,
+            0.5442177,
+            0.5986395,
+            0.6530613,
+            0.70748305,
+            0.7619048,
+            0.81632656,
+            0.87074834,
+            0.92517006,
+            0.97959185,
+            1.0340135,
+            1.0884354,
+            1.1428572,
+            1.197279,
+            1.2517008,
+            1.3061225,
+            1.3605443,
+            1.414966,
+            1.4693879,
+            1.5238096,
+            1.5782315,
+            1.632653,
+            1.687075,
+            1.7414966,
+            1.7959185,
+            1.8503401,
+            1.904762,
+            1.9591837,
+            2.0136056,
+            2.068027,
+            2.122449,
+            2.1768708,
+            2.2312925,
+            2.2857144,
+            2.340136,
+            2.394558,
+            2.4489796,
+            2.5034015,
+            2.5578232,
+            2.612245,
+            2.6666667,
+            2.7210884,
+            2.7755103,
+            2.829932,
+            2.8843539,
+            2.9387755,
+            2.9931974,
+            2.666666,
+            2.2857137,
+            1.9047616,
+            1.5238091,
+            1.1428568,
+            0.76190466,
+            0.38095242,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 64,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_0",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 1.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            5.0,
+            1.0,
+            10.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_7",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 14.999999,
+          "Values": [
+            1.0,
+            1.0487282,
+            1.1754295,
+            1.3520354,
+            1.5499209,
+            1.7406851,
+            1.8959293,
+            1.9871325,
+            1.9742649,
+            1.7918584,
+            1.48137,
+            1.0998415,
+            0.7040704,
+            0.35085878,
+            0.09745614,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_14",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.2,
+        "MaxValue": 1.2,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_17",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.25,
+        "MaxValue": 1.25,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.25
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_1",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": 20.0,
+        "MaxValue": 172.0,
+        "MinValueVec": {
+          "X": 60.0,
+          "Y": 20.0,
+          "Z": 172.0
+        },
+        "MaxValueVec": {
+          "X": 60.0,
+          "Y": 20.0,
+          "Z": 172.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            60.0,
+            20.0,
+            172.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_7",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": 20.0,
+        "MaxValue": 172.0,
+        "MinValueVec": {
+          "X": 60.0,
+          "Y": 20.0,
+          "Z": 172.0
+        },
+        "MaxValueVec": {
+          "X": 60.0,
+          "Y": 20.0,
+          "Z": 172.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            60.0,
+            20.0,
+            172.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_16",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_01.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_granadeEquip_01:ParticleModuleRequired_16.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_19",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_01.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_granadeEquip_01:ParticleModuleRequired_19.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_16",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 20.0,
+        "MinValueVec": {
+          "X": 20.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 20.0,
+          "Y": 20.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0,
+            20.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_21",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 40.0,
+        "MinValueVec": {
+          "X": 27.0,
+          "Y": 40.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 27.0,
+          "Y": 40.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            27.0,
+            40.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_11",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 3.0,
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 103.333336,
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            0.14516129,
+            0.0024193549,
+            0.0,
+            0.29032257,
+            0.0048387097,
+            0.0,
+            0.43548387,
+            0.0072580646,
+            0.0,
+            0.58064514,
+            0.009677419,
+            0.0,
+            0.7258065,
+            0.012096775,
+            0.0,
+            0.8709678,
+            0.01451613,
+            0.0,
+            1.0161291,
+            0.016935486,
+            0.0,
+            1.1612902,
+            0.019354839,
+            0.0,
+            1.3064516,
+            0.021774193,
+            0.0,
+            1.451613,
+            0.02419355,
+            0.0,
+            1.5967742,
+            0.026612904,
+            0.0,
+            1.7419357,
+            0.029032262,
+            0.0,
+            1.8870966,
+            0.031451613,
+            0.0,
+            2.0322583,
+            0.033870973,
+            0.0,
+            2.1774194,
+            0.03629032,
+            0.0,
+            2.3225806,
+            0.038709678,
+            0.0,
+            2.467742,
+            0.041129034,
+            0.0,
+            2.612903,
+            0.043548387,
+            0.0,
+            2.7580645,
+            0.045967743,
+            0.0,
+            2.903226,
+            0.0483871,
+            0.0,
+            2.9757485,
+            0.061519463,
+            0.0,
+            2.6684682,
+            0.20747757,
+            0.0,
+            2.1445222,
+            0.45635197,
+            0.0,
+            1.5776328,
+            0.72562444,
+            0.0,
+            1.1415294,
+            0.93277353,
+            0.0,
+            0.967742,
+            0.967742,
+            0.0,
+            0.77419364,
+            0.77419364,
+            0.0,
+            0.58064497,
+            0.58064497,
+            0.0,
+            0.3870966,
+            0.3870966,
+            0.0,
+            0.19354837,
+            0.19354837,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_13",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.46074444,
+        "MaxValue": 0.75,
+        "MinValueVec": {
+          "X": 0.46074444,
+          "Y": 0.46074444,
+          "Z": 0.46074444
+        },
+        "MaxValueVec": {
+          "X": 0.75,
+          "Y": 0.75,
+          "Z": 0.75
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 6.9999995,
+          "Values": [
+            0.75,
+            0.75,
+            0.75,
+            0.59903616,
+            0.59903616,
+            0.59903616,
+            0.50999814,
+            0.50999814,
+            0.50999814,
+            0.46878013,
+            0.46878013,
+            0.46878013,
+            0.46127692,
+            0.46127692,
+            0.46127692,
+            0.47338274,
+            0.47338274,
+            0.47338274,
+            0.49099234,
+            0.49099234,
+            0.49099234,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_16",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_19",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_11",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_granadeEquip_01:ParticleSpriteEmitter_11.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.2"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Outer": "ps_granadeEquip_01",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_granadeEquip_01:ParticleSpriteEmitter_3.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.3"
+        }
+      ],
+      "DetailModeBitmask": 6
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_granadeEquip_01",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_granadeEquip_01:ParticleSpriteEmitter_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.23"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_granadeEquip_01:ParticleSpriteEmitter_11",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_granadeEquip_01.22"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

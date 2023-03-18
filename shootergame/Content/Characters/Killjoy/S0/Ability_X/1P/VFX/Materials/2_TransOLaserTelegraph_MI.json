@@ -1,0 +1,218 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "2_TransOLaserTelegraph_MI",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material 0_GenericA01_MAT",
+        "ObjectPath": "ShooterGame/Content/VFX/Materials/0_GenericA01_MAT.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Rotate",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "1A4F0F8C-453C3DBF-C9458F82-94FBA85E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ScaleU",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "031AC2A3-4344D02D-0832A9A5-719322F1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ScaleV",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "4579E7DC-48EEDA99-65D78782-7BDE0C68"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_ScrollU",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "577068A4-4F2965F6-C5DAD5B4-7A082F4C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Base_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "26A28BC8-442F50E6-5AF3B5A8-FD0BA0B9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_DepthFade_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 200.0,
+          "ExpressionGUID": "00B9DC3B-4469125E-FF93FD9F-29AA63D8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Rotate",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "B324803D-4C0617A6-514EA494-DB0589B5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_ScaleU",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 20.0,
+          "ExpressionGUID": "CB36C08D-447043D2-9FBBCF8A-55215975"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_ScaleV",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "9762CA7C-4850CE25-C5B00688-57BC8E8B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_ScrollU",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "5E0DD165-47AC82BF-196CCD92-CB310CF3"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D 00_White_DIFF",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/00_White_DIFF.0"
+          },
+          "ExpressionGUID": "F0B7BC09-43F39496-62DDE08C-EA4485E6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Alpha_Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D WavyBeam_TEX",
+            "ObjectPath": "ShooterGame/Content/VFX/Textures/Mask/WavyBeam_TEX.0"
+          },
+          "ExpressionGUID": "CC23A172-4897188D-95D50583-24962E2E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Emissive_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00DB2655-440AD6D5-C6C6B7A0-97F16CB0"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Alpha_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5A4A96D0-47F1AB34-7D1F9BA0-8A1BD4DD"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Alpha_DepthFade_aToggle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5EA4A887-4AF2F9BD-3D91F1B2-112E5789"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D 00_Debug_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/00_Debug_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D XClouds_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/Old/XClouds_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D UberNormal_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/UVdist/UberNormal_TEX.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D LUT_FireSmokeRainbow_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/ColorGradient/LUT_FireSmokeRainbow_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D FlowMap_1_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/UVdist/FlowMap_1_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D EdgesSoft_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/NoiseDissolve/EdgesSoft_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D LUT_Base_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/LUT_Base_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D SmokeSphere_TEX",
+          "ObjectPath": "ShooterGame/Content/VFX/Textures/AlphaGradient/SmokeSphere_TEX.0"
+        },
+        {
+          "ObjectName": "Texture2D Good64x64TilingNoiseHighFreq",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        }
+      ]
+    }
+  }
+]

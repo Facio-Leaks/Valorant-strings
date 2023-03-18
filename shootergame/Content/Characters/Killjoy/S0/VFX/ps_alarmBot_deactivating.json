@@ -1,0 +1,2577 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "DistributionVelocityScale",
+    "Outer": "ParticleModuleLocationPrimitiveSphere_3",
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "DistributionVelocityScale",
+    "Outer": "ParticleModuleLocationPrimitiveSphere_4",
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_1"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_2"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_3"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_8"
+  },
+  {
+    "Type": "DistributionVectorUniform",
+    "Name": "DistributionDirection",
+    "Outer": "ParticleModuleLocationDirect_0"
+  },
+  {
+    "Type": "DistributionVectorUniform",
+    "Name": "DistributionDirection",
+    "Outer": "ParticleModuleLocationDirect_1"
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_3",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_alarmBot_deactivating:ParticleModuleRequired_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.33"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_alarmBot_deactivating:ParticleModuleLifetime_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_alarmBot_deactivating:ParticleModuleSize_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.41"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_alarmBot_deactivating:ParticleModuleColorOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.16"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_alarmBot_deactivating:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.25"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife ps_alarmBot_deactivating:ParticleModuleColorScaleOverLife_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_alarmBot_deactivating:ParticleModuleSizeMultiplyLife_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.46"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation ps_alarmBot_deactivating:ParticleModuleRotation_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.37"
+        },
+        {
+          "ObjectName": "ParticleModuleRotationRate ps_alarmBot_deactivating:ParticleModuleRotationRate_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.40"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere ps_alarmBot_deactivating:ParticleModuleLocationPrimitiveSphere_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.28"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag ps_alarmBot_deactivating:ParticleModuleAccelerationDrag_2",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.12"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_alarmBot_deactivating:ParticleModuleSpawn_1",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.48"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_4",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_alarmBot_deactivating:ParticleModuleRequired_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.34"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_alarmBot_deactivating:ParticleModuleLifetime_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.22"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_alarmBot_deactivating:ParticleModuleSize_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.42"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_alarmBot_deactivating:ParticleModuleColorOverLife_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.18"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset ps_alarmBot_deactivating:ParticleModuleCameraOffset_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.15"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_alarmBot_deactivating:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.25"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_alarmBot_deactivating:ParticleModuleSpawn_2",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.49"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_5",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_alarmBot_deactivating:ParticleModuleRequired_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.36"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_alarmBot_deactivating:ParticleModuleLifetime_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.24"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_alarmBot_deactivating:ParticleModuleSize_7",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.44"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_alarmBot_deactivating:ParticleModuleColorOverLife_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.17"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_alarmBot_deactivating:ParticleModuleSizeMultiplyLife_10",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.45"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationDirect ps_alarmBot_deactivating:ParticleModuleLocationDirect_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.27"
+        },
+        {
+          "ObjectName": "ParticleModuleOrientationAxisLock ps_alarmBot_deactivating:ParticleModuleOrientationAxisLock_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.32"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation ps_alarmBot_deactivating:ParticleModuleRotation_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.38"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere ps_alarmBot_deactivating:ParticleModuleLocationPrimitiveSphere_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.29"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity ps_alarmBot_deactivating:ParticleModuleVelocity_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.53"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag ps_alarmBot_deactivating:ParticleModuleAccelerationDrag_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.14"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_alarmBot_deactivating:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.25"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_alarmBot_deactivating:ParticleModuleSpawn_8",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.51"
+      },
+      "PeakActiveParticles": 5
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_6",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired ps_alarmBot_deactivating:ParticleModuleRequired_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.35"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime ps_alarmBot_deactivating:ParticleModuleLifetime_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.23"
+        },
+        {
+          "ObjectName": "ParticleModuleSize ps_alarmBot_deactivating:ParticleModuleSize_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.43"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife ps_alarmBot_deactivating:ParticleModuleColorOverLife_8",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife ps_alarmBot_deactivating:ParticleModuleSizeMultiplyLife_9",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.47"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationDirect ps_alarmBot_deactivating:ParticleModuleLocationDirect_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.26"
+        },
+        {
+          "ObjectName": "ParticleModuleOrientationAxisLock ps_alarmBot_deactivating:ParticleModuleOrientationAxisLock_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.31"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation ps_alarmBot_deactivating:ParticleModuleRotation_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.39"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere ps_alarmBot_deactivating:ParticleModuleLocationPrimitiveSphere_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.30"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity ps_alarmBot_deactivating:ParticleModuleVelocity_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.52"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag ps_alarmBot_deactivating:ParticleModuleAccelerationDrag_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation ps_alarmBot_deactivating:ParticleModuleLocation_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.25"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn ps_alarmBot_deactivating:ParticleModuleSpawn_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.50"
+      },
+      "PeakActiveParticles": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationDrag",
+    "Name": "ParticleModuleAccelerationDrag_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "DragCoefficientRaw": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationDrag",
+    "Name": "ParticleModuleAccelerationDrag_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "DragCoefficientRaw": {
+        "MinValue": 5.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            5.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationDrag",
+    "Name": "ParticleModuleAccelerationDrag_5",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "DragCoefficientRaw": {
+        "MinValue": 5.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            5.0,
+            10.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 40.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 40.0,
+          "Y": 10.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            40.0,
+            10.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_10",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 43.160652
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 43.160652
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            50.0,
+            43.160652
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 4.0,
+        "MaxValueVec": {
+          "X": 4.0,
+          "Y": 0.0,
+          "Z": 3.216793
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            4.0,
+            0.0,
+            3.216793,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.06451613,
+            0.12903225,
+            0.19354838,
+            0.2580645,
+            0.3225806,
+            0.38709676,
+            0.45161286,
+            0.516129,
+            0.5806452,
+            0.6451612,
+            0.7096774,
+            0.7741935,
+            0.8387097,
+            0.9032257,
+            0.9677419,
+            0.96774197,
+            0.9032259,
+            0.83870965,
+            0.77419347,
+            0.7096775,
+            0.64516145,
+            0.5806452,
+            0.516129,
+            0.45161295,
+            0.3870969,
+            0.3225806,
+            0.25806445,
+            0.19354852,
+            0.12903246,
+            0.06451617,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_8",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 14.033508,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "MaxValueVec": {
+          "X": 14.033508,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            14.033508,
+            0.0,
+            100.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 5.0,
+        "MaxValue": 20.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 10.0,
+          "Z": 5.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 20.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            10.0,
+            20.0,
+            10.0,
+            5.0,
+            10.0,
+            5.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 3
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.7,
+        "MaxValue": 0.7,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.7
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.25,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.25,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_8",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.3,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.3,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 40.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 40.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 40.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            40.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationDirect",
+    "Name": "ParticleModuleLocationDirect_0",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Location": {
+        "MaxValue": 45.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 20.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 45.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 62.0,
+          "Values": [
+            0.0,
+            0.0,
+            20.0,
+            0.0,
+            0.0,
+            20.474213,
+            0.0,
+            0.0,
+            21.042225,
+            0.0,
+            0.0,
+            21.696632,
+            0.0,
+            0.0,
+            22.430025,
+            0.0,
+            0.0,
+            23.234997,
+            0.0,
+            0.0,
+            24.104143,
+            0.0,
+            0.0,
+            25.03005,
+            0.0,
+            0.0,
+            26.005318,
+            0.0,
+            0.0,
+            27.022535,
+            0.0,
+            0.0,
+            28.074297,
+            0.0,
+            0.0,
+            29.153267,
+            0.0,
+            0.0,
+            30.251936,
+            0.0,
+            0.0,
+            31.362843,
+            0.0,
+            0.0,
+            32.478577,
+            0.0,
+            0.0,
+            33.59174,
+            0.0,
+            0.0,
+            34.694916,
+            0.0,
+            0.0,
+            35.7807,
+            0.0,
+            0.0,
+            36.841686,
+            0.0,
+            0.0,
+            37.870472,
+            0.0,
+            0.0,
+            38.859634,
+            0.0,
+            0.0,
+            39.80168,
+            0.0,
+            0.0,
+            40.68903,
+            0.0,
+            0.0,
+            41.51446,
+            0.0,
+            0.0,
+            42.27057,
+            0.0,
+            0.0,
+            42.949944,
+            0.0,
+            0.0,
+            43.54518,
+            0.0,
+            0.0,
+            44.048862,
+            0.0,
+            0.0,
+            44.453598,
+            0.0,
+            0.0,
+            44.751972,
+            0.0,
+            0.0,
+            44.936573,
+            0.0,
+            0.0,
+            45.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 3
+        }
+      },
+      "LocationOffset": {
+        "MaxValue": 60.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "ScaleFactor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "Direction": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorUniform ps_alarmBot_deactivating:ParticleModuleLocationDirect_0.DistributionDirection",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.6"
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationDirect",
+    "Name": "ParticleModuleLocationDirect_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Location": {
+        "MaxValue": 45.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 20.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 45.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 62.0,
+          "Values": [
+            0.0,
+            0.0,
+            20.0,
+            0.0,
+            0.0,
+            20.474213,
+            0.0,
+            0.0,
+            21.042225,
+            0.0,
+            0.0,
+            21.696632,
+            0.0,
+            0.0,
+            22.430025,
+            0.0,
+            0.0,
+            23.234997,
+            0.0,
+            0.0,
+            24.104143,
+            0.0,
+            0.0,
+            25.03005,
+            0.0,
+            0.0,
+            26.005318,
+            0.0,
+            0.0,
+            27.022535,
+            0.0,
+            0.0,
+            28.074297,
+            0.0,
+            0.0,
+            29.153267,
+            0.0,
+            0.0,
+            30.251936,
+            0.0,
+            0.0,
+            31.362843,
+            0.0,
+            0.0,
+            32.478577,
+            0.0,
+            0.0,
+            33.59174,
+            0.0,
+            0.0,
+            34.694916,
+            0.0,
+            0.0,
+            35.7807,
+            0.0,
+            0.0,
+            36.841686,
+            0.0,
+            0.0,
+            37.870472,
+            0.0,
+            0.0,
+            38.859634,
+            0.0,
+            0.0,
+            39.80168,
+            0.0,
+            0.0,
+            40.68903,
+            0.0,
+            0.0,
+            41.51446,
+            0.0,
+            0.0,
+            42.27057,
+            0.0,
+            0.0,
+            42.949944,
+            0.0,
+            0.0,
+            43.54518,
+            0.0,
+            0.0,
+            44.048862,
+            0.0,
+            0.0,
+            44.453598,
+            0.0,
+            0.0,
+            44.751972,
+            0.0,
+            0.0,
+            44.936573,
+            0.0,
+            0.0,
+            45.0
+          ],
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 3
+        }
+      },
+      "LocationOffset": {
+        "MaxValue": 60.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "ScaleFactor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "Direction": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorUniform ps_alarmBot_deactivating:ParticleModuleLocationDirect_1.DistributionDirection",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.7"
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRadius": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "Velocity": true,
+      "VelocityScale": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 30.0,
+        "MaxValue": 30.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            30.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "VelocityScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleLocationPrimitiveSphere_3.DistributionVelocityScale",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.0"
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 40.0,
+        "MaxValue": 40.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            40.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "SurfaceOnly": true,
+      "VelocityScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleLocationPrimitiveSphere_4.DistributionVelocityScale",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.1"
+        }
+      },
+      "StartLocation": {
+        "MaxValue": 90.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 90.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 90.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            0.0,
+            90.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleOrientationAxisLock",
+    "Name": "ParticleModuleOrientationAxisLock_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LockAxisFlags": "EPAL_ROTATE_Z",
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleOrientationAxisLock",
+    "Name": "ParticleModuleOrientationAxisLock_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LockAxisFlags": "EPAL_ROTATE_Z",
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material m_deactive_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_deactive_01.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.5,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleRequired_1.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_radialGradient_01",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_radialGradient_01.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.75,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleRequired_2.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.3"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_simpleTexture_20",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_simpleTexture_20.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleRequired_3.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.4"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_8",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant mi_simpleTexture_19",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/mi_simpleTexture_19.0"
+      },
+      "ScreenAlignment": "PSA_Rectangle",
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant ps_alarmBot_deactivating:ParticleModuleRequired_8.RequiredDistributionSpawnRate",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.5"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRotation": {
+        "MinValue": 0.2,
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.2
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0,
+            1.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotationRate",
+    "Name": "ParticleModuleRotationRate_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartRotationRate": {
+        "MinValue": 0.1,
+        "MaxValue": 0.1,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.1
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 15.0,
+        "MaxValue": 15.0,
+        "MinValueVec": {
+          "X": 15.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 15.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 110.0,
+        "MaxValue": 110.0,
+        "MinValueVec": {
+          "X": 110.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 110.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            110.0,
+            110.0,
+            110.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 10.0,
+        "MaxValue": 15.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 15.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            10.0,
+            10.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "Op": 3,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "LockFlag": 4
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_7",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 10.0,
+        "MaxValue": 15.0,
+        "MinValueVec": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 15.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            10.0,
+            10.0,
+            10.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "Op": 3,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "LockFlag": 4
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_10",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.2,
+        "MaxValueVec": {
+          "X": 1.2,
+          "Y": 1.2,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 29.999998,
+          "Values": [
+            0.5,
+            0.5,
+            0.0,
+            0.73333335,
+            0.73333335,
+            0.0,
+            0.9666667,
+            0.9666667,
+            0.0,
+            1.1905512,
+            1.1905512,
+            0.0,
+            1.1,
+            1.1,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.90000004,
+            0.90000004,
+            0.0,
+            0.8,
+            0.8,
+            0.0,
+            0.7,
+            0.7,
+            0.0,
+            0.59999996,
+            0.59999996,
+            0.0,
+            0.5,
+            0.5,
+            0.0,
+            0.39999992,
+            0.39999992,
+            0.0,
+            0.29999995,
+            0.29999995,
+            0.0,
+            0.19999988,
+            0.19999988,
+            0.0,
+            0.09999999,
+            0.09999999,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 5.0,
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 5.0,
+          "Z": 5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 127.0,
+          "Values": [
+            0.0,
+            0.0,
+            0.0,
+            0.78740156,
+            0.78740156,
+            0.78740156,
+            1.5748031,
+            1.5748031,
+            1.5748031,
+            2.3622046,
+            2.3622046,
+            2.3622046,
+            3.1496062,
+            3.1496062,
+            3.1496062,
+            3.937008,
+            3.937008,
+            3.937008,
+            4.724409,
+            4.724409,
+            4.724409,
+            4.7440944,
+            4.7440944,
+            4.7440944,
+            4.350394,
+            4.350394,
+            4.350394,
+            3.9566932,
+            3.9566932,
+            3.9566932,
+            3.562992,
+            3.562992,
+            3.562992,
+            3.169291,
+            3.169291,
+            3.169291,
+            2.7755907,
+            2.7755907,
+            2.7755907,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.6574783,
+            2.6574783,
+            2.6574783,
+            3.051179,
+            3.051179,
+            3.051179,
+            3.4448795,
+            3.4448795,
+            3.4448795,
+            3.838583,
+            3.838583,
+            3.838583,
+            4.2322836,
+            4.2322836,
+            4.2322836,
+            4.625984,
+            4.625984,
+            4.625984,
+            4.986877,
+            4.986877,
+            4.986877,
+            4.72441,
+            4.72441,
+            4.72441,
+            4.4619427,
+            4.4619427,
+            4.4619427,
+            4.199476,
+            4.199476,
+            4.199476,
+            3.9370086,
+            3.9370086,
+            3.9370086,
+            3.6745415,
+            3.6745415,
+            3.6745415,
+            3.4120746,
+            3.4120746,
+            3.4120746,
+            3.1496072,
+            3.1496072,
+            3.1496072,
+            2.8871403,
+            2.8871403,
+            2.8871403,
+            2.6246731,
+            2.6246731,
+            2.6246731,
+            2.362206,
+            2.362206,
+            2.362206,
+            2.0997386,
+            2.0997386,
+            2.0997386,
+            1.8372698,
+            1.8372698,
+            1.8372698,
+            1.5748026,
+            1.5748026,
+            1.5748026,
+            1.3123355,
+            1.3123355,
+            1.3123355,
+            1.0498686,
+            1.0498686,
+            1.0498686,
+            0.7874012,
+            0.7874012,
+            0.7874012,
+            0.5249343,
+            0.5249343,
+            0.5249343,
+            0.2624669,
+            0.2624669,
+            0.2624669,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_9",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.2,
+        "MaxValueVec": {
+          "X": 1.2,
+          "Y": 1.2,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 29.999998,
+          "Values": [
+            0.5,
+            0.5,
+            0.0,
+            0.73333335,
+            0.73333335,
+            0.0,
+            0.9666667,
+            0.9666667,
+            0.0,
+            1.1905512,
+            1.1905512,
+            0.0,
+            1.1,
+            1.1,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.90000004,
+            0.90000004,
+            0.0,
+            0.8,
+            0.8,
+            0.0,
+            0.7,
+            0.7,
+            0.0,
+            0.59999996,
+            0.59999996,
+            0.0,
+            0.5,
+            0.5,
+            0.0,
+            0.39999992,
+            0.39999992,
+            0.0,
+            0.29999995,
+            0.29999995,
+            0.0,
+            0.19999988,
+            0.19999988,
+            0.0,
+            0.09999999,
+            0.09999999,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 5,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_8",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 3,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_1",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -500.0,
+        "MaxValue": 500.0,
+        "MinValueVec": {
+          "X": -500.0,
+          "Y": -500.0,
+          "Z": -500.0
+        },
+        "MaxValueVec": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 500.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -500.0,
+            -500.0,
+            -500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -600.0,
+        "MaxValue": 600.0,
+        "MinValueVec": {
+          "X": -600.0,
+          "Y": -600.0,
+          "Z": -500.0
+        },
+        "MaxValueVec": {
+          "X": 600.0,
+          "Y": 600.0,
+          "Z": 500.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -600.0,
+            -600.0,
+            -500.0,
+            600.0,
+            600.0,
+            500.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_alarmBot_deactivating:ParticleSpriteEmitter_3.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.8"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_4",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "EmitterName": "FlareCore",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_alarmBot_deactivating:ParticleSpriteEmitter_4.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.9"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_alarmBot_deactivating:ParticleSpriteEmitter_5.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.10"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_6",
+    "Outer": "ps_alarmBot_deactivating",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel ps_alarmBot_deactivating:ParticleSpriteEmitter_6.ParticleLODLevel_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.11"
+        }
+      ],
+      "DetailModeBitmask": 15
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "ps_alarmBot_deactivating",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_alarmBot_deactivating:ParticleSpriteEmitter_3",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.54"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_alarmBot_deactivating:ParticleSpriteEmitter_4",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.55"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_alarmBot_deactivating:ParticleSpriteEmitter_5",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.56"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter ps_alarmBot_deactivating:ParticleSpriteEmitter_6",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/ps_alarmBot_deactivating.57"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

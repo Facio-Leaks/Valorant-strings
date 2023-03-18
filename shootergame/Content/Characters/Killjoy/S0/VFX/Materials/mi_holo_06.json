@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "mi_holo_06",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material m_holo_03",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Materials/m_holo_03.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_ForceDepthPrepass": true,
+        "bForceDepthPrepass": true,
+        "BlendMode": "BLEND_Additive",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "useParticleColor",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "846FFA6D-4DE286DB-2D1F1FA9-37176722"
+          }
+        ]
+      }
+    }
+  }
+]

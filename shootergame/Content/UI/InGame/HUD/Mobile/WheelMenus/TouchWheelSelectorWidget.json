@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "Function",
+    "Name": "SetOffset",
+    "Outer": "TouchWheelSelectorWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Offset",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 148,
+        "Struct": {
+          "ObjectName": "ScriptStruct Vector2D",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_X",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector2D_Y",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class MaterialInstanceDynamic",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": 201457664
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "TouchWheelSelectorWidget_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree TouchWheelSelectorWidget_C:WidgetTree",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class UserWidget",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function TouchWheelSelectorWidget_C:SetOffset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_96",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Image",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "SetOffset": {
+        "ObjectName": "Function TouchWheelSelectorWidget_C:SetOffset",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.0"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TouchWheelSelectorWidget_C Default__TouchWheelSelectorWidget_C",
+      "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.2"
+    }
+  },
+  {
+    "Type": "TouchWheelSelectorWidget_C",
+    "Name": "Default__TouchWheelSelectorWidget_C",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot TouchWheelSelectorWidget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel TouchWheelSelectorWidget_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.3"
+      },
+      "Content": {
+        "ObjectName": "Image TouchWheelSelectorWidget_C:WidgetTree.Image_96",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.5"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_96",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 425.0,
+          "Y": 425.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant MI_CommsWheel_Reticle",
+          "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/Materials/MI_CommsWheel_Reticle.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot TouchWheelSelectorWidget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "TouchWheelSelectorWidget_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel TouchWheelSelectorWidget_C:WidgetTree.CanvasPanel_0",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Mobile/WheelMenus/TouchWheelSelectorWidget.3"
+      }
+    }
+  }
+]

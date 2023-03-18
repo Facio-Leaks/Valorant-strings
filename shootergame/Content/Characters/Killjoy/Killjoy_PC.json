@@ -1,0 +1,1333 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Killjoy_PC_C",
+    "Super": "BasePlayerCharacter_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript Killjoy_PC_C:SimpleConstructionScript_35",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.38"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler Killjoy_PC_C:InheritableComponentHandler",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.23"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass BasePlayerCharacter_C",
+      "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePlayerCharacter.26"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CanDisarm",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class CanDisarmComponent",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "KIlljoyE02VOComponent",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass KIlljoyE02VOComponent_C",
+          "ObjectPath": "ShooterGame/Content/Audio/VOComponent/CharacterVOComponents/KIlljoyE02VOComponent.7"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Killjoy_PC_C Default__Killjoy_PC_C",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.1"
+    }
+  },
+  {
+    "Type": "Killjoy_PC_C",
+    "Name": "Default__Killjoy_PC_C",
+    "Template": "Default__BasePlayerCharacter_C",
+    "Properties": {
+      "AudBaseSFXComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass Aud_Killjoy_SFX_Component_C",
+        "ObjectPath": "ShooterGame/Content/Audio/Aud_Blueprints/Aud_SFXComponents/Aud_Killjoy_SFX_Component.1"
+      },
+      "Persistence": {
+        "ObjectName": "RoundPersistenceComponent Default__Killjoy_PC_C:Persistence",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.29"
+      },
+      "AbilitiesAndBuffs": {
+        "ObjectName": "AresAbilitySystemComponent Default__Killjoy_PC_C:AbilitiesAndBuffsComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.4"
+      },
+      "FogOfWarComponent": {
+        "ObjectName": "ShooterCharacterFogOfWarComponent Default__Killjoy_PC_C:FogOfWarComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.35"
+      },
+      "VisionComponent": {
+        "ObjectName": "ShooterCharacterVisionComponent Default__Killjoy_PC_C:VisionComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.37"
+      },
+      "CalloutRegionTrackingComponent": {
+        "ObjectName": "CalloutRegionTrackingComponent Default__Killjoy_PC_C:CalloutRegionTracker",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.9"
+      },
+      "DynamicBlocking": {
+        "ObjectName": "DynamicBlockingComponent Default__Killjoy_PC_C:DynamicBlocking",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.17"
+      },
+      "AbilityHUDWidgetTemplate": {
+        "ObjectName": "WidgetBlueprintGeneratedClass Widget_FullAbilityHUD_Prototype_C",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/HUD/Abilities/Widget_FullAbilityHUD_Prototype.11"
+      },
+      "InputStateComponent": {
+        "ObjectName": "AresInputStateComponent Default__Killjoy_PC_C:InputStateComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.5"
+      },
+      "NetworkStreamComponent": {
+        "ObjectName": "NetworkStreamComponent Default__Killjoy_PC_C:NetworkStreamComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.27"
+      },
+      "EquippableEventComponent": {
+        "ObjectName": "EquippableEventCharacterComponent Default__Killjoy_PC_C:EquippableEventComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.19"
+      },
+      "PlayspaceComponent": {
+        "ObjectName": "PlayspaceComponent Default__Killjoy_PC_C:PlayspaceComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.28"
+      },
+      "StartingEquippableClasses": [
+        {
+          "ObjectName": "BlueprintGeneratedClass Equippable_Unarmed_C",
+          "ObjectPath": "ShooterGame/Content/Characters/_Core/Equippable_Unarmed.4"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass Ability_Melee_Base_C",
+          "ObjectPath": "ShooterGame/Content/Equippables/Melee/Ability_Melee_Base.35"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_4_RemoteBees_MultiDetonate_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_4/Ability_Killjoy_4_RemoteBees_MultiDetonate.5"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_Q_Alarmbot_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_Q/Ability_Killjoy_Q_Alarmbot.3"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_E_Turret_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_E/Ability_Killjoy_E_Turret.4"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass Ability_Killjoy_X_Bomb_C",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/Ability_Killjoy_X_Bomb.6"
+        }
+      ],
+      "Inventory": {
+        "ObjectName": "AresInventory Default__Killjoy_PC_C:InventoryComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.6"
+      },
+      "DamageHandler": {
+        "ObjectName": "DamageableComponent Default__Killjoy_PC_C:DamageHandlerComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.16"
+      },
+      "Mesh1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:PawnMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.42"
+      },
+      "MeshOverlay1P": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:CosmeticCharacterMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.40"
+      },
+      "MeshCosmetic3P": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:CosmeticCharacterMesh3P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.41"
+      },
+      "MeshMaterialManager": {
+        "ObjectName": "MeshMaterialManagerComponent Default__Killjoy_PC_C:MeshMaterialManagerComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.25"
+      },
+      "ForceModuleManager": {
+        "ObjectName": "ForceModuleManagerComponent Default__Killjoy_PC_C:ForceModuleManager",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.22"
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent Default__Killjoy_PC_C:StealthComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.44"
+      },
+      "NumPointsNeededForUltimate": 8,
+      "DesignPlaytestNumPointsNeededForUltimate": 8,
+      "OptimalRange": "CharacterRange::Short",
+      "CombatReportTrackingConfig": {
+        "ObjectName": "CombatReportTrackingConfigComponent Default__Killjoy_PC_C:CombatReportConfigComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.15"
+      },
+      "FollowRecoilCameraComponent": {
+        "ObjectName": "CameraComponent Default__Killjoy_PC_C:FollowRecoilCameraComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.11"
+      },
+      "DeathCameraComponent": {
+        "ObjectName": "CameraComponent Default__Killjoy_PC_C:DeathCameraComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.10"
+      },
+      "ServerRewindComponent": {
+        "ObjectName": "ServerRewindComponent Default__Killjoy_PC_C:ServerRewindComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.34"
+      },
+      "TransformRewinderComponent": {
+        "ObjectName": "TransformRewinderComponent Default__Killjoy_PC_C:TransformRewinderComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.45"
+      },
+      "SkeletalPoseRewinderComponent": {
+        "ObjectName": "SkeletalPoseRewinderComponent Default__Killjoy_PC_C:SkeletalPoseRewinderComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.43"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:CharacterMesh0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.39"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ShooterCharacterMovement Default__Killjoy_PC_C:CharMoveComp",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.36"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Killjoy_PC_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.13"
+      },
+      "AnimInstanceReplicationComponent": {
+        "ObjectName": "AnimInstanceReplicationComponent Default__Killjoy_PC_C:AnimInstanceReplicationComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Killjoy_PC_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.13"
+      }
+    }
+  },
+  {
+    "Type": "AnimationStateComponent",
+    "Name": "AnimationState_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "AnimationState_GEN_VARIABLE",
+    "Properties": {
+      "AnimsFace3P": {
+        "Class /Script/ShooterGame.FaceDeadAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_Death",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_Death.0"
+        },
+        "Class /Script/ShooterGame.FaceFiringAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_Firing",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_Firing.0"
+        },
+        "Class /Script/ShooterGame.FaceHitAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_HitReact",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_HitReact.0"
+        },
+        "Class /Script/ShooterGame.FaceIdleAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_Idle",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_Idle.0"
+        },
+        "Class /Script/ShooterGame.FaceAimingAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_Aim",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_Aim.0"
+        },
+        "Class /Script/ShooterGame.FaceAimFiringAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_AimFire",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_AimFire.0"
+        },
+        "Class /Script/ShooterGame.FaceMeleeAttackingAnimSlot3P": {
+          "ObjectName": "AnimSequence TP_Killjoy_S0_Face_Firing",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Anims/TP_Killjoy_S0_Face_Firing.0"
+        }
+      },
+      "NetworkedRandomNumberGeneratorComponent": {
+        "ObjectName": "NetworkedRandomNumberGeneratorComponent Killjoy_PC_C:AnimationState_GEN_VARIABLE.NetworkedRandomNumberGeneratorComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.26"
+      }
+    }
+  },
+  {
+    "Type": "AnimInstanceReplicationComponent",
+    "Name": "AnimInstanceReplicationComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "AnimInstanceReplicationComponent"
+  },
+  {
+    "Type": "AresAbilitySystemComponent",
+    "Name": "AbilitiesAndBuffsComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "AbilitiesAndBuffsComponent",
+    "Properties": {
+      "ReplicatedPredictionKeyMap": {
+        "PredictionKeys": [
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 1,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 2,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 3,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 4,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 5,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 6,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 7,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 8,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 9,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 10,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 11,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 12,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 13,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 14,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 15,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 16,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 17,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 18,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 19,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 20,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 21,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 22,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 23,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 24,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 25,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 26,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 27,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 28,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 29,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 30,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 31,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          },
+          {
+            "PredictionKey": {
+              "PredictiveConnection": null,
+              "Current": 0,
+              "Base": 0,
+              "bIsStale": false,
+              "bIsServerInitiated": false
+            },
+            "ReplicationID": 32,
+            "ReplicationKey": 0,
+            "MostRecentArrayReplicationKey": -1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AresInputStateComponent",
+    "Name": "InputStateComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "InputStateComponent"
+  },
+  {
+    "Type": "AresInventory",
+    "Name": "InventoryComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "InventoryComponent",
+    "Properties": {
+      "OnItemsChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Killjoy_PC_C Default__Killjoy_PC_C",
+              "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.1"
+            },
+            "FunctionName": "OnInventoryItemsChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AresWidgetComponent",
+    "Name": "InWorldCharacterWidget_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "InWorldCharacterWidget_GEN_VARIABLE",
+    "Properties": {
+      "OpacityWorldDistanceCurve": {
+        "EditorCurveData": {}
+      },
+      "OpacityScreenDistanceCurve": {
+        "EditorCurveData": {}
+      },
+      "ScaleDistanceCurve": {
+        "EditorCurveData": {}
+      }
+    }
+  },
+  {
+    "Type": "BaseMovementSoundComponent_C",
+    "Name": "BaseMovementSoundComponent_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "BaseMovementSoundComponent_GEN_VARIABLE",
+    "Properties": {
+      "MovementSounds": {
+        "151": null,
+        "221": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Short_Slow_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Short_Slow_1P.1"
+        },
+        "133": null,
+        "231": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmL_Long_Slow_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmL_Long_Slow_1P.1"
+        },
+        "143": null,
+        "234": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_Arm_Med_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_Arm_Med_1P.1"
+        },
+        "149": null,
+        "233": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_Arm_Med_Short_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_Arm_Med_Short_1P.1"
+        },
+        "156": null,
+        "223": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Short_Fast_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Short_Fast_1P.1"
+        },
+        "158": null,
+        "224": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Short_Fast2_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Short_Fast2_1P.1"
+        },
+        "148": null,
+        "243": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_Arm_Fast_Short_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_Arm_Fast_Short_1P.1"
+        },
+        "147": null,
+        "244": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_Arm_Fast_Dramatic_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_Arm_Fast_Dramatic_1P.1"
+        },
+        "152": null,
+        "235": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_Arm_Long_Ramp_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_Arm_Long_Ramp_1P.1"
+        },
+        "164": null,
+        "232": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmL_Fast_Ramp_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmL_Fast_Ramp_1P.1"
+        },
+        "134": null,
+        "230": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmL_Med_Ramp_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmL_Med_Ramp_1P.1"
+        },
+        "159": null,
+        "222": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Short_Slow2_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Short_Slow2_1P.1"
+        },
+        "160": null,
+        "228": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Charge_Rifle_Up_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Charge_Rifle_Up_1P.1"
+        },
+        "161": null,
+        "229": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Charge_Rifle_Down_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Charge_Rifle_Down_1P.1"
+        },
+        "163": null,
+        "225": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Med_Stress_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Med_Stress_1P.1"
+        },
+        "165": null,
+        "226": null,
+        "0": {
+          "ObjectName": "AkAudioEvent Play_Mvt_Killjoy_S0_ArmR_Med_GunUp1_1P",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_Mvt_Killjoy_S0_ArmR_Med_GunUp1_1P.1"
+        },
+        "166": null,
+        "227": null
+      }
+    }
+  },
+  {
+    "Type": "CalloutRegionTrackingComponent",
+    "Name": "CalloutRegionTracker",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CalloutRegionTracker"
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "DeathCameraComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "DeathCameraComponent",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Killjoy_PC_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.13"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "FollowRecoilCameraComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "FollowRecoilCameraComponent"
+  },
+  {
+    "Type": "CanDisarmComponent",
+    "Name": "CanDisarm_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Properties": {
+      "DisarmedEquippableEffect": {
+        "ObjectName": "BlueprintGeneratedClass FXC_Killjoy_X_ShockwaveFinalDebuff_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/Ability_X/FXC_Killjoy_X_ShockwaveFinalDebuff.4"
+      }
+    }
+  },
+  {
+    "Type": "CharacterCapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CollisionCylinder",
+    "Properties": {
+      "AssetUserData": []
+    }
+  },
+  {
+    "Type": "CharacterPortraitMinimapComponent_C",
+    "Name": "CharacterPortraitMinimapComponent_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "CharacterPortraitMinimapComponent_GEN_VARIABLE",
+    "Properties": {
+      "CharacterIcon": {
+        "ObjectName": "Texture2D TX_MinimapPortrait_Killjoy_cropped",
+        "ObjectPath": "ShooterGame/Content/UI/InGame/Minimap/Textures/Characters/TX_MinimapPortrait_Killjoy_cropped.0"
+      }
+    }
+  },
+  {
+    "Type": "CombatReportTrackingConfigComponent",
+    "Name": "CombatReportConfigComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CombatReportConfigComponent"
+  },
+  {
+    "Type": "DamageableComponent",
+    "Name": "DamageHandlerComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "DamageHandlerComponent"
+  },
+  {
+    "Type": "DynamicBlockingComponent",
+    "Name": "DynamicBlocking",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "DynamicBlocking"
+  },
+  {
+    "Type": "EffectManagerComponent",
+    "Name": "EffectManager",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "EffectManager"
+  },
+  {
+    "Type": "EquippableEventCharacterComponent",
+    "Name": "EquippableEventComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "EquippableEventComponent"
+  },
+  {
+    "Type": "FogOfWarDebugComponent",
+    "Name": "FogOfWarDebugComponent",
+    "Outer": "FogOfWarComponent",
+    "Template": "FogOfWarDebugComponent"
+  },
+  {
+    "Type": "FootstepsComponent",
+    "Name": "Footsteps_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "Footsteps_GEN_VARIABLE",
+    "Properties": {
+      "RunFootstepEvents": [
+        {
+          "ObjectName": "AkAudioEvent Play_FS_QuietSneaker_Run",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Core/Events_FS_Final_Test/QuietSneaker/Play_FS_QuietSneaker_Run.1"
+        },
+        {
+          "ObjectName": "AkAudioEvent Play_FS_Mvt_Killjoy_Run",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_FS_Mvt_Killjoy_Run.1"
+        }
+      ],
+      "JumpTakeOffEvents": [
+        {
+          "ObjectName": "AkAudioEvent Play_FS_QuietSneaker_Jump",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Core/Events_FS_Final_Test/QuietSneaker/Play_FS_QuietSneaker_Jump.1"
+        },
+        {
+          "ObjectName": "AkAudioEvent Play_FS_Mvt_Killjoy_Jump",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_FS_Mvt_Killjoy_Jump.1"
+        }
+      ],
+      "JumpLandingEvents": [
+        {
+          "ObjectName": "AkAudioEvent Play_FS_QuietSneaker_Land",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Core/Events_FS_Final_Test/QuietSneaker/Play_FS_QuietSneaker_Land.1"
+        },
+        {
+          "ObjectName": "AkAudioEvent Play_FS_Mvt_Killjoy_Land_Normal",
+          "ObjectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/Characters/Events_Char_Killjoy_SFX/Movement/Play_FS_Mvt_Killjoy_Land_Normal.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ForceModuleManagerComponent",
+    "Name": "ForceModuleManager",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "ForceModuleManager"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Killjoy_PC_C",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass BaseMovementSoundComponent_C",
+            "ObjectPath": "ShooterGame/Content/Audio/Core/BaseMovementSoundComponent.2"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BaseMovementSoundComponent_C Killjoy_PC_C:BaseMovementSoundComponent_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "BaseMovementSoundComponent",
+            "AssociatedGuid": "B7C6A737-46E4072C-37AF019D-03EB59EE"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class AnimationStateComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AnimationStateComponent Killjoy_PC_C:AnimationState_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePlayerCharacter_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePlayerCharacter.26"
+            },
+            "SCSVariableName": "AnimationState",
+            "AssociatedGuid": "C3F53F3B-46DB9C30-BFED37A4-709E4F75"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class FootstepsComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "FootstepsComponent Killjoy_PC_C:Footsteps_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.21"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePlayerCharacter_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePlayerCharacter.26"
+            },
+            "SCSVariableName": "Footsteps",
+            "AssociatedGuid": "9BC7F01C-4EA0BABE-FA811DB7-2D0126E7"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class AresWidgetComponent",
+            "ObjectPath": "/Script/ShooterGame"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AresWidgetComponent Killjoy_PC_C:InWorldCharacterWidget_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePlayerCharacter_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePlayerCharacter.26"
+            },
+            "SCSVariableName": "InWorldCharacterWidget",
+            "AssociatedGuid": "57618920-48825E02-AE838A86-175613A9"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass CharacterPortraitMinimapComponent_C",
+            "ObjectPath": "ShooterGame/Content/UI/Screens/InGame/HUD/Minimap/Components/CharacterPortraitMinimapComponent.6"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "CharacterPortraitMinimapComponent_C Killjoy_PC_C:CharacterPortraitMinimapComponent_GEN_VARIABLE",
+            "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass BasePawn_C",
+              "ObjectPath": "ShooterGame/Content/Characters/_Core/BasePawn.22"
+            },
+            "SCSVariableName": "CharacterPortraitMinimapComponent",
+            "AssociatedGuid": "87DD5E8B-40E7036A-26DE58BD-A2C99906"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "KIlljoyE02VOComponent_C",
+    "Name": "KIlljoyE02VOComponent_GEN_VARIABLE",
+    "Outer": "Killjoy_PC_C",
+    "Template": "Default__KIlljoyE02VOComponent_C"
+  },
+  {
+    "Type": "MeshMaterialManagerComponent",
+    "Name": "MeshMaterialManagerComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "MeshMaterialManagerComponent"
+  },
+  {
+    "Type": "NetworkedRandomNumberGeneratorComponent",
+    "Name": "NetworkedRandomNumberGeneratorComponent",
+    "Outer": "AnimationState_GEN_VARIABLE",
+    "Template": "NetworkedRandomNumberGeneratorComponent"
+  },
+  {
+    "Type": "NetworkStreamComponent",
+    "Name": "NetworkStreamComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "NetworkStreamComponent"
+  },
+  {
+    "Type": "PlayspaceComponent",
+    "Name": "PlayspaceComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "PlayspaceComponent"
+  },
+  {
+    "Type": "RoundPersistenceComponent",
+    "Name": "Persistence",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "Persistence"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_3",
+    "Outer": "Killjoy_PC_C"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_35",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class CanDisarmComponent",
+        "ObjectPath": "/Script/ShooterGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CanDisarmComponent Killjoy_PC_C:CanDisarm_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.12"
+      },
+      "VariableGuid": "ED6F1144-44143595-26B825A0-6B5A1DA2",
+      "InternalVariableName": "CanDisarm"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_35",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass KIlljoyE02VOComponent_C",
+        "ObjectPath": "ShooterGame/Content/Audio/VOComponent/CharacterVOComponents/KIlljoyE02VOComponent.7"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KIlljoyE02VOComponent_C Killjoy_PC_C:KIlljoyE02VOComponent_GEN_VARIABLE",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.24"
+      },
+      "VariableGuid": "219F289A-408EFB40-552B9C8B-09FE7746",
+      "InternalVariableName": "KIlljoyE02VOComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_35",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent Killjoy_PC_C:SceneComponent_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.30"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "ServerRewindComponent",
+    "Name": "ServerRewindComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "ServerRewindComponent"
+  },
+  {
+    "Type": "ShooterCharacterFogOfWarComponent",
+    "Name": "FogOfWarComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "FogOfWarComponent",
+    "Properties": {
+      "DebugComponent": {
+        "ObjectName": "FogOfWarDebugComponent Default__Killjoy_PC_C:FogOfWarComponent.FogOfWarDebugComponent",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.20"
+      }
+    }
+  },
+  {
+    "Type": "ShooterCharacterMovement",
+    "Name": "CharMoveComp",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CharMoveComp",
+    "Properties": {
+      "MaxWalkSpeed": 590.0
+    }
+  },
+  {
+    "Type": "ShooterCharacterVisionComponent",
+    "Name": "VisionComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "VisionComponent"
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_35",
+    "Outer": "Killjoy_PC_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node Killjoy_PC_C:SimpleConstructionScript_35.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.32"
+        },
+        {
+          "ObjectName": "SCS_Node Killjoy_PC_C:SimpleConstructionScript_35.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.31"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node Killjoy_PC_C:SimpleConstructionScript_35.SCS_Node_1",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.32"
+        },
+        {
+          "ObjectName": "SCS_Node Killjoy_PC_C:SimpleConstructionScript_35.SCS_Node_0",
+          "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.31"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node Killjoy_PC_C:SimpleConstructionScript_35.SCS_Node_3",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.33"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CharacterMesh0",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass TP_Core_AnimGraph_v2_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/TP_Core_AnimGraph_v2.92"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh TP_Core_NewFemaleBase_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/3P/Models/TP_Core_NewFemaleBase_Skelmesh.0"
+      },
+      "bCastCapsuleIndirectShadow": true,
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "MassInKgOverride": 109.87037
+      },
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Killjoy_PC_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.13"
+      },
+      "AssetUserData": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CosmeticCharacterMesh1P",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CosmeticCharacterMesh1P",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass FP_Killjoy_S0_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/1P/Models/FP_Killjoy_S0_AnimGraph.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh FP_Killjoy_S0_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/1P/Models/FP_Killjoy_S0_Skelmesh.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:PawnMesh1P",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.42"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CosmeticCharacterMesh3P",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "CosmeticCharacterMesh3P",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass TP_Killjoy_S0_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Models/TP_Killjoy_S0_AnimGraph.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh TP_Killjoy_S0_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/3P/Models/TP_Killjoy_S0_Skelmesh.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent Default__Killjoy_PC_C:CharacterMesh0",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.39"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "PawnMesh1P",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "PawnMesh1P",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass FP_Core_AnimGraph_C",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/1P/FP_Core_AnimGraph.37"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh FP_Core_BaseHidden_Skelmesh",
+        "ObjectPath": "ShooterGame/Content/Characters/_Core/1P/Models/FP_Core_BaseHidden_Skelmesh.0"
+      },
+      "bCastCapsuleIndirectShadow": true,
+      "OverrideMaterials": [
+        null
+      ],
+      "AttachParent": {
+        "ObjectName": "CharacterCapsuleComponent Default__Killjoy_PC_C:CollisionCylinder",
+        "ObjectPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PC.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalPoseRewinderComponent",
+    "Name": "SkeletalPoseRewinderComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "SkeletalPoseRewinderComponent"
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "StealthComponent"
+  },
+  {
+    "Type": "TransformRewinderComponent",
+    "Name": "TransformRewinderComponent",
+    "Outer": "Default__Killjoy_PC_C",
+    "Template": "TransformRewinderComponent"
+  }
+]

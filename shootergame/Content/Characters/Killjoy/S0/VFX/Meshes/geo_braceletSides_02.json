@@ -1,0 +1,221 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_6",
+    "Outer": "geo_braceletSides_02",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 3.9110296,
+                "Y": 3.2322164,
+                "Z": -7.6427827
+              },
+              {
+                "X": 3.9110296,
+                "Y": -3.2427793,
+                "Z": -7.6322203
+              },
+              {
+                "X": 3.9110296,
+                "Y": -7.668751,
+                "Z": -3.2062483
+              },
+              {
+                "X": 3.9110296,
+                "Y": -7.6687512,
+                "Z": 3.2062511
+              },
+              {
+                "X": 3.9110296,
+                "Y": -3.250002,
+                "Z": 7.625
+              },
+              {
+                "X": 3.9110296,
+                "Y": 3.2499986,
+                "Z": 7.625
+              },
+              {
+                "X": 3.9110296,
+                "Y": 7.65625,
+                "Z": 3.218749
+              },
+              {
+                "X": 3.9110296,
+                "Y": 7.6562495,
+                "Z": -3.2187486
+              },
+              {
+                "X": -4.036327,
+                "Y": -3.2322154,
+                "Z": -7.6427836
+              },
+              {
+                "X": -4.036327,
+                "Y": 3.2428222,
+                "Z": -7.632178
+              },
+              {
+                "X": -4.036327,
+                "Y": 7.625,
+                "Z": -3.249998
+              },
+              {
+                "X": -4.036327,
+                "Y": 7.625,
+                "Z": 3.249999
+              },
+              {
+                "X": -4.036327,
+                "Y": 3.249998,
+                "Z": 7.625
+              },
+              {
+                "X": -4.036327,
+                "Y": -3.2500014,
+                "Z": 7.625
+              },
+              {
+                "X": -4.036327,
+                "Y": -7.637501,
+                "Z": 3.2375007
+              },
+              {
+                "X": -4.036327,
+                "Y": -7.637501,
+                "Z": -3.2374973
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": -4.036327,
+                "Y": -7.6687512,
+                "Z": -7.6427836
+              },
+              "Max": {
+                "X": 3.9110296,
+                "Y": 7.65625,
+                "Z": 7.625
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Level",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Death Reaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Fluid",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "02CFDB0742D344F5C3CFB9B05DF17543",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 15731,
+        "SizeOnDisk": 15731,
+        "OffsetInFile": "0xB931"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_12",
+    "Outer": "geo_braceletSides_02",
+    "CookedFormatData": {}
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "geo_braceletSides_02",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material WorldGridMaterial",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 5.985872,
+            "LocalUVDensities": 4.47066,
+            "LocalUVDensities": 48.28487,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 48.28487,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.0626483,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 3.8736787,
+          "Y": 7.55,
+          "Z": 7.55
+        },
+        "SphereRadius": 8.485746
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup geo_braceletSides_02:BodySetup_6",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_braceletSides_02.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision geo_braceletSides_02:NavCollision_12",
+      "ObjectPath": "ShooterGame/Content/Characters/Killjoy/S0/VFX/Meshes/geo_braceletSides_02.1"
+    },
+    "LightingGuid": "1FCC9209-49A3402F-B364B1A0-46EE8FEE",
+    "RenderData": null
+  }
+]
